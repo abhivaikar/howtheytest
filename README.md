@@ -1,2 +1,2 @@
-# howtheytest
-A collection of resources about how software companies test their software and build their quality culture
+# How They Test
+A collection of resources about how software companies in the world test their software and build their quality culture.
