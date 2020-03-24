@@ -42,6 +42,11 @@ Happy Learning!
 
 ### Uber
 
+## Credits
+Images in banner used from https://undraw.co/
+
+## Code of Conduct
+Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
