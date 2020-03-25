@@ -14,15 +14,31 @@ Happy Learning!
 
 ## Companies & how they test
 
+### AirBnB
+
 ### Amazon
 
 ### Apple
 
+### ASOS
+
+### Atlassian
+
 ### Carousell
+
+### Craigslist
+
+### Dropbox
 
 ### eBay
 
+### Expedia
+
 ### Facebook
+
+### Flipkart
+
+### GitHub
 
 ### Google
 #### Books
@@ -55,16 +71,43 @@ Happy Learning!
 #### Articles
 * [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
 
+### Mozilla
+
+### NASA
+#### Articles
+* [Intelligent test automation gives orion spacecraft boos](https://techbeacon.com/app-dev-testing/intelligent-test-automation-gives-orion-spacecraft-boost)
+* [How did NASA make reliable software if they didn't invent unit tests?](https://news.ycombinator.com/item?id=12121739)
+* [Software Development & Test](https://www.nasa.gov/centers/ames/engineering/small-sat/arc-capabilities/software)
+* [Automated testing of nasa software](https://www.slideshare.net/dganesan11/automated-testing-of-nasa-software)
+* [NASA releases updated open source software bundle including testing tools](https://www.softwaretestingnews.co.uk/nasa-releases-updated-open-source-software-bundle-including-testing-tools/)
+* [Jon McBride Software Testing and Research (JSTAR)](https://www.nasa.gov/centers/ivv/jstar/JSTAR.html)
+
 ### Netflix
 
+### PayPal
+
+### Pinterest
+
+### Shopify
+
+### Soundcloud
+
 ### Spotify
+
+### Stripe
+
+### Tesla
 
 ### Twitter
 
 ### Uber
 
+## Contribution
+Want to contribute? Just fork and raise a PR!
+
 ## Credits
 Images in banner used from https://undraw.co/
+Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
 
 ## Code of Conduct
 Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
