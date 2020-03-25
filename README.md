@@ -12,6 +12,38 @@ Happy Learning!
 
 *Please note, that all the resources mentioned here are publicly available resources.*
 
+## Table Of Contents
+- [AirBnB](#airbnb)
+- [Amazon](#amazon)
+- [Apple](#apple)
+- [ASOS](#asos)
+- [Atlassian](#atlassian)
+- [Canva](#canva)
+- [Carousell](#carousell)
+- [Dropbox](#dropbox)
+- [eBay](#ebay)
+- [Expedia](#expedia)
+- [Facebook](#facebook)
+- [Flipkart](#flipkart)
+- [Github](#github)
+- [Google](#google)
+- [GoJek](#gojek)
+- [Grab](#grab)
+- [LinkedIn](#linkedin)
+- [Microsoft](#microsoft)
+- [Mozilla](#mozilla)
+- [Nasa](#nasa)
+- [Netflix](#netflix)
+- [PayPal](#paypal)
+- [Pinterest](#pinterest)
+- [Shopify](#shopify)
+- [Soundcloud](#soundcloud)
+- [Spotify](#spotify)
+- [Stripe](#stripe)
+- [Tesla](#tesla)
+- [Twitter](#twitter)
+- [Uber](#uber)
+
 ## Companies & how they test
 
 ### AirBnB
@@ -24,9 +56,9 @@ Happy Learning!
 
 ### Atlassian
 
-### Carousell
+### Canva
 
-### Craigslist
+### Carousell
 
 ### Dropbox
 
