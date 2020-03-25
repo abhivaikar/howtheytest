@@ -12,6 +12,15 @@ Happy Learning!
 
 *Please note, that all the resources mentioned here are publicly available resources.*
 
+## Table Of Contents
+- [AirBnB](#airbnb)
+- [Amazon](#amazon)
+- [Apple](#apple)
+- [ASOS](#asos)
+- [Atlassian](#atlassian)
+- [Canva](#canva)
+- [Carousell](#carousell)
+
 ## Companies & how they test
 
 ### AirBnB
@@ -24,9 +33,9 @@ Happy Learning!
 
 ### Atlassian
 
-### Carousell
+### Canva
 
-### Craigslist
+### Carousell
 
 ### Dropbox
 
