@@ -20,11 +20,27 @@ Happy Learning!
 
 ### Carousell
 
-### EBay
+### eBay
 
 ### Facebook
 
 ### Google
+#### Books
+* [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slighlty outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
+
+* [How Google Tests Software - Part One](https://testing.googleblog.com/2011/01/how-google-tests-software.html)
+* [How Google Tests Software - Part Two](https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html)
+* [How Google Tests Software - Part Three](https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html)
+* [How Google Tests Software - Part Four](https://testing.googleblog.com/2011/03/how-google-tests-software-part-four.html)
+* [How Google Tests Software - Part Five](https://testing.googleblog.com/2011/03/how-google-tests-software-part-five.html)
+* [How Google Tests Software - Part Six](https://testing.googleblog.com/2011/05/how-google-tests-software-part-six.html)
+* [How Google Tests Software - Part Seven](https://testing.googleblog.com/2011/05/how-google-tests-software-part-seven.html)
+
+#### Blogs
+* [Google Testing Blog](https://testing.googleblog.com)
+
+#### Videos
+* [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y)
 
 ### GoJek
 
@@ -33,6 +49,11 @@ Happy Learning!
 ### LinkedIn
 
 ### Microsoft
+#### Books
+* [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point.
+
+#### Articles
+* [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
 
 ### Netflix
 
