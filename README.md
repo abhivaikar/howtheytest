@@ -1,6 +1,6 @@
 ![](https://github.com/abhivaikar/howtheytest/blob/master/howtheytest-banner.png?raw=true)
 # How They Test
-> A collection of publicly available resources on how software companies in the world test their software and build their quality culture.
+> A collection of publicly available resources on how software companies in the world test their software systems and build their quality culture.
 
 
 ## Foreword
@@ -59,6 +59,10 @@ Happy Learning!
 ### Canva
 
 ### Carousell
+#### Blogs
+* [Prabhagharan DK : Building our inhouse virtual device lab "caroufarm"](https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b)
+* [Martin Schneider : Automated end-to-end tests and how they fit into our testing culture](https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26)
+* [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
 
 ### Dropbox
 
@@ -71,6 +75,17 @@ Happy Learning!
 ### Flipkart
 
 ### GitHub
+
+### GoJek
+#### Blogs
+* [Why you should automate tests early](https://blog.gojekengineering.com/why-you-should-automate-tests-early-4ea43b32f8b2)
+* [Screenshot Testing our Design System on Android](https://blog.gojekengineering.com/screenshot-testing-our-design-system-on-android-d78c9854eb6b)
+* [Advice from a Test Journeyman](https://blog.gojekengineering.com/advice-from-a-test-journeyman-9323c11ae9f5)
+* [How I Gave My First Conference Talk](https://blog.gojekengineering.com/how-i-gave-my-first-conference-talk-38cbc354def)
+* [7 Myths About Software Testing](https://blog.gojekengineering.com/7-myths-about-software-testing-11906cc4356e)
+* [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
+* [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
+* [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
 
 ### Google
 #### Books
@@ -89,8 +104,6 @@ Happy Learning!
 
 #### Videos
 * [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y)
-
-### GoJek
 
 ### Grab
 
