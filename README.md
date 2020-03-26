@@ -47,6 +47,17 @@ Happy Learning!
 ## Companies & how they test
 
 ### AirBnB
+#### Blogs
+* [Testing at Airbnb](https://medium.com/airbnb-engineering/testing-at-airbnb-199f68a0a40d?_branch_match_id=611046764098403464)
+* [Better Android Testing Part 1](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-3f5b90b9c40a)
+* [Better Android Testing Part 2](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a77ac9531cab)
+* [Better Android Testing Part 3](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-1d1e91e489b4)
+* [Better Android Testing Part 4](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-part-4-testing-viewmodels-550d929126c8)
+* [Better Android Testing Part 5](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-661a554a8c8b)
+* [Better Android Testing Part 6](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a11f6832773f)
+* [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f)
+* [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd)
+* [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
 
 ### Amazon
 
@@ -151,8 +162,8 @@ Happy Learning!
 Want to contribute? Just fork and raise a PR!
 
 ## Credits
-Images in banner used from https://undraw.co/
-Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
+- Images in banner used from https://undraw.co/
+- Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
 
 ## Code of Conduct
 Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
