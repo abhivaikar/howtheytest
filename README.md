@@ -4,9 +4,11 @@
 
 
 ## Foreword
-One of the outcomes of the various [Taqelah](https://www.meetup.com/taqelah/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. Apart from this, many companies regularly come forward and share their best practices, tools, techniques and culture of software testing on various public platforms like conferences, blogs & meetups.
+One of the outcomes of the various [Taqelah](https://www.meetup.com/taqelah/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
 
-There is no dedicated repository that gives a direct look at these best practices, tools, techniques and culture of software testing these companies adopt. This repository intends to do that so that every one gets to learn from those resources without needing to search for them.
+Apart from this, many companies regularly come forward and share their best practices, tools, techniques and culture of software testing on various public platforms like conferences, blogs & meetups. The resources are there but dispersed, lost into the internet.
+
+There is no single knowledge repository that gives a direct look at these best practices, tools, techniques and culture of software testing these companies adopt. This repository intends to do that.
 
 Happy Learning!
 
@@ -44,7 +46,7 @@ Happy Learning!
 - [Twitter](#twitter)
 - [Uber](#uber)
 
-## Companies & how they test
+## Companies & how they test their software
 
 ### AirBnB
 #### Blogs
@@ -125,6 +127,11 @@ Happy Learning!
 * [Improving Software Quality with Effective Feedback - Atlassian Summit 2012](https://www.youtube.com/watch?v=3MomT1nNOnQ)
 
 ### Canva
+#### Blogs & Articles
+* [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/)
+
+#### Videos
+* [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
 
 ### Carousell
 #### Blogs
@@ -133,6 +140,19 @@ Happy Learning!
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
 
 ### Dropbox
+#### Blogs & Articles
+* [Offensive testing to make Dropbox (and the world) a safer place](https://dropbox.tech/security/offensive-testing-to-make-dropbox-and-the-world-a-safer-place)
+* [Accelerating Iteration Velocity on Dropbox’s Desktop Client, Part 1](https://dropbox.tech/application/accelerating-iteration-velocity-on-dropboxs-desktop-client-part-1)
+* [Accelerating Iteration Velocity on Dropbox’s Desktop Client, Part 2](https://dropbox.tech/application/accelerating-iteration-velocity-on-dropboxs-desktop-client-part-2)
+* [Two years at Dropbox](https://chadaustin.me/2019/11/two-years-at-dropbox/)
+* [Creating a culter of accessibility](https://dropbox.tech/frontend/creating-a-culture-of-accessibility)
+* [Finding Kafka’s throughput limit in Dropbox infrastructure](https://dropbox.tech/infrastructure/finding-kafkas-throughput-limit-in-dropbox-infrastructure)
+* [Athena: Our automated build health management system](https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system)
+* [The Programmer Mindset: Main Debug Loop](https://dropbox.tech/frontend/the-programmer-mindset-main-debug-loop)
+
+#### Videos
+* [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
+* [Virtualizing Mac Infrastructure at Scale: A CI Case Study with Dropbox and MacStadium](https://www.youtube.com/watch?v=oBVB0Tc_drM)
 
 ### eBay
 
