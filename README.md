@@ -60,12 +60,69 @@ Happy Learning!
 * [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
 
 ### Amazon
+#### Blogs & Articles
+* [How does Amazon get by with so few hours spent by its QA teams relative to Microsoft?](https://docs.microsoft.com/en-us/archive/blogs/seliot/software-testing-cage-match-amazon-com-vs-microsoft)
+* [How Amazon handles a new software deployment every second](https://www.zdnet.com/article/how-amazon-handles-a-new-software-deployment-every-second/)
+* [How is software developed at Amazon](http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html)
+* [Amazon's approach to automated testing](https://medium.com/@twikstro/amazons-approach-to-automated-testing-at-re-invent-2019-ad2d49dc9a1f)
+* [Automated testing for Alexa](https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2018/08/unit-testing-create-functional-alexa-skills)
+* [Best practices for testing your Alexa skills](https://developer.amazon.com/blogs/alexa/post/66232175-530c-4f52-890e-60b21db73d84/best-practices-for-testing-your-alexa-skills)
+
+#### Videos
+* [Testing and Troubleshooting with AWS Device Farm](https://www.youtube.com/watch?v=zej5tdLMo3Y)
+* [Proactive security testing at AWS](https://www.youtube.com/watch?v=iyNDEAs8hRk)
+* [Advanced Continuous Delivery Best Practices at Amazon](https://www.youtube.com/watch?v=Jnl29J3RJQ4)
+* [UI, Load and Performance testing at Amazon](https://www.youtube.com/watch?v=UVS4CQvO4_M)
+* [Best Practices for Benchmarking and Performance Analysis in the Cloud](https://www.youtube.com/watch?v=__tT5de64cI)
+* [Large Scale Load Testing Amazon.com's Traffic on AWS](https://www.youtube.com/watch?v=pgnQQoTMBhI)
+* [Chaos Engineering on AWS](https://www.youtube.com/watch?v=B1nUzbuVEUs)
+* [Continuous Integration best practices for software development](https://www.youtube.com/watch?v=GEPJ7Lo346A)
 
 ### Apple
+#### Blogs & Articles
+* [Apple overhauling it's testing approach](https://www.bloomberg.com/news/articles/2019-11-21/apple-ios-14-features-changes-testing-after-ios-13-bugs)
+
+#### Videos
+* [Testing in XCode - WWDC](https://developer.apple.com/videos/play/wwdc2019/413/)
+* [UI testing in XCode - WWDC](https://developer.apple.com/videos/play/wwdc2015/406/)
+* [Advanced Testing and Continuous Integration - WWDC](https://developer.apple.com/videos/play/wwdc2016/409/)
+* [Engineering for Testability - WWDC](https://developer.apple.com/videos/play/wwdc2017/414/)
+* [What's new in testing - WWDC](https://developer.apple.com/videos/play/wwdc2018/403/)
+* [Testing tips & tricks - WWDC](https://developer.apple.com/videos/play/wwdc2018/417/)
 
 ### ASOS
+#### Blogs
+* [Automated security testing using language you already know](https://medium.com/asos-techblog/automated-security-testing-using-language-you-already-know-60b968d55cec)
+* [Behaviour driven automation testing in .NET Core using BDTest](https://medium.com/asos-techblog/behaviour-driven-automation-testing-in-net-core-using-bdtest-685b55d73d93)
+* [My Testing Safari](https://medium.com/asos-techblog/my-testing-safari-9a50cea3981b)
+* [Begin with the end in mind: one team’s journey towards Continuous Integration](https://medium.com/asos-techblog/begin-with-the-end-in-mind-one-teams-journey-towards-continuous-integration-ed1f3a74ba3c)
+* [Gaining confidence in automated checks](https://medium.com/asos-techblog/begin-with-the-end-in-mind-gaining-confidence-in-our-automated-checks-88b2e40590c5)
+* [Witness the (Android) fitness](https://medium.com/asos-techblog/witness-the-android-fitness-d4ae52dfec94)
+* [How to test your React · Redux application](https://medium.com/asos-techblog/how-to-test-your-react-redux-application-48d90481a253)
+* [How to write acceptance tests for a Facebook Messenger bot](https://medium.com/asos-techblog/how-to-write-acceptance-tests-for-a-facebook-messenger-bot-2d869ec268d3)
+* [An introduction to Pact testing in .Net Core](https://medium.com/asos-techblog/pact-testing-in-net-core-6bfc5b0e9131)
+* [Finding balance as a Testing Specialist](https://medium.com/asos-techblog/finding-balance-as-a-testing-specialist-51f61d95b944)
+* [Continuous Testing in Customer Experience @ ASOS](https://medium.com/asos-techblog/continuous-testing-in-customer-experience-asos-d75b0f968bc9)
+* [Responsive website testing with Sizzy](https://medium.com/asos-techblog/responsive-website-testing-with-sizzy-bab1e0d7c5b6)
+* [Testing authorisation scenarios in ASP.NET Core Web APIs](https://medium.com/asos-techblog/testing-authorization-scenarios-in-asp-net-core-web-api-484bc95d5f6f)
+
+#### Videos
+[Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
 
 ### Atlassian
+#### Blogs & Articles
+
+#### Videos
+* [Meet the Atlassian QE team](https://www.youtube.com/watch?v=3IvRSrvGJ1g)
+* [The Future of QA at Atlassian - Atlassian Summit 2016](https://www.youtube.com/watch?v=9giJYYag6wQ)
+* [Quality at Speed, How JIRA Does QA](https://www.youtube.com/watch?v=yRP29wFqu20)
+* [Verifying Microservice Integrations with Contract Testing](https://www.youtube.com/watch?v=-6x6XBDf9sQ)
+* [Agile Testing: It's about time - Atlassian Summit 2011](https://www.youtube.com/watch?v=dYFzehMukAc)
+* [Finding bugs before writing code - Sigge Birgisson](https://www.youtube.com/watch?v=Ix61aEREKNU)
+* [Code Reviews vs. Pull Requests - Atlassian Summit 2016](https://www.youtube.com/watch?v=6qKpbWyb6tg)
+* [Mock Servers - Fake all the things! - Peggy Kuo](https://www.youtube.com/watch?v=lk4-UYD3KC4)
+* [Quality at Speed](https://www.youtube.com/watch?v=w5MN1JWRM1I)
+* [Improving Software Quality with Effective Feedback - Atlassian Summit 2012](https://www.youtube.com/watch?v=3MomT1nNOnQ)
 
 ### Canva
 
