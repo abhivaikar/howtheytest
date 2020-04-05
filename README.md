@@ -184,6 +184,24 @@ Happy Learning!
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
 
 ### Expedia
+#### Blogs & Articles
+* [The Cost of 100% Reliability](https://medium.com/expedia-group-tech/the-cost-of-100-reliability-ecb2901f23a4)
+* [Getting started with a Dockerized Selenium Grid in your On-Prem Data Centers](https://medium.com/expedia-group-tech/getting-started-with-a-dockerized-selenium-grid-on-your-on-prem-data-centers-5b472a2d35a)
+* [DA Kube — Selenium Grid using Kubernetes, Docker, Helm and Traefik](https://medium.com/expedia-group-tech/da-kube-selenium-grid-using-kubernetes-docker-helm-and-traefik-856b802d1d08)
+* [Distributed Automation: How to run 1000 UI Automation Tests in 5mins](https://medium.com/expedia-group-tech/distributed-automation-how-to-run-1000-ui-automation-tests-in-5mins-cf9a84ca32d1)
+* [Integration Testing in React](https://medium.com/expedia-group-tech/integration-testing-in-react-21f92a55a894)
+* [How to Earn a Black Belt in GraphQL Testing](https://medium.com/expedia-group-tech/how-to-earn-a-black-belt-in-graphql-testing-bd0beb6365a7)
+* [How to: Emulate Amazon Simple Queue Service (SQS) for Testing Purposes](https://medium.com/expedia-group-tech/how-to-emulate-sqs-amazon-queue-for-testing-purpose-d9db7f4143b1)
+* [Fixing Flaky Time Based Unit Tests](https://medium.com/expedia-group-tech/fixing-flaky-time-based-unit-tests-176accf5096e)
+* [Conversational Integration Tests for your Alexa Skills (Node/JS)](https://medium.com/expedia-group-tech/conversational-integration-tests-for-your-alexa-skills-node-js-874bf70758e3)
+* [Better Test Code Coverage Through Data](https://medium.com/expedia-group-tech/better-test-code-coverage-through-data-c51b16d6385e)
+* [Do you want to speed up your integration tests by 10x?](https://medium.com/expedia-group-tech/do-you-want-to-speed-up-your-integration-tests-by-10x-eb047c72a252)
+* [Testing Elasticsearch Applications](https://medium.com/expedia-group-tech/testing-elasticsearch-applications-bbf7107dba9f)
+
+#### Videos
+* [Mobile Automation in Continuous Delivery Pipeline](https://www.youtube.com/watch?v=NWDByCVThfE)
+* [Distributed Automation Using Selenium Grid / AWS / Autoscaling](https://www.youtube.com/watch?v=cbIfU1fvGeo)
+* [AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing](https://www.youtube.com/watch?v=jihhLckop6A)
 
 ### Facebook
 #### Blogs & Articles
