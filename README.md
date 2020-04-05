@@ -207,8 +207,8 @@ Happy Learning!
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
 * [Mobile End to End Testing at Scale - SeleniumConf 2015](https://www.youtube.com/watch?v=7tzA2nsg1jQ&feature=emb_title)
-* [Turning iOS End to End Testing up to 11 | Lawrence Lomax](https://www.youtube.com/watch?v=lTxW4rbu6Bk)
-* [Readable. Stable. Maintainable. E2E Testing @ Facebook | Archit Pal Singh Sachdeva](https://www.youtube.com/watch?v=diYgXpktTqo)
+* [Turning iOS End to End Testing up to 11 - Lawrence Lomax](https://www.youtube.com/watch?v=lTxW4rbu6Bk)
+* [Readable. Stable. Maintainable. E2E Testing @ Facebook - Archit Pal Singh Sachdeva](https://www.youtube.com/watch?v=diYgXpktTqo)
 * [Automated Fault-Finding and Fixing at Facebook](https://www.youtube.com/watch?v=CbQ6bJlOU7A)
 * [Damien Sereni, Testing and moving fast making Selenium work for Facebook](https://www.youtube.com/watch?v=_7KYs0NN82w)
 * [Taqelah - Facebook Meetup - Raj Kamal - Shreya Bhat](https://www.youtube.com/watch?v=ra6wq2wgOE4)
