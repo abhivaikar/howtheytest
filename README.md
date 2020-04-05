@@ -42,7 +42,6 @@ Happy Learning!
 - [Soundcloud](#soundcloud)
 - [Spotify](#spotify)
 - [Stripe](#stripe)
-- [Tesla](#tesla)
 - [Twitter](#twitter)
 - [Uber](#uber)
 
@@ -156,9 +155,67 @@ Happy Learning!
 
 ### eBay
 
+#### Blogs & Articles
+* [Tiered Test Automation](https://tech.ebayinc.com/engineering/tiered-test-automation/)
+* [Becoming a World-Class Tester](https://tech.ebayinc.com/engineering/becoming-a-world-class-tester/)
+* [Early Detection of Frontend Single Points of Failure](https://tech.ebayinc.com/engineering/early-detection-of-frontend-single-points-of-failure/)
+* [eBay Motors: Screenshot Testing with Flutter](https://tech.ebayinc.com/engineering/ebay-motors-screenshot-testing-with-flutter/)
+* [Discovering Continuous Automation With Request Mirroring](https://tech.ebayinc.com/engineering/discovering-continuous-automation-with-request-mirroring/)
+* [Failbot—Improving Visibility on End-to-end Tests](https://tech.ebayinc.com/engineering/failbot/)
+* [Your Own Spring Test Context](https://tech.ebayinc.com/engineering/your-own-spring-test-context/)
+* [GUI Testing Powered by Deep Learning](https://tech.ebayinc.com/research/gui-testing-powered-by-deep-learning/)
+* [Integration Testing with React and Enzyme](https://tech.ebayinc.com/engineering/integration-testing-with-react-and-enzyme/)
+* [Introducing Regressr - An Open Source Command Line Tool to Regression Test HTTP Services](https://tech.ebayinc.com/engineering/introducing-regressr-an-open-source-command-line-tool-to-regression-test-http-services/)
+* [eBay Releases Dynamic Application Security Testing Proxy as Open Source](https://tech.ebayinc.com/engineering/ebay-releases-dynamic-application-security-testing-proxy-as-open-source/)
+* [Scalable and Nimble Continuous Integration for Hadoop Projects](https://tech.ebayinc.com/engineering/scalable-and-nimble-continuous-integration-for-hadoop-projects/)
+* [Functional iOS Testing in Swift](https://tech.ebayinc.com/engineering/functional-ios-testing-in-swift/)
+* [Next-generation BDD: From Automated Web Tests to Automated Web Acceptance Testing](https://tech.ebayinc.com/engineering/next-generation-bdd-from-automated-web-tests-to-automated-web-acceptance-testing/)
+* [Validating Hadoop Platform Releases](https://tech.ebayinc.com/engineering/validating-hadoop-platform-releases/)
+* [Finding Usability Bugs with Automated Tests](https://queue.acm.org/detail.cfm?id=1925091)
+* [100% test coverage is not enough](https://ebaytech.berlin/100-percent-test-coverage-is-not-enough-3d733551bc3f)
+
+#### Videos
+* [Lightning talk at Selenium Conf about their test automation framework Breeze](https://youtu.be/RwiF4eCqiI0?t=18)
+* [Applied Testing Heuristics in the Context of eBay](https://www.youtube.com/watch?v=YuBpYFIa3Mc)
+* [Test automation for Android testing](https://www.youtube.com/watch?v=VZP6aZq8I-k)
+* [Implementing Test Automation in Agile Projects with Open Source Tools](https://www.youtube.com/watch?v=9YxSski7Tac)
+* [Test Automation - 10 (sometimes painful) Lessons Learned](https://www.youtube.com/watch?v=tJ0O8p5PajQ)
+* [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
+* [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
+
 ### Expedia
 
 ### Facebook
+#### Blogs & Articles
+* [Open-sourcing Python Test Runner for multiple tests in parallel](https://engineering.fb.com/open-source/python-test-runner/)
+* [Predictive test selection: A more efficient way to ensure reliability of code changes](https://engineering.fb.com/developer-tools/predictive-test-selection/)
+* [MobileLab: Highly accurate testing to prevent mobile performance regressions](https://engineering.fb.com/android/mobilelab/)
+* [Sapienz: Intelligent automated software testing at scale](https://engineering.fb.com/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/)
+* [Preventing performance regressions with Health Compass and Incident Tracker](https://engineering.fb.com/developer-tools/incident-tracker/)
+* [Finding and fixing software bugs automatically with SapFix and Sapienz](https://engineering.fb.com/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/)
+* [Open-sourcing Flipper: a new extensible debugging tool](https://engineering.fb.com/android/flipper/)
+* [BrowserLab: Automated regression detection for the web](https://engineering.fb.com/web/browserlab-automated-regression-detection-for-the-web/)
+* [Getafix: How Facebook tools learn to fix bugs automatically](https://engineering.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/)
+* [Stetho: A new debugging platform for Android](https://engineering.fb.com/android/stetho-a-new-debugging-platform-for-android/)
+* [Open-sourcing Facebook Infer: Identify bugs before you ship](https://engineering.fb.com/developer-tools/open-sourcing-facebook-infer-identify-bugs-before-you-ship/)
+* [Building and testing at Facebook](https://engineering.fb.com/uncategorized/building-and-testing-at-facebook/)
+* [Watir to WebDriver: Unit Test Frameworks](https://engineering.fb.com/developer-tools/watir-to-webdriver-unit-test-frameworks/)
+* [Rapid release at massive scale](https://engineering.fb.com/web/rapid-release-at-massive-scale/)
+* [Finding inter-procedural bugs at scale with Infer static analyzer](https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/)
+* [Zoncolan: How Facebook uses static analysis to detect and prevent security issues](https://engineering.fb.com/security/zoncolan/)
+
+#### Videos
+* [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
+* [Mobile End to End Testing at Scale - SeleniumConf 2015](https://www.youtube.com/watch?v=7tzA2nsg1jQ&feature=emb_title)
+* [Turning iOS End to End Testing up to 11 | Lawrence Lomax](https://www.youtube.com/watch?v=lTxW4rbu6Bk)
+* [Readable. Stable. Maintainable. E2E Testing @ Facebook | Archit Pal Singh Sachdeva](https://www.youtube.com/watch?v=diYgXpktTqo)
+* [Automated Fault-Finding and Fixing at Facebook](https://www.youtube.com/watch?v=CbQ6bJlOU7A)
+* [Damien Sereni, Testing and moving fast making Selenium work for Facebook](https://www.youtube.com/watch?v=_7KYs0NN82w)
+* [Taqelah - Facebook Meetup - Raj Kamal - Shreya Bhat](https://www.youtube.com/watch?v=ra6wq2wgOE4)
+* [GTAC 2013 : Simon Stewart - How Facebook Tests Facebook on Android](https://www.youtube.com/watch?v=HUE_yrd8tl0)
+* [GTAC 2014: Never Send a Human to do a Machine’s Job: How Facebook uses bots to manage tests](https://www.youtube.com/watch?v=_5Sr4EYH7M8)
+* [Facebook Infer: Advanced Static Analysis at Speed and Scale - Facebook - DevTools@Scale2017](https://www.youtube.com/watch?v=gZ3dA4QD8jk)
+* [Building Mobile Apps with Open Source Tools - Simon Stewart - Mobile @ Scale](https://www.youtube.com/watch?v=c2Q22KDjXmI)
 
 ### Flipkart
 
@@ -228,8 +285,6 @@ Happy Learning!
 ### Spotify
 
 ### Stripe
-
-### Tesla
 
 ### Twitter
 
