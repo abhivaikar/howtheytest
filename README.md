@@ -32,6 +32,7 @@ Happy Learning!
 - [GoJek](#gojek)
 - [Grab](#grab)
 - [LinkedIn](#linkedin)
+- [Mercari](#mercari)
 - [Microsoft](#microsoft)
 - [Mozilla](#mozilla)
 - [Nasa](#nasa)
@@ -44,7 +45,6 @@ Happy Learning!
 - [Stripe](#stripe)
 - [Twitter](#twitter)
 - [Uber](#uber)
-- [Mercari](#mercari)
 
 ## Companies & how they test their software
 
@@ -310,6 +310,7 @@ Happy Learning!
 ### Uber
 
 ### Mercari
+#### Blogs & Articles
 * [Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator](https://tech.mercari.com/entry/2018/12/28/175147)
 * [Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs](https://tech.mercari.com/entry/2019/09/09/113455)
 * [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
