@@ -14,41 +14,10 @@ Happy Learning!
 
 *Please note, that all the resources mentioned here are publicly available resources.*
 
-## Table Of Contents
-- [AirBnB](#airbnb)
-- [Amazon](#amazon)
-- [Apple](#apple)
-- [ASOS](#asos)
-- [Atlassian](#atlassian)
-- [Canva](#canva)
-- [Carousell](#carousell)
-- [Dropbox](#dropbox)
-- [eBay](#ebay)
-- [Expedia](#expedia)
-- [Facebook](#facebook)
-- [Flipkart](#flipkart)
-- [Github](#github)
-- [Google](#google)
-- [GoJek](#gojek)
-- [Grab](#grab)
-- [LinkedIn](#linkedin)
-- [Mercari](#mercari)
-- [Microsoft](#microsoft)
-- [Mozilla](#mozilla)
-- [Nasa](#nasa)
-- [Netflix](#netflix)
-- [PayPal](#paypal)
-- [Pinterest](#pinterest)
-- [Shopify](#shopify)
-- [Soundcloud](#soundcloud)
-- [Spotify](#spotify)
-- [Stripe](#stripe)
-- [Twitter](#twitter)
-- [Uber](#uber)
-
 ## Companies & how they test their software
+<details>
+  <summary>Airbnb</summary>
 
-### AirBnB
 #### Blogs
 * [Testing at Airbnb](https://medium.com/airbnb-engineering/testing-at-airbnb-199f68a0a40d?_branch_match_id=611046764098403464)
 * [Better Android Testing Part 1](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-3f5b90b9c40a)
@@ -60,8 +29,11 @@ Happy Learning!
 * [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f)
 * [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd)
 * [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
+</details>
 
-### Amazon
+<details>
+  <summary>Amazon</summary>
+
 #### Blogs & Articles
 * [How does Amazon get by with so few hours spent by its QA teams relative to Microsoft?](https://docs.microsoft.com/en-us/archive/blogs/seliot/software-testing-cage-match-amazon-com-vs-microsoft)
 * [How Amazon handles a new software deployment every second](https://www.zdnet.com/article/how-amazon-handles-a-new-software-deployment-every-second/)
@@ -79,8 +51,11 @@ Happy Learning!
 * [Large Scale Load Testing Amazon.com's Traffic on AWS](https://www.youtube.com/watch?v=pgnQQoTMBhI)
 * [Chaos Engineering on AWS](https://www.youtube.com/watch?v=B1nUzbuVEUs)
 * [Continuous Integration best practices for software development](https://www.youtube.com/watch?v=GEPJ7Lo346A)
+</details>
 
-### Apple
+<details>
+  <summary>Apple</summary>
+
 #### Blogs & Articles
 * [Apple overhauling it's testing approach](https://www.bloomberg.com/news/articles/2019-11-21/apple-ios-14-features-changes-testing-after-ios-13-bugs)
 
@@ -91,8 +66,11 @@ Happy Learning!
 * [Engineering for Testability - WWDC](https://developer.apple.com/videos/play/wwdc2017/414/)
 * [What's new in testing - WWDC](https://developer.apple.com/videos/play/wwdc2018/403/)
 * [Testing tips & tricks - WWDC](https://developer.apple.com/videos/play/wwdc2018/417/)
+</details>
 
-### ASOS
+<details>
+  <summary>ASOS</summary>
+
 #### Blogs
 * [Automated security testing using language you already know](https://medium.com/asos-techblog/automated-security-testing-using-language-you-already-know-60b968d55cec)
 * [Behaviour driven automation testing in .NET Core using BDTest](https://medium.com/asos-techblog/behaviour-driven-automation-testing-in-net-core-using-bdtest-685b55d73d93)
@@ -110,8 +88,11 @@ Happy Learning!
 
 #### Videos
 [Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
+</details>
 
-### Atlassian
+<details>
+  <summary>Atlassian</summary>
+
 #### Blogs & Articles
 
 #### Videos
@@ -125,21 +106,30 @@ Happy Learning!
 * [Mock Servers - Fake all the things! - Peggy Kuo](https://www.youtube.com/watch?v=lk4-UYD3KC4)
 * [Quality at Speed](https://www.youtube.com/watch?v=w5MN1JWRM1I)
 * [Improving Software Quality with Effective Feedback - Atlassian Summit 2012](https://www.youtube.com/watch?v=3MomT1nNOnQ)
+</details>
 
-### Canva
+<details>
+  <summary>Canva</summary>
+
 #### Blogs & Articles
 * [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/)
 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
+</details>
 
-### Carousell
+<details>
+  <summary>Carousell</summary>
+
 #### Blogs
 * [Prabhagharan DK : Building our inhouse virtual device lab "caroufarm"](https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b)
 * [Martin Schneider : Automated end-to-end tests and how they fit into our testing culture](https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26)
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
+</details>
 
-### Dropbox
+<details>
+  <summary>Dropbox</summary>
+
 #### Blogs & Articles
 * [Offensive testing to make Dropbox (and the world) a safer place](https://dropbox.tech/security/offensive-testing-to-make-dropbox-and-the-world-a-safer-place)
 * [Accelerating Iteration Velocity on Dropbox’s Desktop Client, Part 1](https://dropbox.tech/application/accelerating-iteration-velocity-on-dropboxs-desktop-client-part-1)
@@ -153,8 +143,10 @@ Happy Learning!
 #### Videos
 * [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
 * [Virtualizing Mac Infrastructure at Scale: A CI Case Study with Dropbox and MacStadium](https://www.youtube.com/watch?v=oBVB0Tc_drM)
+</details>
 
-### eBay
+<details>
+  <summary>eBay</summary>
 
 #### Blogs & Articles
 * [Tiered Test Automation](https://tech.ebayinc.com/engineering/tiered-test-automation/)
@@ -183,8 +175,11 @@ Happy Learning!
 * [Test Automation - 10 (sometimes painful) Lessons Learned](https://www.youtube.com/watch?v=tJ0O8p5PajQ)
 * [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
+</details>
 
-### Expedia
+<details>
+  <summary>Expedia</summary>
+
 #### Blogs & Articles
 * [The Cost of 100% Reliability](https://medium.com/expedia-group-tech/the-cost-of-100-reliability-ecb2901f23a4)
 * [Getting started with a Dockerized Selenium Grid in your On-Prem Data Centers](https://medium.com/expedia-group-tech/getting-started-with-a-dockerized-selenium-grid-on-your-on-prem-data-centers-5b472a2d35a)
@@ -203,8 +198,11 @@ Happy Learning!
 * [Mobile Automation in Continuous Delivery Pipeline](https://www.youtube.com/watch?v=NWDByCVThfE)
 * [Distributed Automation Using Selenium Grid / AWS / Autoscaling](https://www.youtube.com/watch?v=cbIfU1fvGeo)
 * [AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing](https://www.youtube.com/watch?v=jihhLckop6A)
+</details>
 
-### Facebook
+<details>
+  <summary>Facebook</summary>
+
 #### Blogs & Articles
 * [Open-sourcing Python Test Runner for multiple tests in parallel](https://engineering.fb.com/open-source/python-test-runner/)
 * [Predictive test selection: A more efficient way to ensure reliability of code changes](https://engineering.fb.com/developer-tools/predictive-test-selection/)
@@ -235,12 +233,21 @@ Happy Learning!
 * [GTAC 2014: Never Send a Human to do a Machine’s Job: How Facebook uses bots to manage tests](https://www.youtube.com/watch?v=_5Sr4EYH7M8)
 * [Facebook Infer: Advanced Static Analysis at Speed and Scale - Facebook - DevTools@Scale2017](https://www.youtube.com/watch?v=gZ3dA4QD8jk)
 * [Building Mobile Apps with Open Source Tools - Simon Stewart - Mobile @ Scale](https://www.youtube.com/watch?v=c2Q22KDjXmI)
+</details>
 
-### Flipkart
+<details>
+  <summary>Flipkart</summary>
 
-### GitHub
+</details>
 
-### GoJek
+<details>
+  <summary>GitHub</summary>
+
+</details>
+
+<details>
+  <summary>GoJek</summary>
+
 #### Blogs
 * [Why you should automate tests early](https://blog.gojekengineering.com/why-you-should-automate-tests-early-4ea43b32f8b2)
 * [Screenshot Testing our Design System on Android](https://blog.gojekengineering.com/screenshot-testing-our-design-system-on-android-d78c9854eb6b)
@@ -250,8 +257,11 @@ Happy Learning!
 * [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
 * [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
 * [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
+</details>
 
-### Google
+<details>
+  <summary>Google</summary>
+
 #### Books
 * [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slighlty outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
 
@@ -268,21 +278,45 @@ Happy Learning!
 
 #### Videos
 * [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y)
+</details>
 
-### Grab
+<details>
+  <summary>Grab</summary>
 
-### LinkedIn
+</details>
 
-### Microsoft
+<details>
+  <summary>LinkedIn</summary>
+
+</details>
+
+<details>
+  <summary>Mercari</summary>
+
+#### Blogs & Articles
+* [Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator](https://tech.mercari.com/entry/2018/12/28/175147)
+* [Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs](https://tech.mercari.com/entry/2019/09/09/113455)
+* [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
+</details>
+
+<details>
+  <summary>Microsoft</summary>
+
 #### Books
 * [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point.
 
 #### Articles
 * [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
+</details>
 
-### Mozilla
+<details>
+  <summary>Mozilla</summary>
 
-### NASA
+</details>
+
+<details>
+  <summary>NASA</summary>
+
 #### Articles
 * [Intelligent test automation gives orion spacecraft boos](https://techbeacon.com/app-dev-testing/intelligent-test-automation-gives-orion-spacecraft-boost)
 * [How did NASA make reliable software if they didn't invent unit tests?](https://news.ycombinator.com/item?id=12121739)
@@ -290,30 +324,52 @@ Happy Learning!
 * [Automated testing of nasa software](https://www.slideshare.net/dganesan11/automated-testing-of-nasa-software)
 * [NASA releases updated open source software bundle including testing tools](https://www.softwaretestingnews.co.uk/nasa-releases-updated-open-source-software-bundle-including-testing-tools/)
 * [Jon McBride Software Testing and Research (JSTAR)](https://www.nasa.gov/centers/ivv/jstar/JSTAR.html)
+</details>
 
-### Netflix
+<details>
+  <summary>Netflix</summary>
 
-### PayPal
+</details>
 
-### Pinterest
+<details>
+  <summary>PayPal</summary>
 
-### Shopify
+</details>
 
-### Soundcloud
+<details>
+  <summary>Pinterest</summary>
 
-### Spotify
+</details>
 
-### Stripe
+<details>
+  <summary>Shopify</summary>
 
-### Twitter
+</details>
 
-### Uber
+<details>
+  <summary>Soundcloud</summary>
 
-### Mercari
-#### Blogs & Articles
-* [Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator](https://tech.mercari.com/entry/2018/12/28/175147)
-* [Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs](https://tech.mercari.com/entry/2019/09/09/113455)
-* [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
+</details>
+
+<details>
+  <summary>Spotify</summary>
+
+</details>
+
+<details>
+  <summary>Stripe</summary>
+
+</details>
+
+<details>
+  <summary>Twitter</summary>
+
+</details>
+
+<details>
+  <summary>Uber</summary>
+
+</details>
 
 ## Contribution
 Want to contribute? Just fork and raise a PR!
