@@ -205,6 +205,18 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Etsy</summary>
+
+#### Blogs & Articles
+* [Culture of Quality: Measuring Code Coverage at Etsy](https://codeascraft.com/2018/02/15/culture-of-quality-measuring-code-coverage-at-etsy/)
+* [Quality Matters: The Benefits of QA-Focused Retros](https://codeascraft.com/2016/02/08/quality-matters-the-benefits-of-qa-focused-retros/)
+* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)
+* [Divide and Concur](https://codeascraft.com/2011/04/20/divide-and-concur/)
+* [Etsy’s Journey to Continuous Integration for Mobile Apps](https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/)
+* [Etsy’s Device Lab](https://codeascraft.com/2013/08/09/mobile-device-lab/)
+</details>
+
+<details>
   <summary>Expedia</summary>
 
 #### Blogs & Articles
