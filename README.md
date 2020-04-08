@@ -317,7 +317,7 @@ Happy Learning!
 * [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
 
 ### Guardian
-#### Blog
+#### Blogs
 * [Software quality in a world of microservices and continuous deployment](https://www.theguardian.com/info/2019/dec/06/software-quality-in-a-world-of-microservices-and-continuous-deployment)
 * [Testing in Production: rethinking the conventional deployment pipeline](https://www.theguardian.com/info/developer-blog/2016/dec/20/testing-in-production-rethinking-the-conventional-deployment-pipeline)
 * [Data-Driven Quality](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
