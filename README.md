@@ -45,6 +45,7 @@ Happy Learning!
 - [Stripe](#stripe)
 - [Twitter](#twitter)
 - [Uber](#uber)
+- [The Guardian](#guardian)
 
 ## Companies & how they test their software
 
@@ -314,6 +315,19 @@ Happy Learning!
 * [Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator](https://tech.mercari.com/entry/2018/12/28/175147)
 * [Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs](https://tech.mercari.com/entry/2019/09/09/113455)
 * [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
+
+### Guardian
+#### Blog
+* [Software quality in a world of microservices and continuous deployment](https://www.theguardian.com/info/2019/dec/06/software-quality-in-a-world-of-microservices-and-continuous-deployment)
+* [Testing in Production: rethinking the conventional deployment pipeline](https://www.theguardian.com/info/developer-blog/2016/dec/20/testing-in-production-rethinking-the-conventional-deployment-pipeline)
+* [Data-Driven Quality](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
+* [Testing in the right places](https://www.theguardian.com/info/developer-blog/2016/feb/09/testing-in-the-right-places)
+* [The software testing identity crisis](https://www.theguardian.com/info/developer-blog/2015/nov/02/the-software-testing-identity-crisis)
+* [Device wall of awesome: how Lego helped our digital development](https://www.theguardian.com/info/developer-blog/2015/jul/31/device-wall-of-awesome-how-lego-helped-our-digital-development)
+* [QA testing for the Guardian's Content API](https://www.theguardian.com/info/developer-blog/2014/feb/07/qa-testing-for-the-guardians-content-api)
+* [Real-time QA: staying confident with code](https://www.theguardian.com/info/developer-blog/2012/dec/06/real-time-qa-confident-code)
+* [Testing, testing: the Guardian attends a QA community meet-up](https://www.theguardian.com/info/developer-blog/2012/aug/10/qa-testing-competition)
+
 
 ## Contribution
 Want to contribute? Just fork and raise a PR!
