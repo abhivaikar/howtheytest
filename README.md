@@ -155,6 +155,26 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Cuelogic</summary>
+
+#### Blogs & Articles
+* [Big Data Testing Strategy](https://www.cuelogic.com/blog/big-data-testing-understanding-the-complex-world-of-data-testing-strategy)
+* [Top 20 DevOps Automation Tools in 2020](https://www.cuelogic.com/blog/postman-tutorial-for-automation)
+* [Mobile Automation Testing using Appium Tool](https://www.cuelogic.com/blog/mobile-automation-testing-using-appium-tool)
+* [My Experience with Test Driven Development](https://www.cuelogic.com/blog/mobile-automation-testing-using-appium-tool)
+* [A mnemonic for Mobile App Testing](https://www.cuelogic.com/blog/a-mnemonic-for-mobile-app-testing)
+* [Automating web-app testing for beginners](https://www.cuelogic.com/blog/automating-web-app-testing-for-beginners)
+* [How to get started with Cucumber?](https://www.cuelogic.com/blog/how-to-start-with-cucumber-automation)
+* [Postman Tutorial for Automation: All you need to know](https://www.cuelogic.com/blog/postman-tutorial-for-automation)
+
+
+#### Videos
+* [Performance Testing | Business Objectives for Stakeholders](https://www.youtube.com/watch?v=Wa84Yhl3joY)
+* [Performance Testing | Anecdotes from the field](https://www.youtube.com/channel/UC9_yVfuYAA5WM878Udgao7w)
+* [Postman Tutorial for Automation | How to use Postman?](https://www.youtube.com/watch?v=0cRGh-AxE2s&t=17s)
+</details>
+
+<details>
   <summary>Dropbox</summary>
 
 #### Blogs & Articles
