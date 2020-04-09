@@ -285,6 +285,19 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>GitLab</summary>
+
+#### Blogs and Articles
+
+* [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
+* [Quality Department Handbook](https://about.gitlab.com/handbook/engineering/quality/)
+* [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
+* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
+* [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
+
+</details>
+
+<details>
   <summary>GoJek</summary>
 
 #### Blogs
