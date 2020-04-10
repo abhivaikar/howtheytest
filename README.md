@@ -378,6 +378,24 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Monese</summary>
+
+#### Blogs & Articles
+* [Design QA; minimising design debt in a fast paced world.](https://medium.com/monese/design-qa-minimising-design-debt-in-a-fast-paced-world-82381b5f23a9)
+* [Mobile testing at Monese](https://medium.com/monese/mobile-testing-at-monese-f06a6c3bc789)
+
+</details>
+
+<details>
+  <summary>Monzo</summary>
+
+#### Blogs & Articles
+* [Automated Testing & Accessibility on iOS](https://monzo.com/blog/2016/04/26/automated-testing)
+* [How we load tested our bank before our £20 million crowdfunding round](https://monzo.com/blog/2019/01/15/crowdfunding-technology-testing)
+
+</details>
+
+<details>
   <summary>Mozilla</summary>
 
 </details>
