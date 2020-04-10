@@ -340,6 +340,22 @@ Happy Learning!
 <details>
   <summary>LinkedIn</summary>
 
+#### Blogs & Articles
+* [Quality Control - LinkedIn's Testing Methodology](https://engineering.linkedin.com/testing/quality-control-linkedins-testing-methodology)
+* [iOS: Test Pyramid](https://engineering.linkedin.com/blog/2016/11/ios--test-pyramid)
+* [Writing Maintainable Integration Tests](https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests)
+* ["Testscaling" with Test Engineering](https://engineering.linkedin.com/blog/2016/02/-testscaling--with-test-engineering)
+* [UI Automation: Keep it Functional – and Stable!](https://engineering.linkedin.com/blog/2016/01/ui-automation--keep-it-functional--and-stable-)
+* [Test Stability - How We Make UI Tests Stable](https://engineering.linkedin.com/blog/2015/12/test-stability---how-we-make-ui-tests-stable)
+* [Getting Code to Production With Less Friction and High Quality](https://engineering.linkedin.com/developer-happiness/getting-code-production-less-friction-and-high-quality)
+* [Eliminating toil with fully automated load testing](https://engineering.linkedin.com/blog/2019/eliminating-toil-with-fully-automated-load-testing)
+* [The testing lifecycle at LinkedIn](https://engineering.linkedin.com/41/testing-lifecycle-linkedin)
+* [Testing Frontier, LinkedIn's Web Framework](https://engineering.linkedin.com/37/testing-frontier-linkedins-web-framework)
+
+#### Videos
+* [Testing in production at LinkedIn - Szczepan Faber](https://www.youtube.com/watch?v=lbO6INBICpQ)
+* [GTAC 2015: Mock the Internet](https://www.youtube.com/watch?v=6gPNrujpmn0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=20)
+
 </details>
 
 <details>
