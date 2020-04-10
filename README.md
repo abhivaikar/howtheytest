@@ -146,6 +146,22 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>CapitalOne</summary>
+
+#### Blogs and Articles
+* [9 Things I Wish I Knew About Automated Software Testing Before I Started My Career](https://medium.com/capital-one-tech/9-things-i-wish-i-knew-about-automated-software-testing-before-i-started-my-career-69d2301d6b92)
+* [Improve Java Code Coverage and Quality with Unit Tests and JaCoCo](https://medium.com/capital-one-tech/improve-java-code-with-unit-tests-and-jacoco-b342643736ed)
+* [Learning To Love Automated Testing](https://medium.com/capital-one-tech/automated-tests-that-saved-me-2d38b7cb265b)
+* [Robot Pattern Testing for XCUITest](https://medium.com/capital-one-tech/robot-pattern-testing-for-xcuitest-4c2f0c40b4ad)
+* [Unit Testing Behavior of React Components with Test-Driven Development](https://medium.com/capital-one-tech/unit-testing-behavior-of-react-components-with-test-driven-development-ae15b03a3689)
+* [No Testing Strategy, No DevOps](https://medium.com/capital-one-tech/no-testing-strategy-no-devops-915287e1b4fd)
+* [Spec to Gherkin to Code](https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa)
+* [Blackbox API Testing With Kotlin for RESTful Microservices](https://medium.com/capital-one-tech/blackbox-api-testing-with-kotlin-for-restful-microservices-183adc2b8088)
+* [Performance Testing of Event-Driven Microservices](https://medium.com/capital-one-tech/performance-testing-of-event-driven-microservices-f5de74305985)
+
+</details>
+
+<details>
   <summary>Carousell</summary>
 
 #### Blogs
