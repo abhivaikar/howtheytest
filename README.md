@@ -379,7 +379,8 @@ Happy Learning!
 * [Google Testing Blog](https://testing.googleblog.com)
 
 #### Videos
-* [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p155)
+* [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y)
+* [GTAC 2016: Evolution of Business and Engineering Productivity](https://youtu.be/Vf7axkwtTOw?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p155)
 * [GTAC 2016: The Quirkier Side of Testings](https://youtu.be/QHV-PSwzvIQ?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p155)
 * [GTAC 2016: How Flaky Tests in Continuous Integration: Current Practice at Google and Future Directions](https://youtu.be/CrzpkF1-VsA?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p659)
 * [GTAC 2016: OpenHTF - The Open-Source Hardware Testing Framework](https://youtu.be/bC5YhAo1kHc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p147)
