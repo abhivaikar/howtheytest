@@ -109,6 +109,14 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Automattic (Wordpress)</summary>
+
+#### Videos
+* [Your Tests Aren't Flaky. GTAC 2015](https://www.youtube.com/watch?v=hmk1h40shaE&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=10), [Slides](https://docs.google.com/presentation/d/1L9hGYqCAgjZyXE9ch4Toh4ziuYYkB2OiMCdFpgfTko0/pub)
+
+</details>
+
+<details>
   <summary>BBC</summary>
 
 #### Blogs & Articles
@@ -132,6 +140,15 @@ Happy Learning!
 
 #### Vidoes
 * [BBC College of Technology: Develop conference videos](https://www.bbc.co.uk/blogs/internet/entries/25e3af59-ccd9-45af-85ae-7059a797c3e1)
+* [GTAC 2016: Scale vs Value: Test Automation at the BBC, GTAC 2016](https://youtu.be/MkPHntWZAPc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p497)
+
+</details>
+
+<details>
+  <summary>Box</summary>
+
+#### Videos
+* [GTAC 2016: ClusterRunner: making fast test-feedback easy through horizontal scaling](https://youtu.be/V7fhx1i4qPE?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p359)
 
 </details>
 
@@ -158,6 +175,11 @@ Happy Learning!
 * [Spec to Gherkin to Code](https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa)
 * [Blackbox API Testing With Kotlin for RESTful Microservices](https://medium.com/capital-one-tech/blackbox-api-testing-with-kotlin-for-restful-microservices-183adc2b8088)
 * [Performance Testing of Event-Driven Microservices](https://medium.com/capital-one-tech/performance-testing-of-event-driven-microservices-f5de74305985)
+
+#### Videos
+
+* [GTAC 2016: What’s in your Wallet?](https://youtu.be/SF7F26E7l1I?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM)
+
 
 </details>
 
@@ -186,6 +208,7 @@ Happy Learning!
 #### Videos
 * [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
 * [Virtualizing Mac Infrastructure at Scale: A CI Case Study with Dropbox and MacStadium](https://www.youtube.com/watch?v=oBVB0Tc_drM)
+* [GTAC 2014: Scalable Continuous Integration - Using Open Source](http://www.youtube.com/watch?v=eax-t5LBJiY&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/dzoYNC)
 </details>
 
 <details>
@@ -284,14 +307,25 @@ Happy Learning!
 * [Automated Fault-Finding and Fixing at Facebook](https://www.youtube.com/watch?v=CbQ6bJlOU7A)
 * [Damien Sereni, Testing and moving fast making Selenium work for Facebook](https://www.youtube.com/watch?v=_7KYs0NN82w)
 * [Taqelah - Facebook Meetup - Raj Kamal - Shreya Bhat](https://www.youtube.com/watch?v=ra6wq2wgOE4)
-* [GTAC 2013 : Simon Stewart - How Facebook Tests Facebook on Android](https://www.youtube.com/watch?v=HUE_yrd8tl0)
+* [GTAC 2013: Simon Stewart - How Facebook Tests Facebook on Android](https://www.youtube.com/watch?v=HUE_yrd8tl0)
 * [GTAC 2014: Never Send a Human to do a Machine’s Job: How Facebook uses bots to manage tests](https://www.youtube.com/watch?v=_5Sr4EYH7M8)
 * [Facebook Infer: Advanced Static Analysis at Speed and Scale - Facebook - DevTools@Scale2017](https://www.youtube.com/watch?v=gZ3dA4QD8jk)
 * [Building Mobile Apps with Open Source Tools - Simon Stewart - Mobile @ Scale](https://www.youtube.com/watch?v=c2Q22KDjXmI)
+
 </details>
 
 <details>
   <summary>Flipkart</summary>
+
+</details>
+
+<details>
+  <summary>Intel</summary>
+
+#### Videos
+* [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
+* [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
+* [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
 
 </details>
 
@@ -346,6 +380,40 @@ Happy Learning!
 
 #### Videos
 * [Meet Test Engineers at Google](https://www.youtube.com/watch?v=C7OLZf5099Y)
+* [GTAC 2016: Evolution of Business and Engineering Productivity](https://youtu.be/Vf7axkwtTOw?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p155)
+* [GTAC 2016: The Quirkier Side of Testings](https://youtu.be/QHV-PSwzvIQ?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p155)
+* [GTAC 2016: How Flaky Tests in Continuous Integration: Current Practice at Google and Future Directions](https://youtu.be/CrzpkF1-VsA?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p659)
+* [GTAC 2016: OpenHTF - The Open-Source Hardware Testing Framework](https://youtu.be/bC5YhAo1kHc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p147)
+* [GTAC 2016: Integration Testing with Multiple Mobile Devices and Services](https://youtu.be/8tjsxxSMkpA?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p439)
+* [GTAC 2016: Finding bugs in C++ libraries using LibFuzzer](https://youtu.be/FzaR3iH2iZs?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p548)
+* [GTAC 2015: Juggling Chainsaws for Fun and Profit: Lessons Learned from Mobile Cross-Platform Integration Testing](https://www.youtube.com/watch?v=jaWD60t69Wg&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=5), [Slides](https://docs.google.com/presentation/d/1Z2lWJDsZu_iyr8wFLodG-6R27vB_EodcbN0euqCXgz0/pub)
+* [GTAC 2015: How to Component Test Soup Dumplings](https://www.youtube.com/watch?v=OLesBZSd-cM&index=7&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1x7FjkFqLjwOTNUM_Mgag8Ar_MXQ5HZsQ-18CVqoR5MQ/pub)
+* [GTAC 2015: Chromecast Test Automation](https://www.youtube.com/watch?v=TfAVJLhb_k0&index=8&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1gBGS5UFyyR0mcwg990I1YDOFQwAhL-nmonNPGvGYnlk/pub)
+* [GTAC 2015: Automated Accessibility Testing for Android Applications](https://www.youtube.com/watch?v=vvwc8MVlusY&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=13), [Slides](https://docs.google.com/presentation/d/18ZUiXTZIGx0ydeLcKxnp5BxnI5kv7Cxm6rPaTf-c0ms/pub)
+* [GTAC 2015: Statistical Data Sampling](https://www.youtube.com/watch?v=cXi1Jo5V7UM&index=15&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1zAgKXFOQn02PVik9b4YkV0ZJ2wJIaGAf5oFY_dUyDD8/pub)
+* [GTAC 2015: Nest Automation Infrastructure](https://www.youtube.com/watch?v=lIoAq2Mjjas&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=16), [Slides](https://docs.google.com/presentation/d/1x-l6xb9uUzFA9n0EFxcsvIEj6dQPQBcCu3JucAVe-8E/pub)
+* [GTAC 2015: Fake Backends with RpcReplay](https://www.youtube.com/watch?v=wJPfsyRRmyw&index=26&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1IF30CK1z8xzj8xZxJiE7LBQoyzK770yZuBzJR2pfHng/pub)
+* [GTAC 2014: Chrome OS Test Automation Lab](https://www.youtube.com/watch?v=08CyrK2d1t0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=27), [Slides](https://docs.google.com/presentation/d/1ZbtToNrkpG6jLZBXbuUXVFzHilrr6_ZTFFAFdgpl4FQ/pub)
+* [GTAC 2014: Make Chrome the best mobile browser](http://www.youtube.com/watch?v=ugX-80lMu7A&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/vuW93B)
+* [GTAC 2014: Test coverage at Google](http://www.youtube.com/watch?v=4bublRBCLVQ&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/f0pVxT)
+* [GTAC 2014: The Importance of Automated Testing on Real and Virtual Mobile Devices](http://www.youtube.com/watch?v=nOFel7yNAsE&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/xuevSM)
+* [GTAC 2014: Free Tests Are Better Than Free Bananas: Using Data Mining and Machine Learning To Automate Real-Time Production Monitoring](http://www.youtube.com/watch?v=ExXATBlygl0&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://www.youtube.com/watch?v=ExXATBlygl0&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1)
+* [GTAC 2014: Google BigQuery Analytics](http://www.youtube.com/watch?v=YW4AV260Zis&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/2DyuC8)
+* [GTAC 2014: The Testing User Experience](http://www.youtube.com/watch?v=J7c0Bw840X8&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/3p7zcm)
+* [GTAC 2014: Going Green: Cleaning up the Toxic Mobile Environment](http://www.youtube.com/watch?v=aHcmsK9jfGU&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/QCQDDh)
+* [GTAC 2013: Opening Keynote - Evolution from Quality Assurance to Test Engineering](http://www.youtube.com/watch?v=nyOHJ4GR4iU&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/76Ggf)
+* [GTAC 2013: Webdriver for Chrome](http://www.youtube.com/watch?v=dMwUZxRgJWs&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/6rA9q)
+* [GTAC 2013: Karma - Test Runner for JavaScript](http://www.youtube.com/watch?v=YG5DEzaQBIc&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d)
+* [GTAC 2013: Automated Video Quality Measurements](http://www.youtube.com/watch?v=IbLNm3LsMaw&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/sF7Fm)
+* [GTAC 2013: Testable JavaScript - Architecting Your Application for Testability](http://www.youtube.com/watch?v=JjqKQ8ezwKQ&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/E1v14)
+* [GTAC 2013: Breaking the Matrix - Android Testing at Scale](http://www.youtube.com/watch?v=uHoB0KzQGRg&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/RltPp)
+* [GTAC 2013: Android UI Automation](http://www.youtube.com/watch?v=O1u8iBLUFL0&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/kpJCL)
+* [GTAC 2013: Building Scalable Mobile Test Infrastructure for Google+ Mobile](http://www.youtube.com/watch?v=Dnqxo0QtU98&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/xWZKt)
+* [GTAC 2013: Espresso: Fresh Start to Android UI Testing](http://www.youtube.com/watch?v=T7ugmCuNxDU&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/ieunS)
+* [GTAC 2013: Web Performance Testing with WebDriver](http://www.youtube.com/watch?v=0_kAPWSZNY4&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/5QHVY)
+* [GTAC 2013: Continuous Maps Data Testing](http://www.youtube.com/watch?v=ca_NjBKfZaM&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/UG3BN)
+* [GTAC 2013: Finding Culprits Automatically in Failing Builds - i.e. Who Broke the Build?](http://www.youtube.com/watch?v=SZLuBYlq3OM&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/q9dGd)
+
 </details>
 
 <details>
@@ -414,6 +482,9 @@ Happy Learning!
 <details>
   <summary>Mozilla</summary>
 
+#### Videos
+* [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
+* [How Do You Test a Mobile OS?, GTAC 2013](http://www.youtube.com/watch?v=X41eqcmC2Dk&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/7UeEI)
 </details>
 
 <details>
@@ -430,6 +501,11 @@ Happy Learning!
 
 <details>
   <summary>Netflix</summary>
+
+#### Vidoes
+* [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
+* [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](http://www.youtube.com/watch?v=xkP70Zhhix4&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/7PNKA7)
+* [GTAC 2013: When Bad Things Happen to Good Applications...](http://www.youtube.com/watch?v=zBEtAOEy360&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/8epF0)
 
 </details>
 
@@ -482,11 +558,18 @@ Happy Learning!
 <details>
   <summary>Twitter</summary>
 
+#### Vidoes
+* [GTAC 2015: Hands Off Regression Testing](https://www.youtube.com/watch?v=2zjhKmV0UFA&index=12&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1KITWbK46rm-lDZce_SqxegHTPjc9Ez-broxDTpfBpK8/pub)
+* [GTAC 2013: Testing Systems at Scale @Twitter](http://www.youtube.com/watch?v=99RABfKNfcY&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/9VY2b)
 </details>
 
 
 <details>
   <summary>Uber</summary>
+
+#### Videos
+
+* [GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing](https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3), [Slides](https://docs.google.com/presentation/d/1vYXhkvgLKun72Ix91LQDDWZQdcY5VOBqKVvI1Y6riYo/pub)
 
 </details>
 
