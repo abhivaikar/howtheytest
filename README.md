@@ -179,7 +179,7 @@ Happy Learning!
 #### Videos
 
 * [GTAC 2016: What’s in your Wallet?](https://youtu.be/SF7F26E7l1I?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM)
-
+* [SauceCon 2017: FROM MANUAL TO CI/CD - THE JOURNEY OF A BOY AND HIS TOOLS - Gregory Schmidt](https://www.youtube.com/watch?v=LiB0HTL2VRQ)
 
 </details>
 
@@ -253,6 +253,8 @@ Happy Learning!
 * [Divide and Concur](https://codeascraft.com/2011/04/20/divide-and-concur/)
 * [Etsy’s Journey to Continuous Integration for Mobile Apps](https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/)
 * [Etsy’s Device Lab](https://codeascraft.com/2013/08/09/mobile-device-lab/)
+* [What’s the value of transparency in testing and deployment?, Increment Magazine](https://increment.com/testing/ask-an-expert-transparency-testing/)
+
 </details>
 
 <details>
@@ -443,6 +445,13 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Mailchimp</summary>
+
+#### Blogs & Articles
+*[Designing automated tests for React, Increment Magazine](https://increment.com/testing/designing-automated-tests-for-react/)
+</details>
+
+<details>
   <summary>Mercari</summary>
 
 #### Blogs & Articles
@@ -571,6 +580,14 @@ Happy Learning!
 
 * [GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing](https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3), [Slides](https://docs.google.com/presentation/d/1vYXhkvgLKun72Ix91LQDDWZQdcY5VOBqKVvI1Y6riYo/pub)
 
+</details>
+
+<details>
+  <summary>Wallmart Labs</summary>
+
+#### Videos
+* [SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs](https://www.youtube.com/watch?v=9QYDPnVTqjs)
+* [SauceCon 2019: Test Armada - Evolution of a Value-based Test Automation Platform - Pranav Verma at Walmart Labs](https://www.youtube.com/watch?v=YpA2jrH7rF8)
 </details>
 
 ## Contribution
