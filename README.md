@@ -594,10 +594,10 @@ Happy Learning!
   <summary>GitLab</summary>
 
 #### Why GitLab?
-Gitlab is the world's largest all-remote company. GitLab is the best thing and why you should seriously consider it for your team. What makes GitLab so amazing is it has really committed team of developers and contributors and on the 22nd of every month (they have never missed this date!) a new version is released packed full of exciting improvements. There is a lot to talk a about this company its culture and processes but for now lets focus on its testing approach.
+Gitlab is the world's largest all-remote company. What makes GitLab so amazing is it has really committed team of developers and contributors and on the 22nd of every month (they have never missed this date!) a new version is released packed full of exciting improvements. There is a lot to talk about this company, its CI/CD, the culture and processes but for now lets focus on its testing approach.
 
 #### Blogs
-* [Quick overview of GitLab is so Amazing](https://www.enovate.co.uk/blog/2015/11/25/gitlab-review)
+* [Quick overview of GitLab](https://www.enovate.co.uk/blog/2015/11/25/gitlab-review)
 * [End-to-End testing of GitLab](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
 * [Different testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
 * [Test Engineering and planning](https://about.gitlab.com/handbook/engineering/quality/test-engineering/)
