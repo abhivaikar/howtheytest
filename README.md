@@ -339,6 +339,9 @@ Happy Learning!
 <details>
   <summary>GitLab</summary>
 
+#### Why GitLab?
+Gitlab is the world's largest all-remote company. What makes GitLab so amazing is it has really committed team of developers and contributors and on the 22nd of every month (they have never missed this date!) a new version is released packed full of exciting improvements. There is a lot to talk about this company, its CI/CD, the culture and processes but for now lets focus on its testing approach.
+
 #### Blogs and Articles
 
 * [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
@@ -346,6 +349,17 @@ Happy Learning!
 * [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
 * [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
 * [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
+* [End-to-End testing of GitLab](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+* [Different testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
+* [Test Engineering and planning](https://about.gitlab.com/handbook/engineering/quality/test-engineering/)
+* [Performance Testing Gitlab](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
+* [Testing best practices](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html)
+* [How Gitlab is able to achieve everthing is with it's Engineering workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+* [Quick overview of GitLab](https://www.enovate.co.uk/blog/2015/11/25/gitlab-review)
+
+#### Videos
+* [GitHub v/s GitLab](https://www.youtube.com/watch?v=s8DCpG1PeaU)
+* [Devops best practices with GitLab](https://www.youtube.com/watch?v=6FvcPLlJapI)
 
 </details>
 
@@ -588,26 +602,6 @@ Happy Learning!
 #### Videos
 * [SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs](https://www.youtube.com/watch?v=9QYDPnVTqjs)
 * [SauceCon 2019: Test Armada - Evolution of a Value-based Test Automation Platform - Pranav Verma at Walmart Labs](https://www.youtube.com/watch?v=YpA2jrH7rF8)
-</details>
-
-<details>
-  <summary>GitLab</summary>
-
-#### Why GitLab?
-Gitlab is the world's largest all-remote company. What makes GitLab so amazing is it has really committed team of developers and contributors and on the 22nd of every month (they have never missed this date!) a new version is released packed full of exciting improvements. There is a lot to talk about this company, its CI/CD, the culture and processes but for now lets focus on its testing approach.
-
-#### Blogs
-* [Quick overview of GitLab](https://www.enovate.co.uk/blog/2015/11/25/gitlab-review)
-* [End-to-End testing of GitLab](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
-* [Different testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
-* [Test Engineering and planning](https://about.gitlab.com/handbook/engineering/quality/test-engineering/)
-* [Performance Testing Gitlab](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
-* [Testing best practices](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html)
-* [How Gitlab is able to achieve everthing is with it's Engineering workflow](https://about.gitlab.com/handbook/engineering/workflow/)
-
-#### Videos
-* [GitHub v/s GitLab](https://www.youtube.com/watch?v=s8DCpG1PeaU)
-* [Devops best practices with GitLab](https://www.youtube.com/watch?v=6FvcPLlJapI)
 </details>
 
 ## Contribution
