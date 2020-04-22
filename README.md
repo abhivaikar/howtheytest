@@ -490,7 +490,10 @@ Happy Learning!
 
 <details>
   <summary>Mozilla</summary>
-
+  
+#### Blogs & Articles
+* [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
+  
 #### Videos
 * [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
 * [How Do You Test a Mobile OS?, GTAC 2013](http://www.youtube.com/watch?v=X41eqcmC2Dk&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/7UeEI)
