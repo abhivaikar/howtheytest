@@ -583,11 +583,15 @@ Happy Learning!
 </details>
 
 <details>
-  <summary>Wallmart Labs</summary>
+  <summary>WalmartLabs</summary>
+
+#### Blogs & Articles
+* [Test Automation of Query Understanding AI/ML based Model for an eCommerce Search - Kushal Kumar Verma](https://medium.com/analytics-vidhya/testing-query-understanding-ai-ml-based-model-for-an-ecommerce-search-d559510b82f)
 
 #### Videos
 * [SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs](https://www.youtube.com/watch?v=9QYDPnVTqjs)
 * [SauceCon 2019: Test Armada - Evolution of a Value-based Test Automation Platform - Pranav Verma at Walmart Labs](https://www.youtube.com/watch?v=YpA2jrH7rF8)
+
 </details>
 
 ## Contribution
