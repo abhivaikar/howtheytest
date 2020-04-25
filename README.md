@@ -493,6 +493,7 @@ Happy Learning!
   
 #### Blogs & Articles
 * [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
+* [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
   
 #### Videos
 * [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
