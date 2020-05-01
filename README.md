@@ -29,6 +29,7 @@ Happy Learning!
 * [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f)
 * [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd)
 * [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
+
 </details>
 
 <details>
@@ -51,6 +52,7 @@ Happy Learning!
 * [Large Scale Load Testing Amazon.com's Traffic on AWS](https://www.youtube.com/watch?v=pgnQQoTMBhI)
 * [Chaos Engineering on AWS](https://www.youtube.com/watch?v=B1nUzbuVEUs)
 * [Continuous Integration best practices for software development](https://www.youtube.com/watch?v=GEPJ7Lo346A)
+
 </details>
 
 <details>
@@ -66,6 +68,7 @@ Happy Learning!
 * [Engineering for Testability - WWDC](https://developer.apple.com/videos/play/wwdc2017/414/)
 * [What's new in testing - WWDC](https://developer.apple.com/videos/play/wwdc2018/403/)
 * [Testing tips & tricks - WWDC](https://developer.apple.com/videos/play/wwdc2018/417/)
+
 </details>
 
 <details>
@@ -88,6 +91,7 @@ Happy Learning!
 
 #### Videos
 [Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
+
 </details>
 
 <details>
@@ -160,6 +164,7 @@ Happy Learning!
 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
+
 </details>
 
 <details>
@@ -190,6 +195,7 @@ Happy Learning!
 * [Prabhagharan DK : Building our inhouse virtual device lab "caroufarm"](https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b)
 * [Martin Schneider : Automated end-to-end tests and how they fit into our testing culture](https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26)
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
+
 </details>
 
 <details>
@@ -209,6 +215,7 @@ Happy Learning!
 * [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
 * [Virtualizing Mac Infrastructure at Scale: A CI Case Study with Dropbox and MacStadium](https://www.youtube.com/watch?v=oBVB0Tc_drM)
 * [GTAC 2014: Scalable Continuous Integration - Using Open Source](http://www.youtube.com/watch?v=eax-t5LBJiY&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/dzoYNC)
+
 </details>
 
 <details>
@@ -246,10 +253,12 @@ Happy Learning!
 <details>
   <summary>Etsy</summary>
 
+#### Handbook
+* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)  
+
 #### Blogs & Articles
 * [Culture of Quality: Measuring Code Coverage at Etsy](https://codeascraft.com/2018/02/15/culture-of-quality-measuring-code-coverage-at-etsy/)
 * [Quality Matters: The Benefits of QA-Focused Retros](https://codeascraft.com/2016/02/08/quality-matters-the-benefits-of-qa-focused-retros/)
-* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)
 * [Divide and Concur](https://codeascraft.com/2011/04/20/divide-and-concur/)
 * [Etsy’s Journey to Continuous Integration for Mobile Apps](https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/)
 * [Etsy’s Device Lab](https://codeascraft.com/2013/08/09/mobile-device-lab/)
@@ -278,6 +287,7 @@ Happy Learning!
 * [Mobile Automation in Continuous Delivery Pipeline](https://www.youtube.com/watch?v=NWDByCVThfE)
 * [Distributed Automation Using Selenium Grid / AWS / Autoscaling](https://www.youtube.com/watch?v=cbIfU1fvGeo)
 * [AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing](https://www.youtube.com/watch?v=jihhLckop6A)
+
 </details>
 
 <details>
@@ -339,10 +349,11 @@ Happy Learning!
 <details>
   <summary>GitLab</summary>
 
-#### Blogs and Articles
-
-* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
+#### Handbook
 * [Quality Department Handbook](https://about.gitlab.com/handbook/engineering/quality/)
+
+#### Blogs and Articles
+* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
 * [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
 * [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
 * [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
@@ -368,7 +379,6 @@ Happy Learning!
 
 #### Books
 * [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slighlty outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
-
 * [How Google Tests Software - Part One](https://testing.googleblog.com/2011/01/how-google-tests-software.html)
 * [How Google Tests Software - Part Two](https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html)
 * [How Google Tests Software - Part Three](https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html)
@@ -448,7 +458,7 @@ Happy Learning!
   <summary>Mailchimp</summary>
 
 #### Blogs & Articles
-*[Designing automated tests for React, Increment Magazine](https://increment.com/testing/designing-automated-tests-for-react/)
+* [Designing automated tests for React, Increment Magazine](https://increment.com/testing/designing-automated-tests-for-react/)
 </details>
 
 <details>
@@ -490,6 +500,9 @@ Happy Learning!
 
 <details>
   <summary>Mozilla</summary>
+
+#### Handbook
+* [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
   
 #### Blogs & Articles
 * [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
@@ -573,6 +586,7 @@ Happy Learning!
 #### Vidoes
 * [GTAC 2015: Hands Off Regression Testing](https://www.youtube.com/watch?v=2zjhKmV0UFA&index=12&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1KITWbK46rm-lDZce_SqxegHTPjc9Ez-broxDTpfBpK8/pub)
 * [GTAC 2013: Testing Systems at Scale @Twitter](http://www.youtube.com/watch?v=99RABfKNfcY&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/9VY2b)
+
 </details>
 
 
@@ -580,7 +594,6 @@ Happy Learning!
   <summary>Uber</summary>
 
 #### Videos
-
 * [GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing](https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3), [Slides](https://docs.google.com/presentation/d/1vYXhkvgLKun72Ix91LQDDWZQdcY5VOBqKVvI1Y6riYo/pub)
 
 </details>
@@ -594,6 +607,14 @@ Happy Learning!
 #### Videos
 * [SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs](https://www.youtube.com/watch?v=9QYDPnVTqjs)
 * [SauceCon 2019: Test Armada - Evolution of a Value-based Test Automation Platform - Pranav Verma at Walmart Labs](https://www.youtube.com/watch?v=YpA2jrH7rF8)
+
+</details>
+
+<details>
+  <summary>Wikimedia</summary>
+
+#### Handbook
+* [Wikimedia Quality Handbook](https://www.mediawiki.org/wiki/Quality_Assurance)
 
 </details>
 
