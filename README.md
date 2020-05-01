@@ -253,7 +253,7 @@ Happy Learning!
 <details>
   <summary>Etsy</summary>
 
-#### Hanbook
+#### Handbook
 * [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)  
 
 #### Blogs & Articles
@@ -349,7 +349,7 @@ Happy Learning!
 <details>
   <summary>GitLab</summary>
 
-#### Hanbook
+#### Handbook
 * [Quality Department Handbook](https://about.gitlab.com/handbook/engineering/quality/)
 
 #### Blogs and Articles
@@ -501,7 +501,7 @@ Happy Learning!
 <details>
   <summary>Mozilla</summary>
 
-#### Hanbook
+#### Handbook
 * [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
   
 #### Blogs & Articles
