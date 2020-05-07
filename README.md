@@ -332,6 +332,23 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Helpshift</summary>
+
+#### Videos
+* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
+* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
+
+#### Blogs & Articles
+* [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
+* [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
+* [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
+* [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
+* [On the testability of Ring Middleware in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a)
+
+</details>
+
+
+<details>
   <summary>Intel</summary>
 
 #### Videos
