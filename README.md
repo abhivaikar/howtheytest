@@ -562,6 +562,13 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Salesforce</summary>
+
+#### Blogs & Articles
+* [Automating Complex End-to-End Tests](https://engineering.salesforce.com/automating-complex-end-to-end-tests-b0a5fc003592)
+</details>
+
+<details>
   <summary>Shopify</summary>
 
 </details>
