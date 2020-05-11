@@ -571,6 +571,24 @@ Happy Learning!
 <details>
   <summary>Shopify</summary>
 
+#### Blogs & Articles
+* [Webhook testing made easy](https://engineering.shopify.com/blogs/engineering/17488436-webhook-testing-made-easy)
+* [The Unreasonable Effectiveness of Test Retries: An Android Monorepo Case Study](https://engineering.shopify.com/blogs/engineering/unreasonable-effectiveness-test-retries-android-monorepo-case-study)
+* [iOS Application Testing Strategies at Shopify](https://engineering.shopify.com/blogs/engineering/ios-application-testing-strategies-at-shopify)
+* [Building and Testing Resilient Ruby on Rails Applications](https://engineering.shopify.com/blogs/engineering/building-and-testing-resilient-ruby-on-rails-applications)
+* [Four Steps to Creating Effective Game Day Tests](https://engineering.shopify.com/blogs/engineering/four-steps-creating-effective-game-day-tests)
+* [Mobile Tophatting at Shopify](https://engineering.shopify.com/blogs/engineering/mobile-tophatting-at-shopify-1)
+* [Great Code Reviews—The Superpower Your Team Needs](https://engineering.shopify.com/blogs/engineering/great-code-reviews)
+* [Mobile Release Engineering at Scale with Shipit Mobile](https://engineering.shopify.com/blogs/engineering/mobile-release-engineering-scale-shipit-mobile)
+* [Software Release Culture at Shopify](https://engineering.shopify.com/blogs/engineering/software-release-culture-shopify)
+
+#### Videos
+* [Scaling R&D to thousands of people without dedicated QA - Adam Archer (Shopify)](https://youtu.be/O3JpS_kvP0g)
+* [Chat Ops and Developer Productivity [John Arthorne, Shopify]](https://youtu.be/pJpWUgJwkrg)
+* [Resiliency Testing with Toxiproxy](https://youtu.be/XMj8BmNZD4c)
+* [ChatOps at Shopify: Inviting Bots in Our Day-to-Day Operations](https://youtu.be/tR31klRieU0)
+* [Testing Rails at Scale by Emil Stolarsky](https://youtu.be/zWR477ypEsc)
+
 </details>
 
 <details>
