@@ -210,6 +210,7 @@ Happy Learning!
 * [Finding Kafka’s throughput limit in Dropbox infrastructure](https://dropbox.tech/infrastructure/finding-kafkas-throughput-limit-in-dropbox-infrastructure)
 * [Athena: Our automated build health management system](https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system)
 * [The Programmer Mindset: Main Debug Loop](https://dropbox.tech/frontend/the-programmer-mindset-main-debug-loop)
+* [Testing sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine)
 
 #### Videos
 * [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
