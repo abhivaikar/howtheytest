@@ -599,7 +599,7 @@ Happy Learning!
 * [Everything You Need to Know About How Slack Approaches Accessibility Testing](https://www.3playmedia.com/2019/08/12/slack-approaches-accessibility-testing/)
 * [Android UI Automation: Part 1, Building Trust](https://slack.engineering/android-ui-automation-part-1-building-trust-de3deb1c5995)
 * [Android UI Automation: Part 2, Making It Easy](https://slack.engineering/android-ui-automation-part-2-making-it-easy-57335c7379cc)
-* [Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing](Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing)
+* [Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing](https://slack.engineering/%EF%B8%8F-surfs-up-preparing-for-huge-waves-of-traffic-via-load-testing-62b64da15ffc)
 * [How About Code Reviews?](https://slack.engineering/how-about-code-reviews-2695fb10d034)
 * [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 * [Disasterpiece Theater: Slack’s process for approachable Chaos Engineering](https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54)
