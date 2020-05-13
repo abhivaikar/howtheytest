@@ -593,6 +593,24 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Slack</summary>
+  
+#### Blogs & Articles
+* [Everything You Need to Know About How Slack Approaches Accessibility Testing](https://www.3playmedia.com/2019/08/12/slack-approaches-accessibility-testing/)
+* [Android UI Automation: Part 1, Building Trust](https://slack.engineering/android-ui-automation-part-1-building-trust-de3deb1c5995)
+* [Android UI Automation: Part 2, Making It Easy](https://slack.engineering/android-ui-automation-part-2-making-it-easy-57335c7379cc)
+* [Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing](Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing)
+* [How About Code Reviews?](https://slack.engineering/how-about-code-reviews-2695fb10d034)
+* [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
+* [Disasterpiece Theater: Slack’s process for approachable Chaos Engineering](https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54)
+
+#### Videos
+* [UI testing is so easy - said no developer ever - Valera Zakharov, Kevin Lai](https://www.youtube.com/watch?v=SkkO6x6LhCQ)
+* [Mobile performance testing at Slack – Valera Zakharov](https://www.youtube.com/watch?v=xKMIGN1WHgo)
+* ["Better Integration Tests for Performance Monitoring" by Maude Lemaire](https://www.youtube.com/watch?v=j0PJhD5XNJ8)
+* [Valera Zakharov: Testing](https://www.youtube.com/watch?v=fySCosLQQws)
+</details>
+<details>
   <summary>Soundcloud</summary>
 
 </details>
