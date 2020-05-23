@@ -171,6 +171,7 @@ Happy Learning!
   <summary>CapitalOne</summary>
 
 #### Blogs and Articles
+* [Improvement and Parallelization of Android Automation Testing](https://medium.com/capital-one-tech/improvement-and-parallelization-of-android-automation-testing-capital-one-a05d10cae5b6)
 * [9 Things I Wish I Knew About Automated Software Testing Before I Started My Career](https://medium.com/capital-one-tech/9-things-i-wish-i-knew-about-automated-software-testing-before-i-started-my-career-69d2301d6b92)
 * [Improve Java Code Coverage and Quality with Unit Tests and JaCoCo](https://medium.com/capital-one-tech/improve-java-code-with-unit-tests-and-jacoco-b342643736ed)
 * [Learning To Love Automated Testing](https://medium.com/capital-one-tech/automated-tests-that-saved-me-2d38b7cb265b)
@@ -455,6 +456,7 @@ Happy Learning!
   <summary>LinkedIn</summary>
 
 #### Blogs & Articles
+* [LinkedIn’s approach to automated accessibility (A11y) testing](https://engineering.linkedin.com/blog/2020/automated-accessibility-testing)
 * [Quality Control - LinkedIn's Testing Methodology](https://engineering.linkedin.com/testing/quality-control-linkedins-testing-methodology)
 * [iOS: Test Pyramid](https://engineering.linkedin.com/blog/2016/11/ios--test-pyramid)
 * [Writing Maintainable Integration Tests](https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests)
@@ -465,6 +467,7 @@ Happy Learning!
 * [Eliminating toil with fully automated load testing](https://engineering.linkedin.com/blog/2019/eliminating-toil-with-fully-automated-load-testing)
 * [The testing lifecycle at LinkedIn](https://engineering.linkedin.com/41/testing-lifecycle-linkedin)
 * [Testing Frontier, LinkedIn's Web Framework](https://engineering.linkedin.com/37/testing-frontier-linkedins-web-framework)
+
 
 #### Videos
 * [Testing in production at LinkedIn - Szczepan Faber](https://www.youtube.com/watch?v=lbO6INBICpQ)
@@ -617,6 +620,10 @@ Happy Learning!
 
 <details>
   <summary>Spotify</summary>
+
+#### Blogs & Articles
+* [Test Flakiness – Methods for identifying and dealing with flaky tests](https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/)
+* [Testing of Microservices](https://labs.spotify.com/2018/01/11/testing-of-microservices/)
 
 </details>
 
