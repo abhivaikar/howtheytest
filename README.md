@@ -624,7 +624,19 @@ Happy Learning!
 #### Blogs & Articles
 * [Test Flakiness – Methods for identifying and dealing with flaky tests](https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/)
 * [Testing of Microservices](https://labs.spotify.com/2018/01/11/testing-of-microservices/)
+* [Generating test cases so you don’t have to](https://labs.spotify.com/2015/06/25/rapid-check/)
+* [Test Strategies and Spotify – Kristian Karl](https://www.thepercept.com/test-strategies-spotify-kristian-karl/)
+* [How to Build a QA Strategy Like Spotify](https://www.rainforestqa.com/blog/2018-04-20-how-to-build-qa-strategy-like-spotify)
+* [How Spotify does test automation](https://www.slideshare.net/SmartBear_Software/how-spotify-does-test-management-kristian-karl)
+* [Model Based Testing at Spotify](https://www.cs.tut.fi/tapahtumat/testaus12/kalvot/Karl_ta.pdf)
 
+#### Videos
+* [Spotify Model Based Testing - Kristian Karl](https://www.youtube.com/watch?v=psOThLDKOFc)
+* [Experiences Of Test Automation At Spotify - Kristian Karl](https://www.youtube.com/watch?v=Vlw-4q8lnIw)
+* [Scaling Android Application Testing at Spotify - Sean Kenny](https://www.youtube.com/watch?v=Br7yPblkQnI)
+* [How Spotify Does Testing for Mobile - Sean Kenny](https://www.youtube.com/watch?v=69Ea4WyFNyQ)
+* [Test flakiness - Methods for dealing with flaky tests - Jason Palmer](https://www.youtube.com/watch?v=38pW08_nY_k)
+* [Applying Testing Mindset to Software Development - Andrew Dzynia](https://www.youtube.com/watch?v=RPshbKHe3NE). | [Slides](https://www.slideshare.net/AndrewDzynia/applying-testing-mindset-to-software-development)
 </details>
 
 <details>
