@@ -679,6 +679,16 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Veracode</summary>
+
+#### Handbook
+* [Test Lean and Ship Healthy: A Handbook on Delivering High Quality Software in the DevOps World](https://srcclr.github.io/test-lean/)
+
+#### Videos
+* [Test Lean and Ship Healthy: Delivering High Quality Software in the DevOps World](https://www.youtube.com/watch?v=sqtmcYKpy-A)
+
+</details>  
+<details>
   <summary>WalmartLabs</summary>
 
 #### Blogs & Articles
