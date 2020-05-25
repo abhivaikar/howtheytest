@@ -4,7 +4,7 @@
 
 
 ## Foreword
-One of the outcomes of the various [Taqelah](https://www.meetup.com/taqelah/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
+One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
 
 Apart from this, many companies regularly come forward and share their best practices, tools, techniques and culture of software testing on various public platforms like conferences, blogs & meetups. The resources are there but dispersed, lost into the internet.
 
