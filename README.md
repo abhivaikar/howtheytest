@@ -1,4 +1,4 @@
-![](https://github.com/abhivaikar/howtheytest/blob/master/howtheytest-banner.png?raw=true)
+![](https://github.com/abhivaikar/howtheytest/blob/try-docup/howtheytest-banner-updated.png?raw=true)
 # How They Test
 > A collection of publicly available resources on how software companies in the world test their software systems and build their quality culture.
 
