@@ -1,6 +1,5 @@
-![](https://github.com/abhivaikar/howtheytest/blob/master/howtheytest-banner.png?raw=true)
 # How They Test
-> A collection of publicly available resources on how software companies in the world test their software systems and build their quality culture.
+> A collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
 
 ## Foreword
@@ -729,6 +728,8 @@ Want to contribute? Just fork and raise a PR!
 ## Credits
 - Images in banner used from https://undraw.co/
 - Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
+- Static site powered by [docsify](https://docsify.js.org/).
+- All the authors and the companies they represented in the resources.
 
 ## Code of Conduct
 Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
