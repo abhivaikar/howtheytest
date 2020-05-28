@@ -722,6 +722,11 @@ Happy Learning!
 
 </details>
 
+## Contributors
+<a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
+</a>
+
 ## Contribution
 Want to contribute? Just fork and raise a PR!
 
