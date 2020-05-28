@@ -640,6 +640,21 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Squarespace</summary>
+
+#### Blogs & Articles
+* [Engineering a Better Working Group](https://engineering.squarespace.com/blog/2020/engineering-a-better-working-group)
+* [Turbocharging Our UI Tests](https://engineering.squarespace.com/blog/2016/turbocharging-our-ui-tests)
+* [UI Testing at Squarespace: Part I](https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-i)
+* [UI Testing at Squarespace: Part II](https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-ii)
+* [Six Attributes of Beautiful Systems](https://engineering.squarespace.com/blog/2018/six-attributes-of-beautiful-systems)
+* [Under the Hood: Ensuring Site Reliability](https://engineering.squarespace.com/blog/2017/under-the-hood-ensuring-site-reliability)
+* [Continuous Localization at Squarespace](https://engineering.squarespace.com/blog/2018/continuous-localization-at-squarespace)
+* [Creating a Code Review Culture, Part 1: Organizations and Authors](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1)
+* [Creating a Code Review Culture, Part 2: Code Reviewers](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2)
+
+</details>  
+<details>
   <summary>Stripe</summary>
 
 </details>
