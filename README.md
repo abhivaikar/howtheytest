@@ -1,5 +1,5 @@
 # How They Test
-> A collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
+> A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
 
 ## Foreword
