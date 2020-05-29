@@ -736,6 +736,7 @@ Want to contribute? Just fork and raise a PR!
 - Images in banner used from https://undraw.co/
 - Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
 - Static site powered by [docsify](https://docsify.js.org/).
+- Contributors list generated using [contributors-img](https://contributors-img.web.app/preview)
 - All the authors and the companies they represented in the resources.
 
 ## Code of Conduct
