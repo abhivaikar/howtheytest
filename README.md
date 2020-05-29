@@ -1,5 +1,5 @@
 # How They Test 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 > A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
