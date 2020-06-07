@@ -122,6 +122,14 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Basecamp</summary>
+
+#### Videos
+* [Testing without test damage or excessive isolation](https://www.youtube.com/watch?v=5hN6OZDyQtk)
+
+</details>
+
+<details>
   <summary>BBC</summary>
 
 #### Blogs & Articles
