@@ -259,6 +259,7 @@ Happy Learning!
 * [Test Automation - 10 (sometimes painful) Lessons Learned](https://www.youtube.com/watch?v=tJ0O8p5PajQ)
 * [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
+* [How we build & test software at eBay DE](https://www.youtube.com/watch?v=RhTBOl61QyI)
 </details>
 
 <details>
@@ -580,6 +581,20 @@ Happy Learning!
 #### Blogs & Articles
 * [Automating Complex End-to-End Tests](https://engineering.salesforce.com/automating-complex-end-to-end-tests-b0a5fc003592)
 </details>
+
+<details>
+  <summary>Shazam</summary>
+
+#### Blogs & Articles
+* [Shazam on iOS: UI testing + Shazam Pro User Tip](https://medium.com/@kardakov/shazam-on-ios-ui-testing-shazam-pro-user-tip-8347a9ed66a5)
+* [A Kotlin DSL for Acceptance Tests](https://medium.com/@edwardharks/a-kotlin-dsl-for-acceptance-tests-8a825388879e)
+* [CI at Shazam](https://speakerdeck.com/edwardfrancesco/ci-at-shazam-a-quest-for-shipping-high-quality-code)
+
+#### Videos
+* [Keeping 100+ million users happy: how we test Shazam on Android](https://www.youtube.com/watch?v=xgjYSf8pjVg)
+* [3 years of backend testing at Shazam - the stuff we got wrong](https://www.youtube.com/watch?v=9kWslvOpQfw)
+
+</details>  
 
 <details>
   <summary>Shopify</summary>
