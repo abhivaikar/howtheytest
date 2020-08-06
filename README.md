@@ -100,6 +100,9 @@ Happy Learning!
 
 #### Blogs & Articles
 * [Quality assistance: how Atlassian does QA](https://www.atlassian.com/inside-atlassian/qa)
+* [Moving from quality assurance to quality assistance](https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance)
+* [Developing quality assistance skills](https://www.atlassian.com/inside-atlassian/software-QA-skills)
+* [Quality Health Monitor: Gauging your team’s quality maturity](https://www.atlassian.com/inside-atlassian/quality-health-monitor)
 
 #### Videos
 * [Meet the Atlassian QE team](https://www.youtube.com/watch?v=3IvRSrvGJ1g)
