@@ -99,6 +99,7 @@ Happy Learning!
   <summary>Atlassian</summary>
 
 #### Blogs & Articles
+* [Quality assistance: how Atlassian does QA](https://www.atlassian.com/inside-atlassian/qa)
 
 #### Videos
 * [Meet the Atlassian QE team](https://www.youtube.com/watch?v=3IvRSrvGJ1g)
