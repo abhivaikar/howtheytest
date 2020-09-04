@@ -279,6 +279,7 @@ Happy Learning!
 * [Etsy’s Journey to Continuous Integration for Mobile Apps](https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/)
 * [Etsy’s Device Lab](https://codeascraft.com/2013/08/09/mobile-device-lab/)
 * [What’s the value of transparency in testing and deployment?, Increment Magazine](https://increment.com/testing/ask-an-expert-transparency-testing/)
+* [Mutation Testing: A Tale of Two Suites](https://codeascraft.com/2020/08/17/mutation-testing-a-tale-of-two-suites/)
 
 </details>
 
@@ -390,6 +391,8 @@ Happy Learning!
 * [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
 * [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
 * [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
+* [How recent acquisitions introduce fuzz testing to GitLab](https://about.gitlab.com/blog/2020/07/17/fuzz-testing/)
+* [How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts](https://about.gitlab.com/blog/2020/09/03/risk-mapping/)
 
 </details>
 
@@ -561,6 +564,9 @@ Happy Learning!
 
 <details>
   <summary>Netflix</summary>
+  
+#### Blogs & Articles
+* [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
 
 #### Vidoes
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
@@ -634,6 +640,7 @@ Happy Learning!
 * [How About Code Reviews?](https://slack.engineering/how-about-code-reviews-2695fb10d034)
 * [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 * [Disasterpiece Theater: Slack’s process for approachable Chaos Engineering](https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54)
+* [Scaling End-to-End User Interface Tests](https://slack.engineering/scaling-end-to-end-user-interface-tests/)
 
 #### Videos
 * [UI testing is so easy - said no developer ever - Valera Zakharov, Kevin Lai](https://www.youtube.com/watch?v=SkkO6x6LhCQ)
@@ -657,6 +664,7 @@ Happy Learning!
 * [How to Build a QA Strategy Like Spotify](https://www.rainforestqa.com/blog/2018-04-20-how-to-build-qa-strategy-like-spotify)
 * [How Spotify does test automation](https://www.slideshare.net/SmartBear_Software/how-spotify-does-test-management-kristian-karl)
 * [Model Based Testing at Spotify](https://www.cs.tut.fi/tapahtumat/testaus12/kalvot/Karl_ta.pdf)
+* [How We Improved Developer Productivity for Our DevOps Teams](https://engineering.atspotify.com/2020/08/27/how-we-improved-developer-productivity-for-our-devops-teams/)
 
 #### Videos
 * [Spotify Model Based Testing - Kristian Karl](https://www.youtube.com/watch?v=psOThLDKOFc)
