@@ -205,10 +205,14 @@ Happy Learning!
 <details>
   <summary>Carousell</summary>
 
-#### Blogs
+#### Blogs & Articles
 * [Prabhagharan DK : Building our inhouse virtual device lab "caroufarm"](https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b)
 * [Martin Schneider : Automated end-to-end tests and how they fit into our testing culture](https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26)
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
+
+#### Videos
+* [HUSTEF 2019 - Syam SASI & Martin SCHNEIDER - Building a scalable device lab with Ansible](https://www.youtube.com/watch?v=ntRd0tiMZdE)
+* [Carousell's automation journey with BrowserStack](https://www.youtube.com/watch?v=hRO5Hg-cRz8)
 
 </details>
 
