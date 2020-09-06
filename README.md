@@ -661,9 +661,9 @@ Happy Learning!
   <summary>Spotify</summary>
 
 #### Blogs & Articles
-* [Test Flakiness – Methods for identifying and dealing with flaky tests](https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/)
-* [Testing of Microservices](https://labs.spotify.com/2018/01/11/testing-of-microservices/)
-* [Generating test cases so you don’t have to](https://labs.spotify.com/2015/06/25/rapid-check/)
+* [Test Flakiness – Methods for identifying and dealing with flaky tests](https://engineering.atspotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/)
+* [Testing of Microservices](https://engineering.atspotify.com/2018/01/11/testing-of-microservices/)
+* [Generating test cases so you don’t have to](https://engineering.atspotify.com/2015/06/25/rapid-check/)
 * [Test Strategies and Spotify – Kristian Karl](https://www.thepercept.com/test-strategies-spotify-kristian-karl/)
 * [How to Build a QA Strategy Like Spotify](https://www.rainforestqa.com/blog/2018-04-20-how-to-build-qa-strategy-like-spotify)
 * [How Spotify does test automation](https://www.slideshare.net/SmartBear_Software/how-spotify-does-test-management-kristian-karl)
