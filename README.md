@@ -368,6 +368,16 @@ Happy Learning!
 
 </details>
 
+<details>
+  <summary>Instacart</summary>
+  
+#### Blogs & Articles
+* [Measuring software quality at scale](https://tech.instacart.com/understanding-software-quality-at-scale-79ebb25cb3ac)
+
+#### Videos
+* [Measuring software quality at Instacart - Dash 2020](https://www.youtube.com/watch?v=EQ0QD4-E84s&ab_channel=Datadog)
+
+</details>
 
 <details>
   <summary>Intel</summary>
