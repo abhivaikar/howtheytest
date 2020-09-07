@@ -155,7 +155,7 @@ Happy Learning!
 * [Testing BBC iPlayer Release For Android Downloads](https://www.bbc.co.uk/blogs/internet/entries/67c6f28f-3742-3725-9efa-10107857d5e8)
 * [Testing for BBC Online: The creation of the POD Test Group](https://www.bbc.co.uk/blogs/internet/entries/a1d07db6-64bb-3225-966a-304405b06349)
 
-#### Vidoes
+#### Videos
 * [BBC College of Technology: Develop conference videos](https://www.bbc.co.uk/blogs/internet/entries/25e3af59-ccd9-45af-85ae-7059a797c3e1)
 * [GTAC 2016: Scale vs Value: Test Automation at the BBC, GTAC 2016](https://youtu.be/MkPHntWZAPc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p497)
 
@@ -582,7 +582,7 @@ Happy Learning!
 #### Blogs & Articles
 * [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
 
-#### Vidoes
+#### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](http://www.youtube.com/watch?v=xkP70Zhhix4&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/7PNKA7)
 * [GTAC 2013: When Bad Things Happen to Good Applications...](http://www.youtube.com/watch?v=zBEtAOEy360&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/8epF0)
