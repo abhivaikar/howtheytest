@@ -422,6 +422,7 @@ Happy Learning!
 * [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
 * [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
 * [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
+* [Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.](https://blog.gojekengineering.com/golang-integration-testing-made-easy-a834e754fa4c)
 </details>
 
 <details>
