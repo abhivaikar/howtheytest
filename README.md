@@ -268,6 +268,8 @@ Happy Learning!
 * [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
 * [How we build & test software at eBay DE](https://www.youtube.com/watch?v=RhTBOl61QyI)
+* [Ensuring Software Quality at eBay Denmark](https://www.infoq.com/news/2020/08/software-quality-ebay-denmark/)
+* [Software Quality: Elevating the Game](https://tech.ebayinc.com/engineering/software-quality-elevating-the-game/)
 </details>
 
 <details>
