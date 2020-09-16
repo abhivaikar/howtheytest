@@ -394,6 +394,14 @@ Happy Learning!
 <details>
   <summary>GitHub</summary>
 
+#### Blogs & Articles
+* [How GitHub uses automated testing to empower developers to write less](https://ben.balter.com/2015/09/10/blog-style-tests/)
+* [MySQL infrastructure testing automation at GitHub](https://github.blog/2017-07-06-mysql-testing-automation-at-github/)
+* [octocatalog-diff: GitHub’s Puppet development and testing tool](https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/)
+* [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/)
+
+#### Videos
+* [The elusive quest to measure developer productivity](https://www.youtube.com/watch?v=cRJZldsHS3c)
 </details>
 
 <details>
