@@ -258,6 +258,8 @@ Happy Learning!
 * [Validating Hadoop Platform Releases](https://tech.ebayinc.com/engineering/validating-hadoop-platform-releases/)
 * [Finding Usability Bugs with Automated Tests](https://queue.acm.org/detail.cfm?id=1925091)
 * [100% test coverage is not enough](https://ebaytech.berlin/100-percent-test-coverage-is-not-enough-3d733551bc3f)
+* [Ensuring Software Quality at eBay Denmark](https://www.infoq.com/news/2020/08/software-quality-ebay-denmark/)
+* [Software Quality: Elevating the Game](https://tech.ebayinc.com/engineering/software-quality-elevating-the-game/)
 
 #### Videos
 * [Lightning talk at Selenium Conf about their test automation framework Breeze](https://youtu.be/RwiF4eCqiI0?t=18)
@@ -268,8 +270,6 @@ Happy Learning!
 * [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
 * [How we build & test software at eBay DE](https://www.youtube.com/watch?v=RhTBOl61QyI)
-* [Ensuring Software Quality at eBay Denmark](https://www.infoq.com/news/2020/08/software-quality-ebay-denmark/)
-* [Software Quality: Elevating the Game](https://tech.ebayinc.com/engineering/software-quality-elevating-the-game/)
 </details>
 
 <details>
