@@ -594,12 +594,32 @@ Happy Learning!
   
 #### Blogs & Articles
 * [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
+* [Automation as a Service — Introducing Scriptflask](https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b)
+* [Automated testing on devices](https://netflixtechblog.com/automated-testing-on-devices-fc5a39f47e24)
+* [Product Integration Testing at the Speed of Netflix](https://netflixtechblog.com/product-integration-testing-at-the-speed-of-netflix-72e4117734a7)
+* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
+* [Announcing Electric Eye](https://netflixtechblog.com/announcing-electric-eye-2bb8ffcf9b1b)
+* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
+* [NTS: Real-time Streaming for Test Automation](https://netflixtechblog.com/nts-real-time-streaming-for-test-automation-7cb000e933a1)
+* [FIT: Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
+* [Testing Netflix on Android](https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab)
+* [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198)
+* [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29)
 
 #### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](http://www.youtube.com/watch?v=xkP70Zhhix4&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/7PNKA7)
 * [GTAC 2013: When Bad Things Happen to Good Applications...](http://www.youtube.com/watch?v=zBEtAOEy360&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/8epF0)
-
+* [Design Testing at Netflix](https://www.youtube.com/watch?v=-Gy8TnoXZf8)
+* [Testing In Production, The Netflix Way](https://www.youtube.com/watch?v=3WRVgC8SiGc)
+* [Test Automation at Scale](https://www.youtube.com/watch?v=FrBN94gUn_I&ab_channel=NetflixDevices)
+* [Evolution of Payments Testing at Netflix](https://www.youtube.com/watch?v=x4vLS8WWqIE&feature=youtu.be&ab_channel=ByronLam)
+* [Test Selection: Heuristics and Machine Learning](https://www.youtube.com/watch?v=l7-8_0A9IF8&feature=youtu.be&ab_channel=NetflixDevices)
+* [The Automation before pressing Play](https://www.youtube.com/watch?v=AGEXxB-nWMw&feature=youtu.be&ab_channel=NetflixDevices)
+* [Applying Failure Testing Research @Netflix](https://www.youtube.com/watch?v=a3mHQCkr-4I&feature=youtu.be&ab_channel=InfoQ)
+* [Getting Netflix on a Variety of Devices](https://www.youtube.com/watch?v=JI6qew26wi8&feature=youtu.be&ab_channel=NetflixDevices)
+* [Electric Eye](https://www.youtube.com/watch?v=uEQ3be0ss2A&feature=youtu.be&ab_channel=NetflixDevices)
+* [Measuring Perceptual Video Quality at Scale](https://www.youtube.com/watch?v=kEo2TrXm7F4&ab_channel=Demuxed)
 </details>
 
 <details>
