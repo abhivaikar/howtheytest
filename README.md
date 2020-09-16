@@ -708,6 +708,11 @@ Happy Learning!
 <details>
   <summary>Stripe</summary>
 
+#### Blogs & Articles
+* [Running three hours of Ruby tests in under three minutes](https://stripe.com/blog/distributed-ruby-testing)
+* [Game Day Exercises at Stripe - Learning from `kill -9`](https://stripe.com/blog/game-day-exercises-at-stripe)
+* [Fast and flexible observability with canonical log lines](https://stripe.com/blog/canonical-log-lines)
+* [Learning to operate Kubernetes reliably](https://stripe.com/blog/operating-kubernetes)
 </details>
 
 <details>
