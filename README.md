@@ -769,7 +769,7 @@ Happy Learning!
 #### Vidoes
 * [GTAC 2015: Hands Off Regression Testing](https://www.youtube.com/watch?v=2zjhKmV0UFA&index=12&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1KITWbK46rm-lDZce_SqxegHTPjc9Ez-broxDTpfBpK8/pub)
 * [GTAC 2013: Testing Systems at Scale @Twitter](http://www.youtube.com/watch?v=99RABfKNfcY&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/9VY2b)
-
+* [Testing for products with a microservice architecture - Building an agnostic test framework](https://www.youtube.com/watch?v=lN5bc0coO3k&feature=emb_title&ab_channel=BrowserStack)
 </details>
 
 
