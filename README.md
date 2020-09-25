@@ -811,6 +811,47 @@ Happy Learning!
 
 </details>
 
+<details>
+  <summary>Wix</summary>
+
+#### Blogs & Articles
+* [Software Developers, Communicate Your Intentions (TLDR: do it using tests)](https://www.wix.engineering/post/software-developers-communicate-your-intentions-tldr-do-it-using-tests)
+* [Meet Raven TestKit: Wix Engineering's Open Source Tool to Test Sentry Reports](https://www.wix.engineering/post/meet-raven-testkit-wix-engineering-s-open-source-tool-to-test-sentry-reports-1)
+* [How to Test Your Redux App](https://www.wix.engineering/post/how-to-test-your-redux-app)
+* [Testing Asynchronous Code](https://www.wix.engineering/post/testing-asynchronous-code)
+* [How to integrate 3rd Party APIs without Fear](https://medium.com/wix-engineering/how-to-integrate-3rd-party-apis-without-fear-part-1-a3dd4bf42cd6)
+* [Keep Your Tests Clean and Isolated with a Context](https://medium.com/wix-engineering/keep-your-tests-clean-and-isolated-with-a-context-258b31fe5cec)
+* [Asynchronous Sad Path Testing in React Using Jest and The Driver Pattern](https://medium.com/wix-engineering/asynchronous-sad-path-testing-in-react-using-jest-and-the-driver-pattern-84ad61d09b40)
+* [Keep your tests clean, by refactoring](https://medium.com/wix-engineering/https-medium-com-gavinrifkind-keep-your-tests-clean-by-refactoring-fd0310a103ed)
+* [Functional Testing with Tagless-Final](https://medium.com/wix-engineering/functional-testing-with-tagless-final-50eeacf5df6)
+* [Overestimated value of test documentation](https://medium.com/wix-engineering/overestimated-value-of-test-documentation-739dcf8ee85a)
+* [Testing Metrics: Are You Really Sure about the Quality of Your Product?](https://medium.com/wix-engineering/testing-metrics-are-you-really-sure-about-the-quality-of-your-product-8a5ef37ec3d4)
+* [Integration Tests in JavaScript That Don’t Suck](https://www.wix.engineering/post/integration-tests-in-javascript-that-don-t-suck)
+* [Building and Open-Sourcing Wix’s A/B Testing System](https://www.wix.engineering/post/building-and-open-sourcing-wix-s-a-b-testing-system)
+
+#### Videos
+* [The Price of TDD is Eternal Vigilance](https://youtu.be/lICpnTc5eQ8)
+* [Clean Tests](https://youtu.be/OD3lOVNGRDs)
+* [Testing with Protractor](https://youtu.be/iZjjb2xS-Ww)
+* [To Test or Not To Test?](https://youtu.be/wxd30bVd5x4)
+* [Screenshots in Automated Testing: When? How? Why?](https://youtu.be/voTJTi1Z_CA)
+* [Driving to UI Test Heaven](https://youtu.be/iqgIyOKISW4)
+* [Detox: tackling the flakiness of mobile automation](https://youtu.be/4rU0IGEt6OQ)
+* [Testing For Performance](https://youtu.be/T1Zuad-Mkg0)
+* [Detox: Graybox End to End Tests and Automation Library for Mobile Apps](https://youtu.be/qiRJT5Eig3g)
+* [TDD for the Curious](https://youtu.be/dOlkgAFlNxs)
+* [E2E testing with Javascript](https://youtu.be/Co6LKJPpxAM)
+* [Intro to TDD](https://youtu.be/Zf9O1FvPw1s)
+* [Meaningful Code Reviews](https://youtu.be/cALG01i6CkQ)
+* [E2E testing with Javascript](https://youtu.be/Co6LKJPpxAM)
+* [TDD: Discover Implementation by Stepping Small](https://youtu.be/EuXmP2uM-Wk)
+
+#### git
+* [Wix HTTP Testkit](https://github.com/wix/wix-http-testkit)
+
+
+</details>
+
 ## Contributors
 <a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
