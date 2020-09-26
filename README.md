@@ -548,6 +548,15 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Miro</summary>
+
+#### Blogs & Articles
+* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42)
+* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699)
+* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) 
+</details>
+
+<details>
   <summary>Monese</summary>
 
 #### Blogs & Articles
