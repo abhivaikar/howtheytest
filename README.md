@@ -494,6 +494,8 @@ Happy Learning!
 <details>
   <summary>Grab</summary>
 
+#### Blogs & Articles
+* [Marionette - Enabling E2E user-scenario simulation](https://engineering.grab.com/marionette-enabling-e2e-user-scenario-simulation)
 </details>
 
 <details>
