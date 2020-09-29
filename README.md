@@ -217,6 +217,14 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Disney+ Hotstar</summary>
+
+#### Blogs & Articles
+* [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b)
+
+</details>
+
+<details>
   <summary>Dropbox</summary>
 
 #### Blogs & Articles
