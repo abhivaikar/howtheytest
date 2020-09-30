@@ -797,6 +797,19 @@ Happy Learning!
 
 #### Videos
 * [GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing](https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3), [Slides](https://docs.google.com/presentation/d/1vYXhkvgLKun72Ix91LQDDWZQdcY5VOBqKVvI1Y6riYo/pub)
+* [Using the Octopus Framework - Jeff Hu](https://www.youtube.com/watch?v=80wc8gWebrk&ab_channel=Touchlab)
+* [Inside Uber's secret self-driving car testing facility](https://www.youtube.com/watch?v=SnR2449jFV8&ab_channel=CBSThisMorning)
+* [Ludwig: A Toolbox for Training and Testing Deep Learning Models without Writing Code](https://www.youtube.com/watch?v=OGweVw57kus&ab_channel=UberEngineering)
+* [Chaos Engineering @ Uber -- Dianne Laguerta](https://www.youtube.com/watch?v=ywSAwYsIk8k&ab_channel=UberEngineering)
+* [Observability infra @ Uber](https://youtu.be/nO8AYhEok1c?t=703)
+
+
+#### Blogs & Articles
+* [Octopus to the Rescue: the Fascinating World of Inter-App Communications at Uber Engineering](https://eng.uber.com/rescued-by-octopus/)
+* [Introducing Hypothesis GU Funcs, an Open Source Python Package for Unit Testing](https://eng.uber.com/hypothesis-gu-funcs-unit-testing/)
+* [Best Practices for Unit Testing in React Version 16](https://eng.uber.com/best-practices-for-react-v16/)
+* [Monitoring Data Quality at Scale with Statistical Modeling](https://eng.uber.com/monitoring-data-quality-at-scale/)
+* [Introducing Piranha: An Open Source Tool to Automatically Delete Stale Code](https://eng.uber.com/piranha/)
 
 </details>
 
