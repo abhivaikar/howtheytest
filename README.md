@@ -290,6 +290,14 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Elsevier</summary>
+
+#### Blogs & Articles
+* [Quality Engineering at Elsevier](https://www.linkedin.com/pulse/quality-engineering-elsevier-thomas-goodman)
+
+</details>
+
+<details>
   <summary>Etsy</summary>
 
 #### Handbook
