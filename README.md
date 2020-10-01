@@ -225,6 +225,15 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Dollar Shave Club</summary>
+
+#### Blogs
+* [How Dollar Shave Club 3x'd velocity and learned to love their tests](https://engineering.dollarshaveclub.com/qa-environments-on-demand-with-kubernetes-5a571b4e273c)
+* [QA Environments on Demand with Kubernetes](https://circleci.com/blog/how-dollar-shave-club-3x-d-velocity-and-learned-love-tests)
+
+</details>
+
+<details>
   <summary>Dropbox</summary>
 
 #### Blogs & Articles
@@ -779,6 +788,17 @@ Happy Learning!
 * [QA testing for the Guardian's Content API](https://www.theguardian.com/info/developer-blog/2014/feb/07/qa-testing-for-the-guardians-content-api)
 * [Real-time QA: staying confident with code](https://www.theguardian.com/info/developer-blog/2012/dec/06/real-time-qa-confident-code)
 * [Testing, testing: the Guardian attends a QA community meet-up](https://www.theguardian.com/info/developer-blog/2012/aug/10/qa-testing-competition)
+
+</details>
+
+<details>
+  <summary>Trivago</summary>
+
+#### Blogs
+* [Building fast and reliable web applications](https://tech.trivago.com/2018/10/12/building-fast-and-reliable-web-applications)
+* [Cucable Maven plugin for parallel execution of Cucumber scenarios](https://tech.trivago.com/2017/06/30/cucable-maven-plugin-for-parallel-execution-of-cucumber-scenarios)
+* [Creating a Culture of Quality](https://tech.trivago.com/2015/08/31/culture_of_quality)
+* [Elasticsearch and Kibana for Selenium Automation](https://tech.trivago.com/2015/12/02/selenium_with_kibana)
 
 </details>
 
