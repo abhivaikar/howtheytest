@@ -229,7 +229,7 @@ Happy Learning!
 
 #### Blogs
 * [How Dollar Shave Club 3x'd velocity and learned to love their tests](https://circleci.com/blog/how-dollar-shave-club-3x-d-velocity-and-learned-love-tests)
-* [QA Environments on Demand with Kubernetes](https://circleci.com/blog/how-dollar-shave-club-3x-d-velocity-and-learned-love-tests)
+* [QA Environments on Demand with Kubernetes](https://engineering.dollarshaveclub.com/qa-environments-on-demand-with-kubernetes-5a571b4e273c)
 
 </details>
 
