@@ -365,6 +365,16 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>GoDaddy</summary>
+
+#### Blogs & Articles
+* [Move over Selenium - UI Testing with Cypress](https://sg.godaddy.com/engineering/2018/11/06/cypress-vs-selenium/)
+* [Mocking SOAP APIs in functional tests using Nock](https://sg.godaddy.com/engineering/2018/10/02/mocking-soap-apis-in-functional-tests-using-nock/)
+* [React Native Application UI testing using WebDriverIO and Appium](https://sg.godaddy.com/engineering/2018/07/09/react-native-wdio/)
+
+</details>
+
+<details>
   <summary>Helpshift</summary>
 
 #### Videos
