@@ -382,43 +382,6 @@ Happy Learning!
 </details>
 
 <details>
-  <summary>Helpshift</summary>
-
-#### Videos
-* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
-* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
-
-#### Blogs & Articles
-* [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
-* [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
-* [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
-* [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
-* [On the testability of Ring Middleware in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a)
-
-</details>
-
-<details>
-  <summary>Instacart</summary>
-  
-#### Blogs & Articles
-* [Measuring software quality at scale](https://tech.instacart.com/understanding-software-quality-at-scale-79ebb25cb3ac)
-
-#### Videos
-* [Measuring software quality at Instacart - Dash 2020](https://www.youtube.com/watch?v=EQ0QD4-E84s&ab_channel=Datadog)
-
-</details>
-
-<details>
-  <summary>Intel</summary>
-
-#### Videos
-* [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
-* [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
-* [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
-
-</details>
-
-<details>
   <summary>GitHub</summary>
 
 #### Blogs & Articles
@@ -444,6 +407,16 @@ Happy Learning!
 * [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
 * [How recent acquisitions introduce fuzz testing to GitLab](https://about.gitlab.com/blog/2020/07/17/fuzz-testing/)
 * [How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts](https://about.gitlab.com/blog/2020/09/03/risk-mapping/)
+
+</details>
+
+<details>
+  <summary>GoDaddy</summary>
+
+#### Blogs & Articles
+* [Move over Selenium - UI Testing with Cypress](https://sg.godaddy.com/engineering/2018/11/06/cypress-vs-selenium/)
+* [Mocking SOAP APIs in functional tests using Nock](https://sg.godaddy.com/engineering/2018/10/02/mocking-soap-apis-in-functional-tests-using-nock/)
+* [React Native Application UI testing using WebDriverIO and Appium](https://sg.godaddy.com/engineering/2018/07/09/react-native-wdio/)
 
 </details>
 
@@ -521,6 +494,43 @@ Happy Learning!
 
 #### Blogs & Articles
 * [Marionette - Enabling E2E user-scenario simulation](https://engineering.grab.com/marionette-enabling-e2e-user-scenario-simulation)
+</details>
+
+<details>
+  <summary>Helpshift</summary>
+
+#### Videos
+* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
+* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
+
+#### Blogs & Articles
+* [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
+* [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
+* [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
+* [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
+* [On the testability of Ring Middleware in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a)
+
+</details>
+
+<details>
+  <summary>Instacart</summary>
+
+#### Blogs & Articles
+* [Measuring software quality at scale](https://tech.instacart.com/understanding-software-quality-at-scale-79ebb25cb3ac)
+
+#### Videos
+* [Measuring software quality at Instacart - Dash 2020](https://www.youtube.com/watch?v=EQ0QD4-E84s&ab_channel=Datadog)
+
+</details>
+
+<details>
+  <summary>Intel</summary>
+
+#### Videos
+* [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
+* [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
+* [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
+
 </details>
 
 <details>
