@@ -686,6 +686,13 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>SecureDrop</summary>
+
+#### Blogs & Articles
+* [SecureDrop QA workflow and how to improve it?](https://kushaldas.in/posts/securedrop-qa-workflow-and-how-to-improve-it.html)
+</details>
+
+<details>
   <summary>Shazam</summary>
 
 #### Blogs & Articles
