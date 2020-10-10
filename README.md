@@ -934,9 +934,6 @@ Happy Learning!
 </details>
 
 ## Contributors
-<a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
-</a>
 <a href="https://github.com/optimist2309/howtheytest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=optimist2309/howtheytest" />
 </a>
