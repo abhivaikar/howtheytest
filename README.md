@@ -15,6 +15,17 @@ Happy Learning!
 
 *Please note, that all the resources mentioned here are publicly available resources.*
 
+## Kind of topics here
+Testing / quality of software goes beyond traditional activities of pre-release functional testing and test automation. Hence the kind of topics you can expect to read about here are:
+- Functional testing
+- Non-functional testing
+- Test automation
+- Testing in CI/CD
+- Release management
+- Process/culture
+- Testing in production (monitoring/observability, chaos engineering, site reliability engineering etc.)
+- Customer/User service or support
+
 ## Companies & how they test their software
 <details>
   <summary>Airbnb</summary>
@@ -753,7 +764,18 @@ Happy Learning!
 </details>
 <details>
   <summary>Soundcloud</summary>
+  
+#### Blogs & Articles
+* [Release Quality and Mobile Trains](https://developers.soundcloud.com/blog/quality-mobile-trains)
+* [Integration Testing for Memory Leaks](https://developers.soundcloud.com/blog/integration-testing-for-memory-leaks)
+* [Hands-Off Deployment with Canary](https://developers.soundcloud.com/blog/hands-off-deployment-with-canary)
+* [Running Android UI Test Suites on Firebase Test Lab](https://developers.soundcloud.com/blog/running-android-ui-test-suites-on-firebase-test-lab)
+* [Automatic Stubbing of Network Requests to Deflakify Automation Testing](https://developers.soundcloud.com/blog/automatic-stubbing-of-network-requests-to-de-flakify-automation-testing)
+* [Alerting on SLOs like Pros](https://developers.soundcloud.com/blog/alerting-on-slos)
+* [Periskop: Exception Monitoring Service](https://developers.soundcloud.com/blog/periskop-exception-monitoring-service)
 
+#### Videos
+* [Continuous Integration at SoundCloud - Vincent Garrigues](https://www.youtube.com/watch?v=cJS08Kuu3zg&ab_channel=IstanbulTechTalks) | [Slides](https://speakerdeck.com/istanbultechtalks/itt-2015-vincent-garrigues-continuous-integration-at-soundcloud)
 </details>
 
 <details>
