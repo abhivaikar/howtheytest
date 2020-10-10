@@ -772,9 +772,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Running Android UI Test Suites on Firebase Test Lab](https://developers.soundcloud.com/blog/running-android-ui-test-suites-on-firebase-test-lab)
 * [Automatic Stubbing of Network Requests to Deflakify Automation Testing](https://developers.soundcloud.com/blog/automatic-stubbing-of-network-requests-to-de-flakify-automation-testing)
 * [Alerting on SLOs like Pros](https://developers.soundcloud.com/blog/alerting-on-slos)
+* [Periskop: Exception Monitoring Service](https://developers.soundcloud.com/blog/periskop-exception-monitoring-service)
 
 #### Videos
-* [Vincent Garrigues - Continuous Integration at SoundCloud](https://www.youtube.com/watch?v=cJS08Kuu3zg&ab_channel=IstanbulTechTalks) | [Slides](https://speakerdeck.com/istanbultechtalks/itt-2015-vincent-garrigues-continuous-integration-at-soundcloud)
+* [Continuous Integration at SoundCloud - Vincent Garrigues](https://www.youtube.com/watch?v=cJS08Kuu3zg&ab_channel=IstanbulTechTalks) | [Slides](https://speakerdeck.com/istanbultechtalks/itt-2015-vincent-garrigues-continuous-integration-at-soundcloud)
 </details>
 
 <details>
