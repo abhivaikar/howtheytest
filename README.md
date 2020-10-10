@@ -661,6 +661,7 @@ Happy Learning!
 * [Testing Netflix on Android](https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab)
 * [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198)
 * [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29)
+* [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c)
 
 #### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
@@ -935,6 +936,9 @@ Happy Learning!
 ## Contributors
 <a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
+</a>
+<a href="https://github.com/optimist2309/howtheytest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=optimist2309/howtheytest" />
 </a>
 
 ## Contribution
