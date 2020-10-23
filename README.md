@@ -691,6 +691,13 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>OutSystems</summary>
+  
+#### Blogs & Articles
+* [Way Beyond Testing: The Future of Quality is Smarter, Faster, Better](https://medium.com/@joaoneto_19612/way-beyond-testing-the-future-of-quality-is-smarter-faster-better-59a07429b01b)
+
+</details>
+<details>
   <summary>PayPal</summary>
 
 </details>
