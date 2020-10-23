@@ -696,6 +696,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [Way Beyond Testing: The Future of Quality is Smarter, Faster, Better](https://medium.com/@joaoneto_19612/way-beyond-testing-the-future-of-quality-is-smarter-faster-better-59a07429b01b)
 
+#### Videos
+* [What do you mean a Quality Owner?](https://www.youtube.com/watch?v=jlygHJIFjTA)
+
 </details>
 <details>
   <summary>PayPal</summary>
