@@ -693,7 +693,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 <details>
   <summary>Ninjavan</summary>
   
-**** Blogs & Articles
+#### Blogs & Articles
 * [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
 
 
