@@ -657,14 +657,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
-  <summary>Ninjavan</summary>
-  
-**** Blogs & Articles
-* [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
-
-
-</details>  
-<details>
   <summary>Netflix</summary>
   
 #### Blogs & Articles
@@ -697,6 +689,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Electric Eye](https://www.youtube.com/watch?v=uEQ3be0ss2A&feature=youtu.be&ab_channel=NetflixDevices)
 * [Measuring Perceptual Video Quality at Scale](https://www.youtube.com/watch?v=kEo2TrXm7F4&ab_channel=Demuxed)
 </details>
+
+<details>
+  <summary>Ninjavan</summary>
+  
+**** Blogs & Articles
+* [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
+
+
+</details>  
 
 <details>
   <summary>OutSystems</summary>
