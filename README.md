@@ -99,7 +99,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Finding balance as a Testing Specialist](https://medium.com/asos-techblog/finding-balance-as-a-testing-specialist-51f61d95b944)
 * [Continuous Testing in Customer Experience @ ASOS](https://medium.com/asos-techblog/continuous-testing-in-customer-experience-asos-d75b0f968bc9)
 * [Responsive website testing with Sizzy](https://medium.com/asos-techblog/responsive-website-testing-with-sizzy-bab1e0d7c5b6)
-* [Testing authorisation scenarios in ASP.NET Core Web APIs](https://medium.com/asos-techblog/testing-authorization-scenarios-in-asp-net-core-web-api-484bc95d5f6f)
+* [Testing authorization scenarios in ASP.NET Core Web APIs](https://medium.com/asos-techblog/testing-authorization-scenarios-in-asp-net-core-web-api-484bc95d5f6f)
 
 #### Videos
 [Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
