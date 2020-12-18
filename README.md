@@ -369,6 +369,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Rapid release at massive scale](https://engineering.fb.com/web/rapid-release-at-massive-scale/)
 * [Finding inter-procedural bugs at scale with Infer static analyzer](https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/)
 * [Zoncolan: How Facebook uses static analysis to detect and prevent security issues](https://engineering.fb.com/security/zoncolan/)
+* [How do you test you tests? An approach on probablistic flakiness score](https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/)
 
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
@@ -385,6 +386,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
+<details>
+  <summary>Figma</summary>
+ 
+ #### Blogs & Articles
+ * [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
+ * [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
+ 
+</details>
 <details>
   <summary>Flipkart</summary>
   
