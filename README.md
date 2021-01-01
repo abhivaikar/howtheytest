@@ -205,6 +205,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Spec to Gherkin to Code](https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa)
 * [Blackbox API Testing With Kotlin for RESTful Microservices](https://medium.com/capital-one-tech/blackbox-api-testing-with-kotlin-for-restful-microservices-183adc2b8088)
 * [Performance Testing of Event-Driven Microservices](https://medium.com/capital-one-tech/performance-testing-of-event-driven-microservices-f5de74305985)
+* [Software Quality Testing: Creating Quality Filtration Stacks](https://medium.com/capital-one-tech/software-quality-testing-creating-quality-filtration-stacks-capital-one-b841afa6d70c)
+* [Testcontainers & LocalStack for Spring Boot Functional Tests](https://medium.com/capital-one-tech/testcontainers-localstack-for-spring-boot-functional-tests-c4c8d06dae88)
 
 #### Videos
 
