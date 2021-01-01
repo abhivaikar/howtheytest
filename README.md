@@ -114,6 +114,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Moving from quality assurance to quality assistance](https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance)
 * [Developing quality assistance skills](https://www.atlassian.com/inside-atlassian/software-QA-skills)
 * [Quality Health Monitor: Gauging your team’s quality maturity](https://www.atlassian.com/inside-atlassian/quality-health-monitor)
+* [Automated testing: 5 lessons from Atlassian’s Kubernetes team on testing infrastructure as code](https://www.atlassian.com/engineering/automated-testing-5-lessons-from-atlassians-kubernetes-team-on-testing-infrastructure-as-code)
 
 #### Videos
 * [Meet the Atlassian QE team](https://www.youtube.com/watch?v=3IvRSrvGJ1g)
