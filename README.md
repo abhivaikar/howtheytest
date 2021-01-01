@@ -361,6 +361,9 @@ Happy Learning!
 * [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
 * [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
 * [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
+* [Everyone’s A Tester While ‘Mob Testing’](https://blog.gojekengineering.com/how-mob-testing-can-bootstrap-whole-team-quality-8f9bc8ae45a7)
+* [Good bug reports lead to great bug fixes](https://blog.gojekengineering.com/good-bug-reports-lead-to-great-bug-fixes-a9927cd43801)
+
 </details>
 
 <details>
