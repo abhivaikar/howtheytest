@@ -248,6 +248,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Deliveroo</summary>
+
+#### Blogs
+* [Testing Go services using interfaces](https://deliveroo.engineering/2019/05/17/testing-go-services-using-interfaces.html)
+* [Testing with Third Party Services in Go](https://deliveroo.engineering/2018/09/11/testing-with-third-parties-in-go.html)
+
+</details>
+
+<details>
   <summary>Dropbox</summary>
 
 #### Blogs & Articles
