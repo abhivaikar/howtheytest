@@ -1,10 +1,11 @@
-![](https://github.com/abhivaikar/howtheytest/blob/master/howtheytest-banner.png?raw=true)
-# How They Test
-> A collection of publicly available resources on how software companies in the world test their software systems and build their quality culture.
+# How They Test 
+[![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
+> A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
 
 ## Foreword
-One of the outcomes of the various [Taqelah](https://www.meetup.com/taqelah/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
+One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
 
 Apart from this, many companies regularly come forward and share their best practices, tools, techniques and culture of software testing on various public platforms like conferences, blogs & meetups. The resources are there but dispersed, lost into the internet.
 
@@ -13,6 +14,17 @@ There is no single knowledge repository that gives a direct look at these best p
 Happy Learning!
 
 *Please note, that all the resources mentioned here are publicly available resources.*
+
+## Kind of topics here
+Testing / quality of software goes beyond traditional activities of pre-release functional testing and test automation. Hence the kind of topics you can expect to read about here are:
+- Functional testing
+- Non-functional testing
+- Test automation
+- Testing in CI/CD
+- Release management
+- Process/culture
+- Testing in production (monitoring/observability, chaos engineering, site reliability engineering etc.)
+- Customer/User service or support
 
 ## Companies & how they test their software
 <details>
@@ -29,6 +41,7 @@ Happy Learning!
 * [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f)
 * [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd)
 * [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
+
 </details>
 
 <details>
@@ -51,6 +64,7 @@ Happy Learning!
 * [Large Scale Load Testing Amazon.com's Traffic on AWS](https://www.youtube.com/watch?v=pgnQQoTMBhI)
 * [Chaos Engineering on AWS](https://www.youtube.com/watch?v=B1nUzbuVEUs)
 * [Continuous Integration best practices for software development](https://www.youtube.com/watch?v=GEPJ7Lo346A)
+
 </details>
 
 <details>
@@ -66,6 +80,7 @@ Happy Learning!
 * [Engineering for Testability - WWDC](https://developer.apple.com/videos/play/wwdc2017/414/)
 * [What's new in testing - WWDC](https://developer.apple.com/videos/play/wwdc2018/403/)
 * [Testing tips & tricks - WWDC](https://developer.apple.com/videos/play/wwdc2018/417/)
+
 </details>
 
 <details>
@@ -88,12 +103,17 @@ Happy Learning!
 
 #### Videos
 [Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
+
 </details>
 
 <details>
   <summary>Atlassian</summary>
 
 #### Blogs & Articles
+* [Quality assistance: how Atlassian does QA](https://www.atlassian.com/inside-atlassian/qa)
+* [Moving from quality assurance to quality assistance](https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance)
+* [Developing quality assistance skills](https://www.atlassian.com/inside-atlassian/software-QA-skills)
+* [Quality Health Monitor: Gauging your team’s quality maturity](https://www.atlassian.com/inside-atlassian/quality-health-monitor)
 
 #### Videos
 * [Meet the Atlassian QE team](https://www.youtube.com/watch?v=3IvRSrvGJ1g)
@@ -113,6 +133,14 @@ Happy Learning!
 
 #### Videos
 * [Your Tests Aren't Flaky. GTAC 2015](https://www.youtube.com/watch?v=hmk1h40shaE&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=10), [Slides](https://docs.google.com/presentation/d/1L9hGYqCAgjZyXE9ch4Toh4ziuYYkB2OiMCdFpgfTko0/pub)
+
+</details>
+
+<details>
+  <summary>Basecamp</summary>
+
+#### Videos
+* [Testing without test damage or excessive isolation](https://www.youtube.com/watch?v=5hN6OZDyQtk)
 
 </details>
 
@@ -138,7 +166,7 @@ Happy Learning!
 * [Testing BBC iPlayer Release For Android Downloads](https://www.bbc.co.uk/blogs/internet/entries/67c6f28f-3742-3725-9efa-10107857d5e8)
 * [Testing for BBC Online: The creation of the POD Test Group](https://www.bbc.co.uk/blogs/internet/entries/a1d07db6-64bb-3225-966a-304405b06349)
 
-#### Vidoes
+#### Videos
 * [BBC College of Technology: Develop conference videos](https://www.bbc.co.uk/blogs/internet/entries/25e3af59-ccd9-45af-85ae-7059a797c3e1)
 * [GTAC 2016: Scale vs Value: Test Automation at the BBC, GTAC 2016](https://youtu.be/MkPHntWZAPc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p497)
 
@@ -160,12 +188,14 @@ Happy Learning!
 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
+
 </details>
 
 <details>
   <summary>CapitalOne</summary>
 
 #### Blogs and Articles
+* [Improvement and Parallelization of Android Automation Testing](https://medium.com/capital-one-tech/improvement-and-parallelization-of-android-automation-testing-capital-one-a05d10cae5b6)
 * [9 Things I Wish I Knew About Automated Software Testing Before I Started My Career](https://medium.com/capital-one-tech/9-things-i-wish-i-knew-about-automated-software-testing-before-i-started-my-career-69d2301d6b92)
 * [Improve Java Code Coverage and Quality with Unit Tests and JaCoCo](https://medium.com/capital-one-tech/improve-java-code-with-unit-tests-and-jacoco-b342643736ed)
 * [Learning To Love Automated Testing](https://medium.com/capital-one-tech/automated-tests-that-saved-me-2d38b7cb265b)
@@ -186,10 +216,32 @@ Happy Learning!
 <details>
   <summary>Carousell</summary>
 
-#### Blogs
+#### Blogs & Articles
 * [Prabhagharan DK : Building our inhouse virtual device lab "caroufarm"](https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b)
 * [Martin Schneider : Automated end-to-end tests and how they fit into our testing culture](https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26)
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
+
+#### Videos
+* [HUSTEF 2019 - Syam SASI & Martin SCHNEIDER - Building a scalable device lab with Ansible](https://www.youtube.com/watch?v=ntRd0tiMZdE)
+* [Carousell's automation journey with BrowserStack](https://www.youtube.com/watch?v=hRO5Hg-cRz8)
+
+</details>
+
+<details>
+  <summary>Disney+ Hotstar</summary>
+
+#### Blogs & Articles
+* [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b)
+
+</details>
+
+<details>
+  <summary>Dollar Shave Club</summary>
+
+#### Blogs
+* [How Dollar Shave Club 3x'd velocity and learned to love their tests](https://circleci.com/blog/how-dollar-shave-club-3x-d-velocity-and-learned-love-tests)
+* [QA Environments on Demand with Kubernetes](https://engineering.dollarshaveclub.com/qa-environments-on-demand-with-kubernetes-5a571b4e273c)
+
 </details>
 
 <details>
@@ -204,11 +256,13 @@ Happy Learning!
 * [Finding Kafka’s throughput limit in Dropbox infrastructure](https://dropbox.tech/infrastructure/finding-kafkas-throughput-limit-in-dropbox-infrastructure)
 * [Athena: Our automated build health management system](https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system)
 * [The Programmer Mindset: Main Debug Loop](https://dropbox.tech/frontend/the-programmer-mindset-main-debug-loop)
+* [Testing sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine)
 
 #### Videos
 * [Integration testing with Bazel](https://www.youtube.com/watch?v=muvU1DYrY0w)
 * [Virtualizing Mac Infrastructure at Scale: A CI Case Study with Dropbox and MacStadium](https://www.youtube.com/watch?v=oBVB0Tc_drM)
 * [GTAC 2014: Scalable Continuous Integration - Using Open Source](http://www.youtube.com/watch?v=eax-t5LBJiY&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/dzoYNC)
+
 </details>
 
 <details>
@@ -232,6 +286,8 @@ Happy Learning!
 * [Validating Hadoop Platform Releases](https://tech.ebayinc.com/engineering/validating-hadoop-platform-releases/)
 * [Finding Usability Bugs with Automated Tests](https://queue.acm.org/detail.cfm?id=1925091)
 * [100% test coverage is not enough](https://ebaytech.berlin/100-percent-test-coverage-is-not-enough-3d733551bc3f)
+* [Ensuring Software Quality at eBay Denmark](https://www.infoq.com/news/2020/08/software-quality-ebay-denmark/)
+* [Software Quality: Elevating the Game](https://tech.ebayinc.com/engineering/software-quality-elevating-the-game/)
 
 #### Videos
 * [Lightning talk at Selenium Conf about their test automation framework Breeze](https://youtu.be/RwiF4eCqiI0?t=18)
@@ -241,19 +297,31 @@ Happy Learning!
 * [Test Automation - 10 (sometimes painful) Lessons Learned](https://www.youtube.com/watch?v=tJ0O8p5PajQ)
 * [Parallizing UI tests on iOS](https://www.youtube.com/watch?v=-JMMujEaqvs)
 * [Bingsheng Ru — How to build Automation Test as a Service for large-scale e-commerce website](https://www.youtube.com/watch?v=53CBISohOWc)
+* [How we build & test software at eBay DE](https://www.youtube.com/watch?v=RhTBOl61QyI)
+</details>
+
+<details>
+  <summary>Elsevier</summary>
+
+#### Blogs & Articles
+* [Quality Engineering at Elsevier](https://www.linkedin.com/pulse/quality-engineering-elsevier-thomas-goodman)
+
 </details>
 
 <details>
   <summary>Etsy</summary>
 
+#### Handbook
+* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)  
+
 #### Blogs & Articles
 * [Culture of Quality: Measuring Code Coverage at Etsy](https://codeascraft.com/2018/02/15/culture-of-quality-measuring-code-coverage-at-etsy/)
 * [Quality Matters: The Benefits of QA-Focused Retros](https://codeascraft.com/2016/02/08/quality-matters-the-benefits-of-qa-focused-retros/)
-* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)
 * [Divide and Concur](https://codeascraft.com/2011/04/20/divide-and-concur/)
 * [Etsy’s Journey to Continuous Integration for Mobile Apps](https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/)
 * [Etsy’s Device Lab](https://codeascraft.com/2013/08/09/mobile-device-lab/)
 * [What’s the value of transparency in testing and deployment?, Increment Magazine](https://increment.com/testing/ask-an-expert-transparency-testing/)
+* [Mutation Testing: A Tale of Two Suites](https://codeascraft.com/2020/08/17/mutation-testing-a-tale-of-two-suites/)
 
 </details>
 
@@ -278,6 +346,7 @@ Happy Learning!
 * [Mobile Automation in Continuous Delivery Pipeline](https://www.youtube.com/watch?v=NWDByCVThfE)
 * [Distributed Automation Using Selenium Grid / AWS / Autoscaling](https://www.youtube.com/watch?v=cbIfU1fvGeo)
 * [AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing](https://www.youtube.com/watch?v=jihhLckop6A)
+
 </details>
 
 <details>
@@ -300,6 +369,7 @@ Happy Learning!
 * [Rapid release at massive scale](https://engineering.fb.com/web/rapid-release-at-massive-scale/)
 * [Finding inter-procedural bugs at scale with Infer static analyzer](https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/)
 * [Zoncolan: How Facebook uses static analysis to detect and prevent security issues](https://engineering.fb.com/security/zoncolan/)
+* [How do you test you tests? An approach on probablistic flakiness score](https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/)
 
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
@@ -317,35 +387,66 @@ Happy Learning!
 </details>
 
 <details>
-  <summary>Flipkart</summary>
-
+  <summary>Figma</summary>
+ 
+ #### Blogs & Articles
+ * [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
+ * [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
+ 
 </details>
-
 <details>
-  <summary>Intel</summary>
-
-#### Videos
-* [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
-* [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
-* [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
-
+  <summary>Flipkart</summary>
+  
+#### Blogs & Articles
+* [Astra — Automated Security Testing for REST API’s](https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9)
 </details>
 
 <details>
   <summary>GitHub</summary>
 
+#### Blogs & Articles
+* [How GitHub uses automated testing to empower developers to write less](https://ben.balter.com/2015/09/10/blog-style-tests/)
+* [MySQL infrastructure testing automation at GitHub](https://github.blog/2017-07-06-mysql-testing-automation-at-github/)
+* [octocatalog-diff: GitHub’s Puppet development and testing tool](https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/)
+* [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/)
+
+#### Videos
+* [The elusive quest to measure developer productivity](https://www.youtube.com/watch?v=cRJZldsHS3c)
 </details>
 
 <details>
   <summary>GitLab</summary>
 
-#### Blogs and Articles
-
-* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
+#### Handbook
 * [Quality Department Handbook](https://about.gitlab.com/handbook/engineering/quality/)
+
+#### Blogs and Articles
+* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
 * [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
 * [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
 * [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
+* [How recent acquisitions introduce fuzz testing to GitLab](https://about.gitlab.com/blog/2020/07/17/fuzz-testing/)
+* [How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts](https://about.gitlab.com/blog/2020/09/03/risk-mapping/)
+
+</details>
+
+<details>
+  <summary>GoDaddy</summary>
+
+#### Blogs & Articles
+* [Move over Selenium - UI Testing with Cypress](https://sg.godaddy.com/engineering/2018/11/06/cypress-vs-selenium/)
+* [Mocking SOAP APIs in functional tests using Nock](https://sg.godaddy.com/engineering/2018/10/02/mocking-soap-apis-in-functional-tests-using-nock/)
+* [React Native Application UI testing using WebDriverIO and Appium](https://sg.godaddy.com/engineering/2018/07/09/react-native-wdio/)
+
+</details>
+
+<details>
+  <summary>Goibibo</summary>
+
+#### Blogs & Articles
+* [Let’s take it live!](https://tech.goibibo.com/lets-take-it-live-e1639699e160)
+* [RENDEZVOUS WITH Goibibo](https://tech.goibibo.com/rendezvous-with-goibibo-392cc8f385e9)
+* [Mr. Postman for Integration Testing](https://tech.goibibo.com/mr-postman-for-integration-testing-879a4031f916)
 
 </details>
 
@@ -361,6 +462,7 @@ Happy Learning!
 * [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
 * [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
 * [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
+* [Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.](https://blog.gojekengineering.com/golang-integration-testing-made-easy-a834e754fa4c)
 * [Everyone’s A Tester While ‘Mob Testing’](https://blog.gojekengineering.com/how-mob-testing-can-bootstrap-whole-team-quality-8f9bc8ae45a7)
 * [Good bug reports lead to great bug fixes](https://blog.gojekengineering.com/good-bug-reports-lead-to-great-bug-fixes-a9927cd43801)
 
@@ -370,8 +472,12 @@ Happy Learning!
   <summary>Google</summary>
 
 #### Books
+<<<<<<< HEAD
 * [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slightly outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
 
+=======
+* [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slighlty outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
+>>>>>>> master
 * [How Google Tests Software - Part One](https://testing.googleblog.com/2011/01/how-google-tests-software.html)
 * [How Google Tests Software - Part Two](https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html)
 * [How Google Tests Software - Part Three](https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html)
@@ -424,12 +530,52 @@ Happy Learning!
 <details>
   <summary>Grab</summary>
 
+#### Blogs & Articles
+* [Marionette - Enabling E2E user-scenario simulation](https://engineering.grab.com/marionette-enabling-e2e-user-scenario-simulation)
+</details>
+
+<details>
+  <summary>Helpshift</summary>
+
+#### Videos
+* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
+* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
+
+#### Blogs & Articles
+* [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
+* [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
+* [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
+* [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
+* [On the testability of Ring Middleware in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a)
+
+</details>
+
+<details>
+  <summary>Instacart</summary>
+
+#### Blogs & Articles
+* [Measuring software quality at scale](https://tech.instacart.com/understanding-software-quality-at-scale-79ebb25cb3ac)
+
+#### Videos
+* [Measuring software quality at Instacart - Dash 2020](https://www.youtube.com/watch?v=EQ0QD4-E84s&ab_channel=Datadog)
+
+</details>
+
+<details>
+  <summary>Intel</summary>
+
+#### Videos
+* [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
+* [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
+* [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
+
 </details>
 
 <details>
   <summary>LinkedIn</summary>
 
 #### Blogs & Articles
+* [LinkedIn’s approach to automated accessibility (A11y) testing](https://engineering.linkedin.com/blog/2020/automated-accessibility-testing)
 * [Quality Control - LinkedIn's Testing Methodology](https://engineering.linkedin.com/testing/quality-control-linkedins-testing-methodology)
 * [iOS: Test Pyramid](https://engineering.linkedin.com/blog/2016/11/ios--test-pyramid)
 * [Writing Maintainable Integration Tests](https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests)
@@ -441,6 +587,7 @@ Happy Learning!
 * [The testing lifecycle at LinkedIn](https://engineering.linkedin.com/41/testing-lifecycle-linkedin)
 * [Testing Frontier, LinkedIn's Web Framework](https://engineering.linkedin.com/37/testing-frontier-linkedins-web-framework)
 
+
 #### Videos
 * [Testing in production at LinkedIn - Szczepan Faber](https://www.youtube.com/watch?v=lbO6INBICpQ)
 * [GTAC 2015: Mock the Internet](https://www.youtube.com/watch?v=6gPNrujpmn0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=20)
@@ -451,7 +598,7 @@ Happy Learning!
   <summary>Mailchimp</summary>
 
 #### Blogs & Articles
-*[Designing automated tests for React, Increment Magazine](https://increment.com/testing/designing-automated-tests-for-react/)
+* [Designing automated tests for React, Increment Magazine](https://increment.com/testing/designing-automated-tests-for-react/)
 </details>
 
 <details>
@@ -474,6 +621,15 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Miro</summary>
+
+#### Blogs & Articles
+* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42)
+* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699)
+* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) 
+</details>
+
+<details>
   <summary>Monese</summary>
 
 #### Blogs & Articles
@@ -493,6 +649,9 @@ Happy Learning!
 
 <details>
   <summary>Mozilla</summary>
+
+#### Handbook
+* [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
   
 #### Blogs & Articles
 * [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
@@ -516,14 +675,57 @@ Happy Learning!
 
 <details>
   <summary>Netflix</summary>
+  
+#### Blogs & Articles
+* [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
+* [Automation as a Service — Introducing Scriptflask](https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b)
+* [Automated testing on devices](https://netflixtechblog.com/automated-testing-on-devices-fc5a39f47e24)
+* [Product Integration Testing at the Speed of Netflix](https://netflixtechblog.com/product-integration-testing-at-the-speed-of-netflix-72e4117734a7)
+* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
+* [Announcing Electric Eye](https://netflixtechblog.com/announcing-electric-eye-2bb8ffcf9b1b)
+* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
+* [NTS: Real-time Streaming for Test Automation](https://netflixtechblog.com/nts-real-time-streaming-for-test-automation-7cb000e933a1)
+* [FIT: Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
+* [Testing Netflix on Android](https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab)
+* [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198)
+* [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29)
+* [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c)
 
-#### Vidoes
+#### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](http://www.youtube.com/watch?v=xkP70Zhhix4&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/7PNKA7)
 * [GTAC 2013: When Bad Things Happen to Good Applications...](http://www.youtube.com/watch?v=zBEtAOEy360&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/8epF0)
-
+* [Design Testing at Netflix](https://www.youtube.com/watch?v=-Gy8TnoXZf8)
+* [Testing In Production, The Netflix Way](https://www.youtube.com/watch?v=3WRVgC8SiGc)
+* [Test Automation at Scale](https://www.youtube.com/watch?v=FrBN94gUn_I&ab_channel=NetflixDevices)
+* [Evolution of Payments Testing at Netflix](https://www.youtube.com/watch?v=x4vLS8WWqIE&feature=youtu.be&ab_channel=ByronLam)
+* [Test Selection: Heuristics and Machine Learning](https://www.youtube.com/watch?v=l7-8_0A9IF8&feature=youtu.be&ab_channel=NetflixDevices)
+* [The Automation before pressing Play](https://www.youtube.com/watch?v=AGEXxB-nWMw&feature=youtu.be&ab_channel=NetflixDevices)
+* [Applying Failure Testing Research @Netflix](https://www.youtube.com/watch?v=a3mHQCkr-4I&feature=youtu.be&ab_channel=InfoQ)
+* [Getting Netflix on a Variety of Devices](https://www.youtube.com/watch?v=JI6qew26wi8&feature=youtu.be&ab_channel=NetflixDevices)
+* [Electric Eye](https://www.youtube.com/watch?v=uEQ3be0ss2A&feature=youtu.be&ab_channel=NetflixDevices)
+* [Measuring Perceptual Video Quality at Scale](https://www.youtube.com/watch?v=kEo2TrXm7F4&ab_channel=Demuxed)
 </details>
 
+<details>
+  <summary>Ninjavan</summary>
+  
+#### Blogs & Articles
+* [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
+
+
+</details>  
+
+<details>
+  <summary>OutSystems</summary>
+  
+#### Blogs & Articles
+* [Way Beyond Testing: The Future of Quality is Smarter, Faster, Better](https://medium.com/@joaoneto_19612/way-beyond-testing-the-future-of-quality-is-smarter-faster-better-59a07429b01b)
+
+#### Videos
+* [What do you mean a Quality Owner?](https://www.youtube.com/watch?v=jlygHJIFjTA)
+
+</details>
 <details>
   <summary>PayPal</summary>
 
@@ -535,23 +737,129 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Salesforce</summary>
+
+#### Blogs & Articles
+* [Automating Complex End-to-End Tests](https://engineering.salesforce.com/automating-complex-end-to-end-tests-b0a5fc003592)
+</details>
+
+<details>
+  <summary>Shazam</summary>
+
+#### Blogs & Articles
+* [Shazam on iOS: UI testing + Shazam Pro User Tip](https://medium.com/@kardakov/shazam-on-ios-ui-testing-shazam-pro-user-tip-8347a9ed66a5)
+* [A Kotlin DSL for Acceptance Tests](https://medium.com/@edwardharks/a-kotlin-dsl-for-acceptance-tests-8a825388879e)
+* [CI at Shazam](https://speakerdeck.com/edwardfrancesco/ci-at-shazam-a-quest-for-shipping-high-quality-code)
+
+#### Videos
+* [Keeping 100+ million users happy: how we test Shazam on Android](https://www.youtube.com/watch?v=xgjYSf8pjVg)
+* [3 years of backend testing at Shazam - the stuff we got wrong](https://www.youtube.com/watch?v=9kWslvOpQfw)
+
+</details>  
+
+<details>
   <summary>Shopify</summary>
+
+#### Blogs & Articles
+* [Webhook testing made easy](https://engineering.shopify.com/blogs/engineering/17488436-webhook-testing-made-easy)
+* [The Unreasonable Effectiveness of Test Retries: An Android Monorepo Case Study](https://engineering.shopify.com/blogs/engineering/unreasonable-effectiveness-test-retries-android-monorepo-case-study)
+* [iOS Application Testing Strategies at Shopify](https://engineering.shopify.com/blogs/engineering/ios-application-testing-strategies-at-shopify)
+* [Building and Testing Resilient Ruby on Rails Applications](https://engineering.shopify.com/blogs/engineering/building-and-testing-resilient-ruby-on-rails-applications)
+* [Four Steps to Creating Effective Game Day Tests](https://engineering.shopify.com/blogs/engineering/four-steps-creating-effective-game-day-tests)
+* [Mobile Tophatting at Shopify](https://engineering.shopify.com/blogs/engineering/mobile-tophatting-at-shopify-1)
+* [Great Code Reviews—The Superpower Your Team Needs](https://engineering.shopify.com/blogs/engineering/great-code-reviews)
+* [Mobile Release Engineering at Scale with Shipit Mobile](https://engineering.shopify.com/blogs/engineering/mobile-release-engineering-scale-shipit-mobile)
+* [Software Release Culture at Shopify](https://engineering.shopify.com/blogs/engineering/software-release-culture-shopify)
+
+#### Videos
+* [Scaling R&D to thousands of people without dedicated QA - Adam Archer (Shopify)](https://youtu.be/O3JpS_kvP0g)
+* [Chat Ops and Developer Productivity [John Arthorne, Shopify]](https://youtu.be/pJpWUgJwkrg)
+* [Resiliency Testing with Toxiproxy](https://youtu.be/XMj8BmNZD4c)
+* [ChatOps at Shopify: Inviting Bots in Our Day-to-Day Operations](https://youtu.be/tR31klRieU0)
+* [Testing Rails at Scale by Emil Stolarsky](https://youtu.be/zWR477ypEsc)
 
 </details>
 
 <details>
-  <summary>Soundcloud</summary>
+  <summary>Slack</summary>
+  
+#### Blogs & Articles
+* [Everything You Need to Know About How Slack Approaches Accessibility Testing](https://www.3playmedia.com/2019/08/12/slack-approaches-accessibility-testing/)
+* [Android UI Automation: Part 1, Building Trust](https://slack.engineering/android-ui-automation-part-1-building-trust-de3deb1c5995)
+* [Android UI Automation: Part 2, Making It Easy](https://slack.engineering/android-ui-automation-part-2-making-it-easy-57335c7379cc)
+* [Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing](https://slack.engineering/%EF%B8%8F-surfs-up-preparing-for-huge-waves-of-traffic-via-load-testing-62b64da15ffc)
+* [How About Code Reviews?](https://slack.engineering/how-about-code-reviews-2695fb10d034)
+* [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
+* [Disasterpiece Theater: Slack’s process for approachable Chaos Engineering](https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54)
+* [Scaling End-to-End User Interface Tests](https://slack.engineering/scaling-end-to-end-user-interface-tests/)
 
+#### Videos
+* [UI testing is so easy - said no developer ever - Valera Zakharov, Kevin Lai](https://www.youtube.com/watch?v=SkkO6x6LhCQ)
+* [Mobile performance testing at Slack – Valera Zakharov](https://www.youtube.com/watch?v=xKMIGN1WHgo)
+* ["Better Integration Tests for Performance Monitoring" by Maude Lemaire](https://www.youtube.com/watch?v=j0PJhD5XNJ8)
+* [Valera Zakharov: Testing](https://www.youtube.com/watch?v=fySCosLQQws)
+</details>
+<details>
+  <summary>Soundcloud</summary>
+  
+#### Blogs & Articles
+* [Release Quality and Mobile Trains](https://developers.soundcloud.com/blog/quality-mobile-trains)
+* [Integration Testing for Memory Leaks](https://developers.soundcloud.com/blog/integration-testing-for-memory-leaks)
+* [Hands-Off Deployment with Canary](https://developers.soundcloud.com/blog/hands-off-deployment-with-canary)
+* [Running Android UI Test Suites on Firebase Test Lab](https://developers.soundcloud.com/blog/running-android-ui-test-suites-on-firebase-test-lab)
+* [Automatic Stubbing of Network Requests to Deflakify Automation Testing](https://developers.soundcloud.com/blog/automatic-stubbing-of-network-requests-to-de-flakify-automation-testing)
+* [Alerting on SLOs like Pros](https://developers.soundcloud.com/blog/alerting-on-slos)
+* [Periskop: Exception Monitoring Service](https://developers.soundcloud.com/blog/periskop-exception-monitoring-service)
+
+#### Videos
+* [Continuous Integration at SoundCloud - Vincent Garrigues](https://www.youtube.com/watch?v=cJS08Kuu3zg&ab_channel=IstanbulTechTalks) | [Slides](https://speakerdeck.com/istanbultechtalks/itt-2015-vincent-garrigues-continuous-integration-at-soundcloud)
 </details>
 
 <details>
   <summary>Spotify</summary>
 
+#### Blogs & Articles
+* [Test Flakiness – Methods for identifying and dealing with flaky tests](https://engineering.atspotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/)
+* [Testing of Microservices](https://engineering.atspotify.com/2018/01/11/testing-of-microservices/)
+* [Generating test cases so you don’t have to](https://engineering.atspotify.com/2015/06/25/rapid-check/)
+* [Test Strategies and Spotify – Kristian Karl](https://www.thepercept.com/test-strategies-spotify-kristian-karl/)
+* [How to Build a QA Strategy Like Spotify](https://www.rainforestqa.com/blog/2018-04-20-how-to-build-qa-strategy-like-spotify)
+* [How Spotify does test automation](https://www.slideshare.net/SmartBear_Software/how-spotify-does-test-management-kristian-karl)
+* [Model Based Testing at Spotify](https://www.cs.tut.fi/tapahtumat/testaus12/kalvot/Karl_ta.pdf)
+* [How We Improved Developer Productivity for Our DevOps Teams](https://engineering.atspotify.com/2020/08/27/how-we-improved-developer-productivity-for-our-devops-teams/)
+
+#### Videos
+* [Spotify Model Based Testing - Kristian Karl](https://www.youtube.com/watch?v=psOThLDKOFc)
+* [Experiences Of Test Automation At Spotify - Kristian Karl](https://www.youtube.com/watch?v=Vlw-4q8lnIw)
+* [Scaling Android Application Testing at Spotify - Sean Kenny](https://www.youtube.com/watch?v=Br7yPblkQnI)
+* [How Spotify Does Testing for Mobile - Sean Kenny](https://www.youtube.com/watch?v=69Ea4WyFNyQ)
+* [Test flakiness - Methods for dealing with flaky tests - Jason Palmer](https://www.youtube.com/watch?v=38pW08_nY_k)
+* [Applying Testing Mindset to Software Development - Andrew Dzynia](https://www.youtube.com/watch?v=RPshbKHe3NE). | [Slides](https://www.slideshare.net/AndrewDzynia/applying-testing-mindset-to-software-development)
 </details>
 
 <details>
+  <summary>Squarespace</summary>
+
+#### Blogs & Articles
+* [Engineering a Better Working Group](https://engineering.squarespace.com/blog/2020/engineering-a-better-working-group)
+* [Turbocharging Our UI Tests](https://engineering.squarespace.com/blog/2016/turbocharging-our-ui-tests)
+* [UI Testing at Squarespace: Part I](https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-i)
+* [UI Testing at Squarespace: Part II](https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-ii)
+* [Six Attributes of Beautiful Systems](https://engineering.squarespace.com/blog/2018/six-attributes-of-beautiful-systems)
+* [Under the Hood: Ensuring Site Reliability](https://engineering.squarespace.com/blog/2017/under-the-hood-ensuring-site-reliability)
+* [Continuous Localization at Squarespace](https://engineering.squarespace.com/blog/2018/continuous-localization-at-squarespace)
+* [Creating a Code Review Culture, Part 1: Organizations and Authors](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1)
+* [Creating a Code Review Culture, Part 2: Code Reviewers](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2)
+
+</details>  
+<details>
   <summary>Stripe</summary>
 
+#### Blogs & Articles
+* [Running three hours of Ruby tests in under three minutes](https://stripe.com/blog/distributed-ruby-testing)
+* [Game Day Exercises at Stripe - Learning from `kill -9`](https://stripe.com/blog/game-day-exercises-at-stripe)
+* [Fast and flexible observability with canonical log lines](https://stripe.com/blog/canonical-log-lines)
+* [Learning to operate Kubernetes reliably](https://stripe.com/blog/operating-kubernetes)
 </details>
 
 <details>
@@ -571,11 +879,23 @@ Happy Learning!
 </details>
 
 <details>
+  <summary>Trivago</summary>
+
+#### Blogs
+* [Building fast and reliable web applications](https://tech.trivago.com/2018/10/12/building-fast-and-reliable-web-applications)
+* [Cucable Maven plugin for parallel execution of Cucumber scenarios](https://tech.trivago.com/2017/06/30/cucable-maven-plugin-for-parallel-execution-of-cucumber-scenarios)
+* [Creating a Culture of Quality](https://tech.trivago.com/2015/08/31/culture_of_quality)
+* [Elasticsearch and Kibana for Selenium Automation](https://tech.trivago.com/2015/12/02/selenium_with_kibana)
+
+</details>
+
+<details>
   <summary>Twitter</summary>
 
 #### Vidoes
 * [GTAC 2015: Hands Off Regression Testing](https://www.youtube.com/watch?v=2zjhKmV0UFA&index=12&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1KITWbK46rm-lDZce_SqxegHTPjc9Ez-broxDTpfBpK8/pub)
 * [GTAC 2013: Testing Systems at Scale @Twitter](http://www.youtube.com/watch?v=99RABfKNfcY&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/9VY2b)
+* [Testing for products with a microservice architecture - Building an agnostic test framework](https://www.youtube.com/watch?v=lN5bc0coO3k&feature=emb_title&ab_channel=BrowserStack)
 </details>
 
 
@@ -583,11 +903,33 @@ Happy Learning!
   <summary>Uber</summary>
 
 #### Videos
-
 * [GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing](https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3), [Slides](https://docs.google.com/presentation/d/1vYXhkvgLKun72Ix91LQDDWZQdcY5VOBqKVvI1Y6riYo/pub)
+* [Using the Octopus Framework - Jeff Hu](https://www.youtube.com/watch?v=80wc8gWebrk&ab_channel=Touchlab)
+* [Inside Uber's secret self-driving car testing facility](https://www.youtube.com/watch?v=SnR2449jFV8&ab_channel=CBSThisMorning)
+* [Ludwig: A Toolbox for Training and Testing Deep Learning Models without Writing Code](https://www.youtube.com/watch?v=OGweVw57kus&ab_channel=UberEngineering)
+* [Chaos Engineering @ Uber -- Dianne Laguerta](https://www.youtube.com/watch?v=ywSAwYsIk8k&ab_channel=UberEngineering)
+* [Observability infra @ Uber](https://youtu.be/nO8AYhEok1c?t=703)
+
+
+#### Blogs & Articles
+* [Octopus to the Rescue: the Fascinating World of Inter-App Communications at Uber Engineering](https://eng.uber.com/rescued-by-octopus/)
+* [Introducing Hypothesis GU Funcs, an Open Source Python Package for Unit Testing](https://eng.uber.com/hypothesis-gu-funcs-unit-testing/)
+* [Best Practices for Unit Testing in React Version 16](https://eng.uber.com/best-practices-for-react-v16/)
+* [Monitoring Data Quality at Scale with Statistical Modeling](https://eng.uber.com/monitoring-data-quality-at-scale/)
+* [Introducing Piranha: An Open Source Tool to Automatically Delete Stale Code](https://eng.uber.com/piranha/)
 
 </details>
 
+<details>
+  <summary>Veracode</summary>
+
+#### Handbook
+* [Test Lean and Ship Healthy: A Handbook on Delivering High Quality Software in the DevOps World](https://srcclr.github.io/test-lean/)
+
+#### Videos
+* [Test Lean and Ship Healthy: Delivering High Quality Software in the DevOps World](https://www.youtube.com/watch?v=sqtmcYKpy-A)
+
+</details>  
 <details>
   <summary>WalmartLabs</summary>
 
@@ -600,12 +942,69 @@ Happy Learning!
 
 </details>
 
+<details>
+  <summary>Wikimedia</summary>
+
+#### Handbook
+* [Wikimedia Quality Handbook](https://www.mediawiki.org/wiki/Quality_Assurance)
+
+</details>
+
+<details>
+  <summary>Wix</summary>
+
+#### Blogs & Articles
+* [Software Developers, Communicate Your Intentions (TLDR: do it using tests)](https://www.wix.engineering/post/software-developers-communicate-your-intentions-tldr-do-it-using-tests)
+* [Meet Raven TestKit: Wix Engineering's Open Source Tool to Test Sentry Reports](https://www.wix.engineering/post/meet-raven-testkit-wix-engineering-s-open-source-tool-to-test-sentry-reports-1)
+* [How to Test Your Redux App](https://www.wix.engineering/post/how-to-test-your-redux-app)
+* [Testing Asynchronous Code](https://www.wix.engineering/post/testing-asynchronous-code)
+* [How to integrate 3rd Party APIs without Fear](https://medium.com/wix-engineering/how-to-integrate-3rd-party-apis-without-fear-part-1-a3dd4bf42cd6)
+* [Keep Your Tests Clean and Isolated with a Context](https://medium.com/wix-engineering/keep-your-tests-clean-and-isolated-with-a-context-258b31fe5cec)
+* [Asynchronous Sad Path Testing in React Using Jest and The Driver Pattern](https://medium.com/wix-engineering/asynchronous-sad-path-testing-in-react-using-jest-and-the-driver-pattern-84ad61d09b40)
+* [Keep your tests clean, by refactoring](https://medium.com/wix-engineering/https-medium-com-gavinrifkind-keep-your-tests-clean-by-refactoring-fd0310a103ed)
+* [Functional Testing with Tagless-Final](https://medium.com/wix-engineering/functional-testing-with-tagless-final-50eeacf5df6)
+* [Overestimated value of test documentation](https://medium.com/wix-engineering/overestimated-value-of-test-documentation-739dcf8ee85a)
+* [Testing Metrics: Are You Really Sure about the Quality of Your Product?](https://medium.com/wix-engineering/testing-metrics-are-you-really-sure-about-the-quality-of-your-product-8a5ef37ec3d4)
+* [Integration Tests in JavaScript That Don’t Suck](https://www.wix.engineering/post/integration-tests-in-javascript-that-don-t-suck)
+* [Building and Open-Sourcing Wix’s A/B Testing System](https://www.wix.engineering/post/building-and-open-sourcing-wix-s-a-b-testing-system)
+
+#### Videos
+* [The Price of TDD is Eternal Vigilance](https://youtu.be/lICpnTc5eQ8)
+* [Clean Tests](https://youtu.be/OD3lOVNGRDs)
+* [Testing with Protractor](https://youtu.be/iZjjb2xS-Ww)
+* [To Test or Not To Test?](https://youtu.be/wxd30bVd5x4)
+* [Screenshots in Automated Testing: When? How? Why?](https://youtu.be/voTJTi1Z_CA)
+* [Driving to UI Test Heaven](https://youtu.be/iqgIyOKISW4)
+* [Detox: tackling the flakiness of mobile automation](https://youtu.be/4rU0IGEt6OQ)
+* [Testing For Performance](https://youtu.be/T1Zuad-Mkg0)
+* [Detox: Graybox End to End Tests and Automation Library for Mobile Apps](https://youtu.be/qiRJT5Eig3g)
+* [TDD for the Curious](https://youtu.be/dOlkgAFlNxs)
+* [E2E testing with Javascript](https://youtu.be/Co6LKJPpxAM)
+* [Intro to TDD](https://youtu.be/Zf9O1FvPw1s)
+* [Meaningful Code Reviews](https://youtu.be/cALG01i6CkQ)
+* [E2E testing with Javascript](https://youtu.be/Co6LKJPpxAM)
+* [TDD: Discover Implementation by Stepping Small](https://youtu.be/EuXmP2uM-Wk)
+
+#### git
+* [Wix HTTP Testkit](https://github.com/wix/wix-http-testkit)
+
+
+</details>
+
+## Contributors
+<a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
+</a>
+
 ## Contribution
 Want to contribute? Just fork and raise a PR!
 
 ## Credits
 - Images in banner used from https://undraw.co/
 - Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
+- Static site powered by [docsify](https://docsify.js.org/).
+- Contributors list generated using [contributors-img](https://contributors-img.web.app/preview)
+- All the authors and the companies they represented in the resources.
 
 ## Code of Conduct
 Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
