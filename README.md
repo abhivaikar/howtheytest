@@ -475,20 +475,22 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
 * [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
 * [Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.](https://blog.gojekengineering.com/golang-integration-testing-made-easy-a834e754fa4c)
+* [Everyone’s A Tester While ‘Mob Testing’](https://blog.gojekengineering.com/how-mob-testing-can-bootstrap-whole-team-quality-8f9bc8ae45a7)
+* [Good bug reports lead to great bug fixes](https://blog.gojekengineering.com/good-bug-reports-lead-to-great-bug-fixes-a9927cd43801)
 </details>
 
 <details>
   <summary>Google</summary>
 
 #### Books
-* [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slighlty outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
-* [How Google Tests Software - Part One](https://testing.googleblog.com/2011/01/how-google-tests-software.html)
-* [How Google Tests Software - Part Two](https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html)
-* [How Google Tests Software - Part Three](https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html)
-* [How Google Tests Software - Part Four](https://testing.googleblog.com/2011/03/how-google-tests-software-part-four.html)
-* [How Google Tests Software - Part Five](https://testing.googleblog.com/2011/03/how-google-tests-software-part-five.html)
-* [How Google Tests Software - Part Six](https://testing.googleblog.com/2011/05/how-google-tests-software-part-six.html)
-* [How Google Tests Software - Part Seven](https://testing.googleblog.com/2011/05/how-google-tests-software-part-seven.html)
+* [James Whittaker](https://twitter.com/docjamesw), [Jason Arbon](https://twitter.com/jarbon) and [Jeff Carolllo](https://twitter.com/joweeba) provide insights into testing at Google in their (slightly outdated) 2012 book [How Google Tests Software](https://books.google.com.sg/books?id=VrAx1ATf-RoC). There is a seven part summary on the [Google Testing Blog](https://testing.googleblog.com) as well:
+  * [How Google Tests Software - Part One](https://testing.googleblog.com/2011/01/how-google-tests-software.html)
+  * [How Google Tests Software - Part Two](https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html)
+  * [How Google Tests Software - Part Three](https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html)
+  * [How Google Tests Software - Part Four](https://testing.googleblog.com/2011/03/how-google-tests-software-part-four.html)
+  * [How Google Tests Software - Part Five](https://testing.googleblog.com/2011/03/how-google-tests-software-part-five.html)
+  * [How Google Tests Software - Part Six](https://testing.googleblog.com/2011/05/how-google-tests-software-part-six.html)
+  * [How Google Tests Software - Part Seven](https://testing.googleblog.com/2011/05/how-google-tests-software-part-seven.html)
 
 #### Blogs
 * [Google Testing Blog](https://testing.googleblog.com)
