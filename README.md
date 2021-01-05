@@ -949,6 +949,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Wikimedia</summary>
+
+#### Handbook
+* [Wikimedia Quality Handbook](https://www.mediawiki.org/wiki/Quality_Assurance)
+
+</details>
+
+<details>
   <summary>Wingify</summary>
   
 #### Blogs & Articles
@@ -960,13 +968,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Overcoming the Challenges of Performance Testing Single-page Apps](https://engineering.wingify.com/posts/performance-testing/)
 
 </details>  
-<details>
-  <summary>Wikimedia</summary>
-
-#### Handbook
-* [Wikimedia Quality Handbook](https://www.mediawiki.org/wiki/Quality_Assurance)
-
-</details>
 
 <details>
   <summary>Wix</summary>
