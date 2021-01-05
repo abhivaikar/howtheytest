@@ -957,6 +957,19 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Wingify</summary>
+  
+#### Blogs & Articles
+* [Performance Testing a data pipeline at scale](https://engineering.wingify.com/posts/performance-testing-a-data-pipeline-at-scale/)
+* [Automated Heatmap Verification E2E using Selenium and Canvas](https://engineering.wingify.com/posts/automated-heatmap-verification/)
+* [Automated environment deployments](https://engineering.wingify.com/posts/automated-environment-deployments/)
+* [Automating Web Push Notifications @Selenium Conference 2016](https://engineering.wingify.com/posts/automating-web-push-notifications/)
+* [Testing AngularJS Apps End to End Using Protractor](https://engineering.wingify.com/posts/angularapp-e2e-testing-with-protractor/)
+* [Overcoming the Challenges of Performance Testing Single-page Apps](https://engineering.wingify.com/posts/performance-testing/)
+
+</details>  
+
+<details>
   <summary>Wix</summary>
 
 #### Blogs & Articles
