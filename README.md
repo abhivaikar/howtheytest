@@ -257,6 +257,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+
+<summary>Dream11</summary>
+
+#### Blogs & Articles
+* [Finding Order in Chaos: How We Automated Performance Testing with Torque](https://about.dream11.in/blog/2020/12/finding-order-in-chaos-how-we-automated-performance-testing-with-torque)
+
+</details>
+
+<details>
   <summary>Dropbox</summary>
 
 #### Blogs & Articles
