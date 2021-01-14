@@ -186,7 +186,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Canva</summary>
 
 #### Blogs & Articles
-* [Why we left manual UI testing behind](https://product.canva.com/automated-visual-testing-at-canva/)
 * [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/)
 
 #### Videos
@@ -347,7 +346,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [How Expedia.com Uses Accessibility Automation](https://medium.com/expedia-group-tech/how-expedia-com-uses-accessibility-automation-d3de3e3ff775)
 * [Improving iOS UI Testing](https://medium.com/expedia-group-tech/improving-ios-ui-testing-ad55470825b4)
-[Unit Testing Apache Spark Applications using Hive Tables](https://medium.com/expedia-group-tech/unit-testing-apache-spark-applications-using-hive-tables-ec653c6f25be)
+* [Unit Testing Apache Spark Applications using Hive Tables](https://medium.com/expedia-group-tech/unit-testing-apache-spark-applications-using-hive-tables-ec653c6f25be)
 * [The Cost of 100% Reliability](https://medium.com/expedia-group-tech/the-cost-of-100-reliability-ecb2901f23a4)
 * [Getting started with a Dockerized Selenium Grid in your On-Prem Data Centers](https://medium.com/expedia-group-tech/getting-started-with-a-dockerized-selenium-grid-on-your-on-prem-data-centers-5b472a2d35a)
 * [DA Kube — Selenium Grid using Kubernetes, Docker, Helm and Traefik](https://medium.com/expedia-group-tech/da-kube-selenium-grid-using-kubernetes-docker-helm-and-traefik-856b802d1d08)
@@ -463,7 +462,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Goibibo</summary>
 
 #### Blogs & Articles
-* [Mr. Postman for Integration Testing](https://tech.goibibo.com/mr-postman-for-integration-testing-879a4031f916)
 * [Let’s take it live!](https://tech.goibibo.com/lets-take-it-live-e1639699e160)
 * [RENDEZVOUS WITH Goibibo](https://tech.goibibo.com/rendezvous-with-goibibo-392cc8f385e9)
 * [Mr. Postman for Integration Testing](https://tech.goibibo.com/mr-postman-for-integration-testing-879a4031f916)
@@ -552,7 +550,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Helpshift</summary>
 
 #### Blogs & Articles
-* [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
 * [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
 * [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
 * [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
