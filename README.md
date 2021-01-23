@@ -542,6 +542,44 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
+
+<details>
+  <summary>GovTech Singapore - GDS(DCUBE)</summary>
+
+#### Blogs & Articles
+
+* [Security Dashboard — Part 1](https://blog.gds-gov.tech/security-dashboard-part-1-d71a3adf84b8)
+* [Security Dashboard — Part 2](https://blog.gds-gov.tech/security-dashboard-part-2-3eb7c92c4edd)
+* [Software Bill of Materials (SBoM)](https://blog.gds-gov.tech/software-bill-of-materials-sbom-c13c800abaa1)
+* [Basics of Web Performance Testing](https://blog.gds-gov.tech/basics-of-web-performance-testing-9876f903ea49)
+* [Web Performance Testing — DCube’s Practices](https://blog.gds-gov.tech/web-performance-testing-dcubes-practices-fbbc20606000)
+* [Agile Testing Practices](https://blog.gds-gov.tech/agile-testing-practices-c771c00ae7b3)
+* [Why automate tests and not do it manually?](https://blog.gds-gov.tech/why-automate-test-and-not-do-it-manually-1a4947cd91d8)
+* [Test Automation— Our challenges and how to overcome them](https://blog.gds-gov.tech/test-automation-our-challenges-and-how-to-overcome-them-4e7122518568)
+* [Developers working peacefully with the security folks — How?](https://blog.gds-gov.tech/developers-working-peacefully-with-the-security-folks-how-239671a1d4de)
+* [Secure code review process in Agile processes — how?](https://blog.gds-gov.tech/secure-code-review-process-in-agile-processes-how-937ba9e1faf0)
+* [Secure code review process in Agile processes — how?](https://blog.gds-gov.tech/secure-code-review-process-in-agile-processes-how-937ba9e1faf0)
+* [Application security testing process in Agile processes — how?](https://blog.gds-gov.tech/application-security-testing-process-in-agile-processes-how-d7051359c491)
+* [Mobile Test Automation — What is it?](https://blog.gds-gov.tech/mobile-test-automation-what-is-it-2934e7c5b002)
+* [Mobile Test Automation — The Bigger Picture](https://blog.gds-gov.tech/mobile-test-automation-the-bigger-picture-5291960fb8a3)
+* [Integration Tests (with examples)](https://blog.gds-gov.tech/integration-tests-with-examples-ac2f9cded974)
+* [Hacking the Bug Bounty Program](https://blog.gds-gov.tech/hacking-the-bug-bounty-program-1d02dde62901)
+* [Hacking the Bug Bounty Program](https://blog.gds-gov.tech/hacking-the-bug-bounty-program-1d02dde62901)
+* [Basic Coding Practices & Hygiene](https://blog.gds-gov.tech/basic-coding-practices-hygiene-28e67c269ea)
+* [To BBP or not to BBP?](https://blog.gds-gov.tech/to-bbp-or-not-to-bbp-d3c73efc3e5a)
+* [When using 3rd-party libraries…](https://blog.gds-gov.tech/when-using-third-party-resources-abf5cd11d767)
+* [When using 3rd-party libraries…](https://blog.gds-gov.tech/when-using-third-party-resources-abf5cd11d767)
+* [API Testing](https://blog.gds-gov.tech/api-testing-e07d6d004079)
+* [Performance Testing - What to consider…](https://blog.gds-gov.tech/performance-testing-what-to-consider-2bdb5b64341b)
+* [The Good Unit Test](https://blog.gds-gov.tech/the-good-unit-test-51baf1e50c3f)
+* [Basic Web Security Testing - Sessions](https://blog.gds-gov.tech/basic-web-security-testing-sessions-224537e1f7bd)
+* [Basic Web Security Testing — File Upload](https://blog.gds-gov.tech/basic-web-security-testing-file-upload-d1cde33672ce)
+* [Basic Web Security Testing — APIs](https://blog.gds-gov.tech/basic-web-security-testing-apis-58f37e01a730)
+* [All my functional tests passed — time to celebrate?](https://blog.gds-gov.tech/all-my-functional-tests-passed-time-to-celebrate-5d6af22c5365)
+* [All my functional tests passed — time to celebrate?](https://blog.gds-gov.tech/all-my-functional-tests-passed-time-to-celebrate-5d6af22c5365)
+* [Mobile Testing in the Cloud](https://blog.gds-gov.tech/mobile-testing-in-the-cloud-b95841d90e19)
+</details>
+
 <details>
   <summary>Grab</summary>
 
