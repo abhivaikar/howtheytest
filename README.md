@@ -87,6 +87,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>ASOS</summary>
 
 #### Blogs
+* [How to go about front-end testing with Cypress.io — a success story](https://medium.com/asos-techblog/how-to-go-about-front-end-testing-with-cypress-io-a-success-story-898451ff1c79)
 * [Automated security testing using language you already know](https://medium.com/asos-techblog/automated-security-testing-using-language-you-already-know-60b968d55cec)
 * [Behaviour driven automation testing in .NET Core using BDTest](https://medium.com/asos-techblog/behaviour-driven-automation-testing-in-net-core-using-bdtest-685b55d73d93)
 * [My Testing Safari](https://medium.com/asos-techblog/my-testing-safari-9a50cea3981b)
@@ -234,6 +235,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Disney+ Hotstar</summary>
 
 #### Blogs & Articles
+* [Machine Vision in Test Automation](https://blog.hotstar.com/machine-vision-in-test-automation-5ab8682254ba)
+* [Machine Vision For Test Automation — Part Two](https://blog.hotstar.com/machine-vision-for-test-automation-part-2-70769e8b768a)
 * [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b)
 
 </details>
@@ -350,6 +353,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Expedia</summary>
 
 #### Blogs & Articles
+* [How Expedia.com Uses Accessibility Automation](https://medium.com/expedia-group-tech/how-expedia-com-uses-accessibility-automation-d3de3e3ff775)
+* [Improving iOS UI Testing](https://medium.com/expedia-group-tech/improving-ios-ui-testing-ad55470825b4)
+* [Unit Testing Apache Spark Applications using Hive Tables](https://medium.com/expedia-group-tech/unit-testing-apache-spark-applications-using-hive-tables-ec653c6f25be)
 * [The Cost of 100% Reliability](https://medium.com/expedia-group-tech/the-cost-of-100-reliability-ecb2901f23a4)
 * [Getting started with a Dockerized Selenium Grid in your On-Prem Data Centers](https://medium.com/expedia-group-tech/getting-started-with-a-dockerized-selenium-grid-on-your-on-prem-data-centers-5b472a2d35a)
 * [DA Kube — Selenium Grid using Kubernetes, Docker, Helm and Traefik](https://medium.com/expedia-group-tech/da-kube-selenium-grid-using-kubernetes-docker-helm-and-traefik-856b802d1d08)
@@ -552,16 +558,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 <details>
   <summary>Helpshift</summary>
 
-#### Videos
-* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
-* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
-
 #### Blogs & Articles
 * [Testing business logic using DSLs in Clojure](https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562)
 * [Functional Testing of Mobile and Web Apps using Clojure](https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca)
 * [Load Testing using Tsung](https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b)
 * [The Convoluted Magic of Leiningen Test Selectors](https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf)
 * [On the testability of Ring Middleware in Clojure](https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a)
+
+#### Videos
+* [Testing business logic using DSLs in Clojure](https://youtu.be/YOsfPrgNY_M)
+* [Clojure for functional testing of Mobile and Web apps](https://youtu.be/G-fjpO6nYPQ)
 
 </details>
 
@@ -620,6 +626,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Mercari</summary>
 
 #### Blogs & Articles
+* [Merry Christmas and a Gift for QA Team](https://engineering.mercari.com/en/blog/entry/20201225-merry-christmas-and-a-gift-for-qa-team/)
+* [Quality Assurance is Engineering Excellence](https://engineering.mercari.com/en/blog/entry/20201211-quality-assurance-is-engineering-excellence/)
+* [Introducing Testdeck, an Open Source Tool for Microservices QA & Security Testing](https://engineering.mercari.com/en/blog/entry/20200930-testdeck/)
+* [Specifying Kotlin tests with Spek](https://engineering.mercari.com/en/blog/entry/2019-12-12-100000/)
 * [Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator](https://tech.mercari.com/entry/2018/12/28/175147)
 * [Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs](https://tech.mercari.com/entry/2019/09/09/113455)
 * [How HeadSpin will change mobile testing and monitoring?](https://tech.mercari.com/entry/2019/02/18/173236)
