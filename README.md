@@ -911,6 +911,19 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Creating a Code Review Culture, Part 2: Code Reviewers](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2)
 
 </details>  
+
+<details>
+  <summary>Stackoverflow</summary>
+ 
+#### Blogs & Articles (& stackoverflow questions about stackoverflow obviously! :) )
+* [Which tools and libraries are used for testing by StackOverflow developers?](https://meta.stackexchange.com/questions/263773/which-tools-and-libraries-are-used-for-testing-by-stackoverflow-developers)
+* [How TDD-oriented is the SE team?](https://meta.stackexchange.com/questions/204249/how-tdd-oriented-is-the-se-team)
+* [Does Stack Overflow have automated tests?](https://meta.stackexchange.com/questions/33761/does-stack-overflow-have-automated-tests)
+* [What tools and techniques are used to test UI changes?](https://meta.stackexchange.com/questions/283484/what-tools-and-techniques-are-used-to-test-ui-changes?rq=1)
+</details>
+* [Adding Static Code Analysis to Stack Overflow](https://stackoverflow.blog/2019/10/08/adding-static-code-analysis-to-stack-overflow/)
+</details>
+
 <details>
   <summary>Stripe</summary>
 
@@ -1060,6 +1073,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### git
 * [Wix HTTP Testkit](https://github.com/wix/wix-http-testkit)
 
+
+</details>
+
+<details>
+  
+<summary>Zerodha</summary>
+
+#### Blogs & Articles
+* [Hello, World!](https://zerodha.tech/blog/hello-world/) - Includes interesting aspects of how Zerodha managed testing and their principles around engineering quality.
 
 </details>
 
