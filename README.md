@@ -920,7 +920,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [How TDD-oriented is the SE team?](https://meta.stackexchange.com/questions/204249/how-tdd-oriented-is-the-se-team)
 * [Does Stack Overflow have automated tests?](https://meta.stackexchange.com/questions/33761/does-stack-overflow-have-automated-tests)
 * [What tools and techniques are used to test UI changes?](https://meta.stackexchange.com/questions/283484/what-tools-and-techniques-are-used-to-test-ui-changes?rq=1)
-</details>
 * [Adding Static Code Analysis to Stack Overflow](https://stackoverflow.blog/2019/10/08/adding-static-code-analysis-to-stack-overflow/)
 </details>
 
