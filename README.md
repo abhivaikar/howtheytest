@@ -397,6 +397,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Finding inter-procedural bugs at scale with Infer static analyzer](https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/)
 * [Zoncolan: How Facebook uses static analysis to detect and prevent security issues](https://engineering.fb.com/security/zoncolan/)
 * [How do you test you tests? An approach on probablistic flakiness score](https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/)
+* [Faster, more efficient systems for finding and fixing regressions](https://engineering.fb.com/2021/02/17/developer-tools/fix-fast/)
 
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
@@ -623,6 +624,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework](https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1iVf-TogkdoIcvs8OpRMMWx76s9Zk4_f0JJ-e1sZIxog/edit#slide=id.p490)
 * [GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program](https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM), [Slides](https://docs.google.com/presentation/d/1_bNn_HTI1Vst6WAB62KHTtgbvxocjpnt2Y-8ugGyP8U/edit#slide=id.p120)
 * [GTAC 2016: Automation on Wearable Devices](https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22), [Slides](https://docs.google.com/presentation/d/1nOvdDY4k7grcPSo83GpsBJRj6z8Ty1rscd2A8VSG0W0/pub)
+
+</details>
+
+<details>
+  <summary>KeepTruckin</summary>
+  
+#### Blogs & Articles
+* [Simplifying UI Testing with Page Object Model and Controllers](https://medium.com/keeptruckin-eng/simplifying-ui-test-automation-with-page-object-model-and-controllers-8115657908b9)
 
 </details>
 
@@ -950,6 +959,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>The Signal Group</summary>
+  
+#### Blogs & Articles
+* [Testing complex business flows: From cones to pyramids](https://medium.com/tech-thesignalgroup/testing-complex-business-flows-from-cones-to-pyramids-85935577b5da)
+
+</details>
+
+<details>
   <summary>Trivago</summary>
 
 #### Blogs
@@ -1022,6 +1039,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  
   <summary>Wingify</summary>
   
 #### Blogs & Articles
