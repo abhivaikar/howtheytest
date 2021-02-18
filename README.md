@@ -351,7 +351,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Everon</summary>
-  
+
 #### Blogs & Articles
 * [AngularJS and UI-Router testing — the right way, Part 1](https://medium.com/everon-engineering/angularjs-and-ui-router-testing-the-right-way-part-1-c165c4565549)
 * [AngularJS and UI-Router testing — the right way, Part 2](https://medium.com/everon-engineering/angularjs-and-ui-router-testing-the-right-way-part-2-ba5fbdb03e84)
