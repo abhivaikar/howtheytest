@@ -416,17 +416,19 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Figma</summary>
- 
- #### Blogs & Articles
- * [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
- * [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
+
+#### Blogs & Articles
+* [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
+* [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
  
 </details>
+
 <details>
   <summary>Flipkart</summary>
-  
+
 #### Blogs & Articles
 * [Astra — Automated Security Testing for REST API’s](https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9)
+
 </details>
 
 <details>
@@ -629,7 +631,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>KeepTruckin</summary>
-  
+
 #### Blogs & Articles
 * [Simplifying UI Testing with Page Object Model and Controllers](https://medium.com/keeptruckin-eng/simplifying-ui-test-automation-with-page-object-model-and-controllers-8115657908b9)
 
@@ -743,7 +745,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Netflix</summary>
-  
+
 #### Blogs & Articles
 * [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
 * [Automation as a Service — Introducing Scriptflask](https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b)
@@ -777,7 +779,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Ninjavan</summary>
-  
+
 #### Blogs & Articles
 * [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
 
@@ -786,7 +788,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>OutSystems</summary>
-  
+
 #### Blogs & Articles
 * [Way Beyond Testing: The Future of Quality is Smarter, Faster, Better](https://medium.com/@joaoneto_19612/way-beyond-testing-the-future-of-quality-is-smarter-faster-better-59a07429b01b)
 
@@ -850,7 +852,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Slack</summary>
-  
+
 #### Blogs & Articles
 * [Everything You Need to Know About How Slack Approaches Accessibility Testing](https://www.3playmedia.com/2019/08/12/slack-approaches-accessibility-testing/)
 * [Android UI Automation: Part 1, Building Trust](https://slack.engineering/android-ui-automation-part-1-building-trust-de3deb1c5995)
@@ -869,7 +871,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 <details>
   <summary>Soundcloud</summary>
-  
+
 #### Blogs & Articles
 * [Release Quality and Mobile Trains](https://developers.soundcloud.com/blog/quality-mobile-trains)
 * [Integration Testing for Memory Leaks](https://developers.soundcloud.com/blog/integration-testing-for-memory-leaks)
@@ -923,7 +925,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Stackoverflow</summary>
- 
+
 #### Blogs & Articles (& stackoverflow questions about stackoverflow obviously! :) )
 * [Which tools and libraries are used for testing by StackOverflow developers?](https://meta.stackexchange.com/questions/263773/which-tools-and-libraries-are-used-for-testing-by-stackoverflow-developers)
 * [How TDD-oriented is the SE team?](https://meta.stackexchange.com/questions/204249/how-tdd-oriented-is-the-se-team)
@@ -960,7 +962,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>The Signal Group</summary>
-  
+
 #### Blogs & Articles
 * [Testing complex business flows: From cones to pyramids](https://medium.com/tech-thesignalgroup/testing-complex-business-flows-from-cones-to-pyramids-85935577b5da)
 
@@ -1041,7 +1043,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 <details>
   
   <summary>Wingify</summary>
-  
+
 #### Blogs & Articles
 * [Performance Testing a data pipeline at scale](https://engineering.wingify.com/posts/performance-testing-a-data-pipeline-at-scale/)
 * [Automated Heatmap Verification E2E using Selenium and Canvas](https://engineering.wingify.com/posts/automated-heatmap-verification/)
