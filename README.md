@@ -743,13 +743,22 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 <details>
   <summary>NASA</summary>
 
-#### Articles
+#### Blogs & Articles
 * [Intelligent test automation gives orion spacecraft boos](https://techbeacon.com/app-dev-testing/intelligent-test-automation-gives-orion-spacecraft-boost)
 * [How did NASA make reliable software if they didn't invent unit tests?](https://news.ycombinator.com/item?id=12121739)
 * [Software Development & Test](https://www.nasa.gov/centers/ames/engineering/small-sat/arc-capabilities/software)
 * [Automated testing of nasa software](https://www.slideshare.net/dganesan11/automated-testing-of-nasa-software)
 * [NASA releases updated open source software bundle including testing tools](https://www.softwaretestingnews.co.uk/nasa-releases-updated-open-source-software-bundle-including-testing-tools/)
 * [Jon McBride Software Testing and Research (JSTAR)](https://www.nasa.gov/centers/ivv/jstar/JSTAR.html)
+* [They Write the Right Stuff](https://www.fastcompany.com/28121/they-write-right-stuff)
+* [Agile Development Brings New Challenges for Software Assurance at NASA](https://sma.nasa.gov/news/articles/newsitem/2014/09/04/agile-development-brings-new-challenges-for-software-assurance-at-nasa)
+* [How NASA does software testing and QA](https://www.functionize.com/blog/how-nasa-does-software-testing-and-qa/)
+* [Product Verification from their System Engineering Handbook](https://www.nasa.gov/seh/5-3-product-verification)
+
+
+#### Other
+* [An interesting Twitter thread on how NASA tests software](https://twitter.com/hankgreen/status/1362511440767148037)
+
 </details>
 
 <details>
