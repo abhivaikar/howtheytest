@@ -1002,6 +1002,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [🌎 Webhook Testing At Stuart](https://medium.com/stuart-engineering/webhook-testing-at-stuart-3768e8c4b362)
 * [🔬 Under The QA Testing Microscope](https://medium.com/stuart-engineering/under-the-qa-testing-microscope-8a5191767eda)
 
+</details>
+
 <details>
   <summary>The Guardian</summary>
 
