@@ -841,6 +841,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Using Promises with the Page Object Model](https://medium.com/slalom-build/using-promises-in-page-object-model-test-automation-2a505be9d79f)
 
 </details>
+
 <details>
   <summary>Salesforce</summary>
 
