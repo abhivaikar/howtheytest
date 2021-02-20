@@ -832,6 +832,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Quality Engineering: Adapt and Apply.](https://medium.com/slalom-build/quality-engineering-adapt-and-apply-a77edb781289)
 * [The challenge of testing Data Pipelines](https://medium.com/slalom-build/the-challenge-of-testing-data-pipelines-4450744a84f1)
 * [Quality Engineering Core Principles](https://medium.com/slalom-build/quality-engineering-core-principles-13cbc34bf389)
+* [What is the ROI of my test automation?](https://medium.com/slalom-build/what-is-the-roi-of-my-test-automation-10ae7bf0d9ed)
+* [The Regression Death Spiral](https://medium.com/slalom-build/the-regression-death-spiral-18f88b9fb030)
 * [Testing Angular Applications with Selenium Java](https://medium.com/slalom-build/testing-angular-applications-with-selenium-java-4bca1c6d08b5)
 * [Why isn’t all test automation run on the pipeline?](https://medium.com/slalom-build/why-isnt-all-test-automation-run-on-the-pipeline-b2c57afbdf5a)
 * [How to test Internationalization with UI automation](https://medium.com/slalom-build/how-to-test-internationalization-with-ui-automation-ff829bb718cc)
