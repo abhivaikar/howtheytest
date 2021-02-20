@@ -994,6 +994,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Stuart Engineering</summary>
+
+#### Blogs & Articles
+* [⬅️ Shifting left QA](https://medium.com/stuart-engineering/shifting-left-qa-341e9c8cdc38)
+* [What QA Engineers do at Stuart](https://medium.com/stuart-engineering/what-qa-engineers-do-at-stuart-665bbbe4b003)
+* [🌎 Webhook Testing At Stuart](https://medium.com/stuart-engineering/webhook-testing-at-stuart-3768e8c4b362)
+* [🔬 Under The QA Testing Microscope](https://medium.com/stuart-engineering/under-the-qa-testing-microscope-8a5191767eda)
+
+<details>
   <summary>The Guardian</summary>
 
 #### Blogs & Articles
