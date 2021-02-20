@@ -829,7 +829,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Quality Engineer Learning Roadmap](https://medium.com/slalom-build/quality-engineer-learning-roadmap-fddfcb77409e)
-* [Quality Engineering: Adapt and Apply.](https://medium.com/slalom-build/quality-engineering-adapt-and-apply-a77edb781289)
+* [Quality Engineering: Adapt and Apply](https://medium.com/slalom-build/quality-engineering-adapt-and-apply-a77edb781289)
 * [The challenge of testing Data Pipelines](https://medium.com/slalom-build/the-challenge-of-testing-data-pipelines-4450744a84f1)
 * [Quality Engineering Core Principles](https://medium.com/slalom-build/quality-engineering-core-principles-13cbc34bf389)
 * [What is the ROI of my test automation?](https://medium.com/slalom-build/what-is-the-roi-of-my-test-automation-10ae7bf0d9ed)
