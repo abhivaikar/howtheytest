@@ -183,6 +183,29 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Bumble</summary>
+
+#### Blogs & Articles
+* [Bumble Tech Blog - QA](https://medium.com/bumble-tech/tagged/qa)
+* [How 3 Process Patterns will change the way you do Test Automation](https://medium.com/bumble-tech/how-3-process-patterns-will-change-the-way-you-do-test-automation-277acc0d3171)
+* [Checking your app’s paid services without losing money](https://medium.com/bumble-tech/checking-your-apps-paid-services-without-losing-money-ba5558a6260)
+* [Add Superpowers to your Appium-Android tests](https://medium.com/bumble-tech/add-superpowers-to-your-appium-android-tests-f408ac2f1b59)
+* [A monolithic architecture for our clients’ hundreds of versions: how we write and support tests](https://medium.com/bumble-tech/a-monolithic-architecture-for-our-clients-hundreds-of-versions-how-we-write-and-support-tests-php-e8fe0b79c0bc)
+* [White-box testing with Appium Espresso Driver](https://medium.com/bumble-tech/white-box-testing-with-appium-espresso-driver-f51cda81c1bb)
+* [Catching bugs on the client-side: how we developed our error tracking system](https://medium.com/bumble-tech/catching-bugs-on-a-client-48c793720b9b)
+
+#### Videos
+* [The Joy Of Green Builds - Running Tests Smartly](https://confengine.com/conferences/selenium-conf-2020/proposal/13749/the-joy-of-green-builds-running-tests-smartly)
+* [Uncover Secrets of Your App with EspressoDriver](https://www.youtube.com/watch?v=3E-koZaG60w)
+* [Application Backdoor via Appium](https://www.youtube.com/watch?v=qHU5Q-BWH4k)
+* [Automate the impossible: blending the best of Android drivers](https://www.youtube.com/watch?v=dKHudzto4TM&t=17s)
+* [Why do we do Test Automation Internal Mentorships for our QA Engineers?](https://youtu.be/fC7lqn-uwwQ?t=3335)
+* [iOS Parallel Automation: run faster than fast](https://www.youtube.com/watch?v=bAH4hky-1Ac)
+* [How we saved time by teaching developers to test their own code](https://www.youtube.com/watch?v=bFR2iQPW-b0)
+
+</details>
+
+<details>
   <summary>Canva</summary>
 
 #### Blogs & Articles
