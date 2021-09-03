@@ -862,6 +862,11 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Slalom Build</summary>
 
 #### Blogs & Articles
+* [23 Books for Quality Assurance Professionals](https://medium.com/slalom-build/23-books-for-quality-assurance-professionals-9a7db9945e8)
+* [Q&A with Slalom Build’s Inaugural 2019 Quality Engineering Academy](https://medium.com/slalom-build/a-q-a-with-slalom-builds-inaugural-qe-academy-8881b5e90876)
+* [Eight Signs Your Agile Testing Isn’t That Agile](https://medium.com/slalom-build/eight-signs-your-agile-testing-isnt-that-agile-d3989bc1b9bb)
+* [Journey of a Manual QA into an Automation World](https://medium.com/slalom-build/journey-of-a-manual-qa-into-an-automation-world-c99808dc107)
+* [Playwright vs WebDriver: The Future of Browser Automation](https://medium.com/slalom-build/playwright-vs-webdriver-the-future-of-browser-automation-854a7ae63218)
 * [Quality Engineer Learning Roadmap](https://medium.com/slalom-build/quality-engineer-learning-roadmap-fddfcb77409e)
 * [Quality Engineering: Adapt and Apply](https://medium.com/slalom-build/quality-engineering-adapt-and-apply-a77edb781289)
 * [The challenge of testing Data Pipelines](https://medium.com/slalom-build/the-challenge-of-testing-data-pipelines-4450744a84f1)
