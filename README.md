@@ -1,5 +1,5 @@
 # test-automation-bucket-part3-howtheytest  
-A bucket full of testing related articles from various tech companies. 
+A bucket full of testing-related articles from various tech companies. 
 
 
 # How They Test 
