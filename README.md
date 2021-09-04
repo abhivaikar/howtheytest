@@ -1,3 +1,7 @@
+# test-automation-bucket-part3-howtheytest  
+A bucket full of testing-related articles from various tech companies. 
+
+
 # How They Test 
 [![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
@@ -1061,6 +1065,19 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Elasticsearch and Kibana for Selenium Automation](https://tech.trivago.com/2015/12/02/selenium_with_kibana)
 
 </details>
+
+<details>
+  <summary>Twilio</summary>
+
+#### Blogs & Articles
+* [Integrating Cypress Tests With Docker, Buildkite, and CICD](https://sendgrid.com/blog/integrating-cypress-tests-with-docker-buildkite-and-cicd-frontendtwiliosendgrid/)
+* [What to Consider When Writing E2E Tests](https://sendgrid.com/blog/what-to-consider-when-writing-e2e-tests-frontendtwiliosendgrid/)
+* [1,000 Foot Overview of Writing Cypress Tests](https://sendgrid.com/blog/1000-foot-overview-of-writing-cypress-tests-frontendtwiliosendgrid/)
+* [TypeScript All the Things in Your Cypress](https://sendgrid.com/blog/typescript-in-your-cypress-tests-frontendtwiliosendgrid/)
+* [Dealing With Email Flows in Cypress Tests](https://sendgrid.com/blog/dealing-with-email-flows-in-cypress-tests-frontendtwiliosendgrid/)
+* [Ideas for Configuring, Organizing, and Consolidating Your Cypress Tests](https://sendgrid.com/blog/ideas-for-configuring-organizing-and-consolidating-your-cypress-tests-frontendtwiliosendgrid/)
+</details>
+
 
 <details>
   <summary>Twitter</summary>
