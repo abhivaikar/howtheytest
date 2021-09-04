@@ -1,7 +1,3 @@
-# test-automation-bucket-part3-howtheytest  
-A bucket full of testing-related articles from various tech companies. 
-
-
 # How They Test 
 [![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
