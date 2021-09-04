@@ -858,6 +858,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Picnic</summary>
+
+#### Blogs & Articles
+* [Reinventing the QA process](https://blog.picnic.nl/reinventing-the-qa-process-25854fee51f3)
+* [The Role & Relevance of API Testing in an Agile World](https://blog.picnic.nl/the-role-relevance-of-api-testing-in-an-agile-world-c6cc8f2529cb)
+* [User testing: setting up the Picnic user testing lab](https://blog.picnic.nl/user-testing-setting-up-the-picnic-user-testing-lab-3569c8a72595)
+
+</details>
+
+<details>
   <summary>Pinterest</summary>
 
 </details>
