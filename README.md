@@ -1132,6 +1132,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>  
 <details>
+  <summary>Visma</summary>
+
+#### Videos
+* [Software Quality Engineering in Visma with Mili Orucevic](https://www.youtube.com/watch?v=MY5_q8bkvX4)
+
+</details> 
+
+<details>
   <summary>WalmartLabs</summary>
 
 #### Blogs & Articles
