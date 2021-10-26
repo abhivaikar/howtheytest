@@ -261,6 +261,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Machine Vision in Test Automation](https://blog.hotstar.com/machine-vision-in-test-automation-5ab8682254ba)
 * [Machine Vision For Test Automation — Part Two](https://blog.hotstar.com/machine-vision-for-test-automation-part-2-70769e8b768a)
 * [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b)
+* [Closed Loop API Test Automation](https://blog.hotstar.com/effective-api-testing-and-synthetic-monitoring-strategies-6bb1f69f13de)
 
 </details>
 
