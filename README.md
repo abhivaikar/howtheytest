@@ -1191,7 +1191,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Testing Metrics: Are You Really Sure about the Quality of Your Product?](https://medium.com/wix-engineering/testing-metrics-are-you-really-sure-about-the-quality-of-your-product-8a5ef37ec3d4)
 * [Integration Tests in JavaScript That Don’t Suck](https://www.wix.engineering/post/integration-tests-in-javascript-that-don-t-suck)
 * [Building and Open-Sourcing Wix’s A/B Testing System](https://www.wix.engineering/post/building-and-open-sourcing-wix-s-a-b-testing-system)
-* [Mockingbird: The Why, When and How of Testing with Mocks - Part 1](https://medium.com/wix-engineering/mockingbird-why-when-and-how-of-testing-with-mocks-part-1-dceacd14e26f)
+* [Mockingbird: The Why, When and How of Testing with Mocks — Part 1](https://medium.com/wix-engineering/mockingbird-why-when-and-how-of-testing-with-mocks-part-1-dceacd14e26f)
 * [Mockingbird: The Why, When and How of Testing with Mocks — Part 2](https://medium.com/wix-engineering/mockingbird-the-why-when-and-how-of-testing-with-mocks-part-2-50431cfd70be)
 * [Mockingbird — Part 3 — The Pitfalls](https://medium.com/wix-engineering/mockingbird-part-3-the-pitfalls-e42c03000a92)
 
