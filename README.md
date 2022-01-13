@@ -1076,6 +1076,36 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Trendyol</summary>
+
+#### Blogs & Articles
+* [Manual Testing for Mobile Applications](https://medium.com/trendyol-tech/manual-testing-for-mobile-applications-cb8f4612d070)
+* [Regression Testing in Mobile Development](https://medium.com/trendyol-tech/regression-testing-in-mobile-development-c4895f262fb9)
+* [UI Testing Challenges of The Trendyol Mobile App](https://medium.com/trendyol-tech/ui-testing-challenges-of-the-trendyol-mobile-app-6d17d817a700)
+* [Get the Most Out of UI Tests With XCode Test Plans](https://medium.com/trendyol-tech/get-the-most-out-of-ui-tests-with-xcode-test-plans-d089a2252ba2)
+* [How to Test Deeplinks with XCUITest](https://medium.com/trendyol-tech/how-to-test-deeplinks-with-xcuitest-d24c8e5318ee)
+* [Integrate Slather to Trendyol Project](https://medium.com/trendyol-tech/integrate-slather-to-trendyol-project-39191cee7b7c)
+* [UI Test Roadmap with Kaspresso](https://medium.com/trendyol-tech/ui-test-roadmap-with-kaspresso-fa78d4ee7150)
+* [Trendyol Android Team Unit Test Practice](https://medium.com/trendyol-tech/trendyol-android-team-unit-test-practice-907cf8d0346)
+* [The Importance of A/B and Exploratory Testing (ET) in Trendyol iOS App](https://medium.com/trendyol-tech/the-importance-of-a-b-and-exploratory-testing-et-in-trendyol-ios-app-5900f81a9628)
+* [Mobile App Complexity: Things to Consider While Estimating Test Effort](https://medium.com/trendyol-tech/mobile-app-complexity-things-to-consider-while-estimating-test-effort-1cde0645d31a)
+* [The Different Types of Testing on Trendyol iOS App](https://medium.com/trendyol-tech/the-different-types-of-testing-on-trendyol-ios-app-f345124da2b3)
+* [Differences Between Mobile Web and Mobile Platform Tests](https://medium.com/trendyol-tech/differences-between-mobile-web-and-mobile-platform-tests-463e0378187b)
+* [Mocking API Calls in UI Tests](https://medium.com/trendyol-tech/mocking-api-calls-in-ui-tests-b908dbf6b305)
+* [How to Make iOS UI Testing fast and reliable](https://medium.com/trendyol-tech/how-to-make-ios-ui-testing-fast-and-reliable-6f572a0955f2)
+* [How to Write Unit Tests for Selector Functions in Swift](https://medium.com/trendyol-tech/how-to-write-unit-tests-for-selector-functions-in-swift-109fe13756c0)
+* [Device Selection for iOS App Testing](https://medium.com/trendyol-tech/device-selection-for-ios-app-testing-fad5d0d1eea0)
+* [Measuring Data in App with Marketing Event Tests](https://medium.com/trendyol-tech/measuring-data-in-app-with-marketing-event-tests-30c11aff3bd1)
+* [Heuristic Test Strategy for Mobile Software Test](https://medium.com/trendyol-tech/heuristic-test-strategy-for-mobile-software-test-remember-important-aspects-c718da8f01a9)
+* [Meaningful Error Messages for iOS UI Tests](https://medium.com/trendyol-tech/meaningful-error-messages-for-ios-ui-tests-6085ce15b78)
+* [Make UI Testing possible with TYGenerator](https://medium.com/trendyol-tech/make-ui-testing-possible-with-tygenerator-c3654425d782)
+* [Adaptation of Empathy Mapping to Mobile Test](https://medium.com/trendyol-tech/adaptation-of-empathy-mapping-to-mobile-test-f7d94a228516)
+* [Automated Visual Testing With Snapshots: Part 1](https://medium.com/trendyol-tech/automated-visual-testing-with-snapshots-part-1-ee9c5cf58cca)
+* [Automated Visual Testing With Snapshots: Part 2](https://medium.com/trendyol-tech/automated-visual-testing-with-snapshots-part-2-19354052c6d9)
+
+</details>
+
+<details>
   <summary>Trivago</summary>
 
 #### Blogs
