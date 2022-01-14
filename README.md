@@ -21,10 +21,11 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 - Non-functional testing
 - Test automation
 - Testing in CI/CD
-- Release management
-- Process/culture
+- Release management and it's impact on quality/testing.
+- Quality processes and culture
 - Testing in production (monitoring/observability, chaos engineering, site reliability engineering etc.)
-- Customer/User service or support
+- Customer / user support
+- User research / user testing from product/UX perspective
 
 ## Companies & how they test their software
 <details>
