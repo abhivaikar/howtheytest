@@ -438,8 +438,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Rapid release at massive scale](https://engineering.fb.com/web/rapid-release-at-massive-scale/)
 * [Finding inter-procedural bugs at scale with Infer static analyzer](https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/)
 * [Zoncolan: How Facebook uses static analysis to detect and prevent security issues](https://engineering.fb.com/security/zoncolan/)
-* [How do you test you tests? An approach on probablistic flakiness score](https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/)
+* [How do you test your tests? An approach on probablistic flakiness score](https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/)
 * [Faster, more efficient systems for finding and fixing regressions](https://engineering.fb.com/2021/02/17/developer-tools/fix-fast/)
+* [Test plans at Facebook](https://frantic.im/test-plan/)
+* [Improving end-to-end tests' reliability at Facebook](https://frantic.im/e2e-tests/)
 
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
