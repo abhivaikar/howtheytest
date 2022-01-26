@@ -738,6 +738,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>ManoMano</summary>
+
+#### Blogs & Articles
+* [Software Quality & Craftsmanship at ManoMano](https://medium.com/manomano-tech/software-quality-craftsmanship-at-manomano-121f11ce0a5)
+* [How we set a decentralized QA culture at ManoMano](https://medium.com/manomano-tech/how-we-set-a-decentralized-quality-assurance-culture-at-manomano-faa5fef02f20)
+
+</details>
+
+<details>
   <summary>Mercari</summary>
 
 #### Blogs & Articles
