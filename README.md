@@ -77,6 +77,21 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Appian</summary>
+  
+#### Blogs & Articles
+* [A look inside the quality engineering team at Appian](https://careers.appian.com/blog/engineering-and-product/a-look-inside-the-quality-engineering-team-at-appian/)
+* [Dogfooding Appian](https://careers.appian.com/blog/the-tech-corner/dogfooding-appian/)
+* [Chaos Testing a Distributed System with Jepsen](https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen/)
+* [Chaos Testing a Distributed System with Jepsen — Part II](https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen-part-ii/)
+* [Chaos Testing a Distributed System with Jepsen — Part III](https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen-part-iii/)
+* [My Journey as a Quality Engineer Intern at Appian](https://careers.appian.com/blog/early-careers-and-internships/my-journey-as-a-quality-engineer-intern-at-appian/)
+* [Women in Tech: Meet 3 Quality Engineers At Appian](https://careers.appian.com/blog/engineering-and-product/women-in-tech-meet-3-quality-engineers-at-appian/)
+* [What Does “Quality Assurance” Mean in an Agile World?](https://careers.appian.com/blog/the-tech-corner/what-does-quality-assurance-mean-in-an-agile-world-1/)
+  
+</details>
+
+<details>
   <summary>Apple</summary>
 
 #### Blogs & Articles
