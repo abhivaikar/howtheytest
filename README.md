@@ -256,6 +256,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Performance Testing of Event-Driven Microservices](https://medium.com/capital-one-tech/performance-testing-of-event-driven-microservices-f5de74305985)
 * [Software Quality Testing: Creating Quality Filtration Stacks](https://medium.com/capital-one-tech/software-quality-testing-creating-quality-filtration-stacks-capital-one-b841afa6d70c)
 * [Testcontainers & LocalStack for Spring Boot Functional Tests](https://medium.com/capital-one-tech/testcontainers-localstack-for-spring-boot-functional-tests-c4c8d06dae88)
+* [Automated Detection, Diagnosis & Remediation of App Failure](https://medium.com/capital-one-tech/automated-detection-diagnosis-remediation-of-app-failure-9ee24fb97a35)
+* [Using Stub vs Mock in iOS Unit Testing](https://medium.com/capital-one-tech/using-stub-vs-mock-in-ios-unit-testing-634ec4cc6a10)
+* [Software Quality Testing: Creating Quality Filtration Stacks](https://medium.com/capital-one-tech/software-quality-testing-creating-quality-filtration-stacks-capital-one-b841afa6d70c)
+* [Using Apple’s Main Thread Checker Tool on UI Tests](https://medium.com/capital-one-tech/using-apples-main-thread-checker-tool-on-ui-tests-a89508bcd524)
+* [Marginal Utility and Taco Consumption](https://medium.com/capital-one-tech/marginal-utility-and-taco-consumption-762ca42afbf0)
+* [Spec to Gherkin to Code](https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa)
+* [Test-Driven Development –Ready, Set, Go with Google Cloud Test Lab](https://medium.com/capital-one-tech/be-ready-for-tdd-google-cloud-test-lab-20b07ddabc8b)
+* [Shifting Testing in Agile Teams to the Left](https://medium.com/capital-one-tech/shifting-testing-in-agile-teams-to-the-left-5f3a3d647a41)
+* [Getting Started With iOS UI Testing](https://medium.com/capital-one-tech/getting-started-with-ios-ui-testing-b85bf858496f)
 
 #### Videos
 
@@ -278,6 +287,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
+<details>
+  
+  <summary>Cazoo</summary>
+  
+#### Blogs & Articles
+* [Whole Team Quality at Cazoo](https://medium.com/cazoo/whole-team-quality-at-cazoo-14ad5d65f2b5)
+   
+</details>
 <details>
   <summary>Disney+ Hotstar</summary>
 
@@ -457,6 +474,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Faster, more efficient systems for finding and fixing regressions](https://engineering.fb.com/2021/02/17/developer-tools/fix-fast/)
 * [Test plans at Facebook](https://frantic.im/test-plan/)
 * [Improving end-to-end tests' reliability at Facebook](https://frantic.im/e2e-tests/)
+* [Autonomous testing of services at scale](https://engineering.fb.com/2021/10/20/developer-tools/autonomous-testing/)
 
 #### Videos
 * [Systems @Scale 2019 - Continuous Deployment at Facebook Scale](https://www.youtube.com/watch?v=qN6BiLzZGfs)
@@ -498,6 +516,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [MySQL infrastructure testing automation at GitHub](https://github.blog/2017-07-06-mysql-testing-automation-at-github/)
 * [octocatalog-diff: GitHub’s Puppet development and testing tool](https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/)
 * [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/)
+* [How we ship GitHub Mobile every week](https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/)
 
 #### Videos
 * [The elusive quest to measure developer productivity](https://www.youtube.com/watch?v=cRJZldsHS3c)
@@ -848,6 +867,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198)
 * [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29)
 * [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c)
+* [Fixing Performance Regressions Before they Happen](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
+* [Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65)
 
 #### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
@@ -871,8 +892,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
 
-
 </details>  
+
+<details>
+ 
+  <summary>Nubank</summary>
+
+#### Blogs & Articles
+* [Why We Killed Our End-to-End Test Suite](https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/)
+  
+</details>
 
 <details>
   <summary>OutSystems</summary>
@@ -886,6 +915,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 <details>
   <summary>PayPal</summary>
+
+#### Blogs & Articles
+* [Write Once, Test Everywhere — Simplified SDK Testing](https://medium.com/paypal-tech/write-once-test-everywhere-simplified-sdk-testing-6ea11e7d1f27)
 
 </details>
 
@@ -1291,6 +1323,25 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  
+<details>
+  
+  <summary>Zalando</summary>
+  
+#### Blogs & Articles
+* [Building an End to End load test automation system on top of Kubernetes](https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html)
+* [Selenium Conf Gets a Dose of Zalenium](https://engineering.zalando.com/posts/2017/05/selenium-conf-gets-a-dose-of-zalenium.html)
+* [Zalenium: A Disposable and Flexible Selenium Grid Infrastructure](https://engineering.zalando.com/posts/2017/02/zalenium-a-disposable-and-flexible-selenium-grid-infrastructure.html)
+* [Zester – Unit Tests on Steroids](https://engineering.zalando.com/posts/2016/04/zester-mutation-testing.html)
+* [Selenium WebDriver Explained](https://engineering.zalando.com/posts/2016/03/selenium-webdriver-explained.html)
+* [Lean Testing, or Why Unit Tests are Worse than You Think](https://engineering.zalando.com/posts/2018/07/economic-perspective-testing.html)
+* [Do We Really Need UI Tests?](https://engineering.zalando.com/posts/2017/11/do-we-really-need-ui-testing.html)
+* [Integration tests with Testcontainers](https://engineering.zalando.com/posts/2021/02/integration-tests-with-testcontainers.html)
+* [Stop using constants. Feed randomized input to test cases.](https://engineering.zalando.com/posts/2021/02/randomized-input-testing-ios.html)
+* [End-to-end load testing Zalando’s production website](https://engineering.zalando.com/posts/2019/04/end-to-end-load-testing-zalandos-production-website.html)
+* [A Journey On End To End Testing A Microservices Architecture](https://engineering.zalando.com/posts/2019/02/end-to-end-microservices.html)
+  
+</details>
   
 <summary>Zerodha</summary>
 
