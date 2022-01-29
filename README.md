@@ -910,7 +910,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
   * [Detecting Goroutine Leaks with Test Cases](https://engineering.razorpay.com/detecting-goroutine-leaks-with-test-cases-b0f8f8a88648)
   
-<details>
+</details>
   
 <details>
   <summary>Slalom Build</summary>
