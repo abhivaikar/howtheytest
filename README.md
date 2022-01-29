@@ -1324,8 +1324,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   
-<details>
-  
   <summary>Zalando</summary>
   
 #### Blogs & Articles
