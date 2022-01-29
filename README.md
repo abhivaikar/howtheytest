@@ -78,7 +78,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Appian</summary>
-  
+
 #### Blogs & Articles
 * [A look inside the quality engineering team at Appian](https://careers.appian.com/blog/engineering-and-product/a-look-inside-the-quality-engineering-team-at-appian/)
 * [Dogfooding Appian](https://careers.appian.com/blog/the-tech-corner/dogfooding-appian/)
@@ -88,7 +88,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [My Journey as a Quality Engineer Intern at Appian](https://careers.appian.com/blog/early-careers-and-internships/my-journey-as-a-quality-engineer-intern-at-appian/)
 * [Women in Tech: Meet 3 Quality Engineers At Appian](https://careers.appian.com/blog/engineering-and-product/women-in-tech-meet-3-quality-engineers-at-appian/)
 * [What Does “Quality Assurance” Mean in an Agile World?](https://careers.appian.com/blog/the-tech-corner/what-does-quality-assurance-mean-in-an-agile-world-1/)
-  
+
 </details>
 
 <details>
@@ -288,13 +288,13 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
-  
   <summary>Cazoo</summary>
-  
+
 #### Blogs & Articles
 * [Whole Team Quality at Cazoo](https://medium.com/cazoo/whole-team-quality-at-cazoo-14ad5d65f2b5)
-   
+
 </details>
+
 <details>
   <summary>Disney+ Hotstar</summary>
 
@@ -938,10 +938,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Razorpay</summary>
-  
+
 #### Blogs & Articles
   * [Detecting Goroutine Leaks with Test Cases](https://engineering.razorpay.com/detecting-goroutine-leaks-with-test-cases-b0f8f8a88648)
-  
+
 </details>
   
 <details>
@@ -1333,7 +1333,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 <details>
   
   <summary>Zalando</summary>
-  
+
 #### Blogs & Articles
 * [Building an End to End load test automation system on top of Kubernetes](https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html)
 * [Selenium Conf Gets a Dose of Zalenium](https://engineering.zalando.com/posts/2017/05/selenium-conf-gets-a-dose-of-zalenium.html)
