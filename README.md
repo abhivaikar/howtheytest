@@ -1340,6 +1340,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [A Journey On End To End Testing A Microservices Architecture](https://engineering.zalando.com/posts/2019/02/end-to-end-microservices.html)
   
 </details>
+
+<details>
   
 <summary>Zerodha</summary>
 
