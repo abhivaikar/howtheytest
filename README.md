@@ -509,6 +509,18 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Genially</summary>
+
+#### Blogs & Articles
+* [Los primeros pasos de nuestro departamento de QA](https://tech.genial.ly/los-primeros-pasos-de-nuestro-departamento-de-qa-2114fb91a493)
+* [QA en Integración Continua y Despliegue Continuo](https://tech.genial.ly/qa-en-integraci%C3%B3n-continua-y-despliegue-continuo-972e50ccdc7d)
+
+#### Videos
+* [Cypress Workshop by @josefrnandezz](https://www.youtube.com/watch?v=-E3xKywhXXM)
+
+</details>
+
+<details>
   <summary>GitHub</summary>
 
 #### Blogs & Articles
