@@ -740,7 +740,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Loveholidays</summary>
-  
+
 #### Blogs & Articles
 * [Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
   
