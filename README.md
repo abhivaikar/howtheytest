@@ -1265,6 +1265,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Test Automation of Query Understanding AI/ML based Model for an eCommerce Search - Kushal Kumar Verma](https://medium.com/analytics-vidhya/testing-query-understanding-ai-ml-based-model-for-an-ecommerce-search-d559510b82f)
+* [Elements of Successful Massive Scale Automated Testing - Maciej Adwent](https://medium.com/walmartglobaltech/elements-of-successful-massive-scale-automated-testing-f071c17f2907#.y4qn9hf9q)
+* [iOS Test Automation @WalmartLabs - Chaoyi Chen](https://medium.com/walmartglobaltech/ios-test-automation-walmartlabs-d8668d85a27)
 
 #### Videos
 * [SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs](https://www.youtube.com/watch?v=9QYDPnVTqjs)
