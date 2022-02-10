@@ -96,6 +96,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Apple overhauling it's testing approach](https://www.bloomberg.com/news/articles/2019-11-21/apple-ios-14-features-changes-testing-after-ios-13-bugs)
+* [Testing Your Apps in Xcode](https://developer.apple.com/documentation/xcode/testing-your-apps-in-xcode)
 
 #### Videos
 * [Testing in XCode - WWDC](https://developer.apple.com/videos/play/wwdc2019/413/)
