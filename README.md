@@ -283,9 +283,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Carousell scales app automation with Browserstack](https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack)
 
 #### Videos
-* [HUSTEF 2019 - Syam SASI & Martin SCHNEIDER - Building a scalable device lab with Ansible](https://www.youtube.com/watch?v=ntRd0tiMZdE)
-* [Carousell's automation journey with BrowserStack](https://www.youtube.com/watch?v=hRO5Hg-cRz8)
-* [End-end test code as first class citizens](https://www.youtube.com/watch?v=Iv7b4sJgzik&ab_channel=ConfEngine) - Covers some practices adopted at Carousell for quality of end-end test code.
+* [HUSTEF 2019 - By Syam Sasi & Martin Schneider - Building a scalable device lab with Ansible at Carousell](https://www.youtube.com/watch?v=ntRd0tiMZdE)
+* [Carousell's automation journey with BrowserStack by Prabhgharan DK and Syam Sasi](https://www.youtube.com/watch?v=hRO5Hg-cRz8)
+* [End-end test code as first class citizens by Abhijeet Vaikar](https://www.youtube.com/watch?v=Iv7b4sJgzik&ab_channel=ConfEngine) - Covers some practices adopted at Carousell for quality of end-end test code.
 </details>
 
 <details>
