@@ -285,7 +285,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Videos
 * [HUSTEF 2019 - Syam SASI & Martin SCHNEIDER - Building a scalable device lab with Ansible](https://www.youtube.com/watch?v=ntRd0tiMZdE)
 * [Carousell's automation journey with BrowserStack](https://www.youtube.com/watch?v=hRO5Hg-cRz8)
-
+* [End-end test code as first class citizens](https://www.youtube.com/watch?v=Iv7b4sJgzik&ab_channel=ConfEngine) - Covers some practices adopted at Carousell for quality of end-end test code.
 </details>
 
 <details>
