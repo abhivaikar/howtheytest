@@ -724,6 +724,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Quality at Speed for our Mobile Application](https://laredoute.io/blog/quality-at-speed-for-our-mobile-application/)
 * [How We Test Our Event-Driven Microservices](https://laredoute.io/blog/how-we-test-our-event-driven-microservices/)
 * [Cerberus, the birth of our Open Source Testing](https://laredoute.io/blog/cerberus-the-birth-of-our-open-source-testing-solution/)
+* [The Traditional Test Automation Pyramid, Pitfalls and Anti-patterns](https://laredoute.io/blog/the-traditional-test-pyramid-pitfalls-and-anti-patterns/)
   
 #### Videos
 * [Quality at Speed @ La Redoute](https://www.youtube.com/watch?v=D-prcP5ZRew)
