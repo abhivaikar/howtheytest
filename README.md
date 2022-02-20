@@ -356,6 +356,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Duolingo</summary>
+
+#### Blogs & Articles
+* [The process: Launching Duolingo’s Arabic language course - Increment magazine](https://increment.com/testing/launching-duolingos-arabic-language-course/) - How the language-learning app used staggered releases, dogfooding, and a culture of A/B testing everything to ship its first Arabic course for English speakers.
+ 
+</details>
+
+<details>
   <summary>eBay</summary>
 
 #### Blogs & Articles
