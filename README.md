@@ -1365,6 +1365,40 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Wrike</summary>
+
+#### Blogs & Articles
+* [Onboarding Process in Wrike QA Automation Team](https://medium.com/wriketechclub/onboarding-process-in-wrike-qa-automation-team-88a4265d6af7)
+* [Code Review Without Queues](https://medium.com/wriketechclub/code-review-without-queues-c252c1f05cfc)
+* [Generating a Smoke Test Suite](https://medium.com/wriketechclub/generating-a-smoke-test-suite-1fb5cddf6e7a)
+* [How To Improve Code Quality in an Autotest Project](https://medium.com/wriketechclub/how-to-improve-code-quality-in-an-autotest-project-36f9c9655d8b)
+* [Allure Integration at Wrike](https://medium.com/wriketechclub/allure-integration-at-wrike-c4d7280e4968)
+* [Test Markup in QA Automation](https://medium.com/wriketechclub/test-markup-in-qa-automation-59b6765a1d06)
+* [Autotesting Optimized: Intellij IDEA Plugins in Service of QA Automation](https://medium.com/wriketechclub/autotesting-optimized-intellij-idea-plugins-in-service-of-qa-automation-c2ebd99588a2)
+* [Callisto: An Easy Way To Run Selenium Tests in the Cloud](https://medium.com/wriketechclub/callisto-an-easy-way-to-run-selenium-tests-in-the-cloud-6c1bc39c49ae)
+* [All QA articles](https://medium.com/wriketechclub/qa/home)
+
+#### Videos
+* [Onboarding in QA Automation Team](https://www.youtube.com/watch?v=0xX8ndqkbaw)
+* [Test Markup in QA Automation](https://www.youtube.com/watch?v=Y4I6Vp4sk_o)
+* [Allure Integration at Wrike](https://www.youtube.com/watch?v=O6X2-1uoqAw)
+* [Smoke Tests Suite Generation](https://www.youtube.com/watch?v=9ND9d9YeY1U)
+* [Autotests Runs Optimization with IDEA Plugin](https://www.youtube.com/watch?v=RBwwf1xUAlc)
+* [How static analysis can help in QAA processes](https://www.youtube.com/watch?v=L42zH5ne074)
+* [Test quarantine or how to manage flaky tests](https://www.youtube.com/watch?v=kubqCb_7cxc)
+* [How to survive with lots of tests](https://www.youtube.com/watch?v=DX_VPu9VTdc)
+* [IntelliJ IDEA plugins in QA Automation](https://www.youtube.com/watch?v=DF9xhAeBo7k)
+* [Selenium(road to Kubernetes](https://www.youtube.com/watch?v=Y8muHzG_2nA)
+* [Callisto: how we learned to stop worrying and love Selenium](https://www.youtube.com/watch?v=pEMEczpx6s8)
+* [Performance testing of iOS applications](https://www.youtube.com/watch?v=wz_8Q8F8BDM)
+* [Why the Era of vintage TMS is going to be over?](https://www.youtube.com/watch?v=Aba4Yme7dlQ)
+* [How to save a year of your time every day](https://www.youtube.com/watch?v=LpCrLIwIUqU)
+* [Playlist with all 10 mins of Wrike QA](https://www.youtube.com/playlist?list=PLxcvsYzLfaTAlmnodUVvE971No9oi_SWU)
+* [QA playlist](https://www.youtube.com/playlist?list=PLxcvsYzLfaTBjBkFgSVMbwggMxAwu5sXt)
+
+</details>
+
+<details>
   
   <summary>Zalando</summary>
 
