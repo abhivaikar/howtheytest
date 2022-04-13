@@ -1057,6 +1057,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158)
 * [Disasterpiece Theater: Slack’s process for approachable Chaos Engineering](https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54)
 * [Scaling End-to-End User Interface Tests](https://slack.engineering/scaling-end-to-end-user-interface-tests/)
+* [Handling Flaky Tests at Scale: Auto Detection & Suppression](https://slack.engineering/handling-flaky-tests-at-scale-auto-detection-suppression/)
 
 #### Videos
 * [UI testing is so easy - said no developer ever - Valera Zakharov, Kevin Lai](https://www.youtube.com/watch?v=SkkO6x6LhCQ)
