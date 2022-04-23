@@ -37,6 +37,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Adore Me</summary>
+
+#### Blogs
+* [Android and iOS application testing with appium and wiremock - intro](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-intro-fe1dc34f0fc)
+* [Android and iOS application testing with appium and wiremock - setup](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-the-setup-640bd0863b2d)
+* [Android and iOS application testing with appium and wiremock - all together](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-appium-wiremock-cfb89cd52afe)
+* [UI Testing: A deep dive in (apparently) shallow water](https://adoreme.tech/ui-testing-a-deep-dive-in-apparently-shallow-water-af677a0f6100) 
+ 
+</details>
+
+<details>
   <summary>Airbnb</summary>
 
 #### Blogs
