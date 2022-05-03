@@ -308,6 +308,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Deliveroo</summary>
+
+#### Blogs
+* [Testing Go services using interfaces](https://deliveroo.engineering/2019/05/17/testing-go-services-using-interfaces.html)
+* [Testing with Third Party Services in Go](https://deliveroo.engineering/2018/09/11/testing-with-third-parties-in-go.html)
+
+</details>
+
+<details>
   <summary>Disney+ Hotstar</summary>
 
 #### Blogs & Articles
@@ -332,15 +341,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs
 * [Using Fault Injection Testing to Improve DoorDash Reliability](https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/)
-
-</details>
-
-<details>
-  <summary>Deliveroo</summary>
-
-#### Blogs
-* [Testing Go services using interfaces](https://deliveroo.engineering/2019/05/17/testing-go-services-using-interfaces.html)
-* [Testing with Third Party Services in Go](https://deliveroo.engineering/2018/09/11/testing-with-third-parties-in-go.html)
+* [Moving e2e testing into production with multi-tenancy for increased speed and reliability](https://doordash.engineering/2022/03/03/moving-e2e-testing-into-production-with-multi-tenancy-for-increased-speed-and-reliability/)
+* [A Framework For Speedy and Scalable Development Of Android UI Tests](https://doordash.engineering/2020/08/19/speedy-and-scalable-development-of-android-mobile-ui-tests/)
+* [Contract Testing with Pact](https://doordash.engineering/2018/11/05/contract-testing-with-pact/)
 
 </details>
 
