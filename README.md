@@ -32,7 +32,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>ACV Auctions</summary>
 
 #### Blogs
-* [Scaling Quality at ACV](https://acv.engineering/posts/scaling-quality-at-acv/)
+* [Scaling Quality at ACV](https://acv.engineering/posts/scaling-quality-at-acv/) - 01 Oct 2021
 
 </details>
 
@@ -51,16 +51,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Airbnb</summary>
 
 #### Blogs
-* [Testing at Airbnb](https://medium.com/airbnb-engineering/testing-at-airbnb-199f68a0a40d?_branch_match_id=611046764098403464)
-* [Better Android Testing Part 1](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-3f5b90b9c40a)
-* [Better Android Testing Part 2](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a77ac9531cab)
-* [Better Android Testing Part 3](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-1d1e91e489b4)
-* [Better Android Testing Part 4](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-part-4-testing-viewmodels-550d929126c8)
-* [Better Android Testing Part 5](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-661a554a8c8b)
-* [Better Android Testing Part 6](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a11f6832773f)
-* [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f)
-* [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd)
-* [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040)
+* [Testing at Airbnb](https://medium.com/airbnb-engineering/testing-at-airbnb-199f68a0a40d?_branch_match_id=611046764098403464) - Feb 28, 2014
+* [Better Android Testing Part 1](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-3f5b90b9c40a) - Nov 23, 2019
+* [Better Android Testing Part 2](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a77ac9531cab) - Dec 1, 2019
+* [Better Android Testing Part 3](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-1d1e91e489b4) - Dec 14, 2019
+* [Better Android Testing Part 4](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-part-4-testing-viewmodels-550d929126c8) (Jan 12, 2020)
+* [Better Android Testing Part 5](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-661a554a8c8b) - Dec 14, 2019
+* [Better Android Testing Part 6](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a11f6832773f) - Dec 27, 2019
+* [Better Android Testing Part 7](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f) - Jan 12, 2020
+* [Building an effective test pipeline in a service oriented architecture](https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd) - Feb 5, 2020
+* [Tracking the money scaling financial reporting](https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040) - Mar 17, 2017
 
 </details>
 
@@ -245,10 +245,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Canva</summary>
 
 #### Blogs & Articles
-* [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/)
+* [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/) - May 25, 2021
 
 #### Videos
-* [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
+* [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY) - Nov 12, 2015
 
 </details>
 
@@ -320,10 +320,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Disney+ Hotstar</summary>
 
 #### Blogs & Articles
-* [Machine Vision in Test Automation](https://blog.hotstar.com/machine-vision-in-test-automation-5ab8682254ba)
-* [Machine Vision For Test Automation — Part Two](https://blog.hotstar.com/machine-vision-for-test-automation-part-2-70769e8b768a)
-* [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b)
-* [Closed Loop API Test Automation](https://blog.hotstar.com/effective-api-testing-and-synthetic-monitoring-strategies-6bb1f69f13de)
+* [Machine Vision in Test Automation](https://blog.hotstar.com/machine-vision-in-test-automation-5ab8682254ba) - Oct 8, 2020
+* [Machine Vision For Test Automation — Part Two](https://blog.hotstar.com/machine-vision-for-test-automation-part-2-70769e8b768a) - Dec 24, 2020
+* [Using Apple's Testing Mjölnir: XCUITest](https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b) - Aug 31, 2020
+* [Closed Loop API Test Automation](https://blog.hotstar.com/effective-api-testing-and-synthetic-monitoring-strategies-6bb1f69f13de) - Aug 2, 2018
 
 </details>
 
@@ -340,10 +340,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>DoorDash</summary>
 
 #### Blogs
-* [Using Fault Injection Testing to Improve DoorDash Reliability](https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/)
-* [Moving e2e testing into production with multi-tenancy for increased speed and reliability](https://doordash.engineering/2022/03/03/moving-e2e-testing-into-production-with-multi-tenancy-for-increased-speed-and-reliability/)
-* [A Framework For Speedy and Scalable Development Of Android UI Tests](https://doordash.engineering/2020/08/19/speedy-and-scalable-development-of-android-mobile-ui-tests/)
-* [Contract Testing with Pact](https://doordash.engineering/2018/11/05/contract-testing-with-pact/)
+* [Using Fault Injection Testing to Improve DoorDash Reliability](https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/) - April 25, 2022
+* [Moving e2e testing into production with multi-tenancy for increased speed and reliability](https://doordash.engineering/2022/03/03/moving-e2e-testing-into-production-with-multi-tenancy-for-increased-speed-and-reliability/) - March 3, 2022
+* [A Framework For Speedy and Scalable Development Of Android UI Tests](https://doordash.engineering/2020/08/19/speedy-and-scalable-development-of-android-mobile-ui-tests/) - August 19, 2020
+* [Contract Testing with Pact](https://doordash.engineering/2018/11/05/contract-testing-with-pact/) - November 5, 2018
 
 </details>
 
@@ -526,8 +526,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Figma</summary>
 
 #### Blogs & Articles
-* [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
-* [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
+* [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/) - January 25, 2018
+* [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/) - December 17, 2020
  
 </details>
 
@@ -535,7 +535,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Flipkart</summary>
 
 #### Blogs & Articles
-* [Astra — Automated Security Testing for REST API’s](https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9)
+* [Astra — Automated Security Testing for REST API’s](https://blog.flipkart.tech/astra-automated-security-testing-for-rest-apis-a54b999dbfe9) - Jul 12, 2018
 
 </details>
 
@@ -543,14 +543,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>GitHub</summary>
 
 #### Blogs & Articles
-* [How GitHub uses automated testing to empower developers to write less](https://ben.balter.com/2015/09/10/blog-style-tests/)
-* [MySQL infrastructure testing automation at GitHub](https://github.blog/2017-07-06-mysql-testing-automation-at-github/)
-* [octocatalog-diff: GitHub’s Puppet development and testing tool](https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/)
-* [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/)
-* [How we ship GitHub Mobile every week](https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/)
+* [How GitHub uses automated testing to empower developers to write less](https://ben.balter.com/2015/09/10/blog-style-tests/) - September 10, 2015
+* [MySQL infrastructure testing automation at GitHub](https://github.blog/2017-07-06-mysql-testing-automation-at-github/) - July 6, 2017
+* [octocatalog-diff: GitHub’s Puppet development and testing tool](https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/) - October 20, 2016
+* [Browser Monitoring for GitHub.com](https://github.blog/2015-05-19-browser-monitoring-for-github-com/) - May 19, 2015
+* [How we ship GitHub Mobile every week](https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/) - January 12, 2022
 
 #### Videos
-* [The elusive quest to measure developer productivity](https://www.youtube.com/watch?v=cRJZldsHS3c)
+* [The elusive quest to measure developer productivity](https://www.youtube.com/watch?v=cRJZldsHS3c) - Dec 14, 2019
 </details>
 
 <details>
@@ -560,12 +560,12 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Quality Department Handbook](https://about.gitlab.com/handbook/engineering/quality/)
 
 #### Blogs and Articles
-* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/)
-* [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/)
-* [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/)
-* [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/)
-* [How recent acquisitions introduce fuzz testing to GitLab](https://about.gitlab.com/blog/2020/07/17/fuzz-testing/)
-* [How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts](https://about.gitlab.com/blog/2020/09/03/risk-mapping/)
+* [An inside look at software testing at GitLab](https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/) - Aug 30, 2019
+* [Introducing Accessibility Testing in GitLab](https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/) - Mar 4, 2020
+* [How our QA team leverages GitLab’s performance testing tool (and you can too)](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/) - Feb 18, 2020
+* [How GitLab switched to Headless Chrome for testing](https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/) - Dec 19, 2017
+* [How recent acquisitions introduce fuzz testing to GitLab](https://about.gitlab.com/blog/2020/07/17/fuzz-testing/) - Jul 17, 2020
+* [How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts](https://about.gitlab.com/blog/2020/09/03/risk-mapping/) - Sep 3, 2020
 
 </details>
 
@@ -836,19 +836,19 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Microsoft</summary>
 
 #### Books
-* [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point.
+* [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point. (10 Dec 2008)
 
 #### Articles
-* [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
+* [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft) (05/15/2021)
 </details>
 
 <details>
   <summary>Miro</summary>
 
 #### Blogs & Articles
-* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42)
-* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699)
-* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) 
+* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42) (Jul 2, 2020)
+* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699) (May 6, 2020)
+* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) (Apr 29, 2020)
 </details>
 
 <details>
@@ -871,12 +871,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Mozilla</summary>
-
-#### Handbook
-* [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
   
 #### Blogs & Articles
-* [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
+* [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/) (April 21, 2020)
   
 #### Videos
 * [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
@@ -908,36 +905,30 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Netflix</summary>
 
 #### Blogs & Articles
-* [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f)
-* [Automation as a Service — Introducing Scriptflask](https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b)
-* [Automated testing on devices](https://netflixtechblog.com/automated-testing-on-devices-fc5a39f47e24)
-* [Product Integration Testing at the Speed of Netflix](https://netflixtechblog.com/product-integration-testing-at-the-speed-of-netflix-72e4117734a7)
-* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
-* [Announcing Electric Eye](https://netflixtechblog.com/announcing-electric-eye-2bb8ffcf9b1b)
-* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
-* [NTS: Real-time Streaming for Test Automation](https://netflixtechblog.com/nts-real-time-streaming-for-test-automation-7cb000e933a1)
-* [FIT: Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
-* [Testing Netflix on Android](https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab)
-* [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198)
-* [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29)
-* [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c)
-* [Fixing Performance Regressions Before they Happen](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe)
-* [Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65)
+* [Edgar: Solving Mysteries Faster with Observability](https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f) - Sep 3, 2020
+* [Automation as a Service — Introducing Scriptflask](https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b) - May 23, 2017
+* [Automated testing on devices](https://netflixtechblog.com/automated-testing-on-devices-fc5a39f47e24) - Aug 10, 2016
+* [Product Integration Testing at the Speed of Netflix](https://netflixtechblog.com/product-integration-testing-at-the-speed-of-netflix-72e4117734a7) - Jul 5, 2016
+* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f) - Jan 20, 2016
+* [Announcing Electric Eye](https://netflixtechblog.com/announcing-electric-eye-2bb8ffcf9b1b) - Sep 22, 2015
+* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4) - Aug 25, 2015
+* [NTS: Real-time Streaming for Test Automation](https://netflixtechblog.com/nts-real-time-streaming-for-test-automation-7cb000e933a1) - Jun 15, 2015
+* [FIT: Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2) - Oct 23, 2014
+* [Testing Netflix on Android](https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab) - Mar 14, 2012
+* [Lerner — using RL agents for test case scheduling](https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198) - May 22, 2019
+* [Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing](https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29) - Aug 31, 2015
+* [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c) - Jul 27, 2016
+* [Fixing Performance Regressions Before they Happen](https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe) - Jan 25, 2022
+* [Improving Pull Request Confidence for the Netflix TV App](https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65) - Sep 3, 2021
 
 #### Videos
 * [GTAC 2015: Enabling Streaming Experiments at Netflix](https://www.youtube.com/watch?v=5aDqes-EUKg&index=19&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1), [Slides](https://docs.google.com/presentation/d/1K16NtKd-vqdjFmMVVOJusSmBTXJESTxNPXF4s36BjXI/pub)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](http://www.youtube.com/watch?v=xkP70Zhhix4&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/7PNKA7)
 * [GTAC 2013: When Bad Things Happen to Good Applications...](http://www.youtube.com/watch?v=zBEtAOEy360&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/8epF0)
-* [Design Testing at Netflix](https://www.youtube.com/watch?v=-Gy8TnoXZf8)
-* [Testing In Production, The Netflix Way](https://www.youtube.com/watch?v=3WRVgC8SiGc)
-* [Test Automation at Scale](https://www.youtube.com/watch?v=FrBN94gUn_I&ab_channel=NetflixDevices)
-* [Evolution of Payments Testing at Netflix](https://www.youtube.com/watch?v=x4vLS8WWqIE&feature=youtu.be&ab_channel=ByronLam)
-* [Test Selection: Heuristics and Machine Learning](https://www.youtube.com/watch?v=l7-8_0A9IF8&feature=youtu.be&ab_channel=NetflixDevices)
-* [The Automation before pressing Play](https://www.youtube.com/watch?v=AGEXxB-nWMw&feature=youtu.be&ab_channel=NetflixDevices)
-* [Applying Failure Testing Research @Netflix](https://www.youtube.com/watch?v=a3mHQCkr-4I&feature=youtu.be&ab_channel=InfoQ)
-* [Getting Netflix on a Variety of Devices](https://www.youtube.com/watch?v=JI6qew26wi8&feature=youtu.be&ab_channel=NetflixDevices)
-* [Electric Eye](https://www.youtube.com/watch?v=uEQ3be0ss2A&feature=youtu.be&ab_channel=NetflixDevices)
-* [Measuring Perceptual Video Quality at Scale](https://www.youtube.com/watch?v=kEo2TrXm7F4&ab_channel=Demuxed)
+* [Design Testing at Netflix](https://www.youtube.com/watch?v=-Gy8TnoXZf8) - Jan 11, 2016
+* [Testing In Production, The Netflix Way](https://www.youtube.com/watch?v=3WRVgC8SiGc) - Jul 21, 2018
+* [Applying Failure Testing Research @Netflix](https://www.youtube.com/watch?v=a3mHQCkr-4I&feature=youtu.be&ab_channel=InfoQ) - Oct 3, 2017
+* [Measuring Perceptual Video Quality at Scale](https://www.youtube.com/watch?v=kEo2TrXm7F4&ab_channel=Demuxed) - Mar 7, 2017
 </details>
 
 <details>
