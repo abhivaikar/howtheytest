@@ -839,16 +839,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point. (10 Dec 2008)
 
 #### Articles
-* [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft) (05/15/2021)
+* [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft) - 05/15/2021
 </details>
 
 <details>
   <summary>Miro</summary>
 
 #### Blogs & Articles
-* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42) (Jul 2, 2020)
-* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699) (May 6, 2020)
-* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) (Apr 29, 2020)
+* [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42) - Jul 2, 2020
+* [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699) - May 6, 2020
+* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) - Apr 29, 2020
 </details>
 
 <details>
@@ -873,7 +873,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Mozilla</summary>
   
 #### Blogs & Articles
-* [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/) (April 21, 2020)
+* [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/) - April 21, 2020
   
 #### Videos
 * [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
