@@ -836,7 +836,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Microsoft</summary>
 
 #### Books
-* [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point. (10 Dec 2008)
+* [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point. - 10 Dec 2008
 
 #### Articles
 * [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft) - 05/15/2021
