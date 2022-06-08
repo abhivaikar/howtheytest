@@ -995,6 +995,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
   * [Detecting Goroutine Leaks with Test Cases](https://engineering.razorpay.com/detecting-goroutine-leaks-with-test-cases-b0f8f8a88648)
+  * [Releasing features with confidence in your mobile app](https://engineering.razorpay.com/releasing-features-with-confidence-in-the-mobile-app-b3abf73d6646)
 
 </details>
   
