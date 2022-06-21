@@ -246,6 +246,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Automated visual testing at Canva](https://product.canva.com/automated-visual-testing-at-canva/)
+* [Why we left manual UI testing behind](https://canvatechblog.com/why-we-left-manual-ui-testing-behind-293b98a58183)
+* [Recommender systems: When they fail, who are you gonna call?](https://canvatechblog.com/recommender-systems-when-they-fail-who-are-you-gonna-call-3377d21534ee)
+* [Speeding up UI tests with CodeceptJS and Playwright](https://canvatechblog.com/speeding-up-ui-tests-with-codeceptjs-and-playwright-98daf6cb8a79)
+* [Testing Search Engine Optimization Scalably without Breaking a Sweat](https://canvatechblog.com/testing-search-engine-optimization-scalably-without-breaking-a-sweat-8f91ccfc451d)
 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
