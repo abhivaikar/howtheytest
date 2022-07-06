@@ -596,6 +596,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>GoJek</summary>
 
 #### Blogs
+* [It's Time To Find And Kill Bugs](https://blog.gojek.io/its-time-to-find-and-kill-bugs/)
+* [Test Mobile Apps Using Web Traffic Interception and Mocking](https://blog.gojek.io/test-mobile-apps-using-web-traffic-interception-and-mocking/)
 * [Why you should automate tests early](https://blog.gojek.io/why-you-should-automate-tests-early/)
 * [Screenshot Testing our Design System on Android](https://blog.gojek.io/screenshot-testing-our-design-system-on-android/)
 * [Advice from a Test Journeyman](https://blog.gojek.io/advice-from-a-test-journeyman/)
