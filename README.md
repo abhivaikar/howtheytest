@@ -596,17 +596,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>GoJek</summary>
 
 #### Blogs
-* [Why you should automate tests early](https://blog.gojekengineering.com/why-you-should-automate-tests-early-4ea43b32f8b2)
-* [Screenshot Testing our Design System on Android](https://blog.gojekengineering.com/screenshot-testing-our-design-system-on-android-d78c9854eb6b)
-* [Advice from a Test Journeyman](https://blog.gojekengineering.com/advice-from-a-test-journeyman-9323c11ae9f5)
-* [How I Gave My First Conference Talk](https://blog.gojekengineering.com/how-i-gave-my-first-conference-talk-38cbc354def)
-* [7 Myths About Software Testing](https://blog.gojekengineering.com/7-myths-about-software-testing-11906cc4356e)
-* [The Untold Story of Golang Testing](https://blog.gojekengineering.com/the-untold-story-of-golang-testing-29832bfe0e19)
-* [The first principles of ‘Testing’](https://blog.gojekengineering.com/the-first-principles-of-testing-38fbf03667ff)
-* [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojekengineering.com/how-to-run-grouped-testng-tests-using-gradle-b0856e53f56a)
-* [Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.](https://blog.gojekengineering.com/golang-integration-testing-made-easy-a834e754fa4c)
-* [Everyone’s A Tester While ‘Mob Testing’](https://blog.gojekengineering.com/how-mob-testing-can-bootstrap-whole-team-quality-8f9bc8ae45a7)
-* [Good bug reports lead to great bug fixes](https://blog.gojekengineering.com/good-bug-reports-lead-to-great-bug-fixes-a9927cd43801)
+* [Why you should automate tests early](https://blog.gojek.io/why-you-should-automate-tests-early/)
+* [Screenshot Testing our Design System on Android](https://blog.gojek.io/screenshot-testing-our-design-system-on-android/)
+* [Advice from a Test Journeyman](https://blog.gojek.io/advice-from-a-test-journeyman/)
+* [How I Gave My First Conference Talk](https://blog.gojek.io/how-i-gave-my-first-conference-talk/)
+* [7 Myths About Software Testing](https://blog.gojek.io/7-myths-about-software-testing/)
+* [The Untold Story of Golang Testing](https://blog.gojek.io/the-untold-story-of-golang-testing)
+* [The first principles of ‘Testing’](https://blog.gojek.io/the-first-principles-of-testing/)
+* [How to Run Grouped TestNG Tests Using Gradle](https://blog.gojek.io/how-to-run-grouped-testng-tests-using-gradle/)
+* [Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.](https://blog.gojek.io/golang-integration-testing-made-easy/)
+* [Everyone’s A Tester While ‘Mob Testing’](https://blog.gojek.io/everyones-a-tester-while-mob-testing)
+* [Good bug reports lead to great bug fixes](https://blog.gojek.io/good-bug-reports-lead-to-great-bug-fixes)
 </details>
 
 <details>
