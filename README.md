@@ -848,6 +848,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Meesho Tech</summary>
+
+#### Blogs & Articles
+* [Scaling For Sale: Automating JMeter Distributed Load Testing](https://medium.com/meesho-tech/scaling-for-sale-automating-jmeter-distributed-load-testing-c128c000cd01)
+* [How Meesho's dedicated A/B Infra enables us to experiment and scale new features](https://medium.com/meesho-tech/meeshos-dedicated-a-b-infra-enables-us-to-experiment-and-scale-new-features-99f2c2a508ad)
+* [How we reduced our test automation development time by 20%](https://www.meesho.io/blog/how-we-reduced-test-automation-by-20)
+
+</details>
+
+<details>
   <summary>Mercari</summary>
 
 #### Blogs & Articles
@@ -1215,6 +1225,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [🌎 Webhook Testing At Stuart](https://medium.com/stuart-engineering/webhook-testing-at-stuart-3768e8c4b362)
 * [🔬 Under The QA Testing Microscope](https://medium.com/stuart-engineering/under-the-qa-testing-microscope-8a5191767eda)
 
+</details>
+
+<details>
+  <summary>Swiggy</summary>
+
+#### Blogs & Articles
+* [#BehindTheBug - Learning from our mistakes](https://bytes.swiggy.com/root-cause-analysis-swiggy-2fac5fe4510b)
+* [Gradle Incremental Test Runner](https://bytes.swiggy.com/gradle-incremental-test-runner-125cee1e68a7)
+* [Service Level Testing for Microservices in Swiggy](https://bytes.swiggy.com/service-level-testing-for-microservices-in-swiggy-62b6b3f865f4)
 </details>
 
 <details>
