@@ -722,6 +722,21 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
+
+<details>
+  <summary>hh.ru</summary>
+
+#### Blogs & Articles
+* [Quality assurance for mobile development at hh.ru](https://medium.com/hh-ru/quality-assurance-for-mobile-development-at-hh-ru-b9683e63414f)
+* [Automating the release process](https://medium.com/hh-ru/automating-the-release-process-af8f97edc7bc)
+* [How to bring off a gentleman’s release](https://medium.com/hh-ru/how-to-bring-off-a-gentlemans-release-9884a954e4a7)
+* [Top 5 Junior Automation Tester’s Questions About Automated Testing](https://medium.com/hh-ru/top-5-junior-automation-testers-questions-about-automated-testing-c7c03c674eeb)
+* [Top 5 Technical Director’s Questions About Automated Testing](https://medium.com/hh-ru/top-5-technical-directors-questions-about-automated-testing-ca2fe4619aab)
+* [Top 5 Manager’s Questions About Automated Testing](https://medium.com/hh-ru/top-5-manager-questions-about-automated-testing-4f194bc02375)
+* [Top 5 Manual Testers’ Questions About Automated Testing](https://medium.com/hh-ru/top-5-manual-testers-questions-about-automated-testing-aae16a3402bc)
+* [Olya, tests and factory — the path to beautiful architecture and clean code](https://medium.com/hh-ru/olya-tests-and-factory-the-path-to-beautiful-architecture-and-clean-code-b0bb0766d46d)
+</details>
+
 <details>
   <summary>Instacart</summary>
 
