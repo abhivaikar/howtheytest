@@ -798,6 +798,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>McDonald’s</summary>
+
+#### Blogs & Articles
+* [OpenTest: McDonald’s debut into open-source software](https://medium.com/mcdonalds-technical-blog/opentest-mcdonalds-debut-into-open-source-software-487def26019)
+
+</details>
+
+<details>
   <summary>Mattermost</summary>
 
 #### Blogs & Articles
@@ -828,6 +836,21 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Mercari</summary>
 
 #### Blogs & Articles
+* [We have created unit testing guidelines](https://engineering.mercari.com/en/blog/entry/20220418-e406d51f15/)
+* [Automatically generating snapshot tests from Xcode Previews](https://engineering.mercari.com/en/blog/entry/20201204-1f94b9dca2/)
+* [Android automated testing to support one-week releases](https://engineering.mercari.com/en/blog/entry/20211210-merpay-android-test-automation/)
+* [What We Talk About When We Talk About Quality Assurance.](https://engineering.mercari.com/en/blog/entry/20210915-c9577ca624/)
+* [Running distributed testing to reduce testing time](https://engineering.mercari.com/en/blog/entry/20211206-5aa2ac7efc/)
+* [Learn the differences of Test Doubles](https://engineering.mercari.com/en/blog/entry/20220420-learn-the-differences-of-test-doubles/)
+* [Test parallelization in Go: Understanding the t.Parallel() method](https://engineering.mercari.com/en/blog/entry/20220408-how_to_use_t_parallel/)
+* [Tool created to help improve local web frontend performance](https://engineering.mercari.com/en/blog/entry/20211217-856683a917/)
+* [The current state of automation in the Merpay QA Team](https://engineering.mercari.com/en/blog/entry/20211224-merpay-qa-for-automation-test/)
+* [The Merpay QA Team: Maintaining Quality for Safe and Secure Products #TeamInterview](https://engineering.mercari.com/en/blog/entry/20211111-504f3da724/)
+* [A Deep Dive into Table-Driven Testing in Golang](https://engineering.mercari.com/en/blog/entry/20211221-a-deep-dive-into-table-driven-testing-in-golang/)
+* [Accessibility Testing 101](https://engineering.mercari.com/en/blog/entry/20211215-accessibility-testing-101/)
+* [How is Security Testing Different from Typical Software Testing?](https://engineering.mercari.com/en/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/)
+* [Test Automation Policy in Merpay Frontend](https://engineering.mercari.com/en/blog/entry/20211208-test-automation-policy-in-merpay-frontend/)
+* [Mercari’s QA Engineering Initiatives 2020](https://engineering.mercari.com/en/blog/entry/20201221-79f9540f3a/)
 * [Merry Christmas and a Gift for QA Team](https://engineering.mercari.com/en/blog/entry/20201225-merry-christmas-and-a-gift-for-qa-team/)
 * [Quality Assurance is Engineering Excellence](https://engineering.mercari.com/en/blog/entry/20201211-quality-assurance-is-engineering-excellence/)
 * [Introducing Testdeck, an Open Source Tool for Microservices QA & Security Testing](https://engineering.mercari.com/en/blog/entry/20200930-testdeck/)
@@ -1287,6 +1310,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 
 #### Blogs & Articles
+* [Introducing Shadower: A Minimalistic Load Testing Tool](https://www.uber.com/en-GB/blog/introducing-shadower-a-minimalistic-load-testing-tool/)
+* [Supercharging A/B Testing at Uber](https://www.uber.com/en-GB/blog/supercharging-a-b-testing-at-uber/)
+* [Introducing Ballast: An Adaptive Load Test Framework](https://www.uber.com/en-GB/blog/introducing-ballast-an-adaptive-load-test-framework/)
 * [Octopus to the Rescue: the Fascinating World of Inter-App Communications at Uber Engineering](https://eng.uber.com/rescued-by-octopus/)
 * [Introducing Hypothesis GU Funcs, an Open Source Python Package for Unit Testing](https://eng.uber.com/hypothesis-gu-funcs-unit-testing/)
 * [Best Practices for Unit Testing in React Version 16](https://eng.uber.com/best-practices-for-react-v16/)
