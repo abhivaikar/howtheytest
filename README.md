@@ -1515,6 +1515,16 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
+<details>
+
+<summary>Zoopla</summary>
+
+#### Blogs & Articles
+
+* [Zoopla's Holistic Testing Model](https://zoopla.blog/posts/2023/testing-model)
+
+</details>
+
 ## Contributors
 <a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
