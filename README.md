@@ -893,6 +893,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Articles
 * [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
+* [CSE Code With Engineering Playbook: Automated testing](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/)
 </details>
 
 <details>
