@@ -1,11 +1,12 @@
-# How They Test 
+# How They Test
+
 [![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 > A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
-
 ## Foreword
-One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms. 
+
+One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms.
 
 Apart from this, many companies regularly come forward and share their best practices, tools, techniques and culture of software testing on various public platforms like conferences, blogs & meetups. The resources are there but dispersed, lost into the internet.
 
@@ -16,7 +17,9 @@ Happy Learning!
 *Please note, that all the resources mentioned here are publicly available resources.*
 
 ## Kind of topics here
+
 Testing / quality of software goes beyond traditional activities of pre-release functional testing and test automation. Hence the kind of topics you can expect to read about here are:
+
 - Functional testing
 - Non-functional testing
 - Test automation
@@ -28,6 +31,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 - User research / user testing from product/UX perspective
 
 ## Companies & how they test their software
+
 <details>
   <summary>ACV Auctions</summary>
 
@@ -43,8 +47,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Android and iOS application testing with appium and wiremock - intro](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-intro-fe1dc34f0fc)
 * [Android and iOS application testing with appium and wiremock - setup](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-the-setup-640bd0863b2d)
 * [Android and iOS application testing with appium and wiremock - all together](https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-appium-wiremock-cfb89cd52afe)
-* [UI Testing: A deep dive in (apparently) shallow water](https://adoreme.tech/ui-testing-a-deep-dive-in-apparently-shallow-water-af677a0f6100) 
- 
+* [UI Testing: A deep dive in (apparently) shallow water](https://adoreme.tech/ui-testing-a-deep-dive-in-apparently-shallow-water-af677a0f6100)
+
 </details>
 
 <details>
@@ -139,7 +143,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Testing authorisation scenarios in ASP.NET Core Web APIs](https://medium.com/asos-techblog/testing-authorization-scenarios-in-asp-net-core-web-api-484bc95d5f6f)
 
 #### Videos
-[Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
+* [Enhancing the Processes of Test Driven Development - Talk](https://www.youtube.com/watch?v=IpBXhOzoPsU)
 
 </details>
 
@@ -351,8 +355,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
-
-<summary>Dream11</summary>
+  <summary>Dream11</summary>
 
 #### Blogs & Articles
 * [Finding Order in Chaos: How We Automated Performance Testing with Torque](https://about.dream11.in/blog/2020/12/finding-order-in-chaos-how-we-automated-performance-testing-with-torque)
@@ -385,7 +388,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [The process: Launching Duolingo’s Arabic language course - Increment magazine](https://increment.com/testing/launching-duolingos-arabic-language-course/) - How the language-learning app used staggered releases, dogfooding, and a culture of A/B testing everything to ship its first Arabic course for English speakers.
- 
+
 </details>
 
 <details>
@@ -435,7 +438,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Etsy</summary>
 
 #### Handbook
-* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)  
+* [Teaching Testing: Our Testing 101 Materials](https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/)
 
 #### Blogs & Articles
 * [Culture of Quality: Measuring Code Coverage at Etsy](https://codeascraft.com/2018/02/15/culture-of-quality-measuring-code-coverage-at-etsy/)
@@ -456,7 +459,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [AngularJS and UI-Router testing — the right way, Part 2](https://medium.com/everon-engineering/angularjs-and-ui-router-testing-the-right-way-part-2-ba5fbdb03e84)
 * [Contract testing in Everon](https://medium.com/everon-engineering/contract-testing-in-everon-751e739038eb)
 
-</details>  
+</details>
+
 <details>
   <summary>Expedia</summary>
 
@@ -531,7 +535,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [Figma Quality Week: Inside our bug bashing party](https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/)
 * [Inside Figma: a case study on strict null checks](https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/)
- 
+
 </details>
 
 <details>
@@ -665,7 +669,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
-
 <details>
   <summary>GovTech Singapore - GDS(DCUBE)</summary>
 
@@ -722,7 +725,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 </details>
 
-
 <details>
   <summary>hh.ru</summary>
 
@@ -775,7 +777,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [How We Test Our Event-Driven Microservices](https://laredoute.io/blog/how-we-test-our-event-driven-microservices/)
 * [Cerberus, the birth of our Open Source Testing](https://laredoute.io/blog/cerberus-the-birth-of-our-open-source-testing-solution/)
 * [The Traditional Test Automation Pyramid, Pitfalls and Anti-patterns](https://laredoute.io/blog/the-traditional-test-pyramid-pitfalls-and-anti-patterns/)
-  
+
 #### Videos
 * [Quality at Speed @ La Redoute](https://www.youtube.com/watch?v=D-prcP5ZRew)
 
@@ -797,7 +799,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [The testing lifecycle at LinkedIn](https://engineering.linkedin.com/41/testing-lifecycle-linkedin)
 * [Testing Frontier, LinkedIn's Web Framework](https://engineering.linkedin.com/37/testing-frontier-linkedins-web-framework)
 
-
 #### Videos
 * [Testing in production at LinkedIn - Szczepan Faber](https://www.youtube.com/watch?v=lbO6INBICpQ)
 * [GTAC 2015: Mock the Internet](https://www.youtube.com/watch?v=6gPNrujpmn0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=20)
@@ -809,7 +810,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Load testing in production with Grafana Loki, Kubernetes and Golang](https://tech.loveholidays.com/load-testing-in-production-with-grafana-loki-kubernetes-and-golang-1699554d2aa3)
-  
+
 </details>
 
 <details>
@@ -902,7 +903,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42)
 * [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699)
-* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5) 
+* [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5)
 </details>
 
 <details>
@@ -928,10 +929,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Handbook
 * [Quality Assurance at Moziila](https://developer.mozilla.org/en-US/docs/Mozilla/QA)
-  
+
 #### Blogs & Articles
 * [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
-  
+
 #### Videos
 * [Automation for a Better Web, GTAC 2014](http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1), [Slides](http://goo.gl/frxhlA)
 * [How Do You Test a Mobile OS?, GTAC 2013](http://www.youtube.com/watch?v=X41eqcmC2Dk&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d), [Slides](http://goo.gl/7UeEI)
@@ -1000,15 +1001,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 * [Integration Tests with Testcontainers at Ninja Van](https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d)
 
-</details>  
+</details>
 
 <details>
- 
+
   <summary>Nubank</summary>
 
 #### Blogs & Articles
 * [Why We Killed Our End-to-End Test Suite](https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/)
-  
+
 </details>
 
 <details>
@@ -1021,6 +1022,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [What do you mean a Quality Owner?](https://www.youtube.com/watch?v=jlygHJIFjTA)
 
 </details>
+
 <details>
   <summary>PayPal</summary>
 
@@ -1052,7 +1054,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   * [Releasing features with confidence in your mobile app](https://engineering.razorpay.com/releasing-features-with-confidence-in-the-mobile-app-b3abf73d6646)
 
 </details>
-  
+
 <details>
   <summary>Slalom Build</summary>
 
@@ -1097,7 +1099,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Keeping 100+ million users happy: how we test Shazam on Android](https://www.youtube.com/watch?v=xgjYSf8pjVg)
 * [3 years of backend testing at Shazam - the stuff we got wrong](https://www.youtube.com/watch?v=9kWslvOpQfw)
 
-</details>  
+</details>
 
 <details>
   <summary>Shopify</summary>
@@ -1142,6 +1144,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * ["Better Integration Tests for Performance Monitoring" by Maude Lemaire](https://www.youtube.com/watch?v=j0PJhD5XNJ8)
 * [Valera Zakharov: Testing](https://www.youtube.com/watch?v=fySCosLQQws)
 </details>
+
 <details>
   <summary>Soundcloud</summary>
 
@@ -1194,7 +1197,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Creating a Code Review Culture, Part 1: Organizations and Authors](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1)
 * [Creating a Code Review Culture, Part 2: Code Reviewers](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2)
 
-</details>  
+</details>
 
 <details>
   <summary>Stackoverflow</summary>
@@ -1365,14 +1368,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Videos
 * [Test Lean and Ship Healthy: Delivering High Quality Software in the DevOps World](https://www.youtube.com/watch?v=sqtmcYKpy-A)
 
-</details>  
+</details>
 <details>
   <summary>Visma</summary>
 
 #### Videos
 * [Software Quality Engineering in Visma with Mili Orucevic](https://www.youtube.com/watch?v=MY5_q8bkvX4)
 
-</details> 
+</details>
 
 <details>
   <summary>WalmartLabs</summary>
@@ -1397,7 +1400,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
-  
   <summary>Wingify</summary>
 
 #### Blogs & Articles
@@ -1408,7 +1410,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Testing AngularJS Apps End to End Using Protractor](https://engineering.wingify.com/posts/angularapp-e2e-testing-with-protractor/)
 * [Overcoming the Challenges of Performance Testing Single-page Apps](https://engineering.wingify.com/posts/performance-testing/)
 
-</details>  
+</details>
 
 <details>
   <summary>Wix</summary>
@@ -1451,7 +1453,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### git
 * [Wix HTTP Testkit](https://github.com/wix/wix-http-testkit)
 
-
 </details>
 
 <details>
@@ -1489,7 +1490,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
-  
   <summary>Zalando</summary>
 
 #### Blogs & Articles
@@ -1504,27 +1504,38 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Stop using constants. Feed randomized input to test cases.](https://engineering.zalando.com/posts/2021/02/randomized-input-testing-ios.html)
 * [End-to-end load testing Zalando’s production website](https://engineering.zalando.com/posts/2019/04/end-to-end-load-testing-zalandos-production-website.html)
 * [A Journey On End To End Testing A Microservices Architecture](https://engineering.zalando.com/posts/2019/02/end-to-end-microservices.html)
-  
+
 </details>
 
 <details>
-  
-<summary>Zerodha</summary>
+  <summary>Zerodha</summary>
 
 #### Blogs & Articles
 * [Hello, World!](https://zerodha.tech/blog/hello-world/) - Includes interesting aspects of how Zerodha managed testing and their principles around engineering quality.
 
 </details>
 
+<details>
+  <summary>Zoopla</summary>
+
+#### Blogs & Articles
+
+* [Zoopla's Holistic Testing Model](https://zoopla.blog/posts/2023/testing-model)
+
+</details>
+
 ## Contributors
+
 <a href="https://github.com/abhivaikar/howtheytest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=abhivaikar/howtheytest" />
 </a>
 
 ## Contribution
+
 Want to contribute? Just fork and raise a PR!
 
 ## Credits
+
 - Images in banner used from https://undraw.co/
 - Idea inspired from the [awesome](https://github.com/sindresorhus/awesome) lists.
 - Static site powered by [docsify](https://docsify.js.org/).
@@ -1532,7 +1543,9 @@ Want to contribute? Just fork and raise a PR!
 - All the authors and the companies they represented in the resources.
 
 ## Code of Conduct
+
 Please refer to the code of conduct [here](https://github.com/abhivaikar/howtheytest/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
+
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
