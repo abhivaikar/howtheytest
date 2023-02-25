@@ -1523,7 +1523,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Zero bug policy](https://zoopla.blog/posts/2022/zero-bug-policy/)
 * [Accessibility testing at Zoopla](https://zoopla.blog/posts/2022/accessibility-testing-cypress-axe/)
 * [Contract Testing 101](https://zoopla.blog/posts/2022/contract-testing-101/)
-* [Emulating QA and Production Environments with Next.js and Caddy](Emulating QA and Production Environments with Next.js and Caddy)
+* [Emulating QA and Production Environments with Next.js and Caddy](https://zoopla.blog/posts/2021/emulating-qa-and-production/)
 </details>
 
 ## Contributors
