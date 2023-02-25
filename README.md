@@ -1518,7 +1518,12 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
 
 * [Zoopla's Holistic Testing Model](https://zoopla.blog/posts/2023/testing-model)
-
+* [Measuring web page performance at Zoopla](https://zoopla.blog/posts/2021/measuring-page-performance/)
+* [Scaling Playwright tests with tag annotations](https://zoopla.blog/posts/2022/playwright-tag-annotations/)
+* [Zero bug policy](https://zoopla.blog/posts/2022/zero-bug-policy/)
+* [Accessibility testing at Zoopla](https://zoopla.blog/posts/2022/accessibility-testing-cypress-axe/)
+* [Contract Testing 101](https://zoopla.blog/posts/2022/contract-testing-101/)
+* [Emulating QA and Production Environments with Next.js and Caddy](Emulating QA and Production Environments with Next.js and Caddy)
 </details>
 
 ## Contributors
