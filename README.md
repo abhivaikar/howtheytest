@@ -925,9 +925,6 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 <details>
   <summary>Mozilla</summary>
-
-#### Handbook
-* [Mozilla Quality Assurance](https://quality.mozilla.org/)
   
 #### Blogs & Articles
 * [Engineering code quality in the Firefox browser: A look at our tools and challenges](https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/)
