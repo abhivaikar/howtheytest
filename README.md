@@ -1006,6 +1006,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs & Articles
 * [Why We Killed Our End-to-End Test Suite](https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/)
+* [A gentle and practical introduction to A/B tests](https://building.nubank.com.br/introduction-to-a-b-tests/)
 
 </details>
 
