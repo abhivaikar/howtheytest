@@ -706,6 +706,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Grab</summary>
 
 #### Blogs & Articles
+* [Evolution of quality at Grab](https://engineering.grab.com/evolution-of-quality)
 * [Marionette - Enabling E2E user-scenario simulation](https://engineering.grab.com/marionette-enabling-e2e-user-scenario-simulation)
 </details>
 
