@@ -1055,6 +1055,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Reddit</summary>
+
+#### Blogs & Articles
+  * [iOS: UI Testing Strategy and Tooling](https://reddit.com/r/RedditEng/comments/14gd9gc/ios_ui_testing_strategy_and_tooling/)
+  * [Reddit’s E2E UI Automation Framework for Android](https://reddit.com/r/RedditEng/comments/11x5iwv/reddits_e2e_ui_automation_framework_for_android/)
+
+</details>
+
+<details>
   <summary>Slalom Build</summary>
 
 #### Blogs & Articles
