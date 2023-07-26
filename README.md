@@ -902,6 +902,8 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Miro</summary>
 
 #### Blogs & Articles
+* [How the Miro Developer Platform leverages contract testing](https://medium.com/miro-engineering/how-the-miro-developer-platform-leverages-contract-testing-91fae20987d1)
+* [QA Lead at Miro: a strategy toward quality](https://medium.com/miro-engineering/qa-lead-at-miro-a-strategy-toward-quality-957b721a91da)
 * [QA process at Miro](https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42)
 * [Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture](https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699)
 * [Reliable load testing with regards to unexpected nuances](https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5)
