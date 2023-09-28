@@ -1251,6 +1251,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Tarantool</summary>
+
+#### Blogs & Articles
+* [Ten-year experience in DBMS testing](https://dev.to/tarantool/ten-year-experience-in-dbms-testing-19ea)
+* [Расшифровка доклада: О чём я говорю, когда говорю о тестировании корректности работы компиляторов](https://habr.com/ru/companies/oleg-bunin/articles/742122/) (In Russian)
+
+#### Videos
+* [О чём я говорю, когда говорю о тестировании корректности работы компилятора](https://www.youtube.com/watch?v=qwynLfpf9zk) (In Russian)
+</details>
+
+<details>
   <summary>The Guardian</summary>
 
 #### Blogs & Articles
