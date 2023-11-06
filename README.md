@@ -257,6 +257,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
 * [Visual regression testing: why, what and how](https://youtu.be/fhVnTNyfUgs)
+* [How Canva is Doing Software Testing](https://www.youtube.com/watch?v=m7E9gjhd1IY)
 </details>
 
 <details>
