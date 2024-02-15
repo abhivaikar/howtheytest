@@ -907,6 +907,10 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [CSE Code With Engineering Playbook: Automated testing](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/)
 * [How Hydra Lab Empowers Microsoft Mobile Testing and Test Intelligence](https://medium.com/microsoft-mobile-engineering/how-hydra-lab-empowers-microsoft-mobile-testing-e4bd831ecf41)
 
+#### Videos
+* [Shift Left to Test Fast and Reliably](https://youtu.be/iJkI8PwlxR4?si=Pj9y71MOCwtUlOTW)
+* [Combining Dev and Test in the Org](https://youtu.be/tj5mfW_gtRU?si=_UG5_ND32TkZX5cz)
+  
 #### Frameworks
 * [Playwright is a framework for Web Testing and Automation.](https://github.com/microsoft/playwright)
 * [HydraLab: Intelligent Cloud Testing Made Easy](https://github.com/microsoft/HydraLab)
