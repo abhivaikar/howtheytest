@@ -893,9 +893,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Books
 * [How We Test Software at Microsoft](https://books.google.com.sg/books?id=X5lCAwAAQBAJ) by and Alan C. Page, Ken Johnston and [BJ Rollison](https://twitter.com/testingmentor) is a good starting point.
 
-#### Articles
+#### Blogs & Articles
 * [Munil Shah: Evolving Test Practices at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft)
 * [CSE Code With Engineering Playbook: Automated testing](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/)
+* [How Hydra Lab Empowers Microsoft Mobile Testing and Test Intelligence](https://medium.com/microsoft-mobile-engineering/how-hydra-lab-empowers-microsoft-mobile-testing-e4bd831ecf41)
+
+#### Frameworks
+* [Playwright is a framework for Web Testing and Automation.](https://github.com/microsoft/playwright)
+* [HydraLab: Intelligent Cloud Testing Made Easy](https://github.com/microsoft/HydraLab)
 </details>
 
 <details>
