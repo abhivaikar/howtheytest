@@ -771,6 +771,14 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>Komoot</summary>
+
+#### Videos
+* [How komoot is Doing Software Testing](https://www.youtube.com/watch?v=iH97wIutL2U)
+
+</details>
+
+<details>
   <summary>La Redoute</summary>
 
 #### Blogs & Articles
