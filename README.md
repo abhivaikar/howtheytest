@@ -1331,6 +1331,9 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Trivago</summary>
 
 #### Blogs
+* [End-to-end tests retry strategies](https://tech.trivago.com/post/2023-09-27-end-to-end-tests-retry-strategies)
+* [How we improved reporting and monitoring of test automation results](https://tech.trivago.com/post/2023-02-15-how-we-improved-reporting-and-monitoring-of-test-automation-results)
+* [Cluecumber Report Maven Plugin for Cucumber test reporting](https://tech.trivago.com/post/cluecumber-reporting-plugin)
 * [Building fast and reliable web applications](https://tech.trivago.com/2018/10/12/building-fast-and-reliable-web-applications)
 * [Cucable Maven plugin for parallel execution of Cucumber scenarios](https://tech.trivago.com/2017/06/30/cucable-maven-plugin-for-parallel-execution-of-cucumber-scenarios)
 * [Creating a Culture of Quality](https://tech.trivago.com/2015/08/31/culture_of_quality)
