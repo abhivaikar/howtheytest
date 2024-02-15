@@ -249,14 +249,15 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Canva</summary>
 
 #### Blogs & Articles
-* [Why we left manual UI testing behind](https://canvatechblog.com/why-we-left-manual-ui-testing-behind-293b98a58183)
-* [Recommender systems: When they fail, who are you gonna call?](https://canvatechblog.com/recommender-systems-when-they-fail-who-are-you-gonna-call-3377d21534ee)
-* [Speeding up UI tests with CodeceptJS and Playwright](https://canvatechblog.com/speeding-up-ui-tests-with-codeceptjs-and-playwright-98daf6cb8a79)
-* [Testing Search Engine Optimization Scalably without Breaking a Sweat](https://canvatechblog.com/testing-search-engine-optimization-scalably-without-breaking-a-sweat-8f91ccfc451d)
+* [Why we left manual UI testing behind](https://www.canva.dev/blog/engineering/why-we-left-manual-ui-testing-behind/)
+* [Recommender systems: When they fail, who are you gonna call?](https://www.canva.dev/blog/engineering/recommender-systems-when-they-fail-who-are-you-gonna-call/)
+* [Speeding up UI tests with CodeceptJS and Playwright](https://www.canva.dev/blog/engineering/speeding-up-ui-tests-with-codeceptjs-and-playwright/)
+* [Testing Search Engine Optimization Scalably without Breaking a Sweat](https://www.canva.dev/blog/engineering/testing-search-engine-optimization-scalably-without-breaking-a-sweat/)
 
 #### Videos
 * [User Testing: Finding That One Thing Meatloaf Won't Do For Love](https://www.youtube.com/watch?v=7FopNNQr2hY)
 * [Visual regression testing: why, what and how](https://youtu.be/fhVnTNyfUgs)
+* [How Canva is Doing Software Testing](https://www.youtube.com/watch?v=m7E9gjhd1IY)
 </details>
 
 <details>
