@@ -1080,7 +1080,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 #### Blogs & Articles
   * [iOS: UI Testing Strategy and Tooling](https://reddit.com/r/RedditEng/comments/14gd9gc/ios_ui_testing_strategy_and_tooling/)
   * [Reddit’s E2E UI Automation Framework for Android](https://reddit.com/r/RedditEng/comments/11x5iwv/reddits_e2e_ui_automation_framework_for_android/)
-
+  * [From Fragile to Agile: Automating the fight against Flaky Tests](https://www.reddit.com/r/RedditEng/comments/1ap4axo/from_fragile_to_agile_automating_the_fight/?utm_source=share&utm_medium=web2x&context=3)
 </details>
 
 <details>
