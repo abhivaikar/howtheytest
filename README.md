@@ -1344,6 +1344,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
   <summary>Trivago</summary>
 
 #### Blogs
+* [Streamlining GraphQL Service Testing with Karate](https://tech.trivago.com/post/2024-07-08-streamlining-graphql-service-testing-with-karate)
 * [End-to-end tests retry strategies](https://tech.trivago.com/post/2023-09-27-end-to-end-tests-retry-strategies)
 * [How we improved reporting and monitoring of test automation results](https://tech.trivago.com/post/2023-02-15-how-we-improved-reporting-and-monitoring-of-test-automation-results)
 * [Cluecumber Report Maven Plugin for Cucumber test reporting](https://tech.trivago.com/post/cluecumber-reporting-plugin)
