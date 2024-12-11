@@ -1304,6 +1304,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+ <summary>TikTok</summary>
+
+ #### Blogs & Articles
+ * [Make your tests readable with jest-bdd-generator](https://developers.tiktok.com/blog/jest-bdd-generator)
+ * [Protecting Users Around the World: Quality Assurance Team in Action!](https://lifeattiktok.com/blog/detail/20240528152419)
+
+ #### Videos
+ * [Career Coffee with QA Engineer at TikTok](https://www.youtube.com/live/cWnK2_J1jl4?si=zjodBXHPe0eCqYnX)
+
+</details>
+<details>
   <summary>Trendyol</summary>
 
 #### Blogs & Articles
