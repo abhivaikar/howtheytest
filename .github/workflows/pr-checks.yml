@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: npm test -- --ci --coverage --maxWorkers=2
+        run: npm test -- --ci --maxWorkers=2
 
       - name: Validate data schema
         run: npm run validate
@@ -36,12 +36,3 @@ jobs:
         env:
           NEXT_PUBLIC_API_URL: https://test.netlify.app/.netlify/functions/submit-resource
           NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
-
-      - name: Upload coverage reports
-        uses: codecov/codecov-action@v4
-        if: always()
-        continue-on-error: true
-        with:
-          files: ./coverage/lcov.info
-          flags: unittests
-          name: codecov-umbrella
