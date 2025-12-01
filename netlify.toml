@@ -5,11 +5,3 @@
 
 [functions]
   directory = "netlify/functions"
-
-# Disable Next.js plugin - we're only hosting serverless functions on Netlify
-# The static site is hosted on GitHub Pages
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-  [plugins.inputs]
-    disable = true
