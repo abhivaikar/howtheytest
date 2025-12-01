@@ -1,0 +1,15 @@
+{
+  "id": "test-company",
+  "name": "Test Company",
+  "industry": "other",
+  "resources": [
+    {
+      "title": "Test Resource for Integration Testing",
+      "url": "https://example.com/test-resource",
+      "type": "blog",
+      "topics": [
+        "test-automation"
+      ]
+    }
+  ]
+}
