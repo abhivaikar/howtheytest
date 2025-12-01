@@ -1,0 +1,230 @@
+{
+  "topics": {
+    "test-types": {
+      "label": "Test Types",
+      "tags": [
+        "unit-testing",
+        "integration-testing",
+        "e2e-testing",
+        "visual-regression",
+        "api-testing",
+        "security-testing",
+        "performance-testing",
+        "load-testing",
+        "functional-testing",
+        "regression-testing",
+        "smoke-testing",
+        "acceptance-testing",
+        "contract-testing",
+        "mutation-testing"
+      ]
+    },
+    "practices": {
+      "label": "Testing Practices",
+      "tags": [
+        "tdd",
+        "bdd",
+        "continuous-testing",
+        "shift-left",
+        "testing-in-production",
+        "chaos-engineering",
+        "canary-testing",
+        "ab-testing",
+        "exploratory-testing",
+        "pair-testing",
+        "mob-testing",
+        "risk-based-testing"
+      ]
+    },
+    "automation": {
+      "label": "Automation & CI/CD",
+      "tags": [
+        "test-automation",
+        "ci-cd",
+        "continuous-integration",
+        "continuous-deployment",
+        "continuous-delivery",
+        "build-pipeline",
+        "deployment-pipeline",
+        "automated-checks"
+      ]
+    },
+    "platforms": {
+      "label": "Platforms & Technologies",
+      "tags": [
+        "mobile-testing",
+        "android",
+        "ios",
+        "web-testing",
+        "backend-testing",
+        "frontend-testing",
+        "microservices",
+        "api",
+        "graphql",
+        "rest"
+      ]
+    },
+    "tools": {
+      "label": "Tools & Frameworks",
+      "tags": [
+        "selenium",
+        "appium",
+        "cypress",
+        "playwright",
+        "webdriver",
+        "jest",
+        "pytest",
+        "junit",
+        "testng",
+        "cucumber",
+        "detox",
+        "xcuitest",
+        "espresso"
+      ]
+    },
+    "infrastructure": {
+      "label": "Infrastructure & DevOps",
+      "tags": [
+        "kubernetes",
+        "docker",
+        "containerization",
+        "cloud-testing",
+        "device-lab",
+        "test-environment",
+        "infrastructure-as-code",
+        "virtualization"
+      ]
+    },
+    "quality-culture": {
+      "label": "Quality & Culture",
+      "tags": [
+        "quality-engineering",
+        "qa-culture",
+        "quality-processes",
+        "whole-team-quality",
+        "quality-assurance",
+        "quality-assistance",
+        "test-strategy",
+        "quality-metrics"
+      ]
+    },
+    "observability": {
+      "label": "Observability & Production",
+      "tags": [
+        "monitoring",
+        "observability",
+        "alerting",
+        "incident-management",
+        "sre",
+        "site-reliability",
+        "debugging",
+        "logging",
+        "tracing",
+        "metrics"
+      ]
+    },
+    "methodologies": {
+      "label": "Methodologies & Patterns",
+      "tags": [
+        "agile-testing",
+        "devops",
+        "page-object-model",
+        "test-data-management",
+        "mocking",
+        "stubbing",
+        "test-doubles",
+        "fixtures"
+      ]
+    },
+    "special": {
+      "label": "Specialized Testing",
+      "tags": [
+        "accessibility-testing",
+        "localization-testing",
+        "compatibility-testing",
+        "usability-testing",
+        "user-testing",
+        "ux-testing",
+        "data-testing",
+        "ml-testing",
+        "ai-testing"
+      ]
+    }
+  },
+  "keywords": {
+    "unit-testing": ["unit test", "unit testing", "unittest", "unit tests"],
+    "integration-testing": ["integration test", "integration testing", "integration tests"],
+    "e2e-testing": ["e2e", "end-to-end", "end to end", "e2e test", "end-to-end test", "ui test"],
+    "visual-regression": ["visual regression", "visual testing", "screenshot test", "visual test", "screenshot testing"],
+    "api-testing": ["api test", "api testing", "rest api test", "rest api", "api automation"],
+    "security-testing": ["security test", "security testing", "penetration test", "vulnerability", "security scan", "security automation"],
+    "performance-testing": ["performance test", "performance testing", "performance analysis", "benchmarking", "performance regression"],
+    "load-testing": ["load test", "load testing", "stress test", "stress testing", "scalability test"],
+    "functional-testing": ["functional test", "functional testing", "ui testing", "user interface test"],
+    "acceptance-testing": ["acceptance test", "acceptance testing", "user acceptance", "uat"],
+    "regression-testing": ["regression test", "regression testing", "regression"],
+    "smoke-testing": ["smoke test", "smoke testing", "sanity test"],
+    "mobile-testing": ["mobile test", "mobile testing", "mobile app", "app testing"],
+    "android": ["android", "espresso", "android test", "android app"],
+    "ios": ["ios", "xcuitest", "swift test", "xcode", "ios app", "iphone", "ipad"],
+    "web-testing": ["web test", "web testing", "browser test", "web app"],
+    "test-automation": ["automation", "automated test", "test automation", "automated testing", "automate"],
+    "ci-cd": ["ci/cd", "ci cd", "continuous integration", "continuous deployment", "continuous delivery", "pipeline", "build pipeline", "deployment pipeline"],
+    "continuous-integration": ["continuous integration", "ci", "build automation"],
+    "continuous-deployment": ["continuous deployment", "continuous delivery", "cd", "deploy"],
+    "selenium": ["selenium", "webdriver", "selenium webdriver"],
+    "cypress": ["cypress", "cypress.io"],
+    "playwright": ["playwright"],
+    "appium": ["appium"],
+    "detox": ["detox"],
+    "jest": ["jest"],
+    "pytest": ["pytest", "python test"],
+    "junit": ["junit", "java test"],
+    "testng": ["testng"],
+    "docker": ["docker", "containerization", "container"],
+    "kubernetes": ["kubernetes", "k8s"],
+    "chaos-engineering": ["chaos engineering", "chaos test", "chaos monkey", "chaos"],
+    "monitoring": ["monitoring", "observability", "metrics", "alerting"],
+    "sre": ["sre", "site reliability", "reliability engineering"],
+    "tdd": ["tdd", "test-driven development", "test driven", "test first"],
+    "bdd": ["bdd", "behavior-driven", "behaviour-driven", "cucumber", "gherkin", "given when then"],
+    "device-lab": ["device lab", "device farm", "test lab", "testing lab"],
+    "quality-engineering": ["quality engineering", "quality engineer", "qa engineer", "test engineer", "sdet", "quality assurance", "quality", "qa"],
+    "quality-processes": ["quality process", "quality culture", "testing culture", "qa culture", "testing process"],
+    "contract-testing": ["contract test", "pact", "contract testing", "consumer-driven"],
+    "microservices": ["microservice", "microservices", "service-oriented"],
+    "graphql": ["graphql"],
+    "rest": ["rest", "restful", "rest api"],
+    "api": ["api"],
+    "testing-in-production": ["testing in production", "production test", "canary", "feature flag"],
+    "flaky-tests": ["flaky test", "test flakiness", "flaky", "flakiness", "unstable test"],
+    "code-coverage": ["code coverage", "coverage", "test coverage"],
+    "mutation-testing": ["mutation test", "mutation testing"],
+    "mocking": ["mock", "mocking", "stub", "stubbing", "test double", "fake"],
+    "test-data-management": ["test data", "data generation", "test fixtures", "fixtures"],
+    "accessibility-testing": ["accessibility", "a11y", "wcag", "accessibility test"],
+    "localization-testing": ["localization", "l10n", "internationalization", "i18n"],
+    "usability-testing": ["usability", "user experience", "ux", "user test"],
+    "agile-testing": ["agile", "scrum", "sprint"],
+    "devops": ["devops", "devsecops"],
+    "debugging": ["debug", "debugging", "troubleshoot"],
+    "logging": ["logging", "log", "logs"],
+    "tracing": ["tracing", "distributed tracing"],
+    "incident-management": ["incident", "postmortem", "root cause"],
+    "cloud-testing": ["cloud", "aws", "azure", "gcp"],
+    "infrastructure-as-code": ["infrastructure as code", "iac", "terraform", "ansible"],
+    "release-management": ["release", "deployment", "rollout"],
+    "frontend-testing": ["frontend", "front-end", "ui", "client-side"],
+    "backend-testing": ["backend", "back-end", "server-side"],
+    "test-strategy": ["test strategy", "testing strategy", "test plan"],
+    "shift-left": ["shift left", "shift-left"],
+    "exploratory-testing": ["exploratory", "exploratory test"],
+    "page-object-model": ["page object", "pom", "page model"],
+    "parallel-testing": ["parallel", "parallelization", "parallel execution"],
+    "test-environment": ["test environment", "staging", "qa environment"],
+    "ab-testing": ["a/b test", "ab test", "a/b testing"],
+    "canary-testing": ["canary", "canary release"],
+    "feature-flag": ["feature flag", "feature toggle"],
+    "whole-team-quality": ["whole team", "quality assistance"]
+  }
+}

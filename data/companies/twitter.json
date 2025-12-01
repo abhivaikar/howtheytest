@@ -1,0 +1,39 @@
+{
+  "id": "twitter",
+  "name": "Twitter",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "gtac-2015-hands-off-regression-testing-c858e34f",
+      "title": "GTAC 2015: Hands Off Regression Testing",
+      "url": "https://www.youtube.com/watch?v=2zjhKmV0UFA&index=12&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1",
+      "type": "video",
+      "topics": [
+        "regression-testing"
+      ]
+    },
+    {
+      "id": "gtac-2013-testing-systems-at-scale-twitt-20c2ae59",
+      "title": "GTAC 2013: Testing Systems at Scale @Twitter",
+      "url": "http://www.youtube.com/watch?v=99RABfKNfcY&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "testing-for-products-with-a-microservice-b9f474d5",
+      "title": "Testing for products with a microservice architecture - Building an agnostic test framework",
+      "url": "https://www.youtube.com/watch?v=lN5bc0coO3k&feature=emb_title&ab_channel=BrowserStack",
+      "type": "video",
+      "topics": [
+        "frontend-testing",
+        "microservices"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "automattic-wordpress",
+  "name": "Automattic (Wordpress)",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "your-tests-arent-flaky-gtac-2015-5973ffb8",
+      "title": "Your Tests Aren't Flaky. GTAC 2015",
+      "url": "https://www.youtube.com/watch?v=hmk1h40shaE&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=10",
+      "type": "video",
+      "topics": [
+        "flaky-tests"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

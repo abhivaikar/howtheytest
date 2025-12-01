@@ -1,0 +1,22 @@
+{
+  "id": "wikimedia",
+  "name": "Wikimedia",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "wikimedia-quality-handbook-ac794d79",
+      "title": "Wikimedia Quality Handbook",
+      "url": "https://www.mediawiki.org/wiki/Quality_Assurance",
+      "type": "book",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}
