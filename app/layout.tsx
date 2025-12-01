@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <meta
           httpEquiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://*.cloudflare.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://challenges.cloudflare.com https://*.cloudflare.com; frame-src https://challenges.cloudflare.com; img-src 'self' data: https:;"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com https://*.cloudflare.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.netlify.app https://challenges.cloudflare.com https://*.cloudflare.com; frame-src https://challenges.cloudflare.com; img-src 'self' data: https:;"
         />
       </head>
       <body className="antialiased">
