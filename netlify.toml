@@ -1,7 +1,7 @@
 [build]
   # No build needed - we're only deploying serverless functions
-  # Skip package installation - not needed for functions
-  command = "echo 'Functions-only deployment - no build needed'"
+  # Create empty publish directory
+  command = "mkdir -p .netlify-build"
   publish = ".netlify-build"
 
 [functions]
