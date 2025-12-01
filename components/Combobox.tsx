@@ -91,6 +91,24 @@ export default function Combobox({
     setIsOpen(true);
   };
 
+  const handleAddNew = () => {
+    if (!searchTerm.trim()) return;
+    onChange(searchTerm.trim());
+    setDisplayValue(searchTerm.trim());
+    setIsOpen(false);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (filteredOptions.length > 0) {
+        handleSelect(filteredOptions[0]);
+      } else if (searchTerm.trim()) {
+        handleAddNew();
+      }
+    }
+  };
+
   return (
     <div ref={containerRef} className="relative">
       <label
@@ -107,6 +125,7 @@ export default function Combobox({
           value={searchTerm}
           onChange={handleInputChange}
           onFocus={handleInputFocus}
+          onKeyDown={handleKeyDown}
           placeholder={placeholder}
           className="w-full px-4 py-2 pr-20 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
@@ -164,9 +183,19 @@ export default function Combobox({
                 </li>
               ))}
             </ul>
+          ) : searchTerm.trim() ? (
+            <div className="py-2">
+              <button
+                type="button"
+                onClick={handleAddNew}
+                className="w-full text-left px-4 py-2 hover:bg-blue-50 dark:hover:bg-gray-600 text-gray-900 dark:text-white"
+              >
+                <span className="text-blue-600 dark:text-blue-400">+ Add new:</span> "{searchTerm.trim()}"
+              </button>
+            </div>
           ) : (
             <div className="px-4 py-3 text-sm text-gray-500 dark:text-gray-400">
-              No options found
+              Type to search or add new
             </div>
           )}
         </div>
