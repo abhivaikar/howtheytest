@@ -1,10 +1,19 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [mounted, setMounted] = useState(false);
+
+  const applyTheme = useCallback((newTheme: 'light' | 'dark') => {
+    const root = document.documentElement;
+    if (newTheme === 'dark') {
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+    }
+  }, []);
 
   // Set mounted to true after component mounts to avoid hydration mismatch
   useEffect(() => {
@@ -23,16 +32,7 @@ export default function ThemeToggle() {
       setTheme(systemTheme);
       applyTheme(systemTheme);
     }
-  }, []);
-
-  const applyTheme = (newTheme: 'light' | 'dark') => {
-    const root = document.documentElement;
-    if (newTheme === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
-  };
+  }, [applyTheme]);
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';

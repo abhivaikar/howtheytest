@@ -1,11 +1,11 @@
-import Link from 'next/link';
 import { Company } from '@/types/database';
 
 interface CompanyCardProps {
   company: Company;
+  onClick: () => void;
 }
 
-export default function CompanyCard({ company }: CompanyCardProps) {
+export default function CompanyCard({ company, onClick }: CompanyCardProps) {
   // Collect all unique topics from all resources
   const allTopics = Array.from(
     new Set(
@@ -14,8 +14,10 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   ).sort();
 
   return (
-    <Link href={`/company/${company.id}`}>
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all duration-200 p-6 h-full cursor-pointer border border-transparent hover:border-blue-500 dark:hover:border-blue-400">
+    <div
+      onClick={onClick}
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all duration-200 p-6 h-full cursor-pointer border border-transparent hover:border-blue-500 dark:hover:border-blue-400"
+    >
         {/* Company Name */}
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           {company.name}
@@ -50,6 +52,5 @@ export default function CompanyCard({ company }: CompanyCardProps) {
           </div>
         )}
       </div>
-    </Link>
   );
 }

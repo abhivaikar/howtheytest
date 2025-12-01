@@ -26,16 +26,18 @@ export default function Combobox({
   const [displayValue, setDisplayValue] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Update display value when value changes
+  // Update display value when value changes (only when dropdown is closed)
   useEffect(() => {
-    if (value) {
-      setDisplayValue(formatOption(value));
-      setSearchTerm(formatOption(value));
-    } else {
-      setDisplayValue('');
-      setSearchTerm('');
+    if (!isOpen) {
+      if (value) {
+        setDisplayValue(formatOption(value));
+        setSearchTerm(formatOption(value));
+      } else {
+        setDisplayValue('');
+        setSearchTerm('');
+      }
     }
-  }, [value, formatOption]);
+  }, [value, formatOption, isOpen]);
 
   // Filter options based on search term
   const filteredOptions = options.filter((option) =>
