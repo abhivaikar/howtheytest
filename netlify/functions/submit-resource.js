@@ -105,10 +105,27 @@ function createCompanyData(existingData, formData) {
 }
 
 exports.handler = async (event) => {
+  // CORS headers for cross-origin requests (when static site is on GitHub Pages)
+  const headers = {
+    'Access-Control-Allow-Origin': '*', // Or specify your GitHub Pages domain
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  };
+
+  // Handle preflight OPTIONS request
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+      body: '',
+    };
+  }
+
   // Only allow POST requests
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
+      headers,
       body: JSON.stringify({ error: 'Method not allowed' }),
     };
   }
@@ -131,6 +148,7 @@ exports.handler = async (event) => {
       if (!formData[field] || !formData[field].trim()) {
         return {
           statusCode: 400,
+          headers,
           body: JSON.stringify({ error: `${field} is required` }),
         };
       }
@@ -140,6 +158,7 @@ exports.handler = async (event) => {
     if (!formData.topics || !Array.isArray(formData.topics) || formData.topics.length === 0) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({ error: 'At least one topic is required' }),
       };
     }
@@ -148,6 +167,7 @@ exports.handler = async (event) => {
     if (!isValidUrl(formData.resourceUrl)) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({ error: 'Invalid resource URL' }),
       };
     }
@@ -156,6 +176,7 @@ exports.handler = async (event) => {
     if (formData.githubUsername && !isValidGithubUsername(formData.githubUsername)) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({ error: 'Invalid GitHub username' }),
       };
     }
@@ -183,6 +204,7 @@ exports.handler = async (event) => {
     if (isDuplicate) {
       return {
         statusCode: 400,
+        headers,
         body: JSON.stringify({ error: 'This resource already exists in our database' }),
       };
     }
@@ -284,6 +306,7 @@ This contribution was submitted via the How They Test website.${
     // Return success response with PR URL
     return {
       statusCode: 200,
+      headers,
       body: JSON.stringify({
         success: true,
         prUrl: pr.html_url,
@@ -294,6 +317,7 @@ This contribution was submitted via the How They Test website.${
     console.error('Error creating PR:', error);
     return {
       statusCode: 500,
+      headers,
       body: JSON.stringify({
         error: 'Failed to submit resource. Please try again later.',
         details: error.message,

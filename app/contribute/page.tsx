@@ -198,7 +198,10 @@ export default function ContributePage() {
     setErrors({});
 
     try {
-      const response = await fetch('/api/submit-resource', {
+      // Use environment variable for API endpoint, fallback to relative URL
+      const apiEndpoint = process.env.NEXT_PUBLIC_API_URL || '/api/submit-resource';
+
+      const response = await fetch(apiEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
