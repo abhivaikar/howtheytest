@@ -8,11 +8,82 @@ import { createAppAuth } from '@octokit/auth-app';
 // - REPO_OWNER (e.g., "abhivaikar")
 // - REPO_NAME (e.g., "howtheytest")
 // - REVIEWER_USERNAME (e.g., "abhivaikar")
+// - TURNSTILE_SECRET_KEY (Cloudflare Turnstile secret key)
+// - ALLOWED_ORIGINS (comma-separated list of allowed origins)
 
 const REPO_OWNER = process.env.REPO_OWNER || 'abhivaikar';
 const REPO_NAME = process.env.REPO_NAME || 'howtheytest';
 const REVIEWER_USERNAME = process.env.REVIEWER_USERNAME || 'abhivaikar';
 const BASE_BRANCH = 'master';
+
+// Security configuration
+const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',')
+  : ['https://abhivaikar.github.io', 'http://localhost:3000'];
+
+// Rate limiting configuration
+const RATE_LIMIT_WINDOW_MS = 60000; // 1 minute
+const RATE_LIMIT_MAX_REQUESTS = 5; // 5 requests per minute per IP
+const rateLimits = new Map();
+
+// Clean up old rate limit entries every 5 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, requests] of rateLimits.entries()) {
+    const validRequests = requests.filter(time => now - time < RATE_LIMIT_WINDOW_MS);
+    if (validRequests.length === 0) {
+      rateLimits.delete(ip);
+    } else {
+      rateLimits.set(ip, validRequests);
+    }
+  }
+}, 300000);
+
+// Helper function to check rate limit
+function checkRateLimit(ip) {
+  const now = Date.now();
+
+  if (!rateLimits.has(ip)) {
+    rateLimits.set(ip, []);
+  }
+
+  const requests = rateLimits.get(ip).filter(time => now - time < RATE_LIMIT_WINDOW_MS);
+
+  if (requests.length >= RATE_LIMIT_MAX_REQUESTS) {
+    return false; // Rate limit exceeded
+  }
+
+  requests.push(now);
+  rateLimits.set(ip, requests);
+  return true;
+}
+
+// Helper function to verify Cloudflare Turnstile token
+async function verifyTurnstile(token) {
+  const secretKey = process.env.TURNSTILE_SECRET_KEY;
+
+  if (!secretKey) {
+    console.warn('TURNSTILE_SECRET_KEY not configured, skipping verification');
+    return true; // Allow if not configured (for development)
+  }
+
+  try {
+    const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        secret: secretKey,
+        response: token,
+      }),
+    });
+
+    const data = await response.json();
+    return data.success;
+  } catch (error) {
+    console.error('Turnstile verification error:', error);
+    return false;
+  }
+}
 
 // Helper function to create a slug from company name
 function createSlug(name) {
@@ -105,9 +176,13 @@ function createCompanyData(existingData, formData) {
 }
 
 export const handler = async (event) => {
-  // CORS headers for cross-origin requests (when static site is on GitHub Pages)
+  // Origin validation
+  const origin = event.headers.origin || event.headers.Origin || '';
+  const isAllowedOrigin = ALLOWED_ORIGINS.includes(origin);
+
+  // CORS headers - only allow requests from allowed origins
   const headers = {
-    'Access-Control-Allow-Origin': '*', // Or specify your GitHub Pages domain
+    'Access-Control-Allow-Origin': isAllowedOrigin ? origin : '',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
   };
@@ -121,6 +196,15 @@ export const handler = async (event) => {
     };
   }
 
+  // Check origin for actual requests
+  if (!isAllowedOrigin) {
+    return {
+      statusCode: 403,
+      headers,
+      body: JSON.stringify({ error: 'Origin not allowed' }),
+    };
+  }
+
   // Only allow POST requests
   if (event.httpMethod !== 'POST') {
     return {
@@ -130,9 +214,37 @@ export const handler = async (event) => {
     };
   }
 
+  // Rate limiting
+  const clientIp = event.headers['x-nf-client-connection-ip'] || event.headers['x-forwarded-for'] || 'unknown';
+  if (!checkRateLimit(clientIp)) {
+    return {
+      statusCode: 429,
+      headers,
+      body: JSON.stringify({ error: 'Too many requests. Please try again later.' }),
+    };
+  }
+
   try {
     // Parse request body
     const formData = JSON.parse(event.body);
+
+    // Verify Turnstile token
+    if (!formData.turnstileToken) {
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ error: 'Security verification failed. Please refresh and try again.' }),
+      };
+    }
+
+    const isTurnstileValid = await verifyTurnstile(formData.turnstileToken);
+    if (!isTurnstileValid) {
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ error: 'Security verification failed. Please try again.' }),
+      };
+    }
 
     // Validate required fields
     const requiredFields = [

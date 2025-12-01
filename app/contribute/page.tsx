@@ -4,7 +4,11 @@ import { useState } from 'react';
 import { getDatabase } from '@/lib/database';
 import Combobox from '@/components/Combobox';
 import MultiSelectCombobox from '@/components/MultiSelectCombobox';
+import Turnstile from '@/components/Turnstile';
 import Link from 'next/link';
+
+// Get Turnstile site key from environment variable
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '1x00000000000000000000AA';
 
 interface FormData {
   companyName: string;
@@ -56,6 +60,7 @@ export default function ContributePage() {
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [prUrl, setPrUrl] = useState('');
   const [isExistingCompany, setIsExistingCompany] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
   // Get all unique company names
   const companyNames = companies.map((company) => company.name).sort();
@@ -194,6 +199,14 @@ export default function ContributePage() {
       return;
     }
 
+    // Check Turnstile token
+    if (!turnstileToken) {
+      setErrors({
+        submit: 'Please complete the security verification.',
+      });
+      return;
+    }
+
     setIsSubmitting(true);
     setErrors({});
 
@@ -206,7 +219,10 @@ export default function ContributePage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          turnstileToken,
+        }),
       });
 
       const data = await response.json();
@@ -232,6 +248,7 @@ export default function ContributePage() {
       });
       setWarnings({});
       setIsExistingCompany(false);
+      setTurnstileToken(null);
     } catch (error) {
       setErrors({
         submit: error instanceof Error ? error.message : 'An error occurred. Please try again.',
@@ -513,6 +530,25 @@ export default function ContributePage() {
             {errors.githubUsername && (
               <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.githubUsername}</p>
             )}
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-gray-200 dark:border-gray-700 my-8"></div>
+
+          {/* Security Verification */}
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+              Security Verification <span className="text-red-500">*</span>
+            </label>
+            <Turnstile
+              siteKey={TURNSTILE_SITE_KEY}
+              onVerify={(token) => setTurnstileToken(token)}
+              onError={() => setTurnstileToken(null)}
+              onExpire={() => setTurnstileToken(null)}
+            />
+            <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              Please verify you are human to submit your contribution
+            </p>
           </div>
 
           {/* Submit Error */}
