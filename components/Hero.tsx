@@ -13,7 +13,7 @@ export default function Hero() {
           {/* Banner Image */}
           <div className="mb-8 flex justify-center">
             <img
-              src="/howtheytest-banner-transparent.png"
+              src="/howtheytest/howtheytest-banner-transparent.png"
               alt="How They Test Banner"
               className="max-w-full h-auto w-[500px] sm:w-[600px] md:w-[700px]"
             />
