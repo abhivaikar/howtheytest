@@ -1,0 +1,22 @@
+{
+  "id": "visma",
+  "name": "Visma",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "software-quality-engineering-in-visma-wi-f26efa97",
+      "title": "Software Quality Engineering in Visma with Mili Orucevic",
+      "url": "https://www.youtube.com/watch?v=MY5_q8bkvX4",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

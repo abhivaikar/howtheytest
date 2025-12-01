@@ -1,0 +1,20 @@
+{
+  "id": "box",
+  "name": "Box",
+  "industry": "cloud-services",
+  "resources": [
+    {
+      "id": "gtac-2016-clusterrunner-making-fast-test-1c8cebdc",
+      "title": "GTAC 2016: ClusterRunner: making fast test-feedback easy through horizontal scaling",
+      "url": "https://youtu.be/V7fhx1i4qPE?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

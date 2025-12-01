@@ -1,0 +1,90 @@
+{
+  "id": "trivago",
+  "name": "Trivago",
+  "industry": "travel-hospitality",
+  "resources": [
+    {
+      "id": "streamlining-graphql-service-testing-wit-dc435cc3",
+      "title": "Streamlining GraphQL Service Testing with Karate",
+      "url": "https://tech.trivago.com/post/2024-07-08-streamlining-graphql-service-testing-with-karate",
+      "type": "blog",
+      "topics": [
+        "graphql"
+      ]
+    },
+    {
+      "id": "end-to-end-tests-retry-strategies-92b50c75",
+      "title": "End-to-end tests retry strategies",
+      "url": "https://tech.trivago.com/post/2023-09-27-end-to-end-tests-retry-strategies",
+      "type": "blog",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "how-we-improved-reporting-and-monitoring-8f96e9fe",
+      "title": "How we improved reporting and monitoring of test automation results",
+      "url": "https://tech.trivago.com/post/2023-02-15-how-we-improved-reporting-and-monitoring-of-test-automation-results",
+      "type": "blog",
+      "topics": [
+        "monitoring",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "cluecumber-report-maven-plugin-for-cucum-8c927ddf",
+      "title": "Cluecumber Report Maven Plugin for Cucumber test reporting",
+      "url": "https://tech.trivago.com/post/cluecumber-reporting-plugin",
+      "type": "blog",
+      "topics": [
+        "bdd"
+      ]
+    },
+    {
+      "id": "building-fast-and-reliable-web-applicati-c37aca4c",
+      "title": "Building fast and reliable web applications",
+      "url": "https://tech.trivago.com/2018/10/12/building-fast-and-reliable-web-applications",
+      "type": "blog",
+      "topics": [
+        "frontend-testing",
+        "web-testing"
+      ]
+    },
+    {
+      "id": "cucable-maven-plugin-for-parallel-execut-576a8894",
+      "title": "Cucable Maven plugin for parallel execution of Cucumber scenarios",
+      "url": "https://tech.trivago.com/2017/06/30/cucable-maven-plugin-for-parallel-execution-of-cucumber-scenarios",
+      "type": "blog",
+      "topics": [
+        "bdd",
+        "ios",
+        "parallel-testing"
+      ]
+    },
+    {
+      "id": "creating-a-culture-of-quality-e2643abb",
+      "title": "Creating a Culture of Quality",
+      "url": "https://tech.trivago.com/2015/08/31/culture_of_quality",
+      "type": "blog",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "elasticsearch-and-kibana-for-selenium-au-3f5575c0",
+      "title": "Elasticsearch and Kibana for Selenium Automation",
+      "url": "https://tech.trivago.com/2015/12/02/selenium_with_kibana",
+      "type": "blog",
+      "topics": [
+        "selenium",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

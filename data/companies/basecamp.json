@@ -1,0 +1,20 @@
+{
+  "id": "basecamp",
+  "name": "Basecamp",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "testing-without-test-damage-or-excessive-1e5652c4",
+      "title": "Testing without test damage or excessive isolation",
+      "url": "https://www.youtube.com/watch?v=5hN6OZDyQtk",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}
