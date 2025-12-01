@@ -51,7 +51,7 @@ export default function Turnstile({ siteKey, onVerify, onError, onExpire }: Turn
   return (
     <>
       <Script
-        src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
         onLoad={handleScriptLoad}
         strategy="lazyOnload"
       />
