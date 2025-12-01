@@ -1,7 +1,10 @@
 [build]
   # No build needed - we're only deploying serverless functions
-  command = "mkdir -p .netlify-build"
+  # Use 'true' command which always succeeds and does nothing
+  command = "true"
   publish = ".netlify-build"
+  # Explicitly ignore Next.js detection
+  ignore = "false"
 
 [functions]
   directory = "netlify/functions"
