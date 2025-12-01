@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/howtheytest',
+  assetPrefix: '/howtheytest',
   images: {
     unoptimized: true,
   },
