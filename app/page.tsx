@@ -9,6 +9,7 @@ import FilterBar, { FilterState } from '@/components/FilterBar';
 import ThemeToggle from '@/components/ThemeToggle';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
+import Link from 'next/link';
 
 export default function Home() {
   const database = getDatabase();
@@ -68,8 +69,15 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
-      {/* Fixed Header with Theme Toggle */}
-      <header className="fixed top-0 right-0 z-50 p-4">
+      {/* Fixed Header with Theme Toggle and Contribute Button */}
+      <header className="fixed top-0 right-0 z-50 p-4 flex items-center gap-3">
+        <Link
+          href="/contribute"
+          className="px-4 py-2 rounded-lg text-white font-medium transition-colors shadow-md hover:shadow-lg"
+          style={{ backgroundColor: '#42b983' }}
+        >
+          Contribute
+        </Link>
         <ThemeToggle />
       </header>
 
