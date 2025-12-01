@@ -10,6 +10,7 @@ interface ComboboxProps {
   value: string;
   onChange: (value: string) => void;
   formatOption?: (option: string) => string;
+  allowAddNew?: boolean;
 }
 
 export default function Combobox({
@@ -20,6 +21,7 @@ export default function Combobox({
   value,
   onChange,
   formatOption = (option) => option,
+  allowAddNew = false,
 }: ComboboxProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -103,7 +105,7 @@ export default function Combobox({
       e.preventDefault();
       if (filteredOptions.length > 0) {
         handleSelect(filteredOptions[0]);
-      } else if (searchTerm.trim()) {
+      } else if (allowAddNew && searchTerm.trim()) {
         handleAddNew();
       }
     }
@@ -183,7 +185,7 @@ export default function Combobox({
                 </li>
               ))}
             </ul>
-          ) : searchTerm.trim() ? (
+          ) : allowAddNew && searchTerm.trim() ? (
             <div className="py-2">
               <button
                 type="button"
@@ -195,7 +197,7 @@ export default function Combobox({
             </div>
           ) : (
             <div className="px-4 py-3 text-sm text-gray-500 dark:text-gray-400">
-              Type to search or add new
+              {allowAddNew ? 'Type to search or add new' : 'No options found'}
             </div>
           )}
         </div>

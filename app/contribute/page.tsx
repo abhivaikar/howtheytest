@@ -335,6 +335,7 @@ export default function ContributePage() {
               options={companyNames}
               value={formData.companyName}
               onChange={handleCompanyChange}
+              allowAddNew={true}
             />
             {warnings.company && (
               <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
@@ -456,6 +457,7 @@ export default function ContributePage() {
                   options={meta.industries}
                   value={formData.industry}
                   onChange={handleIndustryChange}
+                  allowAddNew={true}
                 />
                 {warnings.industry && (
                   <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
