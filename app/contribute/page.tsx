@@ -55,6 +55,7 @@ export default function ContributePage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [prUrl, setPrUrl] = useState('');
+  const [isExistingCompany, setIsExistingCompany] = useState(false);
 
   // Get all unique company names
   const companyNames = companies.map((company) => company.name).sort();
@@ -88,14 +89,32 @@ export default function ContributePage() {
   };
 
   const handleCompanyChange = (value: string) => {
-    setFormData({ ...formData, companyName: value });
+    // Check if this is an existing company
+    const existingCompany = companies.find(
+      (c) => c.name.toLowerCase() === value.toLowerCase()
+    );
 
-    if (value && checkNewValue(value, companyNames, 'company')) {
-      setWarnings({ ...warnings, company: value });
-    } else {
+    if (existingCompany) {
+      // Existing company - auto-fill industry and make it read-only
+      setFormData({ ...formData, companyName: value, industry: existingCompany.industry });
+      setIsExistingCompany(true);
+
+      // Clear company warning
       const newWarnings = { ...warnings };
       delete newWarnings.company;
       setWarnings(newWarnings);
+    } else {
+      // New company - allow industry selection
+      setFormData({ ...formData, companyName: value });
+      setIsExistingCompany(false);
+
+      if (value && checkNewValue(value, companyNames, 'company')) {
+        setWarnings({ ...warnings, company: value });
+      } else {
+        const newWarnings = { ...warnings };
+        delete newWarnings.company;
+        setWarnings(newWarnings);
+      }
     }
   };
 
@@ -209,6 +228,7 @@ export default function ContributePage() {
         githubUsername: '',
       });
       setWarnings({});
+      setIsExistingCompany(false);
     } catch (error) {
       setErrors({
         submit: error instanceof Error ? error.message : 'An error occurred. Please try again.',
@@ -408,20 +428,40 @@ export default function ContributePage() {
 
           {/* Industry */}
           <div className="mb-6">
-            <Combobox
-              id="industry"
-              label="Industry"
-              placeholder="Select or enter an industry"
-              options={meta.industries}
-              value={formData.industry}
-              onChange={handleIndustryChange}
-            />
-            {warnings.industry && (
-              <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
-                <p className="text-sm text-yellow-800 dark:text-yellow-200">
-                  <strong>⚠️ New industry:</strong> "{warnings.industry}" is not in our database. Please verify the name is correct and doesn't already exist with different spelling.
+            {isExistingCompany ? (
+              <>
+                <label htmlFor="industry" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Industry <span className="text-gray-500">(from existing company)</span>
+                </label>
+                <input
+                  type="text"
+                  id="industry"
+                  value={formData.industry}
+                  readOnly
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 cursor-not-allowed"
+                />
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  Industry is automatically set from the existing company and cannot be changed
                 </p>
-              </div>
+              </>
+            ) : (
+              <>
+                <Combobox
+                  id="industry"
+                  label="Industry"
+                  placeholder="Select or enter an industry"
+                  options={meta.industries}
+                  value={formData.industry}
+                  onChange={handleIndustryChange}
+                />
+                {warnings.industry && (
+                  <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
+                    <p className="text-sm text-yellow-800 dark:text-yellow-200">
+                      <strong>⚠️ New industry:</strong> "{warnings.industry}" is not in our database. Please verify the name is correct and doesn't already exist with different spelling.
+                    </p>
+                  </div>
+                )}
+              </>
             )}
             {errors.industry && (
               <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.industry}</p>
