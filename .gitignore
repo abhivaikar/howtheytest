@@ -3,7 +3,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
+# Note: package-lock.json should be committed for reproducible builds
 yarn.lock
 
 # Python
