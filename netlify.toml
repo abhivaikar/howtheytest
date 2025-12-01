@@ -1,10 +1,10 @@
 [build]
   # No build needed - we're only deploying serverless functions
-  # Use 'true' command which always succeeds and does nothing
-  command = "true"
+  # Skip package installation - not needed for functions
+  command = "echo 'Functions-only deployment - no build needed'"
   publish = ".netlify-build"
-  # Explicitly ignore Next.js detection
-  ignore = "false"
 
 [functions]
   directory = "netlify/functions"
+  # Use esbuild to bundle functions with their dependencies
+  node_bundler = "esbuild"
