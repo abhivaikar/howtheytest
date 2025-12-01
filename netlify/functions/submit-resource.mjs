@@ -182,11 +182,14 @@ export const handler = async (event) => {
     }
 
     // Initialize Octokit with GitHub App authentication
+    // Handle private key format - replace literal \n with actual newlines
+    const privateKey = process.env.GITHUB_APP_PRIVATE_KEY.replace(/\\n/g, '\n');
+
     const octokit = new Octokit({
       authStrategy: createAppAuth,
       auth: {
         appId: process.env.GITHUB_APP_ID,
-        privateKey: process.env.GITHUB_APP_PRIVATE_KEY.replace(/\\n/g, '\n'),
+        privateKey: privateKey,
         installationId: process.env.GITHUB_APP_INSTALLATION_ID,
       },
     });

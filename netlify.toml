@@ -1,11 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "out"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+  # No build needed - we're only deploying serverless functions
+  command = "mkdir -p .netlify-build"
+  publish = ".netlify-build"
 
 [functions]
   directory = "netlify/functions"
