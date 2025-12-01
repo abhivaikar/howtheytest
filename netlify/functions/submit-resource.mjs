@@ -1,5 +1,5 @@
-const { Octokit } = require('@octokit/rest');
-const { createAppAuth } = require('@octokit/auth-app');
+import { Octokit } from '@octokit/rest';
+import { createAppAuth } from '@octokit/auth-app';
 
 // Environment variables required:
 // - GITHUB_APP_ID
@@ -104,7 +104,7 @@ function createCompanyData(existingData, formData) {
   }
 }
 
-exports.handler = async (event) => {
+export const handler = async (event) => {
   // CORS headers for cross-origin requests (when static site is on GitHub Pages)
   const headers = {
     'Access-Control-Allow-Origin': '*', // Or specify your GitHub Pages domain
