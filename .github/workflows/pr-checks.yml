@@ -35,6 +35,7 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_API_URL: https://test.netlify.app/.netlify/functions/submit-resource
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
 
       - name: Upload coverage reports
         uses: codecov/codecov-action@v4

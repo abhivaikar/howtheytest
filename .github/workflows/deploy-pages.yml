@@ -38,6 +38,7 @@ jobs:
           # NEXT_PUBLIC_API_URL: https://your-netlify-site.netlify.app/.netlify/functions/submit-resource
           # Otherwise leave it unset for relative URLs
           NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
