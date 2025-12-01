@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { getDatabase } from '@/lib/database';
 import Combobox from '@/components/Combobox';
+import MultiSelectCombobox from '@/components/MultiSelectCombobox';
 import Link from 'next/link';
 
 interface FormData {
   companyName: string;
   resourceUrl: string;
   resourceTitle: string;
-  topic: string;
+  topics: string[];
   resourceType: string;
   industry: string;
   contributorName: string;
@@ -20,12 +21,18 @@ interface FormErrors {
   companyName?: string;
   resourceUrl?: string;
   resourceTitle?: string;
-  topic?: string;
+  topics?: string;
   resourceType?: string;
   industry?: string;
   contributorName?: string;
   githubUsername?: string;
   submit?: string;
+}
+
+interface NewValueWarnings {
+  company?: string;
+  industry?: string;
+  topics?: string[];
 }
 
 export default function ContributePage() {
@@ -36,7 +43,7 @@ export default function ContributePage() {
     companyName: '',
     resourceUrl: '',
     resourceTitle: '',
-    topic: '',
+    topics: [],
     resourceType: '',
     industry: '',
     contributorName: '',
@@ -44,6 +51,7 @@ export default function ContributePage() {
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
+  const [warnings, setWarnings] = useState<NewValueWarnings>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [prUrl, setPrUrl] = useState('');
@@ -73,6 +81,49 @@ export default function ContributePage() {
     );
   };
 
+  const checkNewValue = (value: string, existingValues: string[], type: 'company' | 'industry' | 'topic'): boolean => {
+    return !existingValues.some(
+      (existing) => existing.toLowerCase() === value.toLowerCase()
+    );
+  };
+
+  const handleCompanyChange = (value: string) => {
+    setFormData({ ...formData, companyName: value });
+
+    if (value && checkNewValue(value, companyNames, 'company')) {
+      setWarnings({ ...warnings, company: value });
+    } else {
+      const newWarnings = { ...warnings };
+      delete newWarnings.company;
+      setWarnings(newWarnings);
+    }
+  };
+
+  const handleIndustryChange = (value: string) => {
+    setFormData({ ...formData, industry: value });
+
+    if (value && checkNewValue(value, meta.industries, 'industry')) {
+      setWarnings({ ...warnings, industry: value });
+    } else {
+      const newWarnings = { ...warnings };
+      delete newWarnings.industry;
+      setWarnings(newWarnings);
+    }
+  };
+
+  const handleTopicsChange = (values: string[]) => {
+    setFormData({ ...formData, topics: values });
+
+    const newTopics = values.filter(value => checkNewValue(value, meta.topics, 'topic'));
+    if (newTopics.length > 0) {
+      setWarnings({ ...warnings, topics: newTopics });
+    } else {
+      const newWarnings = { ...warnings };
+      delete newWarnings.topics;
+      setWarnings(newWarnings);
+    }
+  };
+
   const validateForm = (): boolean => {
     const newErrors: FormErrors = {};
 
@@ -93,8 +144,8 @@ export default function ContributePage() {
       newErrors.resourceTitle = 'Resource title is required';
     }
 
-    if (!formData.topic.trim()) {
-      newErrors.topic = 'Topic is required';
+    if (formData.topics.length === 0) {
+      newErrors.topics = 'At least one topic is required';
     }
 
     if (!formData.resourceType) {
@@ -151,12 +202,13 @@ export default function ContributePage() {
         companyName: '',
         resourceUrl: '',
         resourceTitle: '',
-        topic: '',
+        topics: [],
         resourceType: '',
         industry: '',
         contributorName: '',
         githubUsername: '',
       });
+      setWarnings({});
     } catch (error) {
       setErrors({
         submit: error instanceof Error ? error.message : 'An error occurred. Please try again.',
@@ -259,8 +311,15 @@ export default function ContributePage() {
               placeholder="Select or enter a company name"
               options={companyNames}
               value={formData.companyName}
-              onChange={(value) => setFormData({ ...formData, companyName: value })}
+              onChange={handleCompanyChange}
             />
+            {warnings.company && (
+              <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
+                <p className="text-sm text-yellow-800 dark:text-yellow-200">
+                  <strong>⚠️ New company:</strong> "{warnings.company}" is not in our database. Please verify the name is correct and doesn't already exist with different spelling.
+                </p>
+              </div>
+            )}
             {errors.companyName && (
               <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.companyName}</p>
             )}
@@ -302,18 +361,25 @@ export default function ContributePage() {
             )}
           </div>
 
-          {/* Topic */}
+          {/* Topics (Multi-select) */}
           <div className="mb-6">
-            <Combobox
-              id="topic"
-              label="Topic"
-              placeholder="Select or enter a topic"
+            <MultiSelectCombobox
+              id="topics"
+              label="Topics"
+              placeholder="Select or add topics (you can select multiple)"
               options={meta.topics}
-              value={formData.topic}
-              onChange={(value) => setFormData({ ...formData, topic: value })}
+              values={formData.topics}
+              onChange={handleTopicsChange}
             />
-            {errors.topic && (
-              <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.topic}</p>
+            {warnings.topics && warnings.topics.length > 0 && (
+              <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
+                <p className="text-sm text-yellow-800 dark:text-yellow-200">
+                  <strong>⚠️ New topic(s):</strong> {warnings.topics.map(t => `"${t}"`).join(', ')} {warnings.topics.length === 1 ? 'is' : 'are'} not in our database. Please verify {warnings.topics.length === 1 ? 'it doesn\'t' : 'they don\'t'} already exist with different spelling.
+                </p>
+              </div>
+            )}
+            {errors.topics && (
+              <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.topics}</p>
             )}
           </div>
 
@@ -348,8 +414,15 @@ export default function ContributePage() {
               placeholder="Select or enter an industry"
               options={meta.industries}
               value={formData.industry}
-              onChange={(value) => setFormData({ ...formData, industry: value })}
+              onChange={handleIndustryChange}
             />
+            {warnings.industry && (
+              <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
+                <p className="text-sm text-yellow-800 dark:text-yellow-200">
+                  <strong>⚠️ New industry:</strong> "{warnings.industry}" is not in our database. Please verify the name is correct and doesn't already exist with different spelling.
+                </p>
+              </div>
+            )}
             {errors.industry && (
               <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.industry}</p>
             )}

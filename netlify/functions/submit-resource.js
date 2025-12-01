@@ -81,7 +81,7 @@ function createCompanyData(existingData, formData) {
           title: formData.resourceTitle,
           url: formData.resourceUrl,
           type: formData.resourceType,
-          topics: [formData.topic],
+          topics: formData.topics,
         },
       ],
     };
@@ -97,7 +97,7 @@ function createCompanyData(existingData, formData) {
           title: formData.resourceTitle,
           url: formData.resourceUrl,
           type: formData.resourceType,
-          topics: [formData.topic],
+          topics: formData.topics,
         },
       ],
     };
@@ -122,7 +122,6 @@ exports.handler = async (event) => {
       'companyName',
       'resourceUrl',
       'resourceTitle',
-      'topic',
       'resourceType',
       'industry',
       'contributorName',
@@ -135,6 +134,14 @@ exports.handler = async (event) => {
           body: JSON.stringify({ error: `${field} is required` }),
         };
       }
+    }
+
+    // Validate topics array
+    if (!formData.topics || !Array.isArray(formData.topics) || formData.topics.length === 0) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: 'At least one topic is required' }),
+      };
     }
 
     // Validate URL format
@@ -232,7 +239,7 @@ exports.handler = async (event) => {
 **Company:** ${formData.companyName}
 **Industry:** ${formData.industry}
 **Resource Type:** ${formData.resourceType}
-**Topic:** ${formData.topic}
+**Topics:** ${formData.topics.join(', ')}
 
 ### Resource Information
 - **Title:** ${formData.resourceTitle}
