@@ -1,5 +1,6 @@
 import { Octokit } from '@octokit/rest';
 import { createAppAuth } from '@octokit/auth-app';
+import crypto from 'crypto';
 
 // Environment variables required:
 // - GITHUB_APP_ID
@@ -93,6 +94,19 @@ function createSlug(name) {
     .replace(/^-+|-+$/g, '');
 }
 
+// Helper function to generate a unique resource ID (matches migration script logic)
+function generateResourceId(title, url) {
+  const content = `${title}:${url}`;
+  const hash = crypto.createHash('md5').update(content).digest('hex').substring(0, 8);
+  const slug = title
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[-\s]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 40);
+  return `${slug}-${hash}`;
+}
+
 // Helper function to validate URL
 function isValidUrl(string) {
   try {
@@ -142,6 +156,8 @@ async function checkDuplicate(octokit, resourceUrl, companySlug) {
 
 // Helper function to create or update company data
 function createCompanyData(existingData, formData) {
+  const resourceId = generateResourceId(formData.resourceTitle, formData.resourceUrl);
+
   if (existingData) {
     // Add new resource to existing company
     return {
@@ -149,6 +165,7 @@ function createCompanyData(existingData, formData) {
       resources: [
         ...existingData.resources,
         {
+          id: resourceId,
           title: formData.resourceTitle,
           url: formData.resourceUrl,
           type: formData.resourceType,
@@ -165,6 +182,7 @@ function createCompanyData(existingData, formData) {
       industry: formData.industry,
       resources: [
         {
+          id: resourceId,
           title: formData.resourceTitle,
           url: formData.resourceUrl,
           type: formData.resourceType,
