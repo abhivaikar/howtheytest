@@ -9,6 +9,7 @@ import FilterBar, { FilterState } from '@/components/FilterBar';
 import ThemeToggle from '@/components/ThemeToggle';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export default function Home() {
@@ -173,13 +174,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <p className="text-center text-gray-600 dark:text-gray-400">
-            Made with ❤️ by the community
-          </p>
-        </div>
-      </footer>
+      <Footer />
 
       {/* Company Modal */}
       {selectedCompany && (

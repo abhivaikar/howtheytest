@@ -4,6 +4,21 @@
 
 > A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
+## ⚠️ Notice: This README is Deprecated
+
+**This README file is no longer actively maintained.** The company list and resources below are from an older version and may be outdated.
+
+**Please visit the official website for the most up-to-date information:**
+### 🌐 [https://abhivaikar.github.io/howtheytest/](https://abhivaikar.github.io/howtheytest/)
+
+The new website features:
+- ✅ Up-to-date company and resource listings
+- ✅ Easy-to-use search and filtering
+- ✅ Contribution form for submitting new resources
+- ✅ Better organization by industry and topics
+
+---
+
 ## Foreword
 
 One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms.
