@@ -140,8 +140,8 @@ export default function Home() {
               Companies ({filteredCompanies.length})
             </h2>
 
-            {/* View Toggle */}
-            <div className="flex items-center gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow">
+            {/* View Toggle - Hidden on mobile, shown on tablet and up */}
+            <div className="hidden md:flex items-center gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow">
               <button
                 onClick={() => setViewMode('grid')}
                 className={`px-3 py-2 rounded-md transition-colors ${
