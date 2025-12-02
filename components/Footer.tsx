@@ -128,20 +128,6 @@ export default function Footer() {
               <li className="flex items-start">
                 <span className="mr-2">•</span>
                 <span>
-                  Security by{' '}
-                  <a
-                    href="https://www.cloudflare.com/products/turnstile/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline"
-                  >
-                    Cloudflare Turnstile
-                  </a>
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>
                   Contributors list from{' '}
                   <a
                     href="https://contributors-img.web.app/preview"

@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import { getDatabase } from '@/lib/database';
 import { Company } from '@/types/database';
 import CompanyCard from '@/components/CompanyCard';
+import CompanyList from '@/components/CompanyList';
 import CompanyModal from '@/components/CompanyModal';
 import FilterBar, { FilterState } from '@/components/FilterBar';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -24,6 +25,7 @@ export default function Home() {
   });
 
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   // Get all unique company names for the filter
   const companyNames = useMemo(
@@ -131,22 +133,72 @@ export default function Home() {
           />
         </div>
 
-        {/* Companies Grid */}
+        {/* Companies Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-            Companies ({filteredCompanies.length})
-          </h2>
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+              Companies ({filteredCompanies.length})
+            </h2>
+
+            {/* View Toggle */}
+            <div className="flex items-center gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow">
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`px-3 py-2 rounded-md transition-colors ${
+                  viewMode === 'grid'
+                    ? 'bg-blue-600 text-white'
+                    : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                }`}
+                aria-label="Grid view"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                </svg>
+              </button>
+              <button
+                onClick={() => setViewMode('list')}
+                className={`px-3 py-2 rounded-md transition-colors ${
+                  viewMode === 'list'
+                    ? 'bg-blue-600 text-white'
+                    : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                }`}
+                aria-label="List view"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
 
           {filteredCompanies.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredCompanies.map((company) => (
-                <CompanyCard
-                  key={company.id}
-                  company={company}
-                  onClick={() => setSelectedCompany(company)}
-                />
-              ))}
-            </div>
+            viewMode === 'grid' ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredCompanies.map((company) => (
+                  <CompanyCard
+                    key={company.id}
+                    company={company}
+                    onClick={() => setSelectedCompany(company)}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                <div className="hidden md:grid grid-cols-12 gap-4 px-6 py-3 bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-700 dark:text-gray-300">
+                  <div className="col-span-3">Company</div>
+                  <div className="col-span-2 text-center">Resources</div>
+                  <div className="col-span-3">Types</div>
+                  <div className="col-span-4">Topics</div>
+                </div>
+                {filteredCompanies.map((company) => (
+                  <CompanyList
+                    key={company.id}
+                    company={company}
+                    onClick={() => setSelectedCompany(company)}
+                  />
+                ))}
+              </div>
+            )
           ) : (
             <div className="text-center py-12">
               <svg

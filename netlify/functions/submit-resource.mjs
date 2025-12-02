@@ -368,13 +368,21 @@ export const handler = async (event) => {
     const filePath = `data/companies/${companySlug}.json`;
     const fileContent = JSON.stringify(companyData, null, 2);
 
+    // Build commit message with co-author if GitHub username provided
+    let commitMessage = existingData
+      ? `Add resource to ${formData.companyName}`
+      : `Add new company: ${formData.companyName}`;
+
+    // Add co-author trailer if GitHub username is provided
+    if (formData.githubUsername) {
+      commitMessage += `\n\nCo-authored-by: ${formData.githubUsername} <${formData.githubUsername}@users.noreply.github.com>`;
+    }
+
     await octokit.repos.createOrUpdateFileContents({
       owner: REPO_OWNER,
       repo: REPO_NAME,
       path: filePath,
-      message: existingData
-        ? `Add resource to ${formData.companyName}`
-        : `Add new company: ${formData.companyName}`,
+      message: commitMessage,
       content: Buffer.from(fileContent).toString('base64'),
       branch: branchName,
       ...(sha && { sha }), // Include sha if updating existing file
