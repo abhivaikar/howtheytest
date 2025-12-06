@@ -175,7 +175,7 @@ export default function Footer() {
               className="inline-block transition-opacity hover:opacity-80"
             >
               <Image
-                src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg"
+                src="https://licensebuttons.net/p/zero/1.0/88x31.png"
                 alt="CC0 License"
                 width={88}
                 height={31}
