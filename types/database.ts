@@ -5,6 +5,7 @@ export interface Resource {
   type: 'blog' | 'video' | 'article' | 'book' | 'talk' | 'podcast' | 'handbook' | 'repo';
   topics: string[];
   description?: string;
+  addedDate?: string;
 }
 
 export interface Company {

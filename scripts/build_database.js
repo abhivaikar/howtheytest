@@ -29,6 +29,18 @@ function buildDatabase() {
     const filepath = path.join(companiesDir, file);
     const content = fs.readFileSync(filepath, 'utf-8');
     const company = JSON.parse(content);
+
+    // Add default addedDate to resources that don't have it
+    // This ensures all existing resources have a baseline date
+    if (company.resources) {
+      company.resources = company.resources.map(resource => {
+        if (!resource.addedDate) {
+          return { ...resource, addedDate: '2025-01-01' };
+        }
+        return resource;
+      });
+    }
+
     companies.push(company);
   }
 

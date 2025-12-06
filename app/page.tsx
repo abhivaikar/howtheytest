@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { getDatabase } from '@/lib/database';
 import { Company } from '@/types/database';
 import CompanyCard from '@/components/CompanyCard';
@@ -10,6 +10,7 @@ import FilterBar, { FilterState } from '@/components/FilterBar';
 import ThemeToggle from '@/components/ThemeToggle';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
+import WhatsNew from '@/components/WhatsNew';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
@@ -26,6 +27,21 @@ export default function Home() {
 
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+
+  // Fix edge case: Force grid view on mobile when resizing from desktop to mobile
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768 && viewMode === 'list') {
+        setViewMode('grid');
+      }
+    };
+
+    // Check on mount
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [viewMode]);
 
   // Get all unique company names for the filter
   const companyNames = useMemo(
@@ -89,6 +105,17 @@ export default function Home() {
 
       {/* Intro Section */}
       <Intro />
+
+      {/* What's New Section */}
+      <WhatsNew
+        companies={companies}
+        onResourceClick={(companyId) => {
+          const company = companies.find(c => c.id === companyId);
+          if (company) {
+            setSelectedCompany(company);
+          }
+        }}
+      />
 
       {/* Browse Section */}
       <div id="browse" className="bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 py-16">
@@ -233,6 +260,10 @@ export default function Home() {
         <CompanyModal
           company={selectedCompany}
           onClose={() => setSelectedCompany(null)}
+          onTopicClick={(topic) => {
+            setFilters(prev => ({ ...prev, topic }));
+            setSelectedCompany(null);
+          }}
         />
       )}
     </div>

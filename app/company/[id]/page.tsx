@@ -45,8 +45,14 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
     new Set(company.resources.flatMap((resource) => resource.topics))
   ).sort();
 
-  // Group resources by type
-  const resourcesByType = company.resources.reduce((acc, resource) => {
+  // Sort resources by addedDate (newest first), then group by type
+  const sortedResources = [...company.resources].sort((a, b) => {
+    const dateA = new Date(a.addedDate || '1970-01-01').getTime();
+    const dateB = new Date(b.addedDate || '1970-01-01').getTime();
+    return dateB - dateA; // Descending order (newest first)
+  });
+
+  const resourcesByType = sortedResources.reduce((acc, resource) => {
     if (!acc[resource.type]) {
       acc[resource.type] = [];
     }

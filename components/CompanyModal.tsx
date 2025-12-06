@@ -7,9 +7,10 @@ import ResourceCard from './ResourceCard';
 interface CompanyModalProps {
   company: Company;
   onClose: () => void;
+  onTopicClick?: (topic: string) => void;
 }
 
-export default function CompanyModal({ company, onClose }: CompanyModalProps) {
+export default function CompanyModal({ company, onClose, onTopicClick }: CompanyModalProps) {
   // Close modal on Escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -29,8 +30,14 @@ export default function CompanyModal({ company, onClose }: CompanyModalProps) {
     };
   }, []);
 
-  // Group resources by type
-  const resourcesByType = company.resources.reduce((acc, resource) => {
+  // Sort resources by addedDate (newest first), then group by type
+  const sortedResources = [...company.resources].sort((a, b) => {
+    const dateA = new Date(a.addedDate || '1970-01-01').getTime();
+    const dateB = new Date(b.addedDate || '1970-01-01').getTime();
+    return dateB - dateA; // Descending order (newest first)
+  });
+
+  const resourcesByType = sortedResources.reduce((acc, resource) => {
     if (!acc[resource.type]) {
       acc[resource.type] = [];
     }
@@ -101,12 +108,17 @@ export default function CompanyModal({ company, onClose }: CompanyModalProps) {
                 )
                   .sort()
                   .map((topic) => (
-                    <span
+                    <button
                       key={topic}
-                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                      onClick={() => onTopicClick?.(topic)}
+                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-700 dark:hover:text-blue-300 transition-colors cursor-pointer flex items-center gap-1"
+                      title={`Filter by ${topic}`}
                     >
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                      </svg>
                       {topic}
-                    </span>
+                    </button>
                   ))}
               </div>
             </div>
