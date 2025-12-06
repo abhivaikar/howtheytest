@@ -301,6 +301,18 @@
         "test-automation",
         "visual-regression"
       ]
+    },
+    {
+      "id": "scaling-mobile-ui-testing-with-ai-29f20854",
+      "title": "Scaling mobile UI testing with AI",
+      "url": "https://medium.com/trendyol-tech/scaling-mobile-ui-testing-with-ai-02b78bc50a5e",
+      "type": "blog",
+      "topics": [
+        "ai",
+        "mobile-testing",
+        "ui-testing",
+        "test-automation"
+      ]
     }
   ],
   "meta": {
