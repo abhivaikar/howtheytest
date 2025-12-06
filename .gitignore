@@ -51,3 +51,7 @@ coverage/
 # Temporary files
 *.tmp
 .cache/
+
+# Validation reports
+validation-report/
+.playwright-temp/

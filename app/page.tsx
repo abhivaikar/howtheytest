@@ -260,10 +260,6 @@ export default function Home() {
         <CompanyModal
           company={selectedCompany}
           onClose={() => setSelectedCompany(null)}
-          onTopicClick={(topic) => {
-            setFilters(prev => ({ ...prev, topic }));
-            setSelectedCompany(null);
-          }}
         />
       )}
     </div>

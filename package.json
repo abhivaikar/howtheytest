@@ -11,6 +11,10 @@
     "migrate": "node scripts/migrate_data.js && node scripts/classify_industries.js",
     "build:db": "node scripts/build_database.js",
     "validate": "node scripts/validate_schema.js",
+    "validate:resources": "node scripts/validate-resources.mjs",
+    "validate:resources:debug": "node scripts/validate-resources.mjs --limit 5",
+    "validate:resources:headed": "node scripts/validate-resources.mjs --headed",
+    "validate:resources:headed:debug": "node scripts/validate-resources.mjs --headed --limit 5",
     "analyze": "node scripts/analyze_topics.js",
     "build:data": "npm run validate && npm run build:db",
     "build": "npm run build:data && npm run build:next",
@@ -46,6 +50,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "playwright": "^1.57.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
