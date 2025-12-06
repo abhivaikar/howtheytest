@@ -10,10 +10,9 @@ interface ResourceWithCompany extends Resource {
 
 interface WhatsNewProps {
   companies: Company[];
-  onResourceClick: (companyId: string) => void;
 }
 
-export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) {
+export default function WhatsNew({ companies }: WhatsNewProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -158,9 +157,11 @@ export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) 
             className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide"
           >
             {recentResources.map((resource, index) => (
-              <div
+              <a
                 key={`${resource.companyId}-${resource.id}-${index}`}
-                onClick={() => onResourceClick(resource.companyId)}
+                href={resource.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-none w-80 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow cursor-pointer snap-start"
               >
                 <div className="p-6">
@@ -206,7 +207,7 @@ export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) 
                     </div>
                   )}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
 

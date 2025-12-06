@@ -107,15 +107,7 @@ export default function Home() {
       <Intro />
 
       {/* What's New Section */}
-      <WhatsNew
-        companies={companies}
-        onResourceClick={(companyId) => {
-          const company = companies.find(c => c.id === companyId);
-          if (company) {
-            setSelectedCompany(company);
-          }
-        }}
-      />
+      <WhatsNew companies={companies} />
 
       {/* Browse Section */}
       <div id="browse" className="bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 py-16">
