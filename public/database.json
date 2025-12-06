@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2025-12-06T08:28:51.847Z",
+    "generatedAt": "2025-12-06T08:30:30.179Z",
     "totalCompanies": 102,
     "totalResources": 786,
     "industries": [
@@ -8228,7 +8228,7 @@
             "ui-testing",
             "test-automation"
           ],
-          "addedDate": "2025-01-01"
+          "addedDate": "2025-12-06"
         }
       ],
       "meta": {
