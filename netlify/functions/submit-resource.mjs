@@ -157,6 +157,8 @@ async function checkDuplicate(octokit, resourceUrl, companySlug) {
 // Helper function to create or update company data
 function createCompanyData(existingData, formData) {
   const resourceId = generateResourceId(formData.resourceTitle, formData.resourceUrl);
+  // Set addedDate to current date in YYYY-MM-DD format
+  const addedDate = new Date().toISOString().split('T')[0];
 
   if (existingData) {
     // Add new resource to existing company
@@ -170,6 +172,7 @@ function createCompanyData(existingData, formData) {
           url: formData.resourceUrl,
           type: formData.resourceType,
           topics: formData.topics,
+          addedDate: addedDate,
         },
       ],
     };
@@ -187,6 +190,7 @@ function createCompanyData(existingData, formData) {
           url: formData.resourceUrl,
           type: formData.resourceType,
           topics: formData.topics,
+          addedDate: addedDate,
         },
       ],
     };

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Company } from '@/types/database';
 import ResourceCard from './ResourceCard';
 
@@ -10,6 +10,8 @@ interface CompanyModalProps {
 }
 
 export default function CompanyModal({ company, onClose }: CompanyModalProps) {
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+
   // Close modal on Escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -29,8 +31,20 @@ export default function CompanyModal({ company, onClose }: CompanyModalProps) {
     };
   }, []);
 
-  // Group resources by type
-  const resourcesByType = company.resources.reduce((acc, resource) => {
+  // Sort resources by addedDate (newest first)
+  const sortedResources = [...company.resources].sort((a, b) => {
+    const dateA = new Date(a.addedDate || '1970-01-01').getTime();
+    const dateB = new Date(b.addedDate || '1970-01-01').getTime();
+    return dateB - dateA; // Descending order (newest first)
+  });
+
+  // Filter by selected topic if one is selected
+  const filteredResources = selectedTopic
+    ? sortedResources.filter((resource) => resource.topics.includes(selectedTopic))
+    : sortedResources;
+
+  // Group by type
+  const resourcesByType = filteredResources.reduce((acc, resource) => {
     if (!acc[resource.type]) {
       acc[resource.type] = [];
     }
@@ -92,23 +106,50 @@ export default function CompanyModal({ company, onClose }: CompanyModalProps) {
 
             {/* Topics Overview */}
             <div className="mb-8">
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-                Topics Covered
-              </h2>
+              <div className="flex items-center justify-between mb-3">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Topics Covered
+                </h2>
+                {selectedTopic && (
+                  <button
+                    onClick={() => setSelectedTopic(null)}
+                    className="px-3 py-1 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors flex items-center gap-1"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    Clear filter
+                  </button>
+                )}
+              </div>
               <div className="flex flex-wrap gap-2">
                 {Array.from(
                   new Set(company.resources.flatMap((resource) => resource.topics))
                 )
                   .sort()
                   .map((topic) => (
-                    <span
+                    <button
                       key={topic}
-                      className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                      onClick={() => setSelectedTopic(topic === selectedTopic ? null : topic)}
+                      className={`px-3 py-1 rounded-full text-sm transition-colors cursor-pointer flex items-center gap-1 ${
+                        topic === selectedTopic
+                          ? 'bg-blue-600 dark:bg-blue-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-700 dark:hover:text-blue-300'
+                      }`}
+                      title={topic === selectedTopic ? 'Clear filter' : `Filter by ${topic}`}
                     >
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                      </svg>
                       {topic}
-                    </span>
+                    </button>
                   ))}
               </div>
+              {selectedTopic && (
+                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                  Showing {filteredResources.length} of {company.resources.length} resources filtered by &quot;{selectedTopic}&quot;
+                </p>
+              )}
             </div>
 
             {/* Resources grouped by type */}
