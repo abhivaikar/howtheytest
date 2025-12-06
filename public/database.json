@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2025-12-06T07:51:06.522Z",
+    "generatedAt": "2025-12-06T08:28:51.847Z",
     "totalCompanies": 102,
-    "totalResources": 785,
+    "totalResources": 786,
     "industries": [
       "cloud-services",
       "developer-tools",
@@ -26,6 +26,7 @@
       "acceptance-testing",
       "accessibility-testing",
       "agile-testing",
+      "ai",
       "android",
       "api",
       "api-testing",
@@ -91,6 +92,7 @@
       "test-strategy",
       "testing-in-production",
       "testng",
+      "ui-testing",
       "unit-testing",
       "usability-testing",
       "visual-regression",
@@ -98,7 +100,7 @@
       "whole-team-quality"
     ],
     "resourceTypes": {
-      "blog": 571,
+      "blog": 572,
       "video": 197,
       "book": 13,
       "article": 3,
@@ -8212,6 +8214,19 @@
           "topics": [
             "test-automation",
             "visual-regression"
+          ],
+          "addedDate": "2025-01-01"
+        },
+        {
+          "id": "scaling-mobile-ui-testing-with-ai-29f20854",
+          "title": "Scaling mobile UI testing with AI",
+          "url": "https://medium.com/trendyol-tech/scaling-mobile-ui-testing-with-ai-02b78bc50a5e",
+          "type": "blog",
+          "topics": [
+            "ai",
+            "mobile-testing",
+            "ui-testing",
+            "test-automation"
           ],
           "addedDate": "2025-01-01"
         }
