@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useRef } from 'react';
 import { Company, Resource } from '@/types/database';
 
 interface ResourceWithCompany extends Resource {
@@ -14,17 +14,25 @@ interface WhatsNewProps {
 }
 
 export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) {
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
   // Get all resources with company info and sort by addedDate
   const recentResources = useMemo(() => {
     const allResources: ResourceWithCompany[] = [];
+    const today = new Date();
+    const threeMonthsAgo = new Date(today.getTime() - (90 * 24 * 60 * 60 * 1000)); // 90 days ago
 
     companies.forEach(company => {
       company.resources.forEach(resource => {
-        allResources.push({
-          ...resource,
-          companyName: company.name,
-          companyId: company.id,
-        });
+        // Only include resources from the last 3 months
+        const resourceDate = new Date(resource.addedDate || '1970-01-01');
+        if (resourceDate >= threeMonthsAgo) {
+          allResources.push({
+            ...resource,
+            companyName: company.name,
+            companyId: company.id,
+          });
+        }
       });
     });
 
@@ -37,6 +45,18 @@ export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) 
       })
       .slice(0, 15);
   }, [companies]);
+
+  // Scroll functions
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const scrollAmount = 350; // Width of card + gap
+      const newScrollLeft = scrollContainerRef.current.scrollLeft + (direction === 'left' ? -scrollAmount : scrollAmount);
+      scrollContainerRef.current.scrollTo({
+        left: newScrollLeft,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   // Calculate days ago
   const getDaysAgo = (dateString?: string) => {
@@ -69,6 +89,11 @@ export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) 
     return colors[type] || colors.blog;
   };
 
+  // Don't render the section if there are no recent resources
+  if (recentResources.length === 0) {
+    return null;
+  }
+
   return (
     <div className="bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,13 +102,35 @@ export default function WhatsNew({ companies, onResourceClick }: WhatsNewProps) 
             What's New
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Recently added testing resources from companies around the world
+            Testing resources added in the last 3 months from companies around the world
           </p>
         </div>
 
         {/* Horizontal scrollable container */}
         <div className="relative">
-          <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+          {/* Left scroll button */}
+          <button
+            onClick={() => scroll('left')}
+            className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+            aria-label="Scroll left"
+          >
+            <svg className="w-6 h-6 text-gray-700 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Right scroll button */}
+          <button
+            onClick={() => scroll('right')}
+            className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+            aria-label="Scroll right"
+          >
+            <svg className="w-6 h-6 text-gray-700 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          <div ref={scrollContainerRef} className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
             {recentResources.map((resource, index) => (
               <div
                 key={`${resource.companyId}-${resource.id}-${index}`}
