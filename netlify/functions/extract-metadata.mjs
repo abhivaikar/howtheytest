@@ -5,46 +5,27 @@ const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',')
   : ['https://abhivaikar.github.io', 'http://localhost:3000'];
 
-// Rate limiting configuration
-const RATE_LIMIT_WINDOW_MS = 60000; // 1 minute
-const RATE_LIMIT_MAX_REQUESTS = 10; // 10 requests per minute per IP
-const rateLimits = new Map();
+// Security constants
+const MAX_RESPONSE_SIZE = 5 * 1024 * 1024; // 5MB limit
+const FETCH_TIMEOUT_MS = 10000; // 10 seconds
+const ALLOWED_PROTOCOLS = ['http:', 'https:'];
+const ALLOWED_CONTENT_TYPES = ['text/html', 'application/xhtml+xml'];
 
-// Clean up old rate limit entries every 5 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [ip, requests] of rateLimits.entries()) {
-    const validRequests = requests.filter(time => now - time < RATE_LIMIT_WINDOW_MS);
-    if (validRequests.length === 0) {
-      rateLimits.delete(ip);
-    } else {
-      rateLimits.set(ip, validRequests);
-    }
-  }
-}, 300000);
-
-// Helper function to check rate limit
-function checkRateLimit(ip) {
-  const now = Date.now();
-
-  if (!rateLimits.has(ip)) {
-    rateLimits.set(ip, []);
-  }
-
-  const requests = rateLimits.get(ip).filter(time => now - time < RATE_LIMIT_WINDOW_MS);
-
-  if (requests.length >= RATE_LIMIT_MAX_REQUESTS) {
-    return false; // Rate limit exceeded
-  }
-
-  requests.push(now);
-  rateLimits.set(ip, requests);
-  return true;
-}
+// Private IP ranges and cloud metadata endpoints (SSRF protection)
+const PRIVATE_IP_PATTERNS = [
+  /^localhost$/i,
+  /^127\./,  // Loopback
+  /^10\./,   // Private Class A
+  /^172\.(1[6-9]|2[0-9]|3[01])\./,  // Private Class B
+  /^192\.168\./,  // Private Class C
+  /^169\.254\./,  // Link-local / AWS metadata
+  /^::1$/,  // IPv6 loopback
+  /^fe80:/i,  // IPv6 link-local
+  /^fc00:/i,  // IPv6 private
+  /^fd00:/i,  // IPv6 private
+];
 
 // Resource type detection patterns
-// Note: Only detecting types that exist in the HowTheyTest system
-// blog/article are combined into a single "blog or article" type
 const RESOURCE_TYPE_PATTERNS = {
   video: [
     /youtube\.com\/watch/i,
@@ -125,26 +106,34 @@ const RESOURCE_TYPE_PATTERNS = {
   ],
 };
 
-// Topic keywords mapping (will be enhanced with actual topics from database)
-const TOPIC_KEYWORDS = {
-  'testing': ['test', 'testing', 'qa', 'quality assurance'],
-  'automation': ['automation', 'automated', 'selenium', 'cypress', 'playwright'],
-  'ci/cd': ['ci/cd', 'continuous integration', 'continuous deployment', 'jenkins', 'github actions', 'gitlab ci'],
-  'unit-testing': ['unit test', 'unittest', 'jest', 'mocha', 'pytest'],
-  'integration-testing': ['integration test', 'integration testing', 'api test'],
-  'e2e-testing': ['e2e', 'end-to-end', 'end to end'],
-  'performance': ['performance', 'load test', 'stress test', 'jmeter', 'gatling'],
-  'security': ['security', 'penetration test', 'security test', 'vulnerability'],
-  'mobile': ['mobile', 'ios', 'android', 'appium'],
-  'api': ['api', 'rest', 'graphql', 'postman'],
-  'tdd': ['tdd', 'test-driven', 'test driven development'],
-  'bdd': ['bdd', 'behavior-driven', 'cucumber', 'gherkin'],
-  'test-strategy': ['test strategy', 'testing strategy', 'test plan'],
-  'code-review': ['code review', 'pull request', 'pr review'],
-  'monitoring': ['monitoring', 'observability', 'logging', 'metrics'],
-  'chaos-engineering': ['chaos', 'chaos engineering', 'resilience'],
-  'shift-left': ['shift left', 'shift-left'],
-};
+/**
+ * Validate URL to prevent SSRF attacks
+ * @param {string} url - URL to validate
+ * @throws {Error} If URL is invalid or points to private/local resources
+ */
+function validateSecureUrl(url) {
+  let parsedUrl;
+
+  try {
+    parsedUrl = new URL(url);
+  } catch {
+    throw new Error('INVALID_URL');
+  }
+
+  // Check protocol (only http and https allowed)
+  if (!ALLOWED_PROTOCOLS.includes(parsedUrl.protocol)) {
+    throw new Error('INVALID_PROTOCOL');
+  }
+
+  // Check for private/local IP addresses and cloud metadata endpoints
+  const hostname = parsedUrl.hostname.toLowerCase();
+
+  if (PRIVATE_IP_PATTERNS.some(pattern => pattern.test(hostname))) {
+    throw new Error('PRIVATE_IP');
+  }
+
+  return parsedUrl;
+}
 
 /**
  * Detect resource type from URL patterns
@@ -225,32 +214,22 @@ function extractTopics($, existingTopics) {
     }
   }
 
-  // Also check against common keyword patterns
-  for (const [topic, keywords] of Object.entries(TOPIC_KEYWORDS)) {
-    if (suggestedTopics.includes(topic)) continue; // Already added
-
-    const hasKeyword = keywords.some(keyword =>
-      combinedText.includes(keyword.toLowerCase())
-    );
-
-    if (hasKeyword && existingTopics.includes(topic)) {
-      suggestedTopics.push(topic);
-    }
-  }
-
   // Return unique topics, limited to top 5 most relevant
   return [...new Set(suggestedTopics)].slice(0, 5);
 }
 
 /**
- * Fetch and extract metadata from URL
+ * Fetch and extract metadata from URL with security protections
  */
 async function fetchMetadata(url, existingTopics = []) {
-  try {
-    // Fetch the URL with timeout
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
+  try {
+    // Validate URL for SSRF protection
+    validateSecureUrl(url);
+
+    // Fetch the URL with timeout and size limit
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
@@ -258,13 +237,31 @@ async function fetchMetadata(url, existingTopics = []) {
       },
     });
 
-    clearTimeout(timeout);
-
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+      throw new Error('FETCH_FAILED');
     }
 
+    // Validate Content-Type
+    const contentType = response.headers.get('content-type') || '';
+    const isHtml = ALLOWED_CONTENT_TYPES.some(type => contentType.toLowerCase().includes(type));
+
+    if (!isHtml) {
+      throw new Error('INVALID_CONTENT_TYPE');
+    }
+
+    // Check Content-Length if available
+    const contentLength = response.headers.get('content-length');
+    if (contentLength && parseInt(contentLength) > MAX_RESPONSE_SIZE) {
+      throw new Error('RESPONSE_TOO_LARGE');
+    }
+
+    // Read response with size limit
     const html = await response.text();
+
+    if (html.length > MAX_RESPONSE_SIZE) {
+      throw new Error('RESPONSE_TOO_LARGE');
+    }
+
     const $ = cheerio.load(html);
 
     // Extract metadata
@@ -279,14 +276,41 @@ async function fetchMetadata(url, existingTopics = []) {
       topics,
     };
   } catch (error) {
-    console.error('Metadata extraction error:', error);
+    // Log error internally but don't expose details
+    console.error('Metadata extraction error:', {
+      url,
+      error: error.message,
+      name: error.name,
+    });
+
+    // Map internal errors to user-friendly messages
+    let userMessage = 'Unable to analyze this resource';
+
+    if (error.name === 'AbortError') {
+      userMessage = 'Request timeout - the resource took too long to respond';
+    } else if (error.message === 'INVALID_URL') {
+      userMessage = 'Invalid URL format';
+    } else if (error.message === 'INVALID_PROTOCOL') {
+      userMessage = 'Only HTTP and HTTPS URLs are supported';
+    } else if (error.message === 'PRIVATE_IP') {
+      userMessage = 'Private and local IP addresses are not allowed';
+    } else if (error.message === 'INVALID_CONTENT_TYPE') {
+      userMessage = 'Resource is not an HTML page';
+    } else if (error.message === 'RESPONSE_TOO_LARGE') {
+      userMessage = 'Resource is too large to analyze';
+    } else if (error.message === 'FETCH_FAILED') {
+      userMessage = 'Unable to fetch the resource';
+    }
+
     return {
       success: false,
-      error: error.message,
+      error: userMessage,
       title: null,
       type: detectResourceType(url), // Still try to detect type from URL
       topics: [],
     };
+  } finally {
+    clearTimeout(timeout);
   }
 }
 
@@ -332,16 +356,6 @@ export const handler = async (event) => {
     };
   }
 
-  // Rate limiting
-  const clientIp = event.headers['x-nf-client-connection-ip'] || event.headers['x-forwarded-for'] || 'unknown';
-  if (!checkRateLimit(clientIp)) {
-    return {
-      statusCode: 429,
-      headers,
-      body: JSON.stringify({ error: 'Too many requests. Please try again in a minute.' }),
-    };
-  }
-
   try {
     // Get URL and topics from query parameters
     const url = event.queryStringParameters?.url;
@@ -355,19 +369,31 @@ export const handler = async (event) => {
       };
     }
 
-    // Validate URL format
-    try {
-      new URL(url);
-    } catch {
+    // Basic request validation (abuse detection)
+    if (url.length > 2000) {
       return {
         statusCode: 400,
         headers,
-        body: JSON.stringify({ error: 'Invalid URL format' }),
+        body: JSON.stringify({ error: 'URL is too long' }),
       };
     }
 
     // Parse existing topics if provided
-    const existingTopics = topicsParam ? JSON.parse(decodeURIComponent(topicsParam)) : [];
+    let existingTopics = [];
+    if (topicsParam) {
+      try {
+        existingTopics = JSON.parse(decodeURIComponent(topicsParam));
+        if (!Array.isArray(existingTopics)) {
+          throw new Error('Topics must be an array');
+        }
+      } catch {
+        return {
+          statusCode: 400,
+          headers,
+          body: JSON.stringify({ error: 'Invalid topics parameter' }),
+        };
+      }
+    }
 
     // Extract metadata
     const metadata = await fetchMetadata(url, existingTopics);
@@ -378,13 +404,15 @@ export const handler = async (event) => {
       body: JSON.stringify(metadata),
     };
   } catch (error) {
+    // Log error internally
     console.error('Error in extract-metadata function:', error);
+
+    // Return generic error message (no internal details)
     return {
       statusCode: 500,
       headers,
       body: JSON.stringify({
-        error: 'Failed to extract metadata',
-        details: error.message,
+        error: 'Unable to process request. Please try again later.',
       }),
     };
   }
