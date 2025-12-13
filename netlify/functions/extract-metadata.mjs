@@ -5,6 +5,43 @@ const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',')
   : ['https://abhivaikar.github.io', 'http://localhost:3000'];
 
+// Rate limiting configuration
+const RATE_LIMIT_WINDOW_MS = 60000; // 1 minute
+const RATE_LIMIT_MAX_REQUESTS = 10; // 10 requests per minute per IP
+const rateLimits = new Map();
+
+// Clean up old rate limit entries every 5 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, requests] of rateLimits.entries()) {
+    const validRequests = requests.filter(time => now - time < RATE_LIMIT_WINDOW_MS);
+    if (validRequests.length === 0) {
+      rateLimits.delete(ip);
+    } else {
+      rateLimits.set(ip, validRequests);
+    }
+  }
+}, 300000);
+
+// Helper function to check rate limit
+function checkRateLimit(ip) {
+  const now = Date.now();
+
+  if (!rateLimits.has(ip)) {
+    rateLimits.set(ip, []);
+  }
+
+  const requests = rateLimits.get(ip).filter(time => now - time < RATE_LIMIT_WINDOW_MS);
+
+  if (requests.length >= RATE_LIMIT_MAX_REQUESTS) {
+    return false; // Rate limit exceeded
+  }
+
+  requests.push(now);
+  rateLimits.set(ip, requests);
+  return true;
+}
+
 // Resource type detection patterns
 const RESOURCE_TYPE_PATTERNS = {
   video: [
@@ -12,6 +49,10 @@ const RESOURCE_TYPE_PATTERNS = {
     /youtu\.be\//i,
     /vimeo\.com/i,
     /youtube\.com\/embed/i,
+    /loom\.com/i,
+    /wistia\.com/i,
+    /dailymotion\.com/i,
+    /twitch\.tv\/videos/i,
   ],
   blog: [
     /medium\.com/i,
@@ -20,11 +61,19 @@ const RESOURCE_TYPE_PATTERNS = {
     /\/blog\//i,
     /\/posts?\//i,
     /\/article/i,
+    /substack\.com/i,
+    /wordpress\.com/i,
+    /blogger\.com/i,
+    /tumblr\.com/i,
+    /ghost\.io/i,
+    /\.blog/i,
   ],
   repo: [
     /github\.com\/[^\/]+\/[^\/]+\/?$/i,
     /gitlab\.com\/[^\/]+\/[^\/]+\/?$/i,
     /bitbucket\.org\/[^\/]+\/[^\/]+\/?$/i,
+    /gitea\./i,
+    /sourceforge\.net\/projects/i,
   ],
   handbook: [
     /\/docs/i,
@@ -32,12 +81,21 @@ const RESOURCE_TYPE_PATTERNS = {
     /\/handbook/i,
     /\/guide/i,
     /\/wiki/i,
+    /\/manual/i,
+    /readthedocs\.io/i,
+    /gitbook\.io/i,
+    /notion\.site/i,
+    /confluence\./i,
   ],
   podcast: [
     /spotify\.com\/episode/i,
     /podcasts\.apple\.com/i,
     /anchor\.fm/i,
     /\/podcast/i,
+    /soundcloud\.com/i,
+    /overcast\.fm/i,
+    /pocketcasts\.com/i,
+    /castbox\.fm/i,
   ],
   talk: [
     /\/talks?\//i,
@@ -45,11 +103,28 @@ const RESOURCE_TYPE_PATTERNS = {
     /\/conference/i,
     /slideshare\.net/i,
     /speakerdeck\.com/i,
+    /\/slides?\//i,
+    /\/webinar/i,
+    /\/summit/i,
+    /\/meetup/i,
   ],
   book: [
     /\/books?\//i,
     /amazon\.com\/.*\/dp\//i,
     /goodreads\.com\/book/i,
+    /oreilly\.com/i,
+    /packtpub\.com/i,
+    /manning\.com/i,
+    /pragprog\.com/i,
+    /leanpub\.com/i,
+  ],
+  article: [
+    /arxiv\.org/i,
+    /acm\.org/i,
+    /ieee\.org/i,
+    /springer\.com/i,
+    /sciencedirect\.com/i,
+    /\.pdf$/i,
   ],
 };
 
@@ -257,6 +332,16 @@ export const handler = async (event) => {
       statusCode: 405,
       headers,
       body: JSON.stringify({ error: 'Method not allowed' }),
+    };
+  }
+
+  // Rate limiting
+  const clientIp = event.headers['x-nf-client-connection-ip'] || event.headers['x-forwarded-for'] || 'unknown';
+  if (!checkRateLimit(clientIp)) {
+    return {
+      statusCode: 429,
+      headers,
+      body: JSON.stringify({ error: 'Too many requests. Please try again in a minute.' }),
     };
   }
 
