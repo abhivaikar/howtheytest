@@ -79,6 +79,9 @@ function ContributeForm() {
     topics: false,
   });
 
+  // Bookmarklet ref - must be at top level to avoid hooks order violation
+  const bookmarkletRef = useRef<HTMLAnchorElement>(null);
+
   // Get all unique company names
   const companyNames = companies.map((company) => company.name).sort();
 
@@ -93,6 +96,14 @@ function ContributeForm() {
       }, 500);
     }
   }, [searchParams]);
+
+  // Set bookmarklet href after success (bypasses React's javascript: URL blocking)
+  useEffect(() => {
+    if (submitSuccess && bookmarkletRef.current) {
+      const bookmarkletCode = `javascript:(function(){window.open('${typeof window !== 'undefined' ? window.location.origin : 'https://abhivaikar.github.io'}/howtheytest/contribute?url='+encodeURIComponent(window.location.href),'_blank');})();`;
+      bookmarkletRef.current.href = bookmarkletCode;
+    }
+  }, [submitSuccess]);
 
   // Analyze resource URL and extract metadata
   const analyzeResource = async (urlToAnalyze?: string) => {
@@ -369,18 +380,6 @@ function ContributeForm() {
   };
 
   if (submitSuccess) {
-    // Bookmarklet code - when clicked, opens contribution page with current URL
-    const bookmarkletCode = `javascript:(function(){window.open('${typeof window !== 'undefined' ? window.location.origin : 'https://abhivaikar.github.io'}/howtheytest/contribute?url='+encodeURIComponent(window.location.href),'_blank');})();`;
-
-    // Use ref to bypass React's javascript: URL blocking
-    const bookmarkletRef = useRef<HTMLAnchorElement>(null);
-
-    useEffect(() => {
-      if (bookmarkletRef.current) {
-        bookmarkletRef.current.href = bookmarkletCode;
-      }
-    }, [bookmarkletCode]);
-
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
