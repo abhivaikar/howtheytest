@@ -40,12 +40,6 @@ interface NewValueWarnings {
   topics?: string[];
 }
 
-interface AutoFilledFields {
-  title: boolean;
-  type: boolean;
-  topics: boolean;
-}
-
 function ContributeForm() {
   const database = getDatabase();
   const { meta, companies } = database;
@@ -70,15 +64,6 @@ function ContributeForm() {
   const [isExistingCompany, setIsExistingCompany] = useState(false);
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
-  // New state for two-step flow
-  const [showFullForm, setShowFullForm] = useState(false);
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [autoFilledFields, setAutoFilledFields] = useState<AutoFilledFields>({
-    title: false,
-    type: false,
-    topics: false,
-  });
-
   // Bookmarklet ref - must be at top level to avoid hooks order violation
   const bookmarkletRef = useRef<HTMLAnchorElement>(null);
 
@@ -90,10 +75,6 @@ function ContributeForm() {
     const urlParam = searchParams.get('url');
     if (urlParam) {
       setFormData((prev) => ({ ...prev, resourceUrl: urlParam }));
-      // Auto-trigger analysis after a short delay
-      setTimeout(() => {
-        analyzeResource(urlParam);
-      }, 500);
     }
   }, [searchParams]);
 
@@ -104,85 +85,6 @@ function ContributeForm() {
       bookmarkletRef.current.href = bookmarkletCode;
     }
   }, [submitSuccess]);
-
-  // Analyze resource URL and extract metadata
-  const analyzeResource = async (urlToAnalyze?: string) => {
-    const url = urlToAnalyze || formData.resourceUrl;
-
-    if (!url.trim()) {
-      setErrors({ resourceUrl: 'Please enter a resource URL' });
-      return;
-    }
-
-    if (!validateUrl(url)) {
-      setErrors({ resourceUrl: 'Please enter a valid URL' });
-      return;
-    }
-
-    if (checkDuplicateResource(url)) {
-      setErrors({ resourceUrl: 'This resource already exists in our database' });
-      return;
-    }
-
-    setIsAnalyzing(true);
-    setErrors({});
-
-    try {
-      // Use environment variable for API endpoint, fallback to relative URL
-      const apiEndpoint =
-        process.env.NEXT_PUBLIC_API_URL?.replace('/submit-resource', '/extract-metadata') ||
-        '/.netlify/functions/extract-metadata';
-
-      const topicsParam = encodeURIComponent(JSON.stringify(meta.topics));
-      const response = await fetch(
-        `${apiEndpoint}?url=${encodeURIComponent(url)}&topics=${topicsParam}`
-      );
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to analyze resource');
-      }
-
-      // Track which fields were auto-filled
-      const autoFilled: AutoFilledFields = {
-        title: false,
-        type: false,
-        topics: false,
-      };
-
-      // Update form data with extracted metadata
-      setFormData((prev) => {
-        const updated = { ...prev };
-
-        if (data.title) {
-          updated.resourceTitle = data.title;
-          autoFilled.title = true;
-        }
-
-        if (data.type) {
-          updated.resourceType = data.type;
-          autoFilled.type = true;
-        }
-
-        if (data.topics && data.topics.length > 0) {
-          updated.topics = data.topics;
-          autoFilled.topics = true;
-        }
-
-        return updated;
-      });
-
-      setAutoFilledFields(autoFilled);
-      setShowFullForm(true);
-    } catch (error) {
-      console.error('Error analyzing resource:', error);
-      // Even if analysis fails, show the form so user can fill manually
-      setShowFullForm(true);
-    } finally {
-      setIsAnalyzing(false);
-    }
-  };
 
   const validateUrl = (url: string): boolean => {
     try {
@@ -206,7 +108,7 @@ function ContributeForm() {
     );
   };
 
-  const checkNewValue = (value: string, existingValues: string[], type: 'company' | 'industry' | 'topic'): boolean => {
+  const checkNewValue = (value: string, existingValues: string[]): boolean => {
     return !existingValues.some(
       (existing) => existing.toLowerCase() === value.toLowerCase()
     );
@@ -232,7 +134,7 @@ function ContributeForm() {
       setFormData({ ...formData, companyName: value });
       setIsExistingCompany(false);
 
-      if (value && checkNewValue(value, companyNames, 'company')) {
+      if (value && checkNewValue(value, companyNames)) {
         setWarnings({ ...warnings, company: value });
       } else {
         const newWarnings = { ...warnings };
@@ -245,7 +147,7 @@ function ContributeForm() {
   const handleIndustryChange = (value: string) => {
     setFormData({ ...formData, industry: value });
 
-    if (value && checkNewValue(value, meta.industries, 'industry')) {
+    if (value && checkNewValue(value, meta.industries)) {
       setWarnings({ ...warnings, industry: value });
     } else {
       const newWarnings = { ...warnings };
@@ -257,7 +159,7 @@ function ContributeForm() {
   const handleTopicsChange = (values: string[]) => {
     setFormData({ ...formData, topics: values });
 
-    const newTopics = values.filter(value => checkNewValue(value, meta.topics, 'topic'));
+    const newTopics = values.filter(value => checkNewValue(value, meta.topics));
     if (newTopics.length > 0) {
       setWarnings({ ...warnings, topics: newTopics });
     } else {
@@ -368,8 +270,6 @@ function ContributeForm() {
       setWarnings({});
       setIsExistingCompany(false);
       setTurnstileToken(null);
-      setShowFullForm(false);
-      setAutoFilledFields({ title: false, type: false, topics: false });
     } catch (error) {
       setErrors({
         submit: error instanceof Error ? error.message : 'An error occurred. Please try again.',
@@ -501,79 +401,8 @@ function ContributeForm() {
           </p>
         </div>
 
-        {/* Step 1: URL Input */}
-        {!showFullForm && (
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <div className="mb-6">
-              <label htmlFor="resourceUrl" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Resource URL <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="url"
-                id="resourceUrl"
-                value={formData.resourceUrl}
-                onChange={(e) => setFormData({ ...formData, resourceUrl: e.target.value })}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    e.preventDefault();
-                    analyzeResource();
-                  }
-                }}
-                placeholder="https://example.com/blog/testing-at-scale"
-                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg"
-                disabled={isAnalyzing}
-                autoFocus
-              />
-              {errors.resourceUrl && (
-                <p className="mt-2 text-sm text-red-600 dark:text-red-400">{errors.resourceUrl}</p>
-              )}
-              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                Paste the URL of the testing resource you'd like to contribute
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-end">
-              <Link
-                href="/"
-                className="px-6 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-center"
-              >
-                Cancel
-              </Link>
-
-              <button
-                type="button"
-                onClick={() => analyzeResource()}
-                disabled={isAnalyzing}
-                className="px-6 py-3 rounded-lg text-white font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
-                style={{ backgroundColor: isAnalyzing ? '#999' : '#42b983' }}
-              >
-                {isAnalyzing ? (
-                  <>
-                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                    </svg>
-                    Analyzing Resource...
-                  </>
-                ) : (
-                  'Start'
-                )}
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* Step 2: Full Form (shown after analysis) */}
-        {showFullForm && (
-          <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            {/* Auto-fill notification */}
-            {(autoFilledFields.title || autoFilledFields.type || autoFilledFields.topics) && (
-              <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
-                <p className="text-sm text-green-800 dark:text-green-200">
-                  <strong>✨ Auto-detected:</strong> We've automatically filled in some fields based on the resource URL. Feel free to review and edit them if needed.
-                </p>
-              </div>
-            )}
+        {/* Contribution Form */}
+        <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
 
             {/* Company Name */}
           <div className="mb-6">
@@ -620,11 +449,6 @@ function ContributeForm() {
           <div className="mb-6">
             <label htmlFor="resourceTitle" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Resource Title <span className="text-red-500">*</span>
-              {autoFilledFields.title && (
-                <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
-                  ✨ Auto-filled
-                </span>
-              )}
             </label>
             <input
               type="text"
@@ -644,11 +468,6 @@ function ContributeForm() {
             <div className="mb-2">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                 Topics <span className="text-red-500">*</span>
-                {autoFilledFields.topics && (
-                  <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
-                    ✨ Auto-filled
-                  </span>
-                )}
               </span>
             </div>
             <MultiSelectCombobox
@@ -675,11 +494,6 @@ function ContributeForm() {
           <div className="mb-6">
             <label htmlFor="resourceType" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Resource Type <span className="text-red-500">*</span>
-              {autoFilledFields.type && (
-                <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
-                  ✨ Auto-filled
-                </span>
-              )}
             </label>
             <select
               id="resourceType"
@@ -828,8 +642,7 @@ function ContributeForm() {
               {isSubmitting ? 'Submitting...' : 'Submit Resource'}
             </button>
           </div>
-          </form>
-        )}
+        </form>
       </div>
     </div>
   );
