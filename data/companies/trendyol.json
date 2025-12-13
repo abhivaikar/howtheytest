@@ -330,6 +330,19 @@
         "quality-metrics"
       ],
       "addedDate": "2025-12-13"
+    },
+    {
+      "id": "scaling-mutation-testing-at-trendyol-how-ebf7422e",
+      "title": "Scaling Mutation Testing at Trendyol: How We Used MCP to Solve the Configuration Nightmare",
+      "url": "https://medium.com/trendyol-tech/scaling-mutation-testing-at-trendyol-how-we-used-mcp-to-solve-the-configuration-nightmare-5d27300db8cd",
+      "type": "blog or article",
+      "topics": [
+        "ai",
+        "code-coverage",
+        "mutation-testing",
+        "mcp"
+      ],
+      "addedDate": "2025-12-13"
     }
   ],
   "meta": {
