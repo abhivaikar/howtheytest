@@ -43,6 +43,7 @@ function checkRateLimit(ip) {
 }
 
 // Resource type detection patterns
+// Note: Only detecting types that exist in the HowTheyTest system
 const RESOURCE_TYPE_PATTERNS = {
   video: [
     /youtube\.com\/watch/i,
@@ -60,7 +61,6 @@ const RESOURCE_TYPE_PATTERNS = {
     /hashnode\./i,
     /\/blog\//i,
     /\/posts?\//i,
-    /\/article/i,
     /substack\.com/i,
     /wordpress\.com/i,
     /blogger\.com/i,
@@ -75,39 +75,6 @@ const RESOURCE_TYPE_PATTERNS = {
     /gitea\./i,
     /sourceforge\.net\/projects/i,
   ],
-  handbook: [
-    /\/docs/i,
-    /\/documentation/i,
-    /\/handbook/i,
-    /\/guide/i,
-    /\/wiki/i,
-    /\/manual/i,
-    /readthedocs\.io/i,
-    /gitbook\.io/i,
-    /notion\.site/i,
-    /confluence\./i,
-  ],
-  podcast: [
-    /spotify\.com\/episode/i,
-    /podcasts\.apple\.com/i,
-    /anchor\.fm/i,
-    /\/podcast/i,
-    /soundcloud\.com/i,
-    /overcast\.fm/i,
-    /pocketcasts\.com/i,
-    /castbox\.fm/i,
-  ],
-  talk: [
-    /\/talks?\//i,
-    /\/presentations?\//i,
-    /\/conference/i,
-    /slideshare\.net/i,
-    /speakerdeck\.com/i,
-    /\/slides?\//i,
-    /\/webinar/i,
-    /\/summit/i,
-    /\/meetup/i,
-  ],
   book: [
     /\/books?\//i,
     /amazon\.com\/.*\/dp\//i,
@@ -119,12 +86,42 @@ const RESOURCE_TYPE_PATTERNS = {
     /leanpub\.com/i,
   ],
   article: [
+    // Academic/research papers
     /arxiv\.org/i,
     /acm\.org/i,
     /ieee\.org/i,
     /springer\.com/i,
     /sciencedirect\.com/i,
     /\.pdf$/i,
+    // Documentation and guides (categorized as articles)
+    /\/docs/i,
+    /\/documentation/i,
+    /\/guide/i,
+    /\/wiki/i,
+    /\/manual/i,
+    /readthedocs\.io/i,
+    /gitbook\.io/i,
+    /notion\.site/i,
+    /confluence\./i,
+    // Conference talks and presentations (categorized as articles)
+    /\/talks?\//i,
+    /\/presentations?\//i,
+    /\/conference/i,
+    /slideshare\.net/i,
+    /speakerdeck\.com/i,
+    /\/slides?\//i,
+    /\/webinar/i,
+    /\/summit/i,
+    /\/meetup/i,
+    // Podcasts (categorized as articles for now)
+    /spotify\.com\/episode/i,
+    /podcasts\.apple\.com/i,
+    /anchor\.fm/i,
+    /\/podcast/i,
+    /soundcloud\.com/i,
+    /overcast\.fm/i,
+    /pocketcasts\.com/i,
+    /castbox\.fm/i,
   ],
 };
 
