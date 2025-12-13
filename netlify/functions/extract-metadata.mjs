@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import axios from 'axios';
 
 // Security configuration
 const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
@@ -222,17 +223,18 @@ function extractTopics($, existingTopics) {
  * Fetch and extract metadata from URL with security protections
  */
 async function fetchMetadata(url, existingTopics = []) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   const startTime = Date.now();
 
   try {
     // Validate URL for SSRF protection
     validateSecureUrl(url);
 
-    // Fetch the URL with timeout and size limit
-    const response = await fetch(url, {
-      signal: controller.signal,
+    // Fetch the URL with timeout and size limit using axios
+    // axios handles incomplete certificate chains better than native fetch
+    const response = await axios.get(url, {
+      timeout: FETCH_TIMEOUT_MS,
+      maxContentLength: MAX_RESPONSE_SIZE,
+      maxBodyLength: MAX_RESPONSE_SIZE,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -242,35 +244,26 @@ async function fetchMetadata(url, existingTopics = []) {
         'Connection': 'keep-alive',
         'Upgrade-Insecure-Requests': '1',
       },
+      validateStatus: (status) => status >= 200 && status < 300,
+      responseType: 'text',
     });
 
-    if (!response.ok) {
-      const error = new Error('FETCH_FAILED');
-      error.statusCode = response.status;
-      error.statusText = response.statusText;
-      throw error;
-    }
-
     // Validate Content-Type
-    const contentType = response.headers.get('content-type') || '';
+    const contentType = response.headers['content-type'] || '';
     const isHtml = ALLOWED_CONTENT_TYPES.some(type => contentType.toLowerCase().includes(type));
 
     if (!isHtml) {
       throw new Error('INVALID_CONTENT_TYPE');
     }
 
-    // Check Content-Length if available
-    const contentLength = response.headers.get('content-length');
-    if (contentLength && parseInt(contentLength) > MAX_RESPONSE_SIZE) {
-      throw new Error('RESPONSE_TOO_LARGE');
-    }
-
-    // Read response with size limit
-    const html = await response.text();
+    // Get the HTML content
+    const html = response.data;
 
     if (html.length > MAX_RESPONSE_SIZE) {
       throw new Error('RESPONSE_TOO_LARGE');
     }
+
+    const contentLength = response.headers['content-length'];
 
     const $ = cheerio.load(html);
 
@@ -306,14 +299,19 @@ async function fetchMetadata(url, existingTopics = []) {
   } catch (error) {
     const duration = Date.now() - startTime;
 
+    // Extract axios error details
+    const statusCode = error.response?.status;
+    const statusText = error.response?.statusText;
+
     // Log error internally but don't expose details
     console.error('Metadata extraction error:', {
       url,
       duration: `${duration}ms`,
       error: error.message,
       name: error.name,
-      statusCode: error.statusCode,
-      statusText: error.statusText,
+      code: error.code,
+      statusCode,
+      statusText,
       cause: error.cause,
       stack: error.stack,
     });
@@ -321,7 +319,7 @@ async function fetchMetadata(url, existingTopics = []) {
     // Map internal errors to user-friendly messages
     let userMessage = 'Unable to analyze this resource';
 
-    if (error.name === 'AbortError') {
+    if (error.code === 'ECONNABORTED' || error.code === 'ETIMEDOUT') {
       userMessage = 'Request timeout - the resource took too long to respond';
     } else if (error.message === 'INVALID_URL') {
       userMessage = 'Invalid URL format';
@@ -333,7 +331,7 @@ async function fetchMetadata(url, existingTopics = []) {
       userMessage = 'Resource is not an HTML page';
     } else if (error.message === 'RESPONSE_TOO_LARGE') {
       userMessage = 'Resource is too large to analyze';
-    } else if (error.message === 'FETCH_FAILED') {
+    } else if (error.code === 'ERR_BAD_REQUEST' || statusCode) {
       userMessage = 'Unable to fetch the resource';
     }
 
@@ -344,8 +342,6 @@ async function fetchMetadata(url, existingTopics = []) {
       type: detectResourceType(url), // Still try to detect type from URL
       topics: [],
     };
-  } finally {
-    clearTimeout(timeout);
   }
 }
 
