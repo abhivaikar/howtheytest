@@ -556,7 +556,7 @@ function ContributeForm() {
                     Analyzing Resource...
                   </>
                 ) : (
-                  'Analyze Resource'
+                  'Start'
                 )}
               </button>
             </div>
@@ -574,32 +574,6 @@ function ContributeForm() {
                 </p>
               </div>
             )}
-
-            {/* Resource URL (read-only) */}
-            <div className="mb-6">
-              <label htmlFor="resourceUrlReadonly" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Resource URL
-              </label>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  id="resourceUrlReadonly"
-                  value={formData.resourceUrl}
-                  readOnly
-                  className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 cursor-not-allowed"
-                />
-                <button
-                  type="button"
-                  onClick={() => {
-                    setShowFullForm(false);
-                    setAutoFilledFields({ title: false, type: false, topics: false });
-                  }}
-                  className="px-4 py-2 rounded-lg border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                >
-                  Change URL
-                </button>
-              </div>
-            </div>
 
             {/* Company Name */}
           <div className="mb-6">
