@@ -7,7 +7,7 @@
       "id": "manual-testing-for-mobile-applications-d78dbe8c",
       "title": "Manual Testing for Mobile Applications",
       "url": "https://medium.com/trendyol-tech/manual-testing-for-mobile-applications-cb8f4612d070",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "mobile-testing"
       ]
@@ -16,7 +16,7 @@
       "id": "acceptance-tests-on-ci-pipeline-dc631ca0",
       "title": "Acceptance Tests On CI Pipeline",
       "url": "https://medium.com/trendyol-tech/acceptance-tests-on-ci-pipeline-e6272c418152",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "acceptance-testing",
         "ci-cd",
@@ -27,7 +27,7 @@
       "id": "regression-testing-in-mobile-development-602c7871",
       "title": "Regression Testing in Mobile Development",
       "url": "https://medium.com/trendyol-tech/regression-testing-in-mobile-development-c4895f262fb9",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "regression-testing"
       ]
@@ -36,7 +36,7 @@
       "id": "automated-integration-testing-over-gitla-7a6a3343",
       "title": "Automated Integration Testing over Gitlab",
       "url": "https://medium.com/trendyol-tech/automated-integration-testing-over-gitlab-ci-cd-for-dotnet-core-via-testcontainers-b18c7f81e65f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-deployment",
         "continuous-integration",
@@ -49,7 +49,7 @@
       "id": "ui-testing-challenges-of-the-trendyol-mo-58077a25",
       "title": "UI Testing Challenges of The Trendyol Mobile App",
       "url": "https://medium.com/trendyol-tech/ui-testing-challenges-of-the-trendyol-mobile-app-6d17d817a700",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -61,7 +61,7 @@
       "id": "get-the-most-out-of-ui-tests-with-xcode--13d4b267",
       "title": "Get the Most Out of UI Tests With XCode Test Plans",
       "url": "https://medium.com/trendyol-tech/get-the-most-out-of-ui-tests-with-xcode-test-plans-d089a2252ba2",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -73,7 +73,7 @@
       "id": "how-to-test-deeplinks-with-xcuitest-4da9c3bc",
       "title": "How to Test Deeplinks with XCUITest",
       "url": "https://medium.com/trendyol-tech/how-to-test-deeplinks-with-xcuitest-d24c8e5318ee",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "ios"
@@ -83,7 +83,7 @@
       "id": "writing-pact-contract-tests-with-golang-62582c42",
       "title": "Writing Pact Contract Tests with GoLang",
       "url": "https://medium.com/trendyol-tech/writing-pact-contract-tests-with-golang-2c20b5049e0c",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "contract-testing"
       ]
@@ -92,14 +92,14 @@
       "id": "integrate-slather-to-trendyol-project-83df8885",
       "title": "Integrate Slather to Trendyol Project",
       "url": "https://medium.com/trendyol-tech/integrate-slather-to-trendyol-project-39191cee7b7c",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "ui-test-roadmap-with-kaspresso-966f7194",
       "title": "UI Test Roadmap with Kaspresso",
       "url": "https://medium.com/trendyol-tech/ui-test-roadmap-with-kaspresso-fa78d4ee7150",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing"
@@ -109,7 +109,7 @@
       "id": "trendyol-android-team-unit-test-practice-75ced752",
       "title": "Trendyol Android Team Unit Test Practice",
       "url": "https://medium.com/trendyol-tech/trendyol-android-team-unit-test-practice-907cf8d0346",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "unit-testing"
@@ -119,7 +119,7 @@
       "id": "the-importance-of-ab-and-exploratory-tes-893960b8",
       "title": "The Importance of A/B and Exploratory Testing (ET) in Trendyol iOS App",
       "url": "https://medium.com/trendyol-tech/the-importance-of-a-b-and-exploratory-testing-et-in-trendyol-ios-app-5900f81a9628",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "exploratory-testing",
         "ios"
@@ -129,7 +129,7 @@
       "id": "mobile-app-complexity-things-to-consider-382147ec",
       "title": "Mobile App Complexity: Things to Consider While Estimating Test Effort",
       "url": "https://medium.com/trendyol-tech/mobile-app-complexity-things-to-consider-while-estimating-test-effort-1cde0645d31a",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-deployment",
         "mobile-testing"
@@ -139,7 +139,7 @@
       "id": "couchbase-integration-testing-for-golang-15e89b99",
       "title": "Couchbase Integration Testing for Golang via Testcontainers",
       "url": "https://medium.com/trendyol-tech/couchbase-integration-testing-for-golang-via-testcontainers-25b906bc2c0d",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "docker",
         "integration-testing"
@@ -149,7 +149,7 @@
       "id": "the-different-types-of-testing-on-trendy-60e5fb46",
       "title": "The Different Types of Testing on Trendyol iOS App",
       "url": "https://medium.com/trendyol-tech/the-different-types-of-testing-on-trendyol-ios-app-f345124da2b3",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ios"
       ]
@@ -158,7 +158,7 @@
       "id": "pit-mutation-testing-on-cicd-pipeline-f795d29f",
       "title": "PIT Mutation Testing on CI/CD Pipeline",
       "url": "https://medium.com/trendyol-tech/pit-mutation-testing-on-ci-cd-pipeline-1298f355bae5",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ci-cd",
         "continuous-deployment",
@@ -170,7 +170,7 @@
       "id": "how-to-test-database-queries-and-more-wi-34fe0157",
       "title": "How to Test Database Queries and More with Node.js",
       "url": "https://medium.com/trendyol-tech/how-to-test-database-queries-and-more-with-node-js-2f02b08707a7",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-data-management"
       ]
@@ -179,14 +179,14 @@
       "id": "differences-between-mobile-web-and-mobil-6b0318be",
       "title": "Differences Between Mobile Web and Mobile Platform Tests",
       "url": "https://medium.com/trendyol-tech/differences-between-mobile-web-and-mobile-platform-tests-463e0378187b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "mocking-api-calls-in-ui-tests-18836032",
       "title": "Mocking API Calls in UI Tests",
       "url": "https://medium.com/trendyol-tech/mocking-api-calls-in-ui-tests-b908dbf6b305",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "api",
         "e2e-testing",
@@ -198,7 +198,7 @@
       "id": "how-to-make-ios-ui-testing-fast-and-reli-ec955d17",
       "title": "How to Make iOS UI Testing fast and reliable",
       "url": "https://medium.com/trendyol-tech/how-to-make-ios-ui-testing-fast-and-reliable-6f572a0955f2",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -210,7 +210,7 @@
       "id": "how-to-write-unit-tests-for-selector-fun-fa8ddeab",
       "title": "How to Write Unit Tests for Selector Functions in Swift",
       "url": "https://medium.com/trendyol-tech/how-to-write-unit-tests-for-selector-functions-in-swift-109fe13756c0",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "unit-testing"
       ]
@@ -219,7 +219,7 @@
       "id": "integration-testing-with-wiremock-d7a44e38",
       "title": "Integration testing with Wiremock",
       "url": "https://medium.com/trendyol-tech/integration-testing-with-wiremock-e5ca731d693d",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "integration-testing",
         "mocking"
@@ -229,7 +229,7 @@
       "id": "device-selection-for-ios-app-testing-f3e021ea",
       "title": "Device Selection for iOS App Testing",
       "url": "https://medium.com/trendyol-tech/device-selection-for-ios-app-testing-fad5d0d1eea0",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ios",
         "mobile-testing"
@@ -239,14 +239,14 @@
       "id": "measuring-data-in-app-with-marketing-eve-848401b6",
       "title": "Measuring Data in App with Marketing Event Tests",
       "url": "https://medium.com/trendyol-tech/measuring-data-in-app-with-marketing-event-tests-30c11aff3bd1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "heuristic-test-strategy-for-mobile-softw-f441be05",
       "title": "Heuristic Test Strategy for Mobile Software Test",
       "url": "https://medium.com/trendyol-tech/heuristic-test-strategy-for-mobile-software-test-remember-important-aspects-c718da8f01a9",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-strategy"
       ]
@@ -255,7 +255,7 @@
       "id": "meaningful-error-messages-for-ios-ui-tes-ea3c6af3",
       "title": "Meaningful Error Messages for iOS UI Tests",
       "url": "https://medium.com/trendyol-tech/meaningful-error-messages-for-ios-ui-tests-6085ce15b78",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -266,7 +266,7 @@
       "id": "make-ui-testing-possible-with-tygenerato-048b0d84",
       "title": "Make UI Testing possible with TYGenerator",
       "url": "https://medium.com/trendyol-tech/make-ui-testing-possible-with-tygenerator-c3654425d782",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -277,7 +277,7 @@
       "id": "adaptation-of-empathy-mapping-to-mobile--44b01406",
       "title": "Adaptation of Empathy Mapping to Mobile Test",
       "url": "https://medium.com/trendyol-tech/adaptation-of-empathy-mapping-to-mobile-test-f7d94a228516",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "mobile-testing"
       ]
@@ -286,7 +286,7 @@
       "id": "automated-visual-testing-with-snapshots--ddce7166",
       "title": "Automated Visual Testing With Snapshots: Part 1",
       "url": "https://medium.com/trendyol-tech/automated-visual-testing-with-snapshots-part-1-ee9c5cf58cca",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation",
         "visual-regression"
@@ -296,7 +296,7 @@
       "id": "automated-visual-testing-with-snapshots--46b3fad1",
       "title": "Automated Visual Testing With Snapshots: Part 2",
       "url": "https://medium.com/trendyol-tech/automated-visual-testing-with-snapshots-part-2-19354052c6d9",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation",
         "visual-regression"
@@ -306,7 +306,7 @@
       "id": "scaling-mobile-ui-testing-with-ai-29f20854",
       "title": "Scaling mobile UI testing with AI",
       "url": "https://medium.com/trendyol-tech/scaling-mobile-ui-testing-with-ai-02b78bc50a5e",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ai",
         "mobile-testing",

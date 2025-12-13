@@ -111,13 +111,9 @@
         "type": {
           "type": "string",
           "enum": [
-            "blog",
+            "blog or article",
             "video",
-            "article",
             "book",
-            "talk",
-            "podcast",
-            "handbook",
             "repo"
           ],
           "description": "Type of resource"

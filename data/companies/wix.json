@@ -7,21 +7,21 @@
       "id": "software-developers-communicate-your-int-36c97564",
       "title": "Software Developers, Communicate Your Intentions (TLDR: do it using tests)",
       "url": "https://www.wix.engineering/post/software-developers-communicate-your-intentions-tldr-do-it-using-tests",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "meet-raven-testkit-wix-engineerings-open-7b0de056",
       "title": "Meet Raven TestKit: Wix Engineering's Open Source Tool to Test Sentry Reports",
       "url": "https://www.wix.engineering/post/meet-raven-testkit-wix-engineering-s-open-source-tool-to-test-sentry-reports-1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "how-to-test-your-redux-app-df7e0d55",
       "title": "How to Test Your Redux App",
       "url": "https://www.wix.engineering/post/how-to-test-your-redux-app",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "usability-testing"
       ]
@@ -30,14 +30,14 @@
       "id": "testing-asynchronous-code-29519ab5",
       "title": "Testing Asynchronous Code",
       "url": "https://www.wix.engineering/post/testing-asynchronous-code",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "how-to-integrate-3rd-party-apis-without--7f07437f",
       "title": "How to integrate 3rd Party APIs without Fear",
       "url": "https://medium.com/wix-engineering/how-to-integrate-3rd-party-apis-without-fear-part-1-a3dd4bf42cd6",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "api",
         "continuous-deployment"
@@ -47,14 +47,14 @@
       "id": "keep-your-tests-clean-and-isolated-with--14b5697b",
       "title": "Keep Your Tests Clean and Isolated with a Context",
       "url": "https://medium.com/wix-engineering/keep-your-tests-clean-and-isolated-with-a-context-258b31fe5cec",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "asynchronous-sad-path-testing-in-react-u-a0869925",
       "title": "Asynchronous Sad Path Testing in React Using Jest and The Driver Pattern",
       "url": "https://medium.com/wix-engineering/asynchronous-sad-path-testing-in-react-using-jest-and-the-driver-pattern-84ad61d09b40",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "jest"
       ]
@@ -63,14 +63,14 @@
       "id": "keep-your-tests-clean-by-refactoring-eaa20458",
       "title": "Keep your tests clean, by refactoring",
       "url": "https://medium.com/wix-engineering/https-medium-com-gavinrifkind-keep-your-tests-clean-by-refactoring-fd0310a103ed",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "functional-testing-with-tagless-final-6d4a115c",
       "title": "Functional Testing with Tagless-Final",
       "url": "https://medium.com/wix-engineering/functional-testing-with-tagless-final-50eeacf5df6",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "functional-testing"
       ]
@@ -79,7 +79,7 @@
       "id": "overestimated-value-of-test-documentatio-bf59a926",
       "title": "Overestimated value of test documentation",
       "url": "https://medium.com/wix-engineering/overestimated-value-of-test-documentation-739dcf8ee85a",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "rest"
       ]
@@ -88,7 +88,7 @@
       "id": "testing-metrics-are-you-really-sure-abou-8dd15fa6",
       "title": "Testing Metrics: Are You Really Sure about the Quality of Your Product?",
       "url": "https://medium.com/wix-engineering/testing-metrics-are-you-really-sure-about-the-quality-of-your-product-8a5ef37ec3d4",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "monitoring",
         "quality-engineering"
@@ -98,7 +98,7 @@
       "id": "integration-tests-in-javascript-that-don-4e973edb",
       "title": "Integration Tests in JavaScript That Don’t Suck",
       "url": "https://www.wix.engineering/post/integration-tests-in-javascript-that-don-t-suck",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "integration-testing"
       ]
@@ -107,7 +107,7 @@
       "id": "building-and-open-sourcing-wixs-ab-testi-8b4de205",
       "title": "Building and Open-Sourcing Wix’s A/B Testing System",
       "url": "https://www.wix.engineering/post/building-and-open-sourcing-wix-s-a-b-testing-system",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ab-testing",
         "continuous-integration",
@@ -118,7 +118,7 @@
       "id": "mockingbird-the-why-when-and-how-of-test-5a8943db",
       "title": "Mockingbird: The Why, When and How of Testing with Mocks — Part 1",
       "url": "https://medium.com/wix-engineering/mockingbird-why-when-and-how-of-testing-with-mocks-part-1-dceacd14e26f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-deployment",
         "mocking"
@@ -128,7 +128,7 @@
       "id": "mockingbird-the-why-when-and-how-of-test-db448e2b",
       "title": "Mockingbird: The Why, When and How of Testing with Mocks — Part 2",
       "url": "https://medium.com/wix-engineering/mockingbird-the-why-when-and-how-of-testing-with-mocks-part-2-50431cfd70be",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "mocking"
       ]
@@ -137,7 +137,7 @@
       "id": "mockingbird-part-3-the-pitfalls-1ddf6b4b",
       "title": "Mockingbird — Part 3 — The Pitfalls",
       "url": "https://medium.com/wix-engineering/mockingbird-part-3-the-pitfalls-e42c03000a92",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "mocking"
       ]

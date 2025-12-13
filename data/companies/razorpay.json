@@ -7,14 +7,14 @@
       "id": "detecting-goroutine-leaks-with-test-case-5c76cfce",
       "title": "Detecting Goroutine Leaks with Test Cases",
       "url": "https://engineering.razorpay.com/detecting-goroutine-leaks-with-test-cases-b0f8f8a88648",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "releasing-features-with-confidence-in-yo-b134dfd2",
       "title": "Releasing features with confidence in your mobile app",
       "url": "https://engineering.razorpay.com/releasing-features-with-confidence-in-the-mobile-app-b3abf73d6646",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "mobile-testing"
       ]

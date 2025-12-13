@@ -7,7 +7,7 @@
       "id": "23-books-for-quality-assurance-professio-018120a0",
       "title": "23 Books for Quality Assurance Professionals",
       "url": "https://medium.com/slalom-build/23-books-for-quality-assurance-professionals-9a7db9945e8",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "quality-engineering"
@@ -17,7 +17,7 @@
       "id": "qa-with-slalom-builds-inaugural-2019-qua-3561c45b",
       "title": "Q&A with Slalom Build’s Inaugural 2019 Quality Engineering Academy",
       "url": "https://medium.com/slalom-build/a-q-a-with-slalom-builds-inaugural-qe-academy-8881b5e90876",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "quality-engineering"
@@ -27,7 +27,7 @@
       "id": "eight-signs-your-agile-testing-isnt-that-72413e34",
       "title": "Eight Signs Your Agile Testing Isn’t That Agile",
       "url": "https://medium.com/slalom-build/eight-signs-your-agile-testing-isnt-that-agile-d3989bc1b9bb",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "agile-testing",
         "frontend-testing"
@@ -37,7 +37,7 @@
       "id": "journey-of-a-manual-qa-into-an-automatio-f8d56c82",
       "title": "Journey of a Manual QA into an Automation World",
       "url": "https://medium.com/slalom-build/journey-of-a-manual-qa-into-an-automation-world-c99808dc107",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "quality-engineering",
@@ -48,7 +48,7 @@
       "id": "playwright-vs-webdriver-the-future-of-br-ae5acdd6",
       "title": "Playwright vs WebDriver: The Future of Browser Automation",
       "url": "https://medium.com/slalom-build/playwright-vs-webdriver-the-future-of-browser-automation-854a7ae63218",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "playwright",
@@ -60,7 +60,7 @@
       "id": "quality-engineer-learning-roadmap-72db7cf7",
       "title": "Quality Engineer Learning Roadmap",
       "url": "https://medium.com/slalom-build/quality-engineer-learning-roadmap-fddfcb77409e",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "quality-engineering"
@@ -70,7 +70,7 @@
       "id": "quality-engineering-adapt-and-apply-a7be9034",
       "title": "Quality Engineering: Adapt and Apply",
       "url": "https://medium.com/slalom-build/quality-engineering-adapt-and-apply-a77edb781289",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "quality-engineering"
@@ -80,7 +80,7 @@
       "id": "the-challenge-of-testing-data-pipelines-cb6f122f",
       "title": "The challenge of testing Data Pipelines",
       "url": "https://medium.com/slalom-build/the-challenge-of-testing-data-pipelines-4450744a84f1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ci-cd",
         "frontend-testing"
@@ -90,7 +90,7 @@
       "id": "quality-engineering-core-principles-22dde1c8",
       "title": "Quality Engineering Core Principles",
       "url": "https://medium.com/slalom-build/quality-engineering-core-principles-13cbc34bf389",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "frontend-testing",
@@ -101,7 +101,7 @@
       "id": "what-is-the-roi-of-my-test-automation-74cce75f",
       "title": "What is the ROI of my test automation?",
       "url": "https://medium.com/slalom-build/what-is-the-roi-of-my-test-automation-10ae7bf0d9ed",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "test-automation"
@@ -111,7 +111,7 @@
       "id": "the-regression-death-spiral-d29ac699",
       "title": "The Regression Death Spiral",
       "url": "https://medium.com/slalom-build/the-regression-death-spiral-18f88b9fb030",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "regression-testing"
@@ -121,7 +121,7 @@
       "id": "testing-angular-applications-with-seleni-834a51ba",
       "title": "Testing Angular Applications with Selenium Java",
       "url": "https://medium.com/slalom-build/testing-angular-applications-with-selenium-java-4bca1c6d08b5",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "selenium"
@@ -131,7 +131,7 @@
       "id": "why-isnt-all-test-automation-run-on-the--1f702931",
       "title": "Why isn’t all test automation run on the pipeline?",
       "url": "https://medium.com/slalom-build/why-isnt-all-test-automation-run-on-the-pipeline-b2c57afbdf5a",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ci-cd",
         "frontend-testing",
@@ -142,7 +142,7 @@
       "id": "how-to-test-internationalization-with-ui-5fddb35a",
       "title": "How to test Internationalization with UI automation",
       "url": "https://medium.com/slalom-build/how-to-test-internationalization-with-ui-automation-ff829bb718cc",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "localization-testing",
@@ -153,7 +153,7 @@
       "id": "redefining-using-promises-with-the-page--e3cfb62a",
       "title": "Redefining “Using Promises with the Page Object Model”",
       "url": "https://medium.com/slalom-build/redefining-using-promises-with-the-page-object-model-6dfd49a3594b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "page-object-model"
@@ -163,7 +163,7 @@
       "id": "load-testing-in-a-nutshell-45e1ba15",
       "title": "Load Testing in a Nutshell",
       "url": "https://medium.com/slalom-build/load-testing-in-a-nutshell-7f7568811217",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "load-testing"
@@ -173,7 +173,7 @@
       "id": "mobile-testing-with-microsofts-xamarin-t-1b7570c8",
       "title": "Mobile Testing with Microsoft’s Xamarin Test Cloud",
       "url": "https://medium.com/slalom-build/mobile-app-testing-with-microsoft-test-cloud-services-part-1-c0b40b7c19d0",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "frontend-testing",
@@ -184,7 +184,7 @@
       "id": "using-promises-with-the-page-object-mode-e08614d3",
       "title": "Using Promises with the Page Object Model",
       "url": "https://medium.com/slalom-build/using-promises-in-page-object-model-test-automation-2a505be9d79f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "page-object-model",

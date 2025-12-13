@@ -7,14 +7,14 @@
       "id": "offensive-testing-to-make-dropbox-and-th-bf597aee",
       "title": "Offensive testing to make Dropbox (and the world) a safer place",
       "url": "https://dropbox.tech/security/offensive-testing-to-make-dropbox-and-the-world-a-safer-place",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "accelerating-iteration-velocity-on-dropb-d31d0ece",
       "title": "Accelerating Iteration Velocity on Dropbox’s Desktop Client, Part 1",
       "url": "https://dropbox.tech/application/accelerating-iteration-velocity-on-dropboxs-desktop-client-part-1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration"
       ]
@@ -23,7 +23,7 @@
       "id": "accelerating-iteration-velocity-on-dropb-3c46e3e3",
       "title": "Accelerating Iteration Velocity on Dropbox’s Desktop Client, Part 2",
       "url": "https://dropbox.tech/application/accelerating-iteration-velocity-on-dropboxs-desktop-client-part-2",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration"
       ]
@@ -32,14 +32,14 @@
       "id": "two-years-at-dropbox-ff0b4363",
       "title": "Two years at Dropbox",
       "url": "https://chadaustin.me/2019/11/two-years-at-dropbox/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "creating-a-culter-of-accessibility-5049e1d3",
       "title": "Creating a culter of accessibility",
       "url": "https://dropbox.tech/frontend/creating-a-culture-of-accessibility",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "accessibility-testing",
         "frontend-testing"
@@ -49,14 +49,14 @@
       "id": "finding-kafkas-throughput-limit-in-dropb-3acf1995",
       "title": "Finding Kafka’s throughput limit in Dropbox infrastructure",
       "url": "https://dropbox.tech/infrastructure/finding-kafkas-throughput-limit-in-dropbox-infrastructure",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "athena-our-automated-build-health-manage-dd6b4ff1",
       "title": "Athena: Our automated build health management system",
       "url": "https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "test-automation"
@@ -66,7 +66,7 @@
       "id": "the-programmer-mindset-main-debug-loop-e9a8c437",
       "title": "The Programmer Mindset: Main Debug Loop",
       "url": "https://dropbox.tech/frontend/the-programmer-mindset-main-debug-loop",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "debugging",
         "frontend-testing"
@@ -76,7 +76,7 @@
       "id": "testing-sync-at-dropbox-8002f3a4",
       "title": "Testing sync at Dropbox",
       "url": "https://dropbox.tech/infrastructure/-testing-our-new-sync-engine",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {

@@ -2,7 +2,7 @@ export interface Resource {
   id: string;
   title: string;
   url: string;
-  type: 'blog' | 'video' | 'article' | 'book' | 'talk' | 'podcast' | 'handbook' | 'repo';
+  type: 'blog or article' | 'video' | 'book' | 'repo';
   topics: string[];
   description?: string;
   addedDate?: string;

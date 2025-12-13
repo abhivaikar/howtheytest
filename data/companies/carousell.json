@@ -7,7 +7,7 @@
       "id": "prabhagharan-dk-building-our-inhouse-vir-589a1559",
       "title": "Prabhagharan DK : Building our inhouse virtual device lab \"caroufarm\"",
       "url": "https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "device-lab",
         "frontend-testing"
@@ -17,7 +17,7 @@
       "id": "martin-schneider-automated-end-to-end-te-51f870e6",
       "title": "Martin Schneider : Automated end-to-end tests and how they fit into our testing culture",
       "url": "https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "quality-processes",
@@ -28,7 +28,7 @@
       "id": "carousell-scales-app-automation-with-bro-b54945b7",
       "title": "Carousell scales app automation with Browserstack",
       "url": "https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation"
       ]

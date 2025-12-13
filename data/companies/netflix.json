@@ -7,7 +7,7 @@
       "id": "edgar-solving-mysteries-faster-with-obse-cb000d0e",
       "title": "Edgar: Solving Mysteries Faster with Observability",
       "url": "https://netflixtechblog.com/edgar-solving-mysteries-faster-with-observability-e1a76302c71f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "monitoring"
@@ -17,7 +17,7 @@
       "id": "automation-as-a-service-introducing-scri-d0f77694",
       "title": "Automation as a Service — Introducing Scriptflask",
       "url": "https://netflixtechblog.com/automation-as-a-service-introducing-scriptflask-17a8e4ad954b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "logging",
@@ -28,7 +28,7 @@
       "id": "automated-testing-on-devices-4c75e4e5",
       "title": "Automated testing on devices",
       "url": "https://netflixtechblog.com/automated-testing-on-devices-fc5a39f47e24",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "test-automation"
@@ -38,7 +38,7 @@
       "id": "product-integration-testing-at-the-speed-16c1c252",
       "title": "Product Integration Testing at the Speed of Netflix",
       "url": "https://netflixtechblog.com/product-integration-testing-at-the-speed-of-netflix-72e4117734a7",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "integration-testing",
         "logging"
@@ -48,7 +48,7 @@
       "id": "automated-failure-testing-f889a9eb",
       "title": "Automated Failure Testing",
       "url": "https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "test-automation"
@@ -58,7 +58,7 @@
       "id": "announcing-electric-eye-00180d09",
       "title": "Announcing Electric Eye",
       "url": "https://netflixtechblog.com/announcing-electric-eye-2bb8ffcf9b1b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "logging"
@@ -68,7 +68,7 @@
       "id": "from-chaos-to-control-testing-the-resili-c46f27a5",
       "title": "From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform",
       "url": "https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "chaos-engineering",
         "logging"
@@ -78,7 +78,7 @@
       "id": "nts-real-time-streaming-for-test-automat-cdb73783",
       "title": "NTS: Real-time Streaming for Test Automation",
       "url": "https://netflixtechblog.com/nts-real-time-streaming-for-test-automation-7cb000e933a1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "test-automation"
@@ -88,7 +88,7 @@
       "id": "fit-failure-injection-testing-0e6a2a8a",
       "title": "FIT: Failure Injection Testing",
       "url": "https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -97,7 +97,7 @@
       "id": "testing-netflix-on-android-6a3675e8",
       "title": "Testing Netflix on Android",
       "url": "https://netflixtechblog.com/testing-netflix-on-android-78e5f71b89ab",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "logging"
@@ -107,7 +107,7 @@
       "id": "lerner-using-rl-agents-for-test-case-sch-b70196ae",
       "title": "Lerner — using RL agents for test case scheduling",
       "url": "https://netflixtechblog.com/lerner-using-rl-agents-for-test-case-scheduling-3e0686211198",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -116,7 +116,7 @@
       "id": "announcing-sleepy-puppy-cross-site-scrip-ec81a457",
       "title": "Announcing Sleepy Puppy — Cross-Site Scripting Payload Management for Web Application Security Testing",
       "url": "https://netflixtechblog.com/announcing-sleepy-puppy-cross-site-scripting-payload-management-for-web-application-security-d32e62d72e29",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "logging",
@@ -128,7 +128,7 @@
       "id": "how-netflix-does-ab-testing-47c72c95",
       "title": "How Netflix does A/B Testing",
       "url": "https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ab-testing",
         "usability-testing"
@@ -138,7 +138,7 @@
       "id": "fixing-performance-regressions-before-th-a1923f79",
       "title": "Fixing Performance Regressions Before they Happen",
       "url": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "performance-testing",
@@ -149,7 +149,7 @@
       "id": "improving-pull-request-confidence-for-th-6c423928",
       "title": "Improving Pull Request Confidence for the Netflix TV App",
       "url": "https://netflixtechblog.medium.com/improving-pull-request-confidence-for-the-netflix-tv-app-b85edb05eb65",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]

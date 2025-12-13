@@ -7,7 +7,7 @@
       "id": "release-quality-and-mobile-trains-e9c18a3f",
       "title": "Release Quality and Mobile Trains",
       "url": "https://developers.soundcloud.com/blog/quality-mobile-trains",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "logging",
@@ -19,7 +19,7 @@
       "id": "integration-testing-for-memory-leaks-09a1a700",
       "title": "Integration Testing for Memory Leaks",
       "url": "https://developers.soundcloud.com/blog/integration-testing-for-memory-leaks",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "integration-testing",
@@ -30,7 +30,7 @@
       "id": "hands-off-deployment-with-canary-216583b4",
       "title": "Hands-Off Deployment with Canary",
       "url": "https://developers.soundcloud.com/blog/hands-off-deployment-with-canary",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "canary-testing",
         "cloud-testing",
@@ -44,7 +44,7 @@
       "id": "running-android-ui-test-suites-on-fireba-70f026a6",
       "title": "Running Android UI Test Suites on Firebase Test Lab",
       "url": "https://developers.soundcloud.com/blog/running-android-ui-test-suites-on-firebase-test-lab",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "cloud-testing",
@@ -58,7 +58,7 @@
       "id": "automatic-stubbing-of-network-requests-t-03fd8e9e",
       "title": "Automatic Stubbing of Network Requests to Deflakify Automation Testing",
       "url": "https://developers.soundcloud.com/blog/automatic-stubbing-of-network-requests-to-de-flakify-automation-testing",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "logging",
@@ -70,7 +70,7 @@
       "id": "alerting-on-slos-like-pros-59ccf2dc",
       "title": "Alerting on SLOs like Pros",
       "url": "https://developers.soundcloud.com/blog/alerting-on-slos",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "logging",
@@ -81,7 +81,7 @@
       "id": "periskop-exception-monitoring-service-c0a1f4c1",
       "title": "Periskop: Exception Monitoring Service",
       "url": "https://developers.soundcloud.com/blog/periskop-exception-monitoring-service",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "logging",

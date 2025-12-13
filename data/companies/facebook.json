@@ -7,7 +7,7 @@
       "id": "open-sourcing-python-test-runner-for-mul-1446e37b",
       "title": "Open-sourcing Python Test Runner for multiple tests in parallel",
       "url": "https://engineering.fb.com/open-source/python-test-runner/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "parallel-testing",
@@ -18,7 +18,7 @@
       "id": "predictive-test-selection-a-more-efficie-11854182",
       "title": "Predictive test selection: A more efficient way to ensure reliability of code changes",
       "url": "https://engineering.fb.com/developer-tools/predictive-test-selection/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration"
       ]
@@ -27,7 +27,7 @@
       "id": "mobilelab-highly-accurate-testing-to-pre-f5e2070a",
       "title": "MobileLab: Highly accurate testing to prevent mobile performance regressions",
       "url": "https://engineering.fb.com/android/mobilelab/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "performance-testing",
@@ -38,7 +38,7 @@
       "id": "sapienz-intelligent-automated-software-t-77db0980",
       "title": "Sapienz: Intelligent automated software testing at scale",
       "url": "https://engineering.fb.com/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "api",
         "test-automation"
@@ -48,7 +48,7 @@
       "id": "preventing-performance-regressions-with--c3bb51e9",
       "title": "Preventing performance regressions with Health Compass and Incident Tracker",
       "url": "https://engineering.fb.com/developer-tools/incident-tracker/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "incident-management",
@@ -60,7 +60,7 @@
       "id": "finding-and-fixing-software-bugs-automat-40f7d776",
       "title": "Finding and fixing software bugs automatically with SapFix and Sapienz",
       "url": "https://engineering.fb.com/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "api"
       ]
@@ -69,7 +69,7 @@
       "id": "open-sourcing-flipper-a-new-extensible-d-ff881d6c",
       "title": "Open-sourcing Flipper: a new extensible debugging tool",
       "url": "https://engineering.fb.com/android/flipper/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "continuous-integration",
@@ -80,7 +80,7 @@
       "id": "browserlab-automated-regression-detectio-b913721e",
       "title": "BrowserLab: Automated regression detection for the web",
       "url": "https://engineering.fb.com/web/browserlab-automated-regression-detection-for-the-web/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "regression-testing",
         "test-automation"
@@ -90,14 +90,14 @@
       "id": "getafix-how-facebook-tools-learn-to-fix--1b7118e7",
       "title": "Getafix: How Facebook tools learn to fix bugs automatically",
       "url": "https://engineering.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "stetho-a-new-debugging-platform-for-andr-1e254f26",
       "title": "Stetho: A new debugging platform for Android",
       "url": "https://engineering.fb.com/android/stetho-a-new-debugging-platform-for-android/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "debugging"
@@ -107,7 +107,7 @@
       "id": "open-sourcing-facebook-infer-identify-bu-4eac4980",
       "title": "Open-sourcing Facebook Infer: Identify bugs before you ship",
       "url": "https://engineering.fb.com/developer-tools/open-sourcing-facebook-infer-identify-bugs-before-you-ship/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration"
       ]
@@ -116,7 +116,7 @@
       "id": "building-and-testing-at-facebook-6b45b578",
       "title": "Building and testing at Facebook",
       "url": "https://engineering.fb.com/uncategorized/building-and-testing-at-facebook/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing"
       ]
@@ -125,7 +125,7 @@
       "id": "watir-to-webdriver-unit-test-frameworks-01992db3",
       "title": "Watir to WebDriver: Unit Test Frameworks",
       "url": "https://engineering.fb.com/developer-tools/watir-to-webdriver-unit-test-frameworks/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "selenium",
         "unit-testing"
@@ -135,7 +135,7 @@
       "id": "rapid-release-at-massive-scale-20d9974f",
       "title": "Rapid release at massive scale",
       "url": "https://engineering.fb.com/web/rapid-release-at-massive-scale/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "api",
         "release-management"
@@ -145,7 +145,7 @@
       "id": "finding-inter-procedural-bugs-at-scale-w-53c8239e",
       "title": "Finding inter-procedural bugs at scale with Infer static analyzer",
       "url": "https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android"
       ]
@@ -154,14 +154,14 @@
       "id": "zoncolan-how-facebook-uses-static-analys-714a9435",
       "title": "Zoncolan: How Facebook uses static analysis to detect and prevent security issues",
       "url": "https://engineering.fb.com/security/zoncolan/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "how-do-you-test-your-tests-an-approach-o-7a9422f3",
       "title": "How do you test your tests? An approach on probablistic flakiness score",
       "url": "https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "flaky-tests"
       ]
@@ -170,7 +170,7 @@
       "id": "faster-more-efficient-systems-for-findin-e2a2e7b9",
       "title": "Faster, more efficient systems for finding and fixing regressions",
       "url": "https://engineering.fb.com/2021/02/17/developer-tools/fix-fast/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "regression-testing"
@@ -180,7 +180,7 @@
       "id": "test-plans-at-facebook-9c996c09",
       "title": "Test plans at Facebook",
       "url": "https://frantic.im/test-plan/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-strategy"
       ]
@@ -189,7 +189,7 @@
       "id": "improving-end-to-end-tests-reliability-a-e085b307",
       "title": "Improving end-to-end tests' reliability at Facebook",
       "url": "https://frantic.im/e2e-tests/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing"
       ]
@@ -198,7 +198,7 @@
       "id": "autonomous-testing-of-services-at-scale-a32b717d",
       "title": "Autonomous testing of services at scale",
       "url": "https://engineering.fb.com/2021/10/20/developer-tools/autonomous-testing/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {

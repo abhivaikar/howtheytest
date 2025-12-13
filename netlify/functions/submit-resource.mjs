@@ -22,43 +22,6 @@ const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',')
   : ['https://abhivaikar.github.io', 'http://localhost:3000'];
 
-// Rate limiting configuration
-const RATE_LIMIT_WINDOW_MS = 60000; // 1 minute
-const RATE_LIMIT_MAX_REQUESTS = 5; // 5 requests per minute per IP
-const rateLimits = new Map();
-
-// Clean up old rate limit entries every 5 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [ip, requests] of rateLimits.entries()) {
-    const validRequests = requests.filter(time => now - time < RATE_LIMIT_WINDOW_MS);
-    if (validRequests.length === 0) {
-      rateLimits.delete(ip);
-    } else {
-      rateLimits.set(ip, validRequests);
-    }
-  }
-}, 300000);
-
-// Helper function to check rate limit
-function checkRateLimit(ip) {
-  const now = Date.now();
-
-  if (!rateLimits.has(ip)) {
-    rateLimits.set(ip, []);
-  }
-
-  const requests = rateLimits.get(ip).filter(time => now - time < RATE_LIMIT_WINDOW_MS);
-
-  if (requests.length >= RATE_LIMIT_MAX_REQUESTS) {
-    return false; // Rate limit exceeded
-  }
-
-  requests.push(now);
-  rateLimits.set(ip, requests);
-  return true;
-}
-
 // Helper function to verify Cloudflare Turnstile token
 async function verifyTurnstile(token) {
   const secretKey = process.env.TURNSTILE_SECRET_KEY;
@@ -233,16 +196,6 @@ export const handler = async (event) => {
       statusCode: 405,
       headers,
       body: JSON.stringify({ error: 'Method not allowed' }),
-    };
-  }
-
-  // Rate limiting
-  const clientIp = event.headers['x-nf-client-connection-ip'] || event.headers['x-forwarded-for'] || 'unknown';
-  if (!checkRateLimit(clientIp)) {
-    return {
-      statusCode: 429,
-      headers,
-      body: JSON.stringify({ error: 'Too many requests. Please try again later.' }),
     };
   }
 

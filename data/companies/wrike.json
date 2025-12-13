@@ -7,7 +7,7 @@
       "id": "onboarding-process-in-wrike-qa-automatio-4aabde79",
       "title": "Onboarding Process in Wrike QA Automation Team",
       "url": "https://medium.com/wriketechclub/onboarding-process-in-wrike-qa-automation-team-88a4265d6af7",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "test-automation"
@@ -17,14 +17,14 @@
       "id": "code-review-without-queues-3dfb52d0",
       "title": "Code Review Without Queues",
       "url": "https://medium.com/wriketechclub/code-review-without-queues-c252c1f05cfc",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "generating-a-smoke-test-suite-358dee84",
       "title": "Generating a Smoke Test Suite",
       "url": "https://medium.com/wriketechclub/generating-a-smoke-test-suite-1fb5cddf6e7a",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-deployment",
         "frontend-testing",
@@ -35,7 +35,7 @@
       "id": "how-to-improve-code-quality-in-an-autote-f1c0166a",
       "title": "How To Improve Code Quality in an Autotest Project",
       "url": "https://medium.com/wriketechclub/how-to-improve-code-quality-in-an-autotest-project-36f9c9655d8b",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering"
       ]
@@ -44,14 +44,14 @@
       "id": "allure-integration-at-wrike-ea70ff5c",
       "title": "Allure Integration at Wrike",
       "url": "https://medium.com/wriketechclub/allure-integration-at-wrike-c4d7280e4968",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "test-markup-in-qa-automation-beca1ea3",
       "title": "Test Markup in QA Automation",
       "url": "https://medium.com/wriketechclub/test-markup-in-qa-automation-59b6765a1d06",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "test-automation"
@@ -61,7 +61,7 @@
       "id": "autotesting-optimized-intellij-idea-plug-da543fdb",
       "title": "Autotesting Optimized: Intellij IDEA Plugins in Service of QA Automation",
       "url": "https://medium.com/wriketechclub/autotesting-optimized-intellij-idea-plugins-in-service-of-qa-automation-c2ebd99588a2",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "test-automation"
@@ -71,7 +71,7 @@
       "id": "callisto-an-easy-way-to-run-selenium-tes-144f2f00",
       "title": "Callisto: An Easy Way To Run Selenium Tests in the Cloud",
       "url": "https://medium.com/wriketechclub/callisto-an-easy-way-to-run-selenium-tests-in-the-cloud-6c1bc39c49ae",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "cloud-testing",
         "selenium"
@@ -81,7 +81,7 @@
       "id": "all-qa-articles-292b6220",
       "title": "All QA articles",
       "url": "https://medium.com/wriketechclub/qa/home",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering"
       ]

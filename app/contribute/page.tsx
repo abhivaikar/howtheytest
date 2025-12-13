@@ -1,11 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { getDatabase } from '@/lib/database';
 import Combobox from '@/components/Combobox';
 import MultiSelectCombobox from '@/components/MultiSelectCombobox';
 import Turnstile from '@/components/Turnstile';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 
 // Get Turnstile site key from environment variable
 const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '1x00000000000000000000AA';
@@ -39,9 +40,16 @@ interface NewValueWarnings {
   topics?: string[];
 }
 
-export default function ContributePage() {
+interface AutoFilledFields {
+  title: boolean;
+  type: boolean;
+  topics: boolean;
+}
+
+function ContributeForm() {
   const database = getDatabase();
   const { meta, companies } = database;
+  const searchParams = useSearchParams();
 
   const [formData, setFormData] = useState<FormData>({
     companyName: '',
@@ -62,8 +70,108 @@ export default function ContributePage() {
   const [isExistingCompany, setIsExistingCompany] = useState(false);
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
+  // New state for two-step flow
+  const [showFullForm, setShowFullForm] = useState(false);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [autoFilledFields, setAutoFilledFields] = useState<AutoFilledFields>({
+    title: false,
+    type: false,
+    topics: false,
+  });
+
   // Get all unique company names
   const companyNames = companies.map((company) => company.name).sort();
+
+  // Handle URL from query parameter (for bookmarklet)
+  useEffect(() => {
+    const urlParam = searchParams.get('url');
+    if (urlParam) {
+      setFormData((prev) => ({ ...prev, resourceUrl: urlParam }));
+      // Auto-trigger analysis after a short delay
+      setTimeout(() => {
+        analyzeResource(urlParam);
+      }, 500);
+    }
+  }, [searchParams]);
+
+  // Analyze resource URL and extract metadata
+  const analyzeResource = async (urlToAnalyze?: string) => {
+    const url = urlToAnalyze || formData.resourceUrl;
+
+    if (!url.trim()) {
+      setErrors({ resourceUrl: 'Please enter a resource URL' });
+      return;
+    }
+
+    if (!validateUrl(url)) {
+      setErrors({ resourceUrl: 'Please enter a valid URL' });
+      return;
+    }
+
+    if (checkDuplicateResource(url)) {
+      setErrors({ resourceUrl: 'This resource already exists in our database' });
+      return;
+    }
+
+    setIsAnalyzing(true);
+    setErrors({});
+
+    try {
+      // Use environment variable for API endpoint, fallback to relative URL
+      const apiEndpoint =
+        process.env.NEXT_PUBLIC_API_URL?.replace('/submit-resource', '/extract-metadata') ||
+        '/.netlify/functions/extract-metadata';
+
+      const topicsParam = encodeURIComponent(JSON.stringify(meta.topics));
+      const response = await fetch(
+        `${apiEndpoint}?url=${encodeURIComponent(url)}&topics=${topicsParam}`
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to analyze resource');
+      }
+
+      // Track which fields were auto-filled
+      const autoFilled: AutoFilledFields = {
+        title: false,
+        type: false,
+        topics: false,
+      };
+
+      // Update form data with extracted metadata
+      setFormData((prev) => {
+        const updated = { ...prev };
+
+        if (data.title) {
+          updated.resourceTitle = data.title;
+          autoFilled.title = true;
+        }
+
+        if (data.type) {
+          updated.resourceType = data.type;
+          autoFilled.type = true;
+        }
+
+        if (data.topics && data.topics.length > 0) {
+          updated.topics = data.topics;
+          autoFilled.topics = true;
+        }
+
+        return updated;
+      });
+
+      setAutoFilledFields(autoFilled);
+      setShowFullForm(true);
+    } catch (error) {
+      console.error('Error analyzing resource:', error);
+      // Even if analysis fails, show the form so user can fill manually
+      setShowFullForm(true);
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
 
   const validateUrl = (url: string): boolean => {
     try {
@@ -249,6 +357,8 @@ export default function ContributePage() {
       setWarnings({});
       setIsExistingCompany(false);
       setTurnstileToken(null);
+      setShowFullForm(false);
+      setAutoFilledFields({ title: false, type: false, topics: false });
     } catch (error) {
       setErrors({
         submit: error instanceof Error ? error.message : 'An error occurred. Please try again.',
@@ -259,6 +369,9 @@ export default function ContributePage() {
   };
 
   if (submitSuccess) {
+    // Bookmarklet code - when clicked, opens contribution page with current URL
+    const bookmarkletCode = `javascript:(function(){window.open('${typeof window !== 'undefined' ? window.location.origin : 'https://abhivaikar.github.io'}/howtheytest/contribute?url='+encodeURIComponent(window.location.href),'_blank');})();`;
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -303,6 +416,45 @@ export default function ContributePage() {
               </div>
             )}
 
+            {/* Bookmarklet Promotion */}
+            <div className="mt-8 mb-6 p-6 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 border border-blue-200 dark:border-blue-800 rounded-lg text-left">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                <svg className="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Contribute Faster Next Time!
+              </h3>
+              <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
+                Save time by using our bookmarklet. Drag the button below to your bookmarks bar, then click it on any page you want to contribute!
+              </p>
+              <div className="flex flex-col sm:flex-row items-center gap-3">
+                <a
+                  href={bookmarkletCode}
+                  className="inline-flex items-center px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium hover:from-blue-700 hover:to-purple-700 transition-all cursor-move"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    alert('Drag this button to your bookmarks bar to install the bookmarklet!');
+                  }}
+                >
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  Contribute to HowTheyTest
+                </a>
+                <span className="text-xs text-gray-600 dark:text-gray-400">← Drag to bookmarks bar</span>
+              </div>
+              <details className="mt-4">
+                <summary className="text-sm text-gray-600 dark:text-gray-400 cursor-pointer hover:text-gray-900 dark:hover:text-gray-200">
+                  How to use the bookmarklet
+                </summary>
+                <ol className="mt-2 text-sm text-gray-600 dark:text-gray-400 list-decimal list-inside space-y-1">
+                  <li>Drag the button above to your bookmarks/favorites bar</li>
+                  <li>When you find a testing resource you want to contribute, click the bookmarklet</li>
+                  <li>The contribution page will open with the URL pre-filled and auto-analyzed!</li>
+                </ol>
+              </details>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => {
@@ -341,9 +493,107 @@ export default function ContributePage() {
           </p>
         </div>
 
-        {/* Form */}
-        <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-          {/* Company Name */}
+        {/* Step 1: URL Input */}
+        {!showFullForm && (
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+            <div className="mb-6">
+              <label htmlFor="resourceUrl" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                Resource URL <span className="text-red-500">*</span>
+              </label>
+              <input
+                type="url"
+                id="resourceUrl"
+                value={formData.resourceUrl}
+                onChange={(e) => setFormData({ ...formData, resourceUrl: e.target.value })}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    e.preventDefault();
+                    analyzeResource();
+                  }
+                }}
+                placeholder="https://example.com/blog/testing-at-scale"
+                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg"
+                disabled={isAnalyzing}
+                autoFocus
+              />
+              {errors.resourceUrl && (
+                <p className="mt-2 text-sm text-red-600 dark:text-red-400">{errors.resourceUrl}</p>
+              )}
+              <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                Paste the URL of the testing resource you'd like to contribute
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-end">
+              <Link
+                href="/"
+                className="px-6 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-center"
+              >
+                Cancel
+              </Link>
+
+              <button
+                type="button"
+                onClick={() => analyzeResource()}
+                disabled={isAnalyzing}
+                className="px-6 py-3 rounded-lg text-white font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                style={{ backgroundColor: isAnalyzing ? '#999' : '#42b983' }}
+              >
+                {isAnalyzing ? (
+                  <>
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Analyzing Resource...
+                  </>
+                ) : (
+                  'Analyze Resource'
+                )}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Step 2: Full Form (shown after analysis) */}
+        {showFullForm && (
+          <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+            {/* Auto-fill notification */}
+            {(autoFilledFields.title || autoFilledFields.type || autoFilledFields.topics) && (
+              <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
+                <p className="text-sm text-green-800 dark:text-green-200">
+                  <strong>✨ Auto-detected:</strong> We've automatically filled in some fields based on the resource URL. Feel free to review and edit them if needed.
+                </p>
+              </div>
+            )}
+
+            {/* Resource URL (read-only) */}
+            <div className="mb-6">
+              <label htmlFor="resourceUrlReadonly" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                Resource URL
+              </label>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  id="resourceUrlReadonly"
+                  value={formData.resourceUrl}
+                  readOnly
+                  className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 cursor-not-allowed"
+                />
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowFullForm(false);
+                    setAutoFilledFields({ title: false, type: false, topics: false });
+                  }}
+                  className="px-4 py-2 rounded-lg border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                >
+                  Change URL
+                </button>
+              </div>
+            </div>
+
+            {/* Company Name */}
           <div className="mb-6">
             <Combobox
               id="companyName"
@@ -388,6 +638,11 @@ export default function ContributePage() {
           <div className="mb-6">
             <label htmlFor="resourceTitle" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Resource Title <span className="text-red-500">*</span>
+              {autoFilledFields.title && (
+                <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                  ✨ Auto-filled
+                </span>
+              )}
             </label>
             <input
               type="text"
@@ -404,9 +659,19 @@ export default function ContributePage() {
 
           {/* Topics (Multi-select) */}
           <div className="mb-6">
+            <div className="mb-2">
+              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                Topics <span className="text-red-500">*</span>
+                {autoFilledFields.topics && (
+                  <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                    ✨ Auto-filled
+                  </span>
+                )}
+              </span>
+            </div>
             <MultiSelectCombobox
               id="topics"
-              label="Topics"
+              label=""
               placeholder="Select or add topics (you can select multiple)"
               options={meta.topics}
               values={formData.topics}
@@ -428,6 +693,11 @@ export default function ContributePage() {
           <div className="mb-6">
             <label htmlFor="resourceType" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Resource Type <span className="text-red-500">*</span>
+              {autoFilledFields.type && (
+                <span className="ml-2 text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                  ✨ Auto-filled
+                </span>
+              )}
             </label>
             <select
               id="resourceType"
@@ -576,8 +846,24 @@ export default function ContributePage() {
               {isSubmitting ? 'Submitting...' : 'Submit Resource'}
             </button>
           </div>
-        </form>
+          </form>
+        )}
       </div>
     </div>
+  );
+}
+
+export default function ContributePage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-16 flex items-center justify-center">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 dark:border-white"></div>
+          <p className="mt-4 text-gray-700 dark:text-gray-300">Loading...</p>
+        </div>
+      </div>
+    }>
+      <ContributeForm />
+    </Suspense>
   );
 }

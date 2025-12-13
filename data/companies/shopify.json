@@ -7,7 +7,7 @@
       "id": "webhook-testing-made-easy-440f8dd0",
       "title": "Webhook testing made easy",
       "url": "https://engineering.shopify.com/blogs/engineering/17488436-webhook-testing-made-easy",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -16,7 +16,7 @@
       "id": "the-unreasonable-effectiveness-of-test-r-3555b0a2",
       "title": "The Unreasonable Effectiveness of Test Retries: An Android Monorepo Case Study",
       "url": "https://engineering.shopify.com/blogs/engineering/unreasonable-effectiveness-test-retries-android-monorepo-case-study",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "android",
         "logging"
@@ -26,7 +26,7 @@
       "id": "ios-application-testing-strategies-at-sh-896e5543",
       "title": "iOS Application Testing Strategies at Shopify",
       "url": "https://engineering.shopify.com/blogs/engineering/ios-application-testing-strategies-at-shopify",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ios",
         "logging"
@@ -36,7 +36,7 @@
       "id": "building-and-testing-resilient-ruby-on-r-de82cc65",
       "title": "Building and Testing Resilient Ruby on Rails Applications",
       "url": "https://engineering.shopify.com/blogs/engineering/building-and-testing-resilient-ruby-on-rails-applications",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing",
         "logging"
@@ -46,7 +46,7 @@
       "id": "four-steps-to-creating-effective-game-da-8de4998c",
       "title": "Four Steps to Creating Effective Game Day Tests",
       "url": "https://engineering.shopify.com/blogs/engineering/four-steps-creating-effective-game-day-tests",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -55,7 +55,7 @@
       "id": "mobile-tophatting-at-shopify-c2872fa9",
       "title": "Mobile Tophatting at Shopify",
       "url": "https://engineering.shopify.com/blogs/engineering/mobile-tophatting-at-shopify-1",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -64,7 +64,7 @@
       "id": "great-code-reviewsthe-superpower-your-te-dcbd1e95",
       "title": "Great Code Reviews—The Superpower Your Team Needs",
       "url": "https://engineering.shopify.com/blogs/engineering/great-code-reviews",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -73,7 +73,7 @@
       "id": "mobile-release-engineering-at-scale-with-54a7ab7f",
       "title": "Mobile Release Engineering at Scale with Shipit Mobile",
       "url": "https://engineering.shopify.com/blogs/engineering/mobile-release-engineering-scale-shipit-mobile",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "release-management"
@@ -83,7 +83,7 @@
       "id": "software-release-culture-at-shopify-340d00c4",
       "title": "Software Release Culture at Shopify",
       "url": "https://engineering.shopify.com/blogs/engineering/software-release-culture-shopify",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "release-management"
