@@ -7,7 +7,7 @@
       "id": "quality-assistance-how-atlassian-does-qa-ef06adae",
       "title": "Quality assistance: how Atlassian does QA",
       "url": "https://www.atlassian.com/inside-atlassian/qa",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "whole-team-quality"
@@ -17,7 +17,7 @@
       "id": "moving-from-quality-assurance-to-quality-6f5655b9",
       "title": "Moving from quality assurance to quality assistance",
       "url": "https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "whole-team-quality"
@@ -27,7 +27,7 @@
       "id": "developing-quality-assistance-skills-fa2e7e10",
       "title": "Developing quality assistance skills",
       "url": "https://www.atlassian.com/inside-atlassian/software-QA-skills",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering",
         "whole-team-quality"
@@ -37,7 +37,7 @@
       "id": "quality-health-monitor-gauging-your-team-ea7bd5c2",
       "title": "Quality Health Monitor: Gauging your team’s quality maturity",
       "url": "https://www.atlassian.com/inside-atlassian/quality-health-monitor",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering"
       ]
@@ -46,7 +46,7 @@
       "id": "automated-testing-5-lessons-from-atlassi-10b3ce0e",
       "title": "Automated testing: 5 lessons from Atlassian’s Kubernetes team on testing infrastructure as code",
       "url": "https://www.atlassian.com/engineering/automated-testing-5-lessons-from-atlassians-kubernetes-team-on-testing-infrastructure-as-code",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "infrastructure-as-code",
         "kubernetes",

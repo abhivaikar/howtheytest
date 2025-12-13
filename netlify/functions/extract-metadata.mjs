@@ -44,6 +44,7 @@ function checkRateLimit(ip) {
 
 // Resource type detection patterns
 // Note: Only detecting types that exist in the HowTheyTest system
+// blog/article are combined into a single "blog or article" type
 const RESOURCE_TYPE_PATTERNS = {
   video: [
     /youtube\.com\/watch/i,
@@ -55,7 +56,8 @@ const RESOURCE_TYPE_PATTERNS = {
     /dailymotion\.com/i,
     /twitch\.tv\/videos/i,
   ],
-  blog: [
+  'blog or article': [
+    // Blog platforms
     /medium\.com/i,
     /dev\.to/i,
     /hashnode\./i,
@@ -67,6 +69,42 @@ const RESOURCE_TYPE_PATTERNS = {
     /tumblr\.com/i,
     /ghost\.io/i,
     /\.blog/i,
+    // Academic/research papers
+    /arxiv\.org/i,
+    /acm\.org/i,
+    /ieee\.org/i,
+    /springer\.com/i,
+    /sciencedirect\.com/i,
+    /\.pdf$/i,
+    // Documentation and guides
+    /\/docs/i,
+    /\/documentation/i,
+    /\/guide/i,
+    /\/wiki/i,
+    /\/manual/i,
+    /readthedocs\.io/i,
+    /gitbook\.io/i,
+    /notion\.site/i,
+    /confluence\./i,
+    // Conference talks and presentations
+    /\/talks?\//i,
+    /\/presentations?\//i,
+    /\/conference/i,
+    /slideshare\.net/i,
+    /speakerdeck\.com/i,
+    /\/slides?\//i,
+    /\/webinar/i,
+    /\/summit/i,
+    /\/meetup/i,
+    // Podcasts
+    /spotify\.com\/episode/i,
+    /podcasts\.apple\.com/i,
+    /anchor\.fm/i,
+    /\/podcast/i,
+    /soundcloud\.com/i,
+    /overcast\.fm/i,
+    /pocketcasts\.com/i,
+    /castbox\.fm/i,
   ],
   repo: [
     /github\.com\/[^\/]+\/[^\/]+\/?$/i,
@@ -84,44 +122,6 @@ const RESOURCE_TYPE_PATTERNS = {
     /manning\.com/i,
     /pragprog\.com/i,
     /leanpub\.com/i,
-  ],
-  article: [
-    // Academic/research papers
-    /arxiv\.org/i,
-    /acm\.org/i,
-    /ieee\.org/i,
-    /springer\.com/i,
-    /sciencedirect\.com/i,
-    /\.pdf$/i,
-    // Documentation and guides (categorized as articles)
-    /\/docs/i,
-    /\/documentation/i,
-    /\/guide/i,
-    /\/wiki/i,
-    /\/manual/i,
-    /readthedocs\.io/i,
-    /gitbook\.io/i,
-    /notion\.site/i,
-    /confluence\./i,
-    // Conference talks and presentations (categorized as articles)
-    /\/talks?\//i,
-    /\/presentations?\//i,
-    /\/conference/i,
-    /slideshare\.net/i,
-    /speakerdeck\.com/i,
-    /\/slides?\//i,
-    /\/webinar/i,
-    /\/summit/i,
-    /\/meetup/i,
-    // Podcasts (categorized as articles for now)
-    /spotify\.com\/episode/i,
-    /podcasts\.apple\.com/i,
-    /anchor\.fm/i,
-    /\/podcast/i,
-    /soundcloud\.com/i,
-    /overcast\.fm/i,
-    /pocketcasts\.com/i,
-    /castbox\.fm/i,
   ],
 };
 

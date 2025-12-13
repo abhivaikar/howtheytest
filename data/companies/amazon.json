@@ -7,7 +7,7 @@
       "id": "how-does-amazon-get-by-with-so-few-hours-93cc3ab9",
       "title": "How does Amazon get by with so few hours spent by its QA teams relative to Microsoft?",
       "url": "https://docs.microsoft.com/en-us/archive/blogs/seliot/software-testing-cage-match-amazon-com-vs-microsoft",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "quality-engineering"
@@ -17,7 +17,7 @@
       "id": "how-amazon-handles-a-new-software-deploy-25b1f35a",
       "title": "How Amazon handles a new software deployment every second",
       "url": "https://www.zdnet.com/article/how-amazon-handles-a-new-software-deployment-every-second/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-deployment",
         "release-management"
@@ -27,7 +27,7 @@
       "id": "how-is-software-developed-at-amazon-8a336f16",
       "title": "How is software developed at Amazon",
       "url": "http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -36,7 +36,7 @@
       "id": "amazons-approach-to-automated-testing-dbe8b0f8",
       "title": "Amazon's approach to automated testing",
       "url": "https://medium.com/@twikstro/amazons-approach-to-automated-testing-at-re-invent-2019-ad2d49dc9a1f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation"
       ]
@@ -45,7 +45,7 @@
       "id": "automated-testing-for-alexa-2ffeb0f0",
       "title": "Automated testing for Alexa",
       "url": "https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2018/08/unit-testing-create-functional-alexa-skills",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging",
         "test-automation"
@@ -55,7 +55,7 @@
       "id": "best-practices-for-testing-your-alexa-sk-bf79a39c",
       "title": "Best practices for testing your Alexa skills",
       "url": "https://developer.amazon.com/blogs/alexa/post/66232175-530c-4f52-890e-60b21db73d84/best-practices-for-testing-your-alexa-skills",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]

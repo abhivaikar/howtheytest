@@ -4,14 +4,10 @@ interface ResourceCardProps {
   resource: Resource;
 }
 
-const resourceTypeColors = {
-  blog: 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200',
+const resourceTypeColors: Record<'blog or article' | 'video' | 'book' | 'repo', string> = {
+  'blog or article': 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200',
   video: 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200',
-  article: 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200',
   book: 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200',
-  talk: 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200',
-  podcast: 'bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200',
-  handbook: 'bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200',
   repo: 'bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200',
 };
 

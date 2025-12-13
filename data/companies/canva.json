@@ -7,7 +7,7 @@
       "id": "why-we-left-manual-ui-testing-behind-7ab748d8",
       "title": "Why we left manual UI testing behind",
       "url": "https://www.canva.dev/blog/engineering/why-we-left-manual-ui-testing-behind/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -19,7 +19,7 @@
       "id": "recommender-systems-when-they-fail-who-a-29ab9ea0",
       "title": "Recommender systems: When they fail, who are you gonna call?",
       "url": "https://www.canva.dev/blog/engineering/recommender-systems-when-they-fail-who-are-you-gonna-call/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]
@@ -28,7 +28,7 @@
       "id": "speeding-up-ui-tests-with-codeceptjs-and-e1433b05",
       "title": "Speeding up UI tests with CodeceptJS and Playwright",
       "url": "https://www.canva.dev/blog/engineering/speeding-up-ui-tests-with-codeceptjs-and-playwright/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -40,7 +40,7 @@
       "id": "testing-search-engine-optimization-scala-dfd22c57",
       "title": "Testing Search Engine Optimization Scalably without Breaking a Sweat",
       "url": "https://www.canva.dev/blog/engineering/testing-search-engine-optimization-scalably-without-breaking-a-sweat/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "logging"
       ]

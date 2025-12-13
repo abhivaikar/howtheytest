@@ -7,7 +7,7 @@
       "id": "tiered-test-automation-63e23225",
       "title": "Tiered Test Automation",
       "url": "https://tech.ebayinc.com/engineering/tiered-test-automation/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation"
       ]
@@ -16,14 +16,14 @@
       "id": "becoming-a-world-class-tester-20257680",
       "title": "Becoming a World-Class Tester",
       "url": "https://tech.ebayinc.com/engineering/becoming-a-world-class-tester/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "early-detection-of-frontend-single-point-e4301fea",
       "title": "Early Detection of Frontend Single Points of Failure",
       "url": "https://tech.ebayinc.com/engineering/early-detection-of-frontend-single-points-of-failure/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "frontend-testing"
       ]
@@ -32,7 +32,7 @@
       "id": "ebay-motors-screenshot-testing-with-flut-f0ff0064",
       "title": "eBay Motors: Screenshot Testing with Flutter",
       "url": "https://tech.ebayinc.com/engineering/ebay-motors-screenshot-testing-with-flutter/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "visual-regression"
       ]
@@ -41,7 +41,7 @@
       "id": "discovering-continuous-automation-with-r-8c584378",
       "title": "Discovering Continuous Automation With Request Mirroring",
       "url": "https://tech.ebayinc.com/engineering/discovering-continuous-automation-with-request-mirroring/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation"
       ]
@@ -50,7 +50,7 @@
       "id": "failbotimproving-visibility-on-end-to-en-4829c69e",
       "title": "Failbot—Improving Visibility on End-to-end Tests",
       "url": "https://tech.ebayinc.com/engineering/failbot/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing"
       ]
@@ -59,14 +59,14 @@
       "id": "your-own-spring-test-context-8faa7fa5",
       "title": "Your Own Spring Test Context",
       "url": "https://tech.ebayinc.com/engineering/your-own-spring-test-context/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": []
     },
     {
       "id": "gui-testing-powered-by-deep-learning-67e8995f",
       "title": "GUI Testing Powered by Deep Learning",
       "url": "https://tech.ebayinc.com/research/gui-testing-powered-by-deep-learning/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "e2e-testing",
         "frontend-testing",
@@ -77,7 +77,7 @@
       "id": "integration-testing-with-react-and-enzym-8e2cfed7",
       "title": "Integration Testing with React and Enzyme",
       "url": "https://tech.ebayinc.com/engineering/integration-testing-with-react-and-enzyme/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "integration-testing"
       ]
@@ -86,7 +86,7 @@
       "id": "introducing-regressr-an-open-source-comm-5357d6c9",
       "title": "Introducing Regressr - An Open Source Command Line Tool to Regression Test HTTP Services",
       "url": "https://tech.ebayinc.com/engineering/introducing-regressr-an-open-source-command-line-tool-to-regression-test-http-services/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "continuous-integration",
         "regression-testing"
@@ -96,7 +96,7 @@
       "id": "ebay-releases-dynamic-application-securi-c155dd24",
       "title": "eBay Releases Dynamic Application Security Testing Proxy as Open Source",
       "url": "https://tech.ebayinc.com/engineering/ebay-releases-dynamic-application-security-testing-proxy-as-open-source/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "release-management",
         "security-testing"
@@ -106,7 +106,7 @@
       "id": "scalable-and-nimble-continuous-integrati-eb46071d",
       "title": "Scalable and Nimble Continuous Integration for Hadoop Projects",
       "url": "https://tech.ebayinc.com/engineering/scalable-and-nimble-continuous-integration-for-hadoop-projects/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ci-cd",
         "continuous-integration"
@@ -116,7 +116,7 @@
       "id": "functional-ios-testing-in-swift-a47c3050",
       "title": "Functional iOS Testing in Swift",
       "url": "https://tech.ebayinc.com/engineering/functional-ios-testing-in-swift/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "ios"
       ]
@@ -125,7 +125,7 @@
       "id": "next-generation-bdd-from-automated-web-t-087a374f",
       "title": "Next-generation BDD: From Automated Web Tests to Automated Web Acceptance Testing",
       "url": "https://tech.ebayinc.com/engineering/next-generation-bdd-from-automated-web-tests-to-automated-web-acceptance-testing/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "acceptance-testing",
         "bdd",
@@ -137,7 +137,7 @@
       "id": "validating-hadoop-platform-releases-b2f03b85",
       "title": "Validating Hadoop Platform Releases",
       "url": "https://tech.ebayinc.com/engineering/validating-hadoop-platform-releases/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "release-management"
       ]
@@ -146,7 +146,7 @@
       "id": "finding-usability-bugs-with-automated-te-a7ec8b3c",
       "title": "Finding Usability Bugs with Automated Tests",
       "url": "https://queue.acm.org/detail.cfm?id=1925091",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "test-automation",
         "usability-testing"
@@ -156,7 +156,7 @@
       "id": "100-test-coverage-is-not-enough-3f071768",
       "title": "100% test coverage is not enough",
       "url": "https://ebaytech.berlin/100-percent-test-coverage-is-not-enough-3d733551bc3f",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "code-coverage"
       ]
@@ -165,7 +165,7 @@
       "id": "ensuring-software-quality-at-ebay-denmar-b0a765d4",
       "title": "Ensuring Software Quality at eBay Denmark",
       "url": "https://www.infoq.com/news/2020/08/software-quality-ebay-denmark/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering"
       ]
@@ -174,7 +174,7 @@
       "id": "software-quality-elevating-the-game-e93673c4",
       "title": "Software Quality: Elevating the Game",
       "url": "https://tech.ebayinc.com/engineering/software-quality-elevating-the-game/",
-      "type": "blog",
+      "type": "blog or article",
       "topics": [
         "quality-engineering"
       ]
