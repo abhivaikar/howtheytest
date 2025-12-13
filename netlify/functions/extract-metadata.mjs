@@ -224,6 +224,7 @@ function extractTopics($, existingTopics) {
 async function fetchMetadata(url, existingTopics = []) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  const startTime = Date.now();
 
   try {
     // Validate URL for SSRF protection
@@ -278,6 +279,24 @@ async function fetchMetadata(url, existingTopics = []) {
     const type = detectResourceType(url);
     const topics = extractTopics($, existingTopics);
 
+    const duration = Date.now() - startTime;
+
+    // Log successful extraction
+    console.log('Metadata extraction successful:', {
+      url,
+      duration: `${duration}ms`,
+      statusCode: response.status,
+      statusText: response.statusText,
+      contentType,
+      contentLength: contentLength || 'unknown',
+      htmlSize: html.length,
+      extracted: {
+        title: title || 'null',
+        type: type || 'null',
+        topicsCount: topics.length,
+      },
+    });
+
     return {
       success: true,
       title,
@@ -285,13 +304,17 @@ async function fetchMetadata(url, existingTopics = []) {
       topics,
     };
   } catch (error) {
+    const duration = Date.now() - startTime;
+
     // Log error internally but don't expose details
     console.error('Metadata extraction error:', {
       url,
+      duration: `${duration}ms`,
       error: error.message,
       name: error.name,
       statusCode: error.statusCode,
       statusText: error.statusText,
+      cause: error.cause,
       stack: error.stack,
     });
 
