@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import { getDatabase } from '@/lib/database';
 import Combobox from '@/components/Combobox';
 import MultiSelectCombobox from '@/components/MultiSelectCombobox';
@@ -372,6 +372,15 @@ function ContributeForm() {
     // Bookmarklet code - when clicked, opens contribution page with current URL
     const bookmarkletCode = `javascript:(function(){window.open('${typeof window !== 'undefined' ? window.location.origin : 'https://abhivaikar.github.io'}/howtheytest/contribute?url='+encodeURIComponent(window.location.href),'_blank');})();`;
 
+    // Use ref to bypass React's javascript: URL blocking
+    const bookmarkletRef = useRef<HTMLAnchorElement>(null);
+
+    useEffect(() => {
+      if (bookmarkletRef.current) {
+        bookmarkletRef.current.href = bookmarkletCode;
+      }
+    }, [bookmarkletCode]);
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -429,7 +438,7 @@ function ContributeForm() {
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-3">
                 <a
-                  href={bookmarkletCode}
+                  ref={bookmarkletRef}
                   className="inline-flex items-center px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium hover:from-blue-700 hover:to-purple-700 transition-all cursor-move"
                   onClick={(e) => {
                     e.preventDefault();

@@ -233,12 +233,21 @@ async function fetchMetadata(url, existingTopics = []) {
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
-        'User-Agent': 'HowTheyTest-Bot/1.0 (Resource metadata extraction)',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
       },
     });
 
     if (!response.ok) {
-      throw new Error('FETCH_FAILED');
+      const error = new Error('FETCH_FAILED');
+      error.statusCode = response.status;
+      error.statusText = response.statusText;
+      throw error;
     }
 
     // Validate Content-Type
@@ -281,6 +290,9 @@ async function fetchMetadata(url, existingTopics = []) {
       url,
       error: error.message,
       name: error.name,
+      statusCode: error.statusCode,
+      statusText: error.statusText,
+      stack: error.stack,
     });
 
     // Map internal errors to user-friendly messages
