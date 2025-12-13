@@ -314,6 +314,22 @@
         "test-automation"
       ],
       "addedDate": "2025-12-06"
+    },
+    {
+      "id": "from-manual-to-measurable-scaling-qualit-f5d5f8c1",
+      "title": "From Manual to Measurable: Scaling Quality with Trendyol’s Test Maturity Model",
+      "url": "https://medium.com/trendyol-tech/from-manual-to-measurable-scaling-quality-with-trendyols-test-maturity-model-6b7468cd3a22",
+      "type": "blog or article",
+      "topics": [
+        "acceptance-testing",
+        "contract-testing",
+        "load-testing",
+        "mutation-testing",
+        "performance-testing",
+        "quality-processes",
+        "quality-metrics"
+      ],
+      "addedDate": "2025-12-13"
     }
   ],
   "meta": {
