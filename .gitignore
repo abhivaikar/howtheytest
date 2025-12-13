@@ -55,3 +55,11 @@ coverage/
 # Validation reports
 validation-report/
 .playwright-temp/
+
+# Documentation drafts and notes
+ARTICLE_*.md
+SECURITY_*.md
+POSTMAN_GUIDE.md
+*.excalidraw
+HowTheyTest-*.postman_collection.json
+HowTheyTest-*.postman_environment.json

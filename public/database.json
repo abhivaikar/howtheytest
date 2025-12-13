@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generatedAt": "2025-12-13T06:55:50.929Z",
+    "generatedAt": "2025-12-13T14:37:31.927Z",
     "totalCompanies": 103,
-    "totalResources": 787,
+    "totalResources": 789,
     "industries": [
       "cloud-services",
       "developer-tools",
@@ -77,6 +77,7 @@
       "playwright",
       "pytest",
       "quality-engineering",
+      "quality-metrics",
       "quality-processes",
       "regression-testing",
       "release-management",
@@ -101,7 +102,7 @@
       "whole-team-quality"
     ],
     "resourceTypes": {
-      "blog or article": 576,
+      "blog or article": 578,
       "video": 197,
       "book": 13,
       "repo": 1
@@ -8248,6 +8249,34 @@
             "test-automation"
           ],
           "addedDate": "2025-12-06"
+        },
+        {
+          "id": "from-manual-to-measurable-scaling-qualit-f5d5f8c1",
+          "title": "From Manual to Measurable: Scaling Quality with Trendyol’s Test Maturity Model",
+          "url": "https://medium.com/trendyol-tech/from-manual-to-measurable-scaling-quality-with-trendyols-test-maturity-model-6b7468cd3a22",
+          "type": "blog or article",
+          "topics": [
+            "acceptance-testing",
+            "contract-testing",
+            "load-testing",
+            "mutation-testing",
+            "performance-testing",
+            "quality-processes",
+            "quality-metrics"
+          ],
+          "addedDate": "2025-12-13"
+        },
+        {
+          "id": "scaling-mutation-testing-at-trendyol-how-ebf7422e",
+          "title": "Scaling Mutation Testing at Trendyol: How We Used MCP to Solve the Configuration Nightmare",
+          "url": "https://medium.com/trendyol-tech/scaling-mutation-testing-at-trendyol-how-we-used-mcp-to-solve-the-configuration-nightmare-5d27300db8cd",
+          "type": "blog or article",
+          "topics": [
+            "ai",
+            "code-coverage",
+            "mutation-testing"
+          ],
+          "addedDate": "2025-12-13"
         }
       ],
       "meta": {
