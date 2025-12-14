@@ -1,0 +1,19 @@
+{
+  "id": "jiohotstar",
+  "name": "JioHotstar",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "preventing-performance-regressions-on-io-d1c51a6b",
+      "title": "Preventing Performance Regressions on iOS apps",
+      "url": "https://medium.com/hotstar/preventing-performance-regressions-on-ios-apps-be3bd033f1dc",
+      "type": "blog or article",
+      "topics": [
+        "ios",
+        "performance-testing",
+        "mobile-testing"
+      ],
+      "addedDate": "2025-12-14"
+    }
+  ]
+}
