@@ -50,6 +50,17 @@
         "frontend-testing",
         "functional-testing"
       ]
+    },
+    {
+      "id": "best-photo-4a0eb8d1",
+      "title": "Best photo ",
+      "url": "https://drive.google.com",
+      "type": "blog or article",
+      "topics": [
+        "ai",
+        "agile-testing"
+      ],
+      "addedDate": "2025-12-15"
     }
   ],
   "meta": {
