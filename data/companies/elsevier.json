@@ -1,0 +1,22 @@
+{
+  "id": "elsevier",
+  "name": "Elsevier",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "quality-engineering-at-elsevier-f0ccd3b0",
+      "title": "Quality Engineering at Elsevier",
+      "url": "https://www.linkedin.com/pulse/quality-engineering-elsevier-thomas-goodman",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

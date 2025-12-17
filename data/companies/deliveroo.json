@@ -1,0 +1,27 @@
+{
+  "id": "deliveroo",
+  "name": "Deliveroo",
+  "industry": "food-delivery",
+  "resources": [
+    {
+      "id": "testing-go-services-using-interfaces-87c2dd22",
+      "title": "Testing Go services using interfaces",
+      "url": "https://deliveroo.engineering/2019/05/17/testing-go-services-using-interfaces.html",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "testing-with-third-party-services-in-go-0ea20a2a",
+      "title": "Testing with Third Party Services in Go",
+      "url": "https://deliveroo.engineering/2018/09/11/testing-with-third-parties-in-go.html",
+      "type": "blog or article",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

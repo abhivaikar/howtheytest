@@ -1,0 +1,104 @@
+{
+  "id": "squarespace",
+  "name": "Squarespace",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "engineering-a-better-working-group-77afc405",
+      "title": "Engineering a Better Working Group",
+      "url": "https://engineering.squarespace.com/blog/2020/engineering-a-better-working-group",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "turbocharging-our-ui-tests-05e7322d",
+      "title": "Turbocharging Our UI Tests",
+      "url": "https://engineering.squarespace.com/blog/2016/turbocharging-our-ui-tests",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "ui-testing-at-squarespace-part-i-eea91e8e",
+      "title": "UI Testing at Squarespace: Part I",
+      "url": "https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-i",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "ui-testing-at-squarespace-part-ii-665dd9cb",
+      "title": "UI Testing at Squarespace: Part II",
+      "url": "https://engineering.squarespace.com/blog/2017/ui-testing-at-squarespace-part-ii",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "six-attributes-of-beautiful-systems-39a7ec69",
+      "title": "Six Attributes of Beautiful Systems",
+      "url": "https://engineering.squarespace.com/blog/2018/six-attributes-of-beautiful-systems",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "under-the-hood-ensuring-site-reliability-dcddccd4",
+      "title": "Under the Hood: Ensuring Site Reliability",
+      "url": "https://engineering.squarespace.com/blog/2017/under-the-hood-ensuring-site-reliability",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "sre"
+      ]
+    },
+    {
+      "id": "continuous-localization-at-squarespace-34969bec",
+      "title": "Continuous Localization at Squarespace",
+      "url": "https://engineering.squarespace.com/blog/2018/continuous-localization-at-squarespace",
+      "type": "blog or article",
+      "topics": [
+        "localization-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "creating-a-code-review-culture-part-1-or-ba5d71cd",
+      "title": "Creating a Code Review Culture, Part 1: Organizations and Authors",
+      "url": "https://engineering.squarespace.com/blog/2019/code-review-culture-part-1",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "creating-a-code-review-culture-part-2-co-7523303b",
+      "title": "Creating a Code Review Culture, Part 2: Code Reviewers",
+      "url": "https://engineering.squarespace.com/blog/2019/code-review-culture-part-2",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 9,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

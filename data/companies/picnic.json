@@ -1,0 +1,46 @@
+{
+  "id": "picnic",
+  "name": "Picnic",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "reinventing-the-qa-process-7914ae0f",
+      "title": "Reinventing the QA process",
+      "url": "https://blog.picnic.nl/reinventing-the-qa-process-25854fee51f3",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "the-role-relevance-of-api-testing-in-an--676cb6b3",
+      "title": "The Role & Relevance of API Testing in an Agile World",
+      "url": "https://blog.picnic.nl/the-role-relevance-of-api-testing-in-an-agile-world-c6cc8f2529cb",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "api",
+        "api-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "user-testing-setting-up-the-picnic-user--5c18f52b",
+      "title": "User testing: setting up the Picnic user testing lab",
+      "url": "https://blog.picnic.nl/user-testing-setting-up-the-picnic-user-testing-lab-3569c8a72595",
+      "type": "blog or article",
+      "topics": [
+        "device-lab",
+        "logging",
+        "usability-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

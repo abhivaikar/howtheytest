@@ -1,0 +1,238 @@
+{
+  "id": "wrike",
+  "name": "Wrike",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "onboarding-process-in-wrike-qa-automatio-4aabde79",
+      "title": "Onboarding Process in Wrike QA Automation Team",
+      "url": "https://medium.com/wriketechclub/onboarding-process-in-wrike-qa-automation-team-88a4265d6af7",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "code-review-without-queues-3dfb52d0",
+      "title": "Code Review Without Queues",
+      "url": "https://medium.com/wriketechclub/code-review-without-queues-c252c1f05cfc",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "generating-a-smoke-test-suite-358dee84",
+      "title": "Generating a Smoke Test Suite",
+      "url": "https://medium.com/wriketechclub/generating-a-smoke-test-suite-1fb5cddf6e7a",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "frontend-testing",
+        "smoke-testing"
+      ]
+    },
+    {
+      "id": "how-to-improve-code-quality-in-an-autote-f1c0166a",
+      "title": "How To Improve Code Quality in an Autotest Project",
+      "url": "https://medium.com/wriketechclub/how-to-improve-code-quality-in-an-autotest-project-36f9c9655d8b",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "allure-integration-at-wrike-ea70ff5c",
+      "title": "Allure Integration at Wrike",
+      "url": "https://medium.com/wriketechclub/allure-integration-at-wrike-c4d7280e4968",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "test-markup-in-qa-automation-beca1ea3",
+      "title": "Test Markup in QA Automation",
+      "url": "https://medium.com/wriketechclub/test-markup-in-qa-automation-59b6765a1d06",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "autotesting-optimized-intellij-idea-plug-da543fdb",
+      "title": "Autotesting Optimized: Intellij IDEA Plugins in Service of QA Automation",
+      "url": "https://medium.com/wriketechclub/autotesting-optimized-intellij-idea-plugins-in-service-of-qa-automation-c2ebd99588a2",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "callisto-an-easy-way-to-run-selenium-tes-144f2f00",
+      "title": "Callisto: An Easy Way To Run Selenium Tests in the Cloud",
+      "url": "https://medium.com/wriketechclub/callisto-an-easy-way-to-run-selenium-tests-in-the-cloud-6c1bc39c49ae",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "selenium"
+      ]
+    },
+    {
+      "id": "all-qa-articles-292b6220",
+      "title": "All QA articles",
+      "url": "https://medium.com/wriketechclub/qa/home",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "onboarding-in-qa-automation-team-609ea784",
+      "title": "Onboarding in QA Automation Team",
+      "url": "https://www.youtube.com/watch?v=0xX8ndqkbaw",
+      "type": "video",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "test-markup-in-qa-automation-4205908c",
+      "title": "Test Markup in QA Automation",
+      "url": "https://www.youtube.com/watch?v=Y4I6Vp4sk_o",
+      "type": "video",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "allure-integration-at-wrike-8bf65684",
+      "title": "Allure Integration at Wrike",
+      "url": "https://www.youtube.com/watch?v=O6X2-1uoqAw",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "smoke-tests-suite-generation-9a229966",
+      "title": "Smoke Tests Suite Generation",
+      "url": "https://www.youtube.com/watch?v=9ND9d9YeY1U",
+      "type": "video",
+      "topics": [
+        "frontend-testing",
+        "smoke-testing"
+      ]
+    },
+    {
+      "id": "autotests-runs-optimization-with-idea-pl-7c2ddd1e",
+      "title": "Autotests Runs Optimization with IDEA Plugin",
+      "url": "https://www.youtube.com/watch?v=RBwwf1xUAlc",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "how-static-analysis-can-help-in-qaa-proc-82e4a730",
+      "title": "How static analysis can help in QAA processes",
+      "url": "https://www.youtube.com/watch?v=L42zH5ne074",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "test-quarantine-or-how-to-manage-flaky-t-6d6ad59a",
+      "title": "Test quarantine or how to manage flaky tests",
+      "url": "https://www.youtube.com/watch?v=kubqCb_7cxc",
+      "type": "video",
+      "topics": [
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "how-to-survive-with-lots-of-tests-597b5cf1",
+      "title": "How to survive with lots of tests",
+      "url": "https://www.youtube.com/watch?v=DX_VPu9VTdc",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "intellij-idea-plugins-in-qa-automation-8bacf47d",
+      "title": "IntelliJ IDEA plugins in QA Automation",
+      "url": "https://www.youtube.com/watch?v=DF9xhAeBo7k",
+      "type": "video",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "seleniumroad-to-kubernetes-cc3159b9",
+      "title": "Selenium(road to Kubernetes",
+      "url": "https://www.youtube.com/watch?v=Y8muHzG_2nA",
+      "type": "video",
+      "topics": [
+        "kubernetes",
+        "selenium"
+      ]
+    },
+    {
+      "id": "callisto-how-we-learned-to-stop-worrying-420a1a94",
+      "title": "Callisto: how we learned to stop worrying and love Selenium",
+      "url": "https://www.youtube.com/watch?v=pEMEczpx6s8",
+      "type": "video",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "performance-testing-of-ios-applications-47f46470",
+      "title": "Performance testing of iOS applications",
+      "url": "https://www.youtube.com/watch?v=wz_8Q8F8BDM",
+      "type": "video",
+      "topics": [
+        "ios",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "why-the-era-of-vintage-tms-is-going-to-b-9019e9ec",
+      "title": "Why the Era of vintage TMS is going to be over?",
+      "url": "https://www.youtube.com/watch?v=Aba4Yme7dlQ",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "how-to-save-a-year-of-your-time-every-da-e61bdd30",
+      "title": "How to save a year of your time every day",
+      "url": "https://www.youtube.com/watch?v=LpCrLIwIUqU",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "playlist-with-all-10-mins-of-wrike-qa-6283c69c",
+      "title": "Playlist with all 10 mins of Wrike QA",
+      "url": "https://www.youtube.com/playlist?list=PLxcvsYzLfaTAlmnodUVvE971No9oi_SWU",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "qa-playlist-62a9e6a4",
+      "title": "QA playlist",
+      "url": "https://www.youtube.com/playlist?list=PLxcvsYzLfaTBjBkFgSVMbwggMxAwu5sXt",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 25,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

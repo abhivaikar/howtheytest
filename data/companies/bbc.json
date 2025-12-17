@@ -1,0 +1,196 @@
+{
+  "id": "bbc",
+  "name": "BBC",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "10x-your-collaboration-on-writing-tests--08f79760",
+      "title": "10x your collaboration on writing tests - Part 1: Understanding",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/ecedc9af-4bc8-4fb3-9cd3-754a85a1ce19",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging"
+      ]
+    },
+    {
+      "id": "10-guidelines-on-readability-and-consist-3fcf7c16",
+      "title": "10 guidelines on readability and consistency when writing Integration Tests",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/e9356c0f-cf17-4ccc-bb05-2fa5d13fa289",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "integration-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "maintaining-mobile-update-on-mobile-comp-3abee8d7",
+      "title": "Maintaining Mobile: Update on Mobile Compatibility Programme",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/4bc791fd-ff24-4c82-ab24-16dfa1bba3c8",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "improving-test-automation-with-puma-86f0ac2d",
+      "title": "Improving test automation with PUMA",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/ba0c030e-d031-4ab6-8ba6-3afe41807b55",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "test-automation-with-phantomjs-grunt-and-70e26169",
+      "title": "Test Automation with PhantomJS, Grunt and Friends",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/a456cf81-a154-3082-a726-d13f4f28ee23",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "behaviour-driven-development-tips-for-wr-70e2535b",
+      "title": "Behaviour Driven Development: Tips for writing better feature files",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/ff14236d-098a-3565-b678-ff4ba5776a5f",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-bbc-connected-red-button-e2798791",
+      "title": "Testing BBC Connected Red Button",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/41a89085-ab51-3454-a3a2-22799b0bfd50",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "automating-testing-for-bbc-iplayer-mobil-d16dbf72",
+      "title": "Automating testing for BBC iPlayer mobile part one: 3 Amigos",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/36670ed6-d3f9-3610-aaf6-e55ed3663eb1",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "automating-testing-for-bbc-iplayer-mobil-de29b27c",
+      "title": "Automating testing for BBC iPlayer mobile part two: automation",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/3da2f879-b752-3ee7-8778-421aad2ddefb",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "automating-bbc-iplayer-mobile-testing-pa-e1d5434d",
+      "title": "Automating BBC iPlayer mobile testing part three: legacy vs new features",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/b3f9264f-c88b-3a48-9b39-a0a6398108cc",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing"
+      ]
+    },
+    {
+      "id": "testing-bbc-iplayer-mobile-app-f5b48e7f",
+      "title": "Testing BBC iPlayer Mobile App",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/ee74c1c5-91f0-34a8-b267-bd00b52a2d07",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing"
+      ]
+    },
+    {
+      "id": "new-bbc-iplayer-internal-testing-of-user-3944c6dc",
+      "title": "New BBC iPlayer: internal testing of user journeys",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/b6b17932-326e-3ad1-9d1d-4318fd4ec277",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-mobiles-mobile-compatibility-pro-81dbf579",
+      "title": "Testing mobiles: Mobile Compatibility Program",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/96d29a45-cbb5-3cf6-8d73-ef29882d1d01",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-bbc-iplayer-krispy-gherkin-featu-ecbea6a0",
+      "title": "Testing BBC iPlayer: Krispy Gherkin feature file aggregator",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/d1a1d55b-30b7-32ea-93dc-5f5c9a47447c",
+      "type": "blog or article",
+      "topics": [
+        "bdd",
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-bbc-iplayer-reading-xml-json-res-50344bac",
+      "title": "Testing BBC iPlayer: reading XML, JSON response into Java",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/f853c875-880f-356b-bf12-966de30bc58f",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-bbc-iplayer-release-for-android--46915056",
+      "title": "Testing BBC iPlayer Release For Android Downloads",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/67c6f28f-3742-3725-9efa-10107857d5e8",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "logging",
+        "release-management"
+      ]
+    },
+    {
+      "id": "testing-for-bbc-online-the-creation-of-t-83497ff6",
+      "title": "Testing for BBC Online: The creation of the POD Test Group",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/a1d07db6-64bb-3225-966a-304405b06349",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "bbc-college-of-technology-develop-confer-f9b6c263",
+      "title": "BBC College of Technology: Develop conference videos",
+      "url": "https://www.bbc.co.uk/blogs/internet/entries/25e3af59-ccd9-45af-85ae-7059a797c3e1",
+      "type": "video",
+      "topics": [
+        "continuous-deployment",
+        "logging"
+      ]
+    },
+    {
+      "id": "gtac-2016-scale-vs-value-test-automation-384f3d72",
+      "title": "GTAC 2016: Scale vs Value: Test Automation at the BBC, GTAC 2016",
+      "url": "https://youtu.be/MkPHntWZAPc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 19,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

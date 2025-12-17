@@ -1,0 +1,58 @@
+{
+  "id": "walmartlabs",
+  "name": "WalmartLabs",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "test-automation-of-query-understanding-a-1b02992c",
+      "title": "Test Automation of Query Understanding AI/ML based Model for an eCommerce Search - Kushal Kumar Verma",
+      "url": "https://medium.com/analytics-vidhya/testing-query-understanding-ai-ml-based-model-for-an-ecommerce-search-d559510b82f",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "elements-of-successful-massive-scale-aut-acfd28ee",
+      "title": "Elements of Successful Massive Scale Automated Testing - Maciej Adwent",
+      "url": "https://medium.com/walmartglobaltech/elements-of-successful-massive-scale-automated-testing-f071c17f2907#.y4qn9hf9q",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "ios-test-automation-walmartlabs-chaoyi-c-feabed7a",
+      "title": "iOS Test Automation @WalmartLabs - Chaoyi Chen",
+      "url": "https://medium.com/walmartglobaltech/ios-test-automation-walmartlabs-d8668d85a27",
+      "type": "blog or article",
+      "topics": [
+        "ios",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "saucecon-2019-the-push-from-within-a-jou-36f6f699",
+      "title": "SauceCon 2019: The Push From Within: A Journey Of Transformation - Claude Jones at Walmart Labs",
+      "url": "https://www.youtube.com/watch?v=9QYDPnVTqjs",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "saucecon-2019-test-armada-evolution-of-a-cd8eae9b",
+      "title": "SauceCon 2019: Test Armada - Evolution of a Value-based Test Automation Platform - Pranav Verma at Walmart Labs",
+      "url": "https://www.youtube.com/watch?v=YpA2jrH7rF8",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 5,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

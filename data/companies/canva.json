@@ -1,0 +1,81 @@
+{
+  "id": "canva",
+  "name": "Canva",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "why-we-left-manual-ui-testing-behind-7ab748d8",
+      "title": "Why we left manual UI testing behind",
+      "url": "https://www.canva.dev/blog/engineering/why-we-left-manual-ui-testing-behind/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "recommender-systems-when-they-fail-who-a-29ab9ea0",
+      "title": "Recommender systems: When they fail, who are you gonna call?",
+      "url": "https://www.canva.dev/blog/engineering/recommender-systems-when-they-fail-who-are-you-gonna-call/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "speeding-up-ui-tests-with-codeceptjs-and-e1433b05",
+      "title": "Speeding up UI tests with CodeceptJS and Playwright",
+      "url": "https://www.canva.dev/blog/engineering/speeding-up-ui-tests-with-codeceptjs-and-playwright/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "logging",
+        "playwright"
+      ]
+    },
+    {
+      "id": "testing-search-engine-optimization-scala-dfd22c57",
+      "title": "Testing Search Engine Optimization Scalably without Breaking a Sweat",
+      "url": "https://www.canva.dev/blog/engineering/testing-search-engine-optimization-scalably-without-breaking-a-sweat/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "user-testing-finding-that-one-thing-meat-639f716e",
+      "title": "User Testing: Finding That One Thing Meatloaf Won't Do For Love",
+      "url": "https://www.youtube.com/watch?v=7FopNNQr2hY",
+      "type": "video",
+      "topics": [
+        "usability-testing"
+      ]
+    },
+    {
+      "id": "visual-regression-testing-why-what-and-h-dff3fb7e",
+      "title": "Visual regression testing: why, what and how",
+      "url": "https://youtu.be/fhVnTNyfUgs",
+      "type": "video",
+      "topics": [
+        "regression-testing",
+        "visual-regression"
+      ]
+    },
+    {
+      "id": "how-canva-is-doing-software-testing-6b4c73bb",
+      "title": "How Canva is Doing Software Testing",
+      "url": "https://www.youtube.com/watch?v=m7E9gjhd1IY",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 7,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

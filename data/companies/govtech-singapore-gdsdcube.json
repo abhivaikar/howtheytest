@@ -1,0 +1,276 @@
+{
+  "id": "govtech-singapore-gdsdcube",
+  "name": "GovTech Singapore - GDS(DCUBE)",
+  "industry": "government",
+  "resources": [
+    {
+      "id": "security-dashboard-part-1-6e860ca8",
+      "title": "Security Dashboard — Part 1",
+      "url": "https://blog.gds-gov.tech/security-dashboard-part-1-d71a3adf84b8",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "security-dashboard-part-2-7e8e9897",
+      "title": "Security Dashboard — Part 2",
+      "url": "https://blog.gds-gov.tech/security-dashboard-part-2-3eb7c92c4edd",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "software-bill-of-materials-sbom-183405c1",
+      "title": "Software Bill of Materials (SBoM)",
+      "url": "https://blog.gds-gov.tech/software-bill-of-materials-sbom-c13c800abaa1",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "basics-of-web-performance-testing-b8b1a32d",
+      "title": "Basics of Web Performance Testing",
+      "url": "https://blog.gds-gov.tech/basics-of-web-performance-testing-9876f903ea49",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "web-performance-testing-dcubes-practices-9c61e82f",
+      "title": "Web Performance Testing — DCube’s Practices",
+      "url": "https://blog.gds-gov.tech/web-performance-testing-dcubes-practices-fbbc20606000",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "agile-testing-practices-6c6fd957",
+      "title": "Agile Testing Practices",
+      "url": "https://blog.gds-gov.tech/agile-testing-practices-c771c00ae7b3",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "why-automate-tests-and-not-do-it-manuall-7a756522",
+      "title": "Why automate tests and not do it manually?",
+      "url": "https://blog.gds-gov.tech/why-automate-test-and-not-do-it-manually-1a4947cd91d8",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "test-automation-our-challenges-and-how-t-9fe29bb2",
+      "title": "Test Automation— Our challenges and how to overcome them",
+      "url": "https://blog.gds-gov.tech/test-automation-our-challenges-and-how-to-overcome-them-4e7122518568",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "developers-working-peacefully-with-the-s-e522f9cc",
+      "title": "Developers working peacefully with the security folks — How?",
+      "url": "https://blog.gds-gov.tech/developers-working-peacefully-with-the-security-folks-how-239671a1d4de",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "secure-code-review-process-in-agile-proc-70d4c27e",
+      "title": "Secure code review process in Agile processes — how?",
+      "url": "https://blog.gds-gov.tech/secure-code-review-process-in-agile-processes-how-937ba9e1faf0",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "application-security-testing-process-in--945b37e2",
+      "title": "Application security testing process in Agile processes — how?",
+      "url": "https://blog.gds-gov.tech/application-security-testing-process-in-agile-processes-how-d7051359c491",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "logging",
+        "quality-processes",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "mobile-test-automation-what-is-it-abf85214",
+      "title": "Mobile Test Automation — What is it?",
+      "url": "https://blog.gds-gov.tech/mobile-test-automation-what-is-it-2934e7c5b002",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "mobile-test-automation-the-bigger-pictur-427b6b96",
+      "title": "Mobile Test Automation — The Bigger Picture",
+      "url": "https://blog.gds-gov.tech/mobile-test-automation-the-bigger-picture-5291960fb8a3",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "integration-tests-with-examples-d494c5d2",
+      "title": "Integration Tests (with examples)",
+      "url": "https://blog.gds-gov.tech/integration-tests-with-examples-ac2f9cded974",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "integration-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "hacking-the-bug-bounty-program-0ff787e0",
+      "title": "Hacking the Bug Bounty Program",
+      "url": "https://blog.gds-gov.tech/hacking-the-bug-bounty-program-1d02dde62901",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "basic-coding-practices-hygiene-ac9d9ca1",
+      "title": "Basic Coding Practices & Hygiene",
+      "url": "https://blog.gds-gov.tech/basic-coding-practices-hygiene-28e67c269ea",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "to-bbp-or-not-to-bbp-76d9d59e",
+      "title": "To BBP or not to BBP?",
+      "url": "https://blog.gds-gov.tech/to-bbp-or-not-to-bbp-d3c73efc3e5a",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "when-using-3rd-party-libraries-f4a34864",
+      "title": "When using 3rd-party libraries…",
+      "url": "https://blog.gds-gov.tech/when-using-third-party-resources-abf5cd11d767",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging"
+      ]
+    },
+    {
+      "id": "api-testing-361ff969",
+      "title": "API Testing",
+      "url": "https://blog.gds-gov.tech/api-testing-e07d6d004079",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "api-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "performance-testing-what-to-consider-247c9717",
+      "title": "Performance Testing - What to consider…",
+      "url": "https://blog.gds-gov.tech/performance-testing-what-to-consider-2bdb5b64341b",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "the-good-unit-test-a0f48657",
+      "title": "The Good Unit Test",
+      "url": "https://blog.gds-gov.tech/the-good-unit-test-51baf1e50c3f",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "basic-web-security-testing-sessions-8954b47d",
+      "title": "Basic Web Security Testing - Sessions",
+      "url": "https://blog.gds-gov.tech/basic-web-security-testing-sessions-224537e1f7bd",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "basic-web-security-testing-file-upload-c5b1fc4a",
+      "title": "Basic Web Security Testing — File Upload",
+      "url": "https://blog.gds-gov.tech/basic-web-security-testing-file-upload-d1cde33672ce",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "basic-web-security-testing-apis-64df5216",
+      "title": "Basic Web Security Testing — APIs",
+      "url": "https://blog.gds-gov.tech/basic-web-security-testing-apis-58f37e01a730",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "logging",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "all-my-functional-tests-passed-time-to-c-477603e0",
+      "title": "All my functional tests passed — time to celebrate?",
+      "url": "https://blog.gds-gov.tech/all-my-functional-tests-passed-time-to-celebrate-5d6af22c5365",
+      "type": "blog or article",
+      "topics": [
+        "functional-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "mobile-testing-in-the-cloud-50815a56",
+      "title": "Mobile Testing in the Cloud",
+      "url": "https://blog.gds-gov.tech/mobile-testing-in-the-cloud-b95841d90e19",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "logging",
+        "mobile-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 26,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

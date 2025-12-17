@@ -1,0 +1,26 @@
+{
+  "id": "flipkart",
+  "name": "Flipkart",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "astra-automated-security-testing-for-res-4060d88e",
+      "title": "Astra — Automated Security Testing for REST API’s",
+      "url": "https://tech.flipkart.com/astra-automated-security-testing-for-rest-apis-a54b999dbfe9",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "api-testing",
+        "rest",
+        "security-testing",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

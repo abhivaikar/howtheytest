@@ -1,0 +1,93 @@
+{
+  "id": "appian",
+  "name": "Appian",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "a-look-inside-the-quality-engineering-te-0627bd94",
+      "title": "A look inside the quality engineering team at Appian",
+      "url": "https://careers.appian.com/blog/engineering-and-product/a-look-inside-the-quality-engineering-team-at-appian/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "dogfooding-appian-c93eb67a",
+      "title": "Dogfooding Appian",
+      "url": "https://careers.appian.com/blog/the-tech-corner/dogfooding-appian/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "chaos-testing-a-distributed-system-with--6d11238f",
+      "title": "Chaos Testing a Distributed System with Jepsen",
+      "url": "https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen/",
+      "type": "blog or article",
+      "topics": [
+        "chaos-engineering",
+        "logging"
+      ]
+    },
+    {
+      "id": "chaos-testing-a-distributed-system-with--9262d882",
+      "title": "Chaos Testing a Distributed System with Jepsen — Part II",
+      "url": "https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen-part-ii/",
+      "type": "blog or article",
+      "topics": [
+        "chaos-engineering",
+        "logging"
+      ]
+    },
+    {
+      "id": "chaos-testing-a-distributed-system-with--72c1227b",
+      "title": "Chaos Testing a Distributed System with Jepsen — Part III",
+      "url": "https://careers.appian.com/blog/the-tech-corner/chaos-testing-a-distributed-system-with-jepsen-part-iii/",
+      "type": "blog or article",
+      "topics": [
+        "chaos-engineering",
+        "logging"
+      ]
+    },
+    {
+      "id": "my-journey-as-a-quality-engineer-intern--b71788eb",
+      "title": "My Journey as a Quality Engineer Intern at Appian",
+      "url": "https://careers.appian.com/blog/early-careers-and-internships/my-journey-as-a-quality-engineer-intern-at-appian/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "women-in-tech-meet-3-quality-engineers-a-89347402",
+      "title": "Women in Tech: Meet 3 Quality Engineers At Appian",
+      "url": "https://careers.appian.com/blog/engineering-and-product/women-in-tech-meet-3-quality-engineers-at-appian/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "what-does-quality-assurance-mean-in-an-a-e9c4c447",
+      "title": "What Does “Quality Assurance” Mean in an Agile World?",
+      "url": "https://careers.appian.com/blog/the-tech-corner/what-does-quality-assurance-mean-in-an-agile-world-1/",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "logging",
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

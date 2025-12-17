@@ -1,0 +1,291 @@
+{
+  "id": "wix",
+  "name": "Wix",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "software-developers-communicate-your-int-36c97564",
+      "title": "Software Developers, Communicate Your Intentions (TLDR: do it using tests)",
+      "url": "https://www.wix.engineering/post/software-developers-communicate-your-intentions-tldr-do-it-using-tests",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "meet-raven-testkit-wix-engineerings-open-7b0de056",
+      "title": "Meet Raven TestKit: Wix Engineering's Open Source Tool to Test Sentry Reports",
+      "url": "https://www.wix.engineering/post/meet-raven-testkit-wix-engineering-s-open-source-tool-to-test-sentry-reports-1",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-to-test-your-redux-app-df7e0d55",
+      "title": "How to Test Your Redux App",
+      "url": "https://www.wix.engineering/post/how-to-test-your-redux-app",
+      "type": "blog or article",
+      "topics": [
+        "usability-testing"
+      ]
+    },
+    {
+      "id": "testing-asynchronous-code-29519ab5",
+      "title": "Testing Asynchronous Code",
+      "url": "https://www.wix.engineering/post/testing-asynchronous-code",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-to-integrate-3rd-party-apis-without--7f07437f",
+      "title": "How to integrate 3rd Party APIs without Fear",
+      "url": "https://medium.com/wix-engineering/how-to-integrate-3rd-party-apis-without-fear-part-1-a3dd4bf42cd6",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "continuous-deployment"
+      ]
+    },
+    {
+      "id": "keep-your-tests-clean-and-isolated-with--14b5697b",
+      "title": "Keep Your Tests Clean and Isolated with a Context",
+      "url": "https://medium.com/wix-engineering/keep-your-tests-clean-and-isolated-with-a-context-258b31fe5cec",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "asynchronous-sad-path-testing-in-react-u-a0869925",
+      "title": "Asynchronous Sad Path Testing in React Using Jest and The Driver Pattern",
+      "url": "https://medium.com/wix-engineering/asynchronous-sad-path-testing-in-react-using-jest-and-the-driver-pattern-84ad61d09b40",
+      "type": "blog or article",
+      "topics": [
+        "jest"
+      ]
+    },
+    {
+      "id": "keep-your-tests-clean-by-refactoring-eaa20458",
+      "title": "Keep your tests clean, by refactoring",
+      "url": "https://medium.com/wix-engineering/https-medium-com-gavinrifkind-keep-your-tests-clean-by-refactoring-fd0310a103ed",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "functional-testing-with-tagless-final-6d4a115c",
+      "title": "Functional Testing with Tagless-Final",
+      "url": "https://medium.com/wix-engineering/functional-testing-with-tagless-final-50eeacf5df6",
+      "type": "blog or article",
+      "topics": [
+        "functional-testing"
+      ]
+    },
+    {
+      "id": "overestimated-value-of-test-documentatio-bf59a926",
+      "title": "Overestimated value of test documentation",
+      "url": "https://medium.com/wix-engineering/overestimated-value-of-test-documentation-739dcf8ee85a",
+      "type": "blog or article",
+      "topics": [
+        "rest"
+      ]
+    },
+    {
+      "id": "testing-metrics-are-you-really-sure-abou-8dd15fa6",
+      "title": "Testing Metrics: Are You Really Sure about the Quality of Your Product?",
+      "url": "https://medium.com/wix-engineering/testing-metrics-are-you-really-sure-about-the-quality-of-your-product-8a5ef37ec3d4",
+      "type": "blog or article",
+      "topics": [
+        "monitoring",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "integration-tests-in-javascript-that-don-4e973edb",
+      "title": "Integration Tests in JavaScript That Don’t Suck",
+      "url": "https://www.wix.engineering/post/integration-tests-in-javascript-that-don-t-suck",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "building-and-open-sourcing-wixs-ab-testi-8b4de205",
+      "title": "Building and Open-Sourcing Wix’s A/B Testing System",
+      "url": "https://www.wix.engineering/post/building-and-open-sourcing-wix-s-a-b-testing-system",
+      "type": "blog or article",
+      "topics": [
+        "ab-testing",
+        "continuous-integration",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "mockingbird-the-why-when-and-how-of-test-5a8943db",
+      "title": "Mockingbird: The Why, When and How of Testing with Mocks — Part 1",
+      "url": "https://medium.com/wix-engineering/mockingbird-why-when-and-how-of-testing-with-mocks-part-1-dceacd14e26f",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "mocking"
+      ]
+    },
+    {
+      "id": "mockingbird-the-why-when-and-how-of-test-db448e2b",
+      "title": "Mockingbird: The Why, When and How of Testing with Mocks — Part 2",
+      "url": "https://medium.com/wix-engineering/mockingbird-the-why-when-and-how-of-testing-with-mocks-part-2-50431cfd70be",
+      "type": "blog or article",
+      "topics": [
+        "mocking"
+      ]
+    },
+    {
+      "id": "mockingbird-part-3-the-pitfalls-1ddf6b4b",
+      "title": "Mockingbird — Part 3 — The Pitfalls",
+      "url": "https://medium.com/wix-engineering/mockingbird-part-3-the-pitfalls-e42c03000a92",
+      "type": "blog or article",
+      "topics": [
+        "mocking"
+      ]
+    },
+    {
+      "id": "the-price-of-tdd-is-eternal-vigilance-1b77b5eb",
+      "title": "The Price of TDD is Eternal Vigilance",
+      "url": "https://youtu.be/lICpnTc5eQ8",
+      "type": "video",
+      "topics": [
+        "tdd"
+      ]
+    },
+    {
+      "id": "clean-tests-0ecd19fc",
+      "title": "Clean Tests",
+      "url": "https://youtu.be/OD3lOVNGRDs",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "testing-with-protractor-a149a18e",
+      "title": "Testing with Protractor",
+      "url": "https://youtu.be/iZjjb2xS-Ww",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "to-test-or-not-to-test-187a920d",
+      "title": "To Test or Not To Test?",
+      "url": "https://youtu.be/wxd30bVd5x4",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "screenshots-in-automated-testing-when-ho-74cb47f6",
+      "title": "Screenshots in Automated Testing: When? How? Why?",
+      "url": "https://youtu.be/voTJTi1Z_CA",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "driving-to-ui-test-heaven-28b2f138",
+      "title": "Driving to UI Test Heaven",
+      "url": "https://youtu.be/iqgIyOKISW4",
+      "type": "video",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "detox-tackling-the-flakiness-of-mobile-a-f204967b",
+      "title": "Detox: tackling the flakiness of mobile automation",
+      "url": "https://youtu.be/4rU0IGEt6OQ",
+      "type": "video",
+      "topics": [
+        "detox",
+        "flaky-tests",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "testing-for-performance-7d976976",
+      "title": "Testing For Performance",
+      "url": "https://youtu.be/T1Zuad-Mkg0",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "detox-graybox-end-to-end-tests-and-autom-69cbac96",
+      "title": "Detox: Graybox End to End Tests and Automation Library for Mobile Apps",
+      "url": "https://youtu.be/qiRJT5Eig3g",
+      "type": "video",
+      "topics": [
+        "detox",
+        "e2e-testing",
+        "mobile-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "tdd-for-the-curious-828cd467",
+      "title": "TDD for the Curious",
+      "url": "https://youtu.be/dOlkgAFlNxs",
+      "type": "video",
+      "topics": [
+        "tdd"
+      ]
+    },
+    {
+      "id": "e2e-testing-with-javascript-4eda5f48",
+      "title": "E2E testing with Javascript",
+      "url": "https://youtu.be/Co6LKJPpxAM",
+      "type": "video",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "intro-to-tdd-111adf08",
+      "title": "Intro to TDD",
+      "url": "https://youtu.be/Zf9O1FvPw1s",
+      "type": "video",
+      "topics": [
+        "tdd"
+      ]
+    },
+    {
+      "id": "meaningful-code-reviews-248d8b50",
+      "title": "Meaningful Code Reviews",
+      "url": "https://youtu.be/cALG01i6CkQ",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "e2e-testing-with-javascript-4eda5f48",
+      "title": "E2E testing with Javascript",
+      "url": "https://youtu.be/Co6LKJPpxAM",
+      "type": "video",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "tdd-discover-implementation-by-stepping--812fcbfa",
+      "title": "TDD: Discover Implementation by Stepping Small",
+      "url": "https://youtu.be/EuXmP2uM-Wk",
+      "type": "video",
+      "topics": [
+        "tdd",
+        "usability-testing"
+      ]
+    },
+    {
+      "id": "wix-http-testkit-4e74e6ef",
+      "title": "Wix HTTP Testkit",
+      "url": "https://github.com/wix/wix-http-testkit",
+      "type": "repo",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 32,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

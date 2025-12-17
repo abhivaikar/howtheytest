@@ -1,0 +1,140 @@
+{
+  "id": "uber",
+  "name": "Uber",
+  "industry": "ride-hailing",
+  "resources": [
+    {
+      "id": "gtac-2015-the-uber-challenge-of-cross-ap-9d3c5d5b",
+      "title": "GTAC 2015: The Uber Challenge of Cross-Application/Cross-Device Testing",
+      "url": "https://www.youtube.com/watch?v=p6gsssppeT0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=3",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "using-the-octopus-framework-jeff-hu-3b2e5024",
+      "title": "Using the Octopus Framework - Jeff Hu",
+      "url": "https://www.youtube.com/watch?v=80wc8gWebrk&ab_channel=Touchlab",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "inside-ubers-secret-self-driving-car-tes-fa8fd293",
+      "title": "Inside Uber's secret self-driving car testing facility",
+      "url": "https://www.youtube.com/watch?v=SnR2449jFV8&ab_channel=CBSThisMorning",
+      "type": "video",
+      "topics": [
+        "continuous-integration"
+      ]
+    },
+    {
+      "id": "ludwig-a-toolbox-for-training-and-testin-25fbf3f4",
+      "title": "Ludwig: A Toolbox for Training and Testing Deep Learning Models without Writing Code",
+      "url": "https://www.youtube.com/watch?v=OGweVw57kus&ab_channel=UberEngineering",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "chaos-engineering-uber-dianne-laguerta-b6f5f550",
+      "title": "Chaos Engineering @ Uber -- Dianne Laguerta",
+      "url": "https://www.youtube.com/watch?v=ywSAwYsIk8k&ab_channel=UberEngineering",
+      "type": "video",
+      "topics": [
+        "chaos-engineering"
+      ]
+    },
+    {
+      "id": "observability-infra-uber-ad6bac71",
+      "title": "Observability infra @ Uber",
+      "url": "https://youtu.be/nO8AYhEok1c?t=703",
+      "type": "video",
+      "topics": [
+        "monitoring"
+      ]
+    },
+    {
+      "id": "introducing-shadower-a-minimalistic-load-0f24c0bb",
+      "title": "Introducing Shadower: A Minimalistic Load Testing Tool",
+      "url": "https://www.uber.com/en-GB/blog/introducing-shadower-a-minimalistic-load-testing-tool/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "load-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "supercharging-ab-testing-at-uber-af41f69f",
+      "title": "Supercharging A/B Testing at Uber",
+      "url": "https://www.uber.com/en-GB/blog/supercharging-a-b-testing-at-uber/",
+      "type": "blog or article",
+      "topics": [
+        "ab-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "introducing-ballast-an-adaptive-load-tes-c3d7d477",
+      "title": "Introducing Ballast: An Adaptive Load Test Framework",
+      "url": "https://www.uber.com/en-GB/blog/introducing-ballast-an-adaptive-load-test-framework/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "load-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "octopus-to-the-rescue-the-fascinating-wo-40ad1fe9",
+      "title": "Octopus to the Rescue: the Fascinating World of Inter-App Communications at Uber Engineering",
+      "url": "https://eng.uber.com/rescued-by-octopus/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration"
+      ]
+    },
+    {
+      "id": "introducing-hypothesis-gu-funcs-an-open--971bbf19",
+      "title": "Introducing Hypothesis GU Funcs, an Open Source Python Package for Unit Testing",
+      "url": "https://eng.uber.com/hypothesis-gu-funcs-unit-testing/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "best-practices-for-unit-testing-in-react-ac255f95",
+      "title": "Best Practices for Unit Testing in React Version 16",
+      "url": "https://eng.uber.com/best-practices-for-react-v16/",
+      "type": "blog or article",
+      "topics": [
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "monitoring-data-quality-at-scale-with-st-0b1bbb8b",
+      "title": "Monitoring Data Quality at Scale with Statistical Modeling",
+      "url": "https://eng.uber.com/monitoring-data-quality-at-scale/",
+      "type": "blog or article",
+      "topics": [
+        "monitoring",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "introducing-piranha-an-open-source-tool--3d035e6b",
+      "title": "Introducing Piranha: An Open Source Tool to Automatically Delete Stale Code",
+      "url": "https://eng.uber.com/piranha/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 14,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

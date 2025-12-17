@@ -1,0 +1,31 @@
+{
+  "id": "outsystems",
+  "name": "OutSystems",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "way-beyond-testing-the-future-of-quality-7eaefa6c",
+      "title": "Way Beyond Testing: The Future of Quality is Smarter, Faster, Better",
+      "url": "https://medium.com/@joaoneto_19612/way-beyond-testing-the-future-of-quality-is-smarter-faster-better-59a07429b01b",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "what-do-you-mean-a-quality-owner-503cdc61",
+      "title": "What do you mean a Quality Owner?",
+      "url": "https://www.youtube.com/watch?v=jlygHJIFjTA",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

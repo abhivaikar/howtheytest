@@ -1,0 +1,72 @@
+{
+  "id": "la-redoute",
+  "name": "La Redoute",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "96-successful-daily-web-production-deplo-212ed7cd",
+      "title": "96% Successful Daily Web Production Deploy",
+      "url": "https://laredoute.io/blog/96-successful-daily-web-production-deploy/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging"
+      ]
+    },
+    {
+      "id": "quality-at-speed-for-our-mobile-applicat-36cdc382",
+      "title": "Quality at Speed for our Mobile Application",
+      "url": "https://laredoute.io/blog/quality-at-speed-for-our-mobile-application/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "how-we-test-our-event-driven-microservic-1574798d",
+      "title": "How We Test Our Event-Driven Microservices",
+      "url": "https://laredoute.io/blog/how-we-test-our-event-driven-microservices/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "microservices"
+      ]
+    },
+    {
+      "id": "cerberus-the-birth-of-our-open-source-te-9e9cfcdf",
+      "title": "Cerberus, the birth of our Open Source Testing",
+      "url": "https://laredoute.io/blog/cerberus-the-birth-of-our-open-source-testing-solution/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "the-traditional-test-automation-pyramid--7a401d88",
+      "title": "The Traditional Test Automation Pyramid, Pitfalls and Anti-patterns",
+      "url": "https://laredoute.io/blog/the-traditional-test-pyramid-pitfalls-and-anti-patterns/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "quality-at-speed-la-redoute-085ae732",
+      "title": "Quality at Speed @ La Redoute",
+      "url": "https://www.youtube.com/watch?v=D-prcP5ZRew",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 6,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

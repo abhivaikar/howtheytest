@@ -1,0 +1,81 @@
+{
+  "id": "zoopla",
+  "name": "Zoopla",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "zooplas-holistic-testing-model-dc4755a0",
+      "title": "Zoopla's Holistic Testing Model",
+      "url": "https://zoopla.blog/posts/2023/testing-model",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "measuring-web-page-performance-at-zoopla-bd2ea940",
+      "title": "Measuring web page performance at Zoopla",
+      "url": "https://zoopla.blog/posts/2021/measuring-page-performance/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "scaling-playwright-tests-with-tag-annota-a45c1294",
+      "title": "Scaling Playwright tests with tag annotations",
+      "url": "https://zoopla.blog/posts/2022/playwright-tag-annotations/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "playwright"
+      ]
+    },
+    {
+      "id": "zero-bug-policy-d225f8fc",
+      "title": "Zero bug policy",
+      "url": "https://zoopla.blog/posts/2022/zero-bug-policy/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "accessibility-testing-at-zoopla-bc645664",
+      "title": "Accessibility testing at Zoopla",
+      "url": "https://zoopla.blog/posts/2022/accessibility-testing-cypress-axe/",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "cypress",
+        "logging"
+      ]
+    },
+    {
+      "id": "contract-testing-101-59a46d1c",
+      "title": "Contract Testing 101",
+      "url": "https://zoopla.blog/posts/2022/contract-testing-101/",
+      "type": "blog or article",
+      "topics": [
+        "contract-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "emulating-qa-and-production-environments-b2cf0601",
+      "title": "Emulating QA and Production Environments with Next.js and Caddy",
+      "url": "https://zoopla.blog/posts/2021/emulating-qa-and-production/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 7,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

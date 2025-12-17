@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://howtheytest.io/schemas/company.json",
+  "title": "Company",
+  "description": "Schema for a company and its testing resources",
+  "type": "object",
+  "required": ["id", "name", "industry", "resources"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (slug) for the company"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Company display name"
+    },
+    "industry": {
+      "type": "string",
+      "enum": [
+        "ecommerce",
+        "fintech",
+        "social-media",
+        "cloud-services",
+        "travel-hospitality",
+        "media-streaming",
+        "food-delivery",
+        "ride-hailing",
+        "productivity-tools",
+        "developer-tools",
+        "gaming",
+        "education",
+        "healthcare",
+        "government",
+        "telecommunications",
+        "other"
+      ],
+      "description": "Industry category"
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "Company headquarters location (optional)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief company description (optional)"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Company website URL (optional)"
+    },
+    "resources": {
+      "type": "array",
+      "description": "Array of testing and quality resources",
+      "items": {
+        "$ref": "#/definitions/resource"
+      },
+      "minItems": 1
+    },
+    "meta": {
+      "type": "object",
+      "description": "Metadata about this company entry",
+      "properties": {
+        "addedDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when company was added to database"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when company data was last updated"
+        },
+        "totalResources": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of resources"
+        },
+        "contributors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "GitHub usernames of contributors"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "resource": {
+      "type": "object",
+      "required": ["id", "title", "url", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier for this resource"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Resource title"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Resource URL"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "blog or article",
+            "video",
+            "book",
+            "repo"
+          ],
+          "description": "Type of resource"
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of topic tags",
+          "uniqueItems": true
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of the resource"
+        }
+      }
+    }
+  }
+}

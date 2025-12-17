@@ -1,0 +1,165 @@
+{
+  "id": "asos",
+  "name": "ASOS",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "how-to-go-about-front-end-testing-with-c-4d45b5f1",
+      "title": "How to go about front-end testing with Cypress.io — a success story",
+      "url": "https://medium.com/asos-techblog/how-to-go-about-front-end-testing-with-cypress-io-a-success-story-898451ff1c79",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "automated-security-testing-using-languag-139a6b4b",
+      "title": "Automated security testing using language you already know",
+      "url": "https://medium.com/asos-techblog/automated-security-testing-using-language-you-already-know-60b968d55cec",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "security-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "behaviour-driven-automation-testing-in-n-45854ae5",
+      "title": "Behaviour driven automation testing in .NET Core using BDTest",
+      "url": "https://medium.com/asos-techblog/behaviour-driven-automation-testing-in-net-core-using-bdtest-685b55d73d93",
+      "type": "blog or article",
+      "topics": [
+        "bdd",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "my-testing-safari-17327ec5",
+      "title": "My Testing Safari",
+      "url": "https://medium.com/asos-techblog/my-testing-safari-9a50cea3981b",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "begin-with-the-end-in-mind-one-teams-jou-60b61d02",
+      "title": "Begin with the end in mind: one team’s journey towards Continuous Integration",
+      "url": "https://medium.com/asos-techblog/begin-with-the-end-in-mind-one-teams-journey-towards-continuous-integration-ed1f3a74ba3c",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "gaining-confidence-in-automated-checks-97192aff",
+      "title": "Gaining confidence in automated checks",
+      "url": "https://medium.com/asos-techblog/begin-with-the-end-in-mind-gaining-confidence-in-our-automated-checks-88b2e40590c5",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "witness-the-android-fitness-3e07253f",
+      "title": "Witness the (Android) fitness",
+      "url": "https://medium.com/asos-techblog/witness-the-android-fitness-d4ae52dfec94",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "logging"
+      ]
+    },
+    {
+      "id": "how-to-test-your-react-redux-application-4752bfa6",
+      "title": "How to test your React · Redux application",
+      "url": "https://medium.com/asos-techblog/how-to-test-your-react-redux-application-48d90481a253",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "usability-testing"
+      ]
+    },
+    {
+      "id": "how-to-write-acceptance-tests-for-a-face-d5a10f59",
+      "title": "How to write acceptance tests for a Facebook Messenger bot",
+      "url": "https://medium.com/asos-techblog/how-to-write-acceptance-tests-for-a-facebook-messenger-bot-2d869ec268d3",
+      "type": "blog or article",
+      "topics": [
+        "acceptance-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "an-introduction-to-pact-testing-in-net-c-4df71eee",
+      "title": "An introduction to Pact testing in .Net Core",
+      "url": "https://medium.com/asos-techblog/pact-testing-in-net-core-6bfc5b0e9131",
+      "type": "blog or article",
+      "topics": [
+        "contract-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "finding-balance-as-a-testing-specialist-d045e4fb",
+      "title": "Finding balance as a Testing Specialist",
+      "url": "https://medium.com/asos-techblog/finding-balance-as-a-testing-specialist-51f61d95b944",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "continuous-testing-in-customer-experienc-cea2891e",
+      "title": "Continuous Testing in Customer Experience @ ASOS",
+      "url": "https://medium.com/asos-techblog/continuous-testing-in-customer-experience-asos-d75b0f968bc9",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "responsive-website-testing-with-sizzy-3652263b",
+      "title": "Responsive website testing with Sizzy",
+      "url": "https://medium.com/asos-techblog/responsive-website-testing-with-sizzy-bab1e0d7c5b6",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "testing-authorisation-scenarios-in-aspne-73e80896",
+      "title": "Testing authorisation scenarios in ASP.NET Core Web APIs",
+      "url": "https://medium.com/asos-techblog/testing-authorization-scenarios-in-asp-net-core-web-api-484bc95d5f6f",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "enhancing-the-processes-of-test-driven-d-064fb722",
+      "title": "Enhancing the Processes of Test Driven Development - Talk",
+      "url": "https://www.youtube.com/watch?v=IpBXhOzoPsU",
+      "type": "video",
+      "topics": [
+        "continuous-integration",
+        "tdd"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 15,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

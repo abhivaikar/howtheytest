@@ -1,0 +1,22 @@
+{
+  "id": "expressvpn",
+  "name": "ExpressVPN",
+  "industry": "telecommunications",
+  "resources": [
+    {
+      "id": "expressvpn-leak-testing-tools-aec9c343",
+      "title": "ExpressVPN leak testing tools",
+      "url": "https://www.expressvpn.com/blog/leak-testing-tools/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

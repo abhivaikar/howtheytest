@@ -1,0 +1,74 @@
+{
+  "id": "helpshift",
+  "name": "Helpshift",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "testing-business-logic-using-dsls-in-clo-9c5b4058",
+      "title": "Testing business logic using DSLs in Clojure",
+      "url": "https://medium.com/helpshift-engineering/testing-business-logic-using-dsls-in-clojure-bb7d6235f562",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "functional-testing-of-mobile-and-web-app-61284e3b",
+      "title": "Functional Testing of Mobile and Web Apps using Clojure",
+      "url": "https://medium.com/helpshift-engineering/functional-testing-of-mobile-and-web-apps-using-clojure-4bedb365c7ca",
+      "type": "blog or article",
+      "topics": [
+        "functional-testing",
+        "web-testing"
+      ]
+    },
+    {
+      "id": "load-testing-using-tsung-c01f954a",
+      "title": "Load Testing using Tsung",
+      "url": "https://medium.com/helpshift-engineering/load-testing-using-tsung-ef26a662929b",
+      "type": "blog or article",
+      "topics": [
+        "load-testing"
+      ]
+    },
+    {
+      "id": "the-convoluted-magic-of-leiningen-test-s-ef31b960",
+      "title": "The Convoluted Magic of Leiningen Test Selectors",
+      "url": "https://medium.com/helpshift-engineering/the-convoluted-magic-of-leiningen-test-selectors-2eb6c452dfcf",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "on-the-testability-of-ring-middleware-in-146f651d",
+      "title": "On the testability of Ring Middleware in Clojure",
+      "url": "https://medium.com/helpshift-engineering/on-the-testability-of-ring-middlewares-in-clojure-6795eae60f2a",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "testing-business-logic-using-dsls-in-clo-0c3d2f3c",
+      "title": "Testing business logic using DSLs in Clojure",
+      "url": "https://youtu.be/YOsfPrgNY_M",
+      "type": "video",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "clojure-for-functional-testing-of-mobile-1284c4b4",
+      "title": "Clojure for functional testing of Mobile and Web apps",
+      "url": "https://youtu.be/G-fjpO6nYPQ",
+      "type": "video",
+      "topics": [
+        "functional-testing",
+        "web-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 7,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mcdonalds",
+  "name": "McDonald’s",
+  "industry": "food-delivery",
+  "resources": [
+    {
+      "id": "opentest-mcdonalds-debut-into-open-sourc-8744a3b1",
+      "title": "OpenTest: McDonald’s debut into open-source software",
+      "url": "https://medium.com/mcdonalds-technical-blog/opentest-mcdonalds-debut-into-open-source-software-487def26019",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

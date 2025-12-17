@@ -1,0 +1,57 @@
+{
+  "id": "disney-hotstar",
+  "name": "Disney+ Hotstar",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "machine-vision-in-test-automation-fdb33d2a",
+      "title": "Machine Vision in Test Automation",
+      "url": "https://blog.hotstar.com/machine-vision-in-test-automation-5ab8682254ba",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "machine-vision-for-test-automation-part--ae4fb703",
+      "title": "Machine Vision For Test Automation — Part Two",
+      "url": "https://blog.hotstar.com/machine-vision-for-test-automation-part-2-70769e8b768a",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "using-apples-testing-mjlnir-xcuitest-41ab1034",
+      "title": "Using Apple's Testing Mjölnir: XCUITest",
+      "url": "https://blog.hotstar.com/using-apples-testing-mj%C3%B6lnir-xcuitest-9c3bad88ae4b",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "closed-loop-api-test-automation-504a25c5",
+      "title": "Closed Loop API Test Automation",
+      "url": "https://blog.hotstar.com/effective-api-testing-and-synthetic-monitoring-strategies-6bb1f69f13de",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "api-testing",
+        "logging",
+        "monitoring",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

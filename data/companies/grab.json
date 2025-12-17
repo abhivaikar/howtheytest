@@ -1,0 +1,31 @@
+{
+  "id": "grab",
+  "name": "Grab",
+  "industry": "ride-hailing",
+  "resources": [
+    {
+      "id": "evolution-of-quality-at-grab-d1acc503",
+      "title": "Evolution of quality at Grab",
+      "url": "https://engineering.grab.com/evolution-of-quality",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "marionette-enabling-e2e-user-scenario-si-3731dc3e",
+      "title": "Marionette - Enabling E2E user-scenario simulation",
+      "url": "https://engineering.grab.com/marionette-enabling-e2e-user-scenario-simulation",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

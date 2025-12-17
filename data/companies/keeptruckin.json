@@ -1,0 +1,26 @@
+{
+  "id": "keeptruckin",
+  "name": "KeepTruckin",
+  "industry": "ride-hailing",
+  "resources": [
+    {
+      "id": "simplifying-ui-testing-with-page-object--96f95a2e",
+      "title": "Simplifying UI Testing with Page Object Model and Controllers",
+      "url": "https://medium.com/keeptruckin-eng/simplifying-ui-test-automation-with-page-object-model-and-controllers-8115657908b9",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "page-object-model",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

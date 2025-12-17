@@ -1,0 +1,62 @@
+{
+  "id": "shazam",
+  "name": "Shazam",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "shazam-on-ios-ui-testing-shazam-pro-user-2d5d9124",
+      "title": "Shazam on iOS: UI testing + Shazam Pro User Tip",
+      "url": "https://medium.com/@kardakov/shazam-on-ios-ui-testing-shazam-pro-user-tip-8347a9ed66a5",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "a-kotlin-dsl-for-acceptance-tests-f1fa1b20",
+      "title": "A Kotlin DSL for Acceptance Tests",
+      "url": "https://medium.com/@edwardharks/a-kotlin-dsl-for-acceptance-tests-8a825388879e",
+      "type": "blog or article",
+      "topics": [
+        "acceptance-testing"
+      ]
+    },
+    {
+      "id": "ci-at-shazam-abbbe2d5",
+      "title": "CI at Shazam",
+      "url": "https://speakerdeck.com/edwardfrancesco/ci-at-shazam-a-quest-for-shipping-high-quality-code",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "keeping-100-million-users-happy-how-we-t-e6093aac",
+      "title": "Keeping 100+ million users happy: how we test Shazam on Android",
+      "url": "https://www.youtube.com/watch?v=xgjYSf8pjVg",
+      "type": "video",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "3-years-of-backend-testing-at-shazam-the-46a2aeee",
+      "title": "3 years of backend testing at Shazam - the stuff we got wrong",
+      "url": "https://www.youtube.com/watch?v=9kWslvOpQfw",
+      "type": "video",
+      "topics": [
+        "backend-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 5,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

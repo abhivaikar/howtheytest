@@ -1,0 +1,65 @@
+{
+  "name": "howtheytest",
+  "version": "1.0.0",
+  "description": "[![Contributions Welcome!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build:next": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "node scripts/migrate_data.js && node scripts/classify_industries.js",
+    "build:db": "node scripts/build_database.js",
+    "validate": "node scripts/validate_schema.js",
+    "validate:resources": "node scripts/validate-resources.mjs",
+    "validate:resources:debug": "node scripts/validate-resources.mjs --limit 5",
+    "validate:resources:headed": "node scripts/validate-resources.mjs --headed",
+    "validate:resources:headed:debug": "node scripts/validate-resources.mjs --headed --limit 5",
+    "analyze": "node scripts/analyze_topics.js",
+    "build:data": "npm run validate && npm run build:db",
+    "build": "npm run build:data && npm run build:next",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --maxWorkers=2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhivaikar/howtheytest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhivaikar/howtheytest/issues"
+  },
+  "homepage": "https://github.com/abhivaikar/howtheytest#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "playwright": "^1.57.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@octokit/auth-app": "^8.1.2",
+    "@octokit/rest": "^22.0.1",
+    "next": "^16.0.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

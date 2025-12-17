@@ -1,0 +1,245 @@
+{
+  "id": "mercari",
+  "name": "Mercari",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "we-have-created-unit-testing-guidelines-5dc10a5a",
+      "title": "We have created unit testing guidelines",
+      "url": "https://engineering.mercari.com/en/blog/entry/20220418-e406d51f15/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "automatically-generating-snapshot-tests--e2d14bda",
+      "title": "Automatically generating snapshot tests from Xcode Previews",
+      "url": "https://engineering.mercari.com/en/blog/entry/20201204-1f94b9dca2/",
+      "type": "blog or article",
+      "topics": [
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "android-automated-testing-to-support-one-d2e2140d",
+      "title": "Android automated testing to support one-week releases",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211210-merpay-android-test-automation/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "logging",
+        "release-management",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "what-we-talk-about-when-we-talk-about-qu-860081b5",
+      "title": "What We Talk About When We Talk About Quality Assurance.",
+      "url": "https://engineering.mercari.com/en/blog/entry/20210915-c9577ca624/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "running-distributed-testing-to-reduce-te-82c37a04",
+      "title": "Running distributed testing to reduce testing time",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211206-5aa2ac7efc/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "learn-the-differences-of-test-doubles-ca2cced7",
+      "title": "Learn the differences of Test Doubles",
+      "url": "https://engineering.mercari.com/en/blog/entry/20220420-learn-the-differences-of-test-doubles/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mocking"
+      ]
+    },
+    {
+      "id": "test-parallelization-in-go-understanding-0256b310",
+      "title": "Test parallelization in Go: Understanding the t.Parallel() method",
+      "url": "https://engineering.mercari.com/en/blog/entry/20220408-how_to_use_t_parallel/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "parallel-testing"
+      ]
+    },
+    {
+      "id": "tool-created-to-help-improve-local-web-f-6e062a9e",
+      "title": "Tool created to help improve local web frontend performance",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211217-856683a917/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "the-current-state-of-automation-in-the-m-516527be",
+      "title": "The current state of automation in the Merpay QA Team",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211224-merpay-qa-for-automation-test/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "the-merpay-qa-team-maintaining-quality-f-70094f9b",
+      "title": "The Merpay QA Team: Maintaining Quality for Safe and Secure Products #TeamInterview",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211111-504f3da724/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "a-deep-dive-into-table-driven-testing-in-49cb5b68",
+      "title": "A Deep Dive into Table-Driven Testing in Golang",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211221-a-deep-dive-into-table-driven-testing-in-golang/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "accessibility-testing-101-5fcf3a4f",
+      "title": "Accessibility Testing 101",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211215-accessibility-testing-101/",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "how-is-security-testing-different-from-t-5e02be02",
+      "title": "How is Security Testing Different from Typical Software Testing?",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211210-how-is-security-testing-different-from-typical-software-testing/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "test-automation-policy-in-merpay-fronten-47104165",
+      "title": "Test Automation Policy in Merpay Frontend",
+      "url": "https://engineering.mercari.com/en/blog/entry/20211208-test-automation-policy-in-merpay-frontend/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "mercaris-qa-engineering-initiatives-2020-e47111c5",
+      "title": "Mercari’s QA Engineering Initiatives 2020",
+      "url": "https://engineering.mercari.com/en/blog/entry/20201221-79f9540f3a/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "merry-christmas-and-a-gift-for-qa-team-93ed8b3f",
+      "title": "Merry Christmas and a Gift for QA Team",
+      "url": "https://engineering.mercari.com/en/blog/entry/20201225-merry-christmas-and-a-gift-for-qa-team/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "quality-assurance-is-engineering-excelle-35cd8de6",
+      "title": "Quality Assurance is Engineering Excellence",
+      "url": "https://engineering.mercari.com/en/blog/entry/20201211-quality-assurance-is-engineering-excellence/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "introducing-testdeck-an-open-source-tool-b5bd411c",
+      "title": "Introducing Testdeck, an Open Source Tool for Microservices QA & Security Testing",
+      "url": "https://engineering.mercari.com/en/blog/entry/20200930-testdeck/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging",
+        "microservices",
+        "quality-engineering",
+        "security-testing"
+      ]
+    },
+    {
+      "id": "specifying-kotlin-tests-with-spek-88c1d60f",
+      "title": "Specifying Kotlin tests with Spek",
+      "url": "https://engineering.mercari.com/en/blog/entry/2019-12-12-100000/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "super-fast-and-parallelized-android-uite-38da3240",
+      "title": "Super fast and parallelized Android UITest(Appium) environment using AWS, Docker and Android emulator",
+      "url": "https://tech.mercari.com/entry/2018/12/28/175147",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium",
+        "cloud-testing",
+        "docker",
+        "frontend-testing",
+        "parallel-testing"
+      ]
+    },
+    {
+      "id": "speeding-up-windows-10-microsoft-edge-br-c8d26630",
+      "title": "Speeding up Windows 10 / Microsoft Edge browser testing (Selenium WebDriver) using Azure DevTest Labs",
+      "url": "https://tech.mercari.com/entry/2019/09/09/113455",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "device-lab",
+        "selenium",
+        "web-testing"
+      ]
+    },
+    {
+      "id": "how-headspin-will-change-mobile-testing--c5f30688",
+      "title": "How HeadSpin will change mobile testing and monitoring?",
+      "url": "https://tech.mercari.com/entry/2019/02/18/173236",
+      "type": "blog or article",
+      "topics": [
+        "mobile-testing",
+        "monitoring"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 22,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

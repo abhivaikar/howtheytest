@@ -1,0 +1,31 @@
+{
+  "id": "monese",
+  "name": "Monese",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "design-qa-minimising-design-debt-in-a-fa-b0c82fd7",
+      "title": "Design QA; minimising design debt in a fast paced world.",
+      "url": "https://medium.com/monese/design-qa-minimising-design-debt-in-a-fast-paced-world-82381b5f23a9",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "mobile-testing-at-monese-eef95274",
+      "title": "Mobile testing at Monese",
+      "url": "https://medium.com/monese/mobile-testing-at-monese-f06a6c3bc789",
+      "type": "blog or article",
+      "topics": [
+        "mobile-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

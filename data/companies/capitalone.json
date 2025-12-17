@@ -1,0 +1,260 @@
+{
+  "id": "capitalone",
+  "name": "CapitalOne",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "improvement-and-parallelization-of-andro-637c202e",
+      "title": "Improvement and Parallelization of Android Automation Testing",
+      "url": "https://medium.com/capital-one-tech/improvement-and-parallelization-of-android-automation-testing-capital-one-a05d10cae5b6",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "api",
+        "parallel-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "9-things-i-wish-i-knew-about-automated-s-6f927b87",
+      "title": "9 Things I Wish I Knew About Automated Software Testing Before I Started My Career",
+      "url": "https://medium.com/capital-one-tech/9-things-i-wish-i-knew-about-automated-software-testing-before-i-started-my-career-69d2301d6b92",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "improve-java-code-coverage-and-quality-w-53753f00",
+      "title": "Improve Java Code Coverage and Quality with Unit Tests and JaCoCo",
+      "url": "https://medium.com/capital-one-tech/improve-java-code-with-unit-tests-and-jacoco-b342643736ed",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "code-coverage",
+        "quality-engineering",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "learning-to-love-automated-testing-8fbde2e7",
+      "title": "Learning To Love Automated Testing",
+      "url": "https://medium.com/capital-one-tech/automated-tests-that-saved-me-2d38b7cb265b",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "robot-pattern-testing-for-xcuitest-b35b49f2",
+      "title": "Robot Pattern Testing for XCUITest",
+      "url": "https://medium.com/capital-one-tech/robot-pattern-testing-for-xcuitest-4c2f0c40b4ad",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "frontend-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "unit-testing-behavior-of-react-component-578fd781",
+      "title": "Unit Testing Behavior of React Components with Test-Driven Development",
+      "url": "https://medium.com/capital-one-tech/unit-testing-behavior-of-react-components-with-test-driven-development-ae15b03a3689",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "tdd",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "no-testing-strategy-no-devops-1a050512",
+      "title": "No Testing Strategy, No DevOps",
+      "url": "https://medium.com/capital-one-tech/no-testing-strategy-no-devops-915287e1b4fd",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "devops",
+        "test-strategy"
+      ]
+    },
+    {
+      "id": "spec-to-gherkin-to-code-c1f5ff55",
+      "title": "Spec to Gherkin to Code",
+      "url": "https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "bdd"
+      ]
+    },
+    {
+      "id": "blackbox-api-testing-with-kotlin-for-res-aba00119",
+      "title": "Blackbox API Testing With Kotlin for RESTful Microservices",
+      "url": "https://medium.com/capital-one-tech/blackbox-api-testing-with-kotlin-for-restful-microservices-183adc2b8088",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "api-testing",
+        "microservices",
+        "rest"
+      ]
+    },
+    {
+      "id": "performance-testing-of-event-driven-micr-b39ac7a5",
+      "title": "Performance Testing of Event-Driven Microservices",
+      "url": "https://medium.com/capital-one-tech/performance-testing-of-event-driven-microservices-f5de74305985",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "microservices",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "software-quality-testing-creating-qualit-7c0f786f",
+      "title": "Software Quality Testing: Creating Quality Filtration Stacks",
+      "url": "https://medium.com/capital-one-tech/software-quality-testing-creating-quality-filtration-stacks-capital-one-b841afa6d70c",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "testcontainers-localstack-for-spring-boo-71a58da3",
+      "title": "Testcontainers & LocalStack for Spring Boot Functional Tests",
+      "url": "https://medium.com/capital-one-tech/testcontainers-localstack-for-spring-boot-functional-tests-c4c8d06dae88",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "docker",
+        "functional-testing"
+      ]
+    },
+    {
+      "id": "automated-detection-diagnosis-remediatio-0383cb34",
+      "title": "Automated Detection, Diagnosis & Remediation of App Failure",
+      "url": "https://medium.com/capital-one-tech/automated-detection-diagnosis-remediation-of-app-failure-9ee24fb97a35",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "using-stub-vs-mock-in-ios-unit-testing-d26584d7",
+      "title": "Using Stub vs Mock in iOS Unit Testing",
+      "url": "https://medium.com/capital-one-tech/using-stub-vs-mock-in-ios-unit-testing-634ec4cc6a10",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "ios",
+        "mocking",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "software-quality-testing-creating-qualit-7c0f786f",
+      "title": "Software Quality Testing: Creating Quality Filtration Stacks",
+      "url": "https://medium.com/capital-one-tech/software-quality-testing-creating-quality-filtration-stacks-capital-one-b841afa6d70c",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "using-apples-main-thread-checker-tool-on-12ea8262",
+      "title": "Using Apple’s Main Thread Checker Tool on UI Tests",
+      "url": "https://medium.com/capital-one-tech/using-apples-main-thread-checker-tool-on-ui-tests-a89508bcd524",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "continuous-deployment",
+        "e2e-testing",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "marginal-utility-and-taco-consumption-e37b97ac",
+      "title": "Marginal Utility and Taco Consumption",
+      "url": "https://medium.com/capital-one-tech/marginal-utility-and-taco-consumption-762ca42afbf0",
+      "type": "blog or article",
+      "topics": [
+        "api"
+      ]
+    },
+    {
+      "id": "spec-to-gherkin-to-code-c1f5ff55",
+      "title": "Spec to Gherkin to Code",
+      "url": "https://medium.com/capital-one-tech/spec-to-gherkin-to-code-902e346bb9aa",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "bdd"
+      ]
+    },
+    {
+      "id": "test-driven-development-ready-set-go-wit-54d73f59",
+      "title": "Test-Driven Development –Ready, Set, Go with Google Cloud Test Lab",
+      "url": "https://medium.com/capital-one-tech/be-ready-for-tdd-google-cloud-test-lab-20b07ddabc8b",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "cloud-testing",
+        "device-lab",
+        "tdd"
+      ]
+    },
+    {
+      "id": "shifting-testing-in-agile-teams-to-the-l-8b54cf51",
+      "title": "Shifting Testing in Agile Teams to the Left",
+      "url": "https://medium.com/capital-one-tech/shifting-testing-in-agile-teams-to-the-left-5f3a3d647a41",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "api"
+      ]
+    },
+    {
+      "id": "getting-started-with-ios-ui-testing-b3f9930d",
+      "title": "Getting Started With iOS UI Testing",
+      "url": "https://medium.com/capital-one-tech/getting-started-with-ios-ui-testing-b85bf858496f",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "gtac-2016-whats-in-your-wallet-ae3d90c7",
+      "title": "GTAC 2016: What’s in your Wallet?",
+      "url": "https://youtu.be/SF7F26E7l1I?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "saucecon-2017-from-manual-to-cicd-the-jo-99ed15be",
+      "title": "SauceCon 2017: FROM MANUAL TO CI/CD - THE JOURNEY OF A BOY AND HIS TOOLS - Gregory Schmidt",
+      "url": "https://www.youtube.com/watch?v=LiB0HTL2VRQ",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "continuous-deployment",
+        "continuous-integration"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 23,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

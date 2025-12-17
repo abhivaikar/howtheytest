@@ -1,0 +1,22 @@
+{
+  "id": "acv-auctions",
+  "name": "ACV Auctions",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "scaling-quality-at-acv-201af6bf",
+      "title": "Scaling Quality at ACV",
+      "url": "https://acv.engineering/posts/scaling-quality-at-acv/",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

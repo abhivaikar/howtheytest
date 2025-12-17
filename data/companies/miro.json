@@ -1,0 +1,60 @@
+{
+  "id": "miro",
+  "name": "Miro",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "how-the-miro-developer-platform-leverage-c0ec3022",
+      "title": "How the Miro Developer Platform leverages contract testing",
+      "url": "https://medium.com/miro-engineering/how-the-miro-developer-platform-leverages-contract-testing-91fae20987d1",
+      "type": "blog or article",
+      "topics": [
+        "contract-testing"
+      ]
+    },
+    {
+      "id": "qa-lead-at-miro-a-strategy-toward-qualit-ad308304",
+      "title": "QA Lead at Miro: a strategy toward quality",
+      "url": "https://medium.com/miro-engineering/qa-lead-at-miro-a-strategy-toward-quality-957b721a91da",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "qa-process-at-miro-26fdf63f",
+      "title": "QA process at Miro",
+      "url": "https://medium.com/miro-engineering/qa-process-at-miro-4c35e60e0b42",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "managing-hundreds-of-servers-for-load-te-ef8fce3d",
+      "title": "Managing hundreds of servers for load testing: Autoscaling, custom monitoring, DevOps culture",
+      "url": "https://medium.com/miro-engineering/managing-hundreds-of-servers-for-load-testing-autoscaling-custom-monitoring-devops-culture-390fd1c7e699",
+      "type": "blog or article",
+      "topics": [
+        "devops",
+        "load-testing",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "reliable-load-testing-with-regards-to-un-2a21d093",
+      "title": "Reliable load testing with regards to unexpected nuances",
+      "url": "https://medium.com/miro-engineering/reliable-load-testing-with-regards-to-unexpected-nuances-6f38c82196a5",
+      "type": "blog or article",
+      "topics": [
+        "load-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 5,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dream11",
+  "name": "Dream11",
+  "industry": "gaming",
+  "resources": [
+    {
+      "id": "finding-order-in-chaos-how-we-automated--b07e7f3d",
+      "title": "Finding Order in Chaos: How We Automated Performance Testing with Torque",
+      "url": "https://about.dream11.in/blog/2020/12/finding-order-in-chaos-how-we-automated-performance-testing-with-torque",
+      "type": "blog or article",
+      "topics": [
+        "chaos-engineering",
+        "logging",
+        "performance-testing",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

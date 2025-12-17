@@ -1,0 +1,61 @@
+{
+  "id": "adore-me",
+  "name": "Adore Me",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "android-and-ios-application-testing-with-73934796",
+      "title": "Android and iOS application testing with appium and wiremock - intro",
+      "url": "https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-intro-fe1dc34f0fc",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium",
+        "ios",
+        "mocking"
+      ]
+    },
+    {
+      "id": "android-and-ios-application-testing-with-40635bec",
+      "title": "Android and iOS application testing with appium and wiremock - setup",
+      "url": "https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-the-setup-640bd0863b2d",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium",
+        "ios",
+        "mocking"
+      ]
+    },
+    {
+      "id": "android-and-ios-application-testing-with-279af5a8",
+      "title": "Android and iOS application testing with appium and wiremock - all together",
+      "url": "https://adoreme.tech/android-and-ios-app-testing-with-appium-and-wiremock-appium-wiremock-cfb89cd52afe",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium",
+        "continuous-deployment",
+        "ios",
+        "mocking"
+      ]
+    },
+    {
+      "id": "ui-testing-a-deep-dive-in-apparently-sha-608cc357",
+      "title": "UI Testing: A deep dive in (apparently) shallow water",
+      "url": "https://adoreme.tech/ui-testing-a-deep-dive-in-apparently-shallow-water-af677a0f6100",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

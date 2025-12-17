@@ -1,0 +1,49 @@
+{
+  "id": "doordash",
+  "name": "DoorDash",
+  "industry": "food-delivery",
+  "resources": [
+    {
+      "id": "using-fault-injection-testing-to-improve-e49ac883",
+      "title": "Using Fault Injection Testing to Improve DoorDash Reliability",
+      "url": "https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "moving-e2e-testing-into-production-with--75d0d4d7",
+      "title": "Moving e2e testing into production with multi-tenancy for increased speed and reliability",
+      "url": "https://doordash.engineering/2022/03/03/moving-e2e-testing-into-production-with-multi-tenancy-for-increased-speed-and-reliability/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "a-framework-for-speedy-and-scalable-deve-e37398a5",
+      "title": "A Framework For Speedy and Scalable Development Of Android UI Tests",
+      "url": "https://doordash.engineering/2020/08/19/speedy-and-scalable-development-of-android-mobile-ui-tests/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "e2e-testing",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "contract-testing-with-pact-df21413b",
+      "title": "Contract Testing with Pact",
+      "url": "https://doordash.engineering/2018/11/05/contract-testing-with-pact/",
+      "type": "blog or article",
+      "topics": [
+        "contract-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

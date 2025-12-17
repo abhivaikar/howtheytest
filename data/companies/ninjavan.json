@@ -1,0 +1,23 @@
+{
+  "id": "ninjavan",
+  "name": "Ninjavan",
+  "industry": "ride-hailing",
+  "resources": [
+    {
+      "id": "integration-tests-with-testcontainers-at-d1e1e5a5",
+      "title": "Integration Tests with Testcontainers at Ninja Van",
+      "url": "https://medium.com/ninjavan-tech/integration-tests-at-ninja-van-5b6abb0ff59d",
+      "type": "blog or article",
+      "topics": [
+        "docker",
+        "integration-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

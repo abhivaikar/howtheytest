@@ -1,0 +1,88 @@
+{
+  "id": "twilio",
+  "name": "Twilio",
+  "industry": "telecommunications",
+  "resources": [
+    {
+      "id": "integrating-cypress-tests-with-docker-bu-3088392b",
+      "title": "Integrating Cypress Tests With Docker, Buildkite, and CICD",
+      "url": "https://sendgrid.com/blog/integrating-cypress-tests-with-docker-buildkite-and-cicd-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "continuous-integration",
+        "cypress",
+        "docker",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "what-to-consider-when-writing-e2e-tests-22341f96",
+      "title": "What to Consider When Writing E2E Tests",
+      "url": "https://sendgrid.com/blog/what-to-consider-when-writing-e2e-tests-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "1000-foot-overview-of-writing-cypress-te-f1146d62",
+      "title": "1,000 Foot Overview of Writing Cypress Tests",
+      "url": "https://sendgrid.com/blog/1000-foot-overview-of-writing-cypress-tests-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "typescript-all-the-things-in-your-cypres-3790c6ba",
+      "title": "TypeScript All the Things in Your Cypress",
+      "url": "https://sendgrid.com/blog/typescript-in-your-cypress-tests-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "dealing-with-email-flows-in-cypress-test-87669c72",
+      "title": "Dealing With Email Flows in Cypress Tests",
+      "url": "https://sendgrid.com/blog/dealing-with-email-flows-in-cypress-tests-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "ideas-for-configuring-organizing-and-con-ff03d8fc",
+      "title": "Ideas for Configuring, Organizing, and Consolidating Your Cypress Tests",
+      "url": "https://sendgrid.com/blog/ideas-for-configuring-organizing-and-consolidating-your-cypress-tests-frontendtwiliosendgrid/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "frontend-testing",
+        "ios",
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 6,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

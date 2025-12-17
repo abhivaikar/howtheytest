@@ -1,0 +1,109 @@
+{
+  "id": "soundcloud",
+  "name": "Soundcloud",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "release-quality-and-mobile-trains-e9c18a3f",
+      "title": "Release Quality and Mobile Trains",
+      "url": "https://developers.soundcloud.com/blog/quality-mobile-trains",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "logging",
+        "quality-engineering",
+        "release-management"
+      ]
+    },
+    {
+      "id": "integration-testing-for-memory-leaks-09a1a700",
+      "title": "Integration Testing for Memory Leaks",
+      "url": "https://developers.soundcloud.com/blog/integration-testing-for-memory-leaks",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "integration-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "hands-off-deployment-with-canary-216583b4",
+      "title": "Hands-Off Deployment with Canary",
+      "url": "https://developers.soundcloud.com/blog/hands-off-deployment-with-canary",
+      "type": "blog or article",
+      "topics": [
+        "canary-testing",
+        "cloud-testing",
+        "continuous-deployment",
+        "logging",
+        "release-management",
+        "testing-in-production"
+      ]
+    },
+    {
+      "id": "running-android-ui-test-suites-on-fireba-70f026a6",
+      "title": "Running Android UI Test Suites on Firebase Test Lab",
+      "url": "https://developers.soundcloud.com/blog/running-android-ui-test-suites-on-firebase-test-lab",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "cloud-testing",
+        "device-lab",
+        "e2e-testing",
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "automatic-stubbing-of-network-requests-t-03fd8e9e",
+      "title": "Automatic Stubbing of Network Requests to Deflakify Automation Testing",
+      "url": "https://developers.soundcloud.com/blog/automatic-stubbing-of-network-requests-to-de-flakify-automation-testing",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "logging",
+        "mocking",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "alerting-on-slos-like-pros-59ccf2dc",
+      "title": "Alerting on SLOs like Pros",
+      "url": "https://developers.soundcloud.com/blog/alerting-on-slos",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "logging",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "periskop-exception-monitoring-service-c0a1f4c1",
+      "title": "Periskop: Exception Monitoring Service",
+      "url": "https://developers.soundcloud.com/blog/periskop-exception-monitoring-service",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "logging",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "continuous-integration-at-soundcloud-vin-db444c65",
+      "title": "Continuous Integration at SoundCloud - Vincent Garrigues",
+      "url": "https://www.youtube.com/watch?v=cJS08Kuu3zg&ab_channel=IstanbulTechTalks",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "cloud-testing",
+        "continuous-integration"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

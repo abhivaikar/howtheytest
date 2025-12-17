@@ -1,0 +1,48 @@
+{
+  "id": "stuart-engineering",
+  "name": "Stuart Engineering",
+  "industry": "food-delivery",
+  "resources": [
+    {
+      "id": "shifting-left-qa-f21c2bdf",
+      "title": "⬅️ Shifting left QA",
+      "url": "https://medium.com/stuart-engineering/shifting-left-qa-341e9c8cdc38",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "what-qa-engineers-do-at-stuart-3f376a5a",
+      "title": "What QA Engineers do at Stuart",
+      "url": "https://medium.com/stuart-engineering/what-qa-engineers-do-at-stuart-665bbbe4b003",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "webhook-testing-at-stuart-56a420f4",
+      "title": "🌎 Webhook Testing At Stuart",
+      "url": "https://medium.com/stuart-engineering/webhook-testing-at-stuart-3768e8c4b362",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "under-the-qa-testing-microscope-0441ef6c",
+      "title": "🔬 Under The QA Testing Microscope",
+      "url": "https://medium.com/stuart-engineering/under-the-qa-testing-microscope-8a5191767eda",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "id": "google",
+  "name": "Google",
+  "industry": "cloud-services",
+  "resources": [
+    {
+      "id": "james-whittaker-51379ec8",
+      "title": "James Whittaker",
+      "url": "https://twitter.com/docjamesw",
+      "type": "book",
+      "topics": []
+    },
+    {
+      "id": "how-google-tests-software-part-one-6b3471fb",
+      "title": "How Google Tests Software - Part One",
+      "url": "https://testing.googleblog.com/2011/01/how-google-tests-software.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-two-01e4eb7a",
+      "title": "How Google Tests Software - Part Two",
+      "url": "https://testing.googleblog.com/2011/02/how-google-tests-software-part-two.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-three-f3bc347b",
+      "title": "How Google Tests Software - Part Three",
+      "url": "https://testing.googleblog.com/2011/02/how-google-tests-software-part-three.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-four-0c8bb640",
+      "title": "How Google Tests Software - Part Four",
+      "url": "https://testing.googleblog.com/2011/03/how-google-tests-software-part-four.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-five-94664c5d",
+      "title": "How Google Tests Software - Part Five",
+      "url": "https://testing.googleblog.com/2011/03/how-google-tests-software-part-five.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-six-e42b47c6",
+      "title": "How Google Tests Software - Part Six",
+      "url": "https://testing.googleblog.com/2011/05/how-google-tests-software-part-six.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-google-tests-software-part-seven-83ea4b6a",
+      "title": "How Google Tests Software - Part Seven",
+      "url": "https://testing.googleblog.com/2011/05/how-google-tests-software-part-seven.html",
+      "type": "book",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "google-testing-blog-e47c81c9",
+      "title": "Google Testing Blog",
+      "url": "https://testing.googleblog.com",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "meet-test-engineers-at-google-433166f4",
+      "title": "Meet Test Engineers at Google",
+      "url": "https://www.youtube.com/watch?v=C7OLZf5099Y",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "gtac-2016-evolution-of-business-and-engi-108b74bb",
+      "title": "GTAC 2016: Evolution of Business and Engineering Productivity",
+      "url": "https://youtu.be/Vf7axkwtTOw?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2016-the-quirkier-side-of-testings-08b12dfe",
+      "title": "GTAC 2016: The Quirkier Side of Testings",
+      "url": "https://youtu.be/QHV-PSwzvIQ?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "gtac-2016-how-flaky-tests-in-continuous--515b4b87",
+      "title": "GTAC 2016: How Flaky Tests in Continuous Integration: Current Practice at Google and Future Directions",
+      "url": "https://youtu.be/CrzpkF1-VsA?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "continuous-integration",
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "gtac-2016-openhtf-the-open-source-hardwa-8fa1afe6",
+      "title": "GTAC 2016: OpenHTF - The Open-Source Hardware Testing Framework",
+      "url": "https://youtu.be/bC5YhAo1kHc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2016-integration-testing-with-multi-76de7ee8",
+      "title": "GTAC 2016: Integration Testing with Multiple Mobile Devices and Services",
+      "url": "https://youtu.be/8tjsxxSMkpA?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "gtac-2016-finding-bugs-in-c-libraries-us-a2e82af3",
+      "title": "GTAC 2016: Finding bugs in C++ libraries using LibFuzzer",
+      "url": "https://youtu.be/FzaR3iH2iZs?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2015-juggling-chainsaws-for-fun-and-4e9ee5f7",
+      "title": "GTAC 2015: Juggling Chainsaws for Fun and Profit: Lessons Learned from Mobile Cross-Platform Integration Testing",
+      "url": "https://www.youtube.com/watch?v=jaWD60t69Wg&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=5",
+      "type": "video",
+      "topics": [
+        "cloud-testing",
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "gtac-2015-how-to-component-test-soup-dum-5c4491be",
+      "title": "GTAC 2015: How to Component Test Soup Dumplings",
+      "url": "https://www.youtube.com/watch?v=OLesBZSd-cM&index=7&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2015-chromecast-test-automation-1b6fbd56",
+      "title": "GTAC 2015: Chromecast Test Automation",
+      "url": "https://www.youtube.com/watch?v=TfAVJLhb_k0&index=8&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2015-automated-accessibility-testin-2141ee4c",
+      "title": "GTAC 2015: Automated Accessibility Testing for Android Applications",
+      "url": "https://www.youtube.com/watch?v=vvwc8MVlusY&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=13",
+      "type": "video",
+      "topics": [
+        "accessibility-testing",
+        "android",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2015-statistical-data-sampling-3fe15f53",
+      "title": "GTAC 2015: Statistical Data Sampling",
+      "url": "https://www.youtube.com/watch?v=cXi1Jo5V7UM&index=15&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2015-nest-automation-infrastructure-8289a321",
+      "title": "GTAC 2015: Nest Automation Infrastructure",
+      "url": "https://www.youtube.com/watch?v=lIoAq2Mjjas&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=16",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2015-fake-backends-with-rpcreplay-269f537e",
+      "title": "GTAC 2015: Fake Backends with RpcReplay",
+      "url": "https://www.youtube.com/watch?v=wJPfsyRRmyw&index=26&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1",
+      "type": "video",
+      "topics": [
+        "backend-testing",
+        "mocking"
+      ]
+    },
+    {
+      "id": "gtac-2014-chrome-os-test-automation-lab-bd2e13ae",
+      "title": "GTAC 2014: Chrome OS Test Automation Lab",
+      "url": "https://www.youtube.com/watch?v=08CyrK2d1t0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=27",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2014-make-chrome-the-best-mobile-br-ab474a5d",
+      "title": "GTAC 2014: Make Chrome the best mobile browser",
+      "url": "http://www.youtube.com/watch?v=ugX-80lMu7A&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2014-test-coverage-at-google-f610eca0",
+      "title": "GTAC 2014: Test coverage at Google",
+      "url": "http://www.youtube.com/watch?v=4bublRBCLVQ&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": [
+        "code-coverage"
+      ]
+    },
+    {
+      "id": "gtac-2014-the-importance-of-automated-te-e69c7970",
+      "title": "GTAC 2014: The Importance of Automated Testing on Real and Virtual Mobile Devices",
+      "url": "http://www.youtube.com/watch?v=nOFel7yNAsE&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2014-free-tests-are-better-than-fre-95f225e6",
+      "title": "GTAC 2014: Free Tests Are Better Than Free Bananas: Using Data Mining and Machine Learning To Automate Real-Time Production Monitoring",
+      "url": "http://www.youtube.com/watch?v=ExXATBlygl0&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": [
+        "monitoring",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2014-google-bigquery-analytics-74421444",
+      "title": "GTAC 2014: Google BigQuery Analytics",
+      "url": "http://www.youtube.com/watch?v=YW4AV260Zis&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2014-the-testing-user-experience-a2880641",
+      "title": "GTAC 2014: The Testing User Experience",
+      "url": "http://www.youtube.com/watch?v=J7c0Bw840X8&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": [
+        "usability-testing"
+      ]
+    },
+    {
+      "id": "gtac-2014-going-green-cleaning-up-the-to-92db2741",
+      "title": "GTAC 2014: Going Green: Cleaning up the Toxic Mobile Environment",
+      "url": "http://www.youtube.com/watch?v=aHcmsK9jfGU&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2013-opening-keynote-evolution-from-4f97330e",
+      "title": "GTAC 2013: Opening Keynote - Evolution from Quality Assurance to Test Engineering",
+      "url": "http://www.youtube.com/watch?v=nyOHJ4GR4iU&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "gtac-2013-webdriver-for-chrome-1604be92",
+      "title": "GTAC 2013: Webdriver for Chrome",
+      "url": "http://www.youtube.com/watch?v=dMwUZxRgJWs&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "gtac-2013-karma-test-runner-for-javascri-4ccda48b",
+      "title": "GTAC 2013: Karma - Test Runner for JavaScript",
+      "url": "http://www.youtube.com/watch?v=YG5DEzaQBIc&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2013-automated-video-quality-measur-45e38a05",
+      "title": "GTAC 2013: Automated Video Quality Measurements",
+      "url": "http://www.youtube.com/watch?v=IbLNm3LsMaw&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2013-testable-javascript-architecti-3480abb7",
+      "title": "GTAC 2013: Testable JavaScript - Architecting Your Application for Testability",
+      "url": "http://www.youtube.com/watch?v=JjqKQ8ezwKQ&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2013-breaking-the-matrix-android-te-81d36769",
+      "title": "GTAC 2013: Breaking the Matrix - Android Testing at Scale",
+      "url": "http://www.youtube.com/watch?v=uHoB0KzQGRg&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "gtac-2013-android-ui-automation-ef0c48ef",
+      "title": "GTAC 2013: Android UI Automation",
+      "url": "http://www.youtube.com/watch?v=O1u8iBLUFL0&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "android",
+        "frontend-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2013-building-scalable-mobile-test--61639e35",
+      "title": "GTAC 2013: Building Scalable Mobile Test Infrastructure for Google+ Mobile",
+      "url": "http://www.youtube.com/watch?v=Dnqxo0QtU98&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "frontend-testing",
+        "mobile-testing"
+      ]
+    },
+    {
+      "id": "gtac-2013-espresso-fresh-start-to-androi-08351b5a",
+      "title": "GTAC 2013: Espresso: Fresh Start to Android UI Testing",
+      "url": "http://www.youtube.com/watch?v=T7ugmCuNxDU&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "android",
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing"
+      ]
+    },
+    {
+      "id": "gtac-2013-web-performance-testing-with-w-77a5fe16",
+      "title": "GTAC 2013: Web Performance Testing with WebDriver",
+      "url": "http://www.youtube.com/watch?v=0_kAPWSZNY4&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "performance-testing",
+        "selenium"
+      ]
+    },
+    {
+      "id": "gtac-2013-continuous-maps-data-testing-836d03ec",
+      "title": "GTAC 2013: Continuous Maps Data Testing",
+      "url": "http://www.youtube.com/watch?v=ca_NjBKfZaM&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2013-finding-culprits-automatically-af46a36e",
+      "title": "GTAC 2013: Finding Culprits Automatically in Failing Builds - i.e. Who Broke the Build?",
+      "url": "http://www.youtube.com/watch?v=SZLuBYlq3OM&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": [
+        "frontend-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 43,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

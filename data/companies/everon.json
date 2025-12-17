@@ -1,0 +1,40 @@
+{
+  "id": "everon",
+  "name": "Everon",
+  "industry": "other",
+  "resources": [
+    {
+      "id": "angularjs-and-ui-router-testing-the-righ-a2652f2e",
+      "title": "AngularJS and UI-Router testing — the right way, Part 1",
+      "url": "https://medium.com/everon-engineering/angularjs-and-ui-router-testing-the-right-way-part-1-c165c4565549",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "angularjs-and-ui-router-testing-the-righ-c285cc52",
+      "title": "AngularJS and UI-Router testing — the right way, Part 2",
+      "url": "https://medium.com/everon-engineering/angularjs-and-ui-router-testing-the-right-way-part-2-ba5fbdb03e84",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "contract-testing-in-everon-0574b3c8",
+      "title": "Contract testing in Everon",
+      "url": "https://medium.com/everon-engineering/contract-testing-in-everon-751e739038eb",
+      "type": "blog or article",
+      "topics": [
+        "contract-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

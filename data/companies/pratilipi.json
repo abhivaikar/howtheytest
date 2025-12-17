@@ -1,0 +1,20 @@
+{
+  "id": "pratilipi",
+  "name": "Pratilipi",
+  "industry": "education",
+  "resources": [
+    {
+      "id": "secure-local-appium-device-farm-using-cl-300f99a7",
+      "title": "Secure local appium device farm using Cloudflare zero trust and Jenkins",
+      "url": "https://medium.com/team-pratilipi/how-we-built-a-secure-local-appium-device-farm-using-cloudflare-zero-trust-and-jenkins-7172d8cc6fc7",
+      "type": "blog or article",
+      "topics": [
+        "mobile-testing",
+        "appium",
+        "device-farm",
+        "cloudflare",
+        "jenkins"
+      ]
+    }
+  ]
+}

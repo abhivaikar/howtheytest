@@ -1,0 +1,107 @@
+{
+  "id": "the-guardian",
+  "name": "The Guardian",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "software-quality-in-a-world-of-microserv-9722404c",
+      "title": "Software quality in a world of microservices and continuous deployment",
+      "url": "https://www.theguardian.com/info/2019/dec/06/software-quality-in-a-world-of-microservices-and-continuous-deployment",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "continuous-deployment",
+        "microservices",
+        "quality-engineering",
+        "release-management"
+      ]
+    },
+    {
+      "id": "testing-in-production-rethinking-the-con-422bec10",
+      "title": "Testing in Production: rethinking the conventional deployment pipeline",
+      "url": "https://www.theguardian.com/info/developer-blog/2016/dec/20/testing-in-production-rethinking-the-conventional-deployment-pipeline",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "continuous-deployment",
+        "logging",
+        "release-management",
+        "testing-in-production"
+      ]
+    },
+    {
+      "id": "data-driven-quality-e11b2a32",
+      "title": "Data-Driven Quality",
+      "url": "https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "testing-in-the-right-places-75256873",
+      "title": "Testing in the right places",
+      "url": "https://www.theguardian.com/info/developer-blog/2016/feb/09/testing-in-the-right-places",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "the-software-testing-identity-crisis-98db4c40",
+      "title": "The software testing identity crisis",
+      "url": "https://www.theguardian.com/info/developer-blog/2015/nov/02/the-software-testing-identity-crisis",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "device-wall-of-awesome-how-lego-helped-o-f637a2a2",
+      "title": "Device wall of awesome: how Lego helped our digital development",
+      "url": "https://www.theguardian.com/info/developer-blog/2015/jul/31/device-wall-of-awesome-how-lego-helped-our-digital-development",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "qa-testing-for-the-guardians-content-api-123d955d",
+      "title": "QA testing for the Guardian's Content API",
+      "url": "https://www.theguardian.com/info/developer-blog/2014/feb/07/qa-testing-for-the-guardians-content-api",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "real-time-qa-staying-confident-with-code-c1dafbaa",
+      "title": "Real-time QA: staying confident with code",
+      "url": "https://www.theguardian.com/info/developer-blog/2012/dec/06/real-time-qa-confident-code",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "testing-testing-the-guardian-attends-a-q-8dea57ea",
+      "title": "Testing, testing: the Guardian attends a QA community meet-up",
+      "url": "https://www.theguardian.com/info/developer-blog/2012/aug/10/qa-testing-competition",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 9,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

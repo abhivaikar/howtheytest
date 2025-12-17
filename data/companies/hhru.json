@@ -1,0 +1,83 @@
+{
+  "id": "hhru",
+  "name": "hh.ru",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "quality-assurance-for-mobile-development-daf3cc86",
+      "title": "Quality assurance for mobile development at hh.ru",
+      "url": "https://medium.com/hh-ru/quality-assurance-for-mobile-development-at-hh-ru-b9683e63414f",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "automating-the-release-process-98b1f94d",
+      "title": "Automating the release process",
+      "url": "https://medium.com/hh-ru/automating-the-release-process-af8f97edc7bc",
+      "type": "blog or article",
+      "topics": [
+        "release-management"
+      ]
+    },
+    {
+      "id": "how-to-bring-off-a-gentlemans-release-3c561b8f",
+      "title": "How to bring off a gentleman’s release",
+      "url": "https://medium.com/hh-ru/how-to-bring-off-a-gentlemans-release-9884a954e4a7",
+      "type": "blog or article",
+      "topics": [
+        "release-management"
+      ]
+    },
+    {
+      "id": "top-5-junior-automation-testers-question-41a3cd7c",
+      "title": "Top 5 Junior Automation Tester’s Questions About Automated Testing",
+      "url": "https://medium.com/hh-ru/top-5-junior-automation-testers-questions-about-automated-testing-c7c03c674eeb",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "top-5-technical-directors-questions-abou-f798ec06",
+      "title": "Top 5 Technical Director’s Questions About Automated Testing",
+      "url": "https://medium.com/hh-ru/top-5-technical-directors-questions-about-automated-testing-ca2fe4619aab",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "top-5-managers-questions-about-automated-a516c2c0",
+      "title": "Top 5 Manager’s Questions About Automated Testing",
+      "url": "https://medium.com/hh-ru/top-5-manager-questions-about-automated-testing-4f194bc02375",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "top-5-manual-testers-questions-about-aut-83f16b7d",
+      "title": "Top 5 Manual Testers’ Questions About Automated Testing",
+      "url": "https://medium.com/hh-ru/top-5-manual-testers-questions-about-automated-testing-aae16a3402bc",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "olya-tests-and-factory-the-path-to-beaut-f37cafee",
+      "title": "Olya, tests and factory — the path to beautiful architecture and clean code",
+      "url": "https://medium.com/hh-ru/olya-tests-and-factory-the-path-to-beautiful-architecture-and-clean-code-b0bb0766d46d",
+      "type": "blog or article",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

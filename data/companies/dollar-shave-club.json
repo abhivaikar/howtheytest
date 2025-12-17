@@ -1,0 +1,34 @@
+{
+  "id": "dollar-shave-club",
+  "name": "Dollar Shave Club",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "how-dollar-shave-club-3xd-velocity-and-l-57669497",
+      "title": "How Dollar Shave Club 3x'd velocity and learned to love their tests",
+      "url": "https://circleci.com/blog/how-dollar-shave-club-3x-d-velocity-and-learned-love-tests",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "qa-environments-on-demand-with-kubernete-0b65dc81",
+      "title": "QA Environments on Demand with Kubernetes",
+      "url": "https://engineering.dollarshaveclub.com/qa-environments-on-demand-with-kubernetes-5a571b4e273c",
+      "type": "blog or article",
+      "topics": [
+        "kubernetes",
+        "quality-engineering",
+        "test-environment"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

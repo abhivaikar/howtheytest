@@ -1,0 +1,83 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "quality-department-handbook-3d6982c6",
+      "title": "Quality Department Handbook",
+      "url": "https://about.gitlab.com/handbook/engineering/quality/",
+      "type": "book",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "an-inside-look-at-software-testing-at-gi-8c6c2438",
+      "title": "An inside look at software testing at GitLab",
+      "url": "https://about.gitlab.com/blog/2019/08/30/software-test-at-gitlab/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "introducing-accessibility-testing-in-git-a11b6bff",
+      "title": "Introducing Accessibility Testing in GitLab",
+      "url": "https://about.gitlab.com/blog/2020/03/04/introducing-accessibility-testing-in-gitlab/",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "how-our-qa-team-leverages-gitlabs-perfor-5f3baabb",
+      "title": "How our QA team leverages GitLab’s performance testing tool (and you can too)",
+      "url": "https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging",
+        "performance-testing",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "how-gitlab-switched-to-headless-chrome-f-c1661ff5",
+      "title": "How GitLab switched to Headless Chrome for testing",
+      "url": "https://about.gitlab.com/blog/2017/12/19/moving-to-headless-chrome/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-recent-acquisitions-introduce-fuzz-t-02b4c7fa",
+      "title": "How recent acquisitions introduce fuzz testing to GitLab",
+      "url": "https://about.gitlab.com/blog/2020/07/17/fuzz-testing/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "how-the-search-team-at-gitlab-implemente-5a1c02e0",
+      "title": "How the Search Team at GitLab Implemented a Risk Map to Direct Automated Testing Efforts",
+      "url": "https://about.gitlab.com/blog/2020/09/03/risk-mapping/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 7,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

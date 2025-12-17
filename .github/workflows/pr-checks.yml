@@ -1,0 +1,38 @@
+name: PR Checks
+
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test -- --ci --maxWorkers=2
+
+      - name: Validate data schema
+        run: npm run validate
+
+      - name: Build site
+        run: npm run build
+        env:
+          NEXT_PUBLIC_API_URL: https://test.netlify.app/.netlify/functions/submit-resource
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}

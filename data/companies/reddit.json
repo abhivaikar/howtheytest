@@ -1,0 +1,48 @@
+{
+  "id": "reddit",
+  "name": "Reddit",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "ios-ui-testing-strategy-and-tooling-34bcda55",
+      "title": "iOS: UI Testing Strategy and Tooling",
+      "url": "https://reddit.com/r/RedditEng/comments/14gd9gc/ios_ui_testing_strategy_and_tooling/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "ios",
+        "test-strategy"
+      ]
+    },
+    {
+      "id": "reddits-e2e-ui-automation-framework-for--5238e815",
+      "title": "Reddit’s E2E UI Automation Framework for Android",
+      "url": "https://reddit.com/r/RedditEng/comments/11x5iwv/reddits_e2e_ui_automation_framework_for_android/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "e2e-testing",
+        "frontend-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "from-fragile-to-agile-automating-the-fig-d6925140",
+      "title": "From Fragile to Agile: Automating the fight against Flaky Tests",
+      "url": "https://www.reddit.com/r/RedditEng/comments/1ap4axo/from_fragile_to_agile_automating_the_fight/?utm_source=share&utm_medium=web2x&context=3",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing",
+        "flaky-tests"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

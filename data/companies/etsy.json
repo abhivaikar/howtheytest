@@ -1,0 +1,86 @@
+{
+  "id": "etsy",
+  "name": "Etsy",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "teaching-testing-our-testing-101-materia-b725fc4c",
+      "title": "Teaching Testing: Our Testing 101 Materials",
+      "url": "https://codeascraft.com/2014/08/20/teaching-testing-our-testing-101-materials/",
+      "type": "book",
+      "topics": []
+    },
+    {
+      "id": "culture-of-quality-measuring-code-covera-c2f1f3da",
+      "title": "Culture of Quality: Measuring Code Coverage at Etsy",
+      "url": "https://codeascraft.com/2018/02/15/culture-of-quality-measuring-code-coverage-at-etsy/",
+      "type": "blog or article",
+      "topics": [
+        "code-coverage",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "quality-matters-the-benefits-of-qa-focus-eb84fea9",
+      "title": "Quality Matters: The Benefits of QA-Focused Retros",
+      "url": "https://codeascraft.com/2016/02/08/quality-matters-the-benefits-of-qa-focused-retros/",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "divide-and-concur-05f6309b",
+      "title": "Divide and Concur",
+      "url": "https://codeascraft.com/2011/04/20/divide-and-concur/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "etsys-journey-to-continuous-integration--e415ce78",
+      "title": "Etsy’s Journey to Continuous Integration for Mobile Apps",
+      "url": "https://codeascraft.com/2014/02/28/etsys-journey-to-continuous-integration-for-mobile-apps/",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "continuous-integration",
+        "mobile-testing"
+      ]
+    },
+    {
+      "id": "etsys-device-lab-f32f50b2",
+      "title": "Etsy’s Device Lab",
+      "url": "https://codeascraft.com/2013/08/09/mobile-device-lab/",
+      "type": "blog or article",
+      "topics": [
+        "device-lab"
+      ]
+    },
+    {
+      "id": "whats-the-value-of-transparency-in-testi-3e285479",
+      "title": "What’s the value of transparency in testing and deployment?, Increment Magazine",
+      "url": "https://increment.com/testing/ask-an-expert-transparency-testing/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "release-management"
+      ]
+    },
+    {
+      "id": "mutation-testing-a-tale-of-two-suites-75734daa",
+      "title": "Mutation Testing: A Tale of Two Suites",
+      "url": "https://codeascraft.com/2020/08/17/mutation-testing-a-tale-of-two-suites/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "mutation-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

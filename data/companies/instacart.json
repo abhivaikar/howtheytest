@@ -1,0 +1,31 @@
+{
+  "id": "instacart",
+  "name": "Instacart",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "measuring-software-quality-at-scale-2f279436",
+      "title": "Measuring software quality at scale",
+      "url": "https://tech.instacart.com/understanding-software-quality-at-scale-79ebb25cb3ac",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "measuring-software-quality-at-instacart--be5b8bd7",
+      "title": "Measuring software quality at Instacart - Dash 2020",
+      "url": "https://www.youtube.com/watch?v=EQ0QD4-E84s&ab_channel=Datadog",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

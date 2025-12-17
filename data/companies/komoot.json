@@ -1,0 +1,20 @@
+{
+  "id": "komoot",
+  "name": "Komoot",
+  "industry": "travel-hospitality",
+  "resources": [
+    {
+      "id": "how-komoot-is-doing-software-testing-97307392",
+      "title": "How komoot is Doing Software Testing",
+      "url": "https://www.youtube.com/watch?v=iH97wIutL2U",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

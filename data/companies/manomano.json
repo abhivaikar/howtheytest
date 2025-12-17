@@ -1,0 +1,32 @@
+{
+  "id": "manomano",
+  "name": "ManoMano",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "software-quality-craftsmanship-at-manoma-0d1eec9c",
+      "title": "Software Quality & Craftsmanship at ManoMano",
+      "url": "https://medium.com/manomano-tech/software-quality-craftsmanship-at-manomano-121f11ce0a5",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "how-we-set-a-decentralized-qa-culture-at-759c2683",
+      "title": "How we set a decentralized QA culture at ManoMano",
+      "url": "https://medium.com/manomano-tech/how-we-set-a-decentralized-quality-assurance-culture-at-manomano-faa5fef02f20",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "quality-processes"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

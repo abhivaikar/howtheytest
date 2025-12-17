@@ -4,6 +4,21 @@
 
 > A curated collection of publicly available resources on how software companies around the world test their software systems and build their quality culture.
 
+## ⚠️ Notice: This README is Deprecated
+
+**This README file is no longer actively maintained.** The company list and resources below are from an older version and may be outdated.
+
+**Please visit the official website for the most up-to-date information:**
+### 🌐 [https://abhivaikar.github.io/howtheytest/](https://abhivaikar.github.io/howtheytest/)
+
+The new website features:
+- ✅ Up-to-date company and resource listings
+- ✅ Easy-to-use search and filtering
+- ✅ Contribution form for submitting new resources
+- ✅ Better organization by industry and topics
+
+---
+
 ## Foreword
 
 One of the outcomes of the various [Taqelah](https://www.facebook.com/groups/148322462547482/) meetups was that many software companies got to share their testing and quality culture with the community. It was absolutely fantastic to see the amazing stuff companies are doing to test their software, and ensure quality of their products and platforms.
@@ -487,6 +502,13 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 * [Distributed Automation Using Selenium Grid / AWS / Autoscaling](https://www.youtube.com/watch?v=cbIfU1fvGeo)
 * [AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing](https://www.youtube.com/watch?v=jihhLckop6A)
 
+</details>
+
+<details>
+  <summary>ExpressVPN</summary>
+
+#### Blogs & Articles
+* [ExpressVPN leak testing tools](https://www.expressvpn.com/blog/leak-testing-tools/)
 </details>
 
 <details>
@@ -1304,6 +1326,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+ <summary>TikTok</summary>
+
+ #### Blogs & Articles
+ * [Make your tests readable with jest-bdd-generator](https://developers.tiktok.com/blog/jest-bdd-generator)
+ * [Protecting Users Around the World: Quality Assurance Team in Action!](https://lifeattiktok.com/blog/detail/20240528152419)
+
+ #### Videos
+ * [Career Coffee with QA Engineer at TikTok](https://www.youtube.com/live/cWnK2_J1jl4?si=zjodBXHPe0eCqYnX)
+
+</details>
+<details>
   <summary>Trendyol</summary>
 
 #### Blogs & Articles
@@ -1345,6 +1378,7 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 
 #### Blogs
 * [Tailor-made browser extensions for increased testing efficiency](https://tech.trivago.com/post/2025-04-23-tailor-made-browser-extensions-for-increased-testing-efficiency)
+* [Streamlining GraphQL Service Testing with Karate](https://tech.trivago.com/post/2024-07-08-streamlining-graphql-service-testing-with-karate)
 * [End-to-end tests retry strategies](https://tech.trivago.com/post/2023-09-27-end-to-end-tests-retry-strategies)
 * [How we improved reporting and monitoring of test automation results](https://tech.trivago.com/post/2023-02-15-how-we-improved-reporting-and-monitoring-of-test-automation-results)
 * [Cluecumber Report Maven Plugin for Cucumber test reporting](https://tech.trivago.com/post/cluecumber-reporting-plugin)

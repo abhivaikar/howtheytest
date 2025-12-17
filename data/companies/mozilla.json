@@ -1,0 +1,38 @@
+{
+  "id": "mozilla",
+  "name": "Mozilla",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "engineering-code-quality-in-the-firefox--885e688f",
+      "title": "Engineering code quality in the Firefox browser: A look at our tools and challenges",
+      "url": "https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "automation-for-a-better-web-gtac-2014-07c3286e",
+      "title": "Automation for a Better Web, GTAC 2014",
+      "url": "http://www.youtube.com/watch?v=z3sFt8kxS-Y&list=PLSIUOFhnxEiDFckNDSjKWqOCtd8ksJrh4&index=1",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "how-do-you-test-a-mobile-os-gtac-2013-62ca0ea2",
+      "title": "How Do You Test a Mobile OS?, GTAC 2013",
+      "url": "http://www.youtube.com/watch?v=X41eqcmC2Dk&list=SPSIUOFhnxEiCODb8XQB-RUQ0RGNZ2yW7d",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

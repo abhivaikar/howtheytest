@@ -1,0 +1,103 @@
+{
+  "id": "airbnb",
+  "name": "Airbnb",
+  "industry": "travel-hospitality",
+  "resources": [
+    {
+      "id": "testing-at-airbnb-2aa9e92e",
+      "title": "Testing at Airbnb",
+      "url": "https://medium.com/airbnb-engineering/testing-at-airbnb-199f68a0a40d?_branch_match_id=611046764098403464",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "better-android-testing-part-1-9098f3d6",
+      "title": "Better Android Testing Part 1",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-3f5b90b9c40a",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-2-24188684",
+      "title": "Better Android Testing Part 2",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a77ac9531cab",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-3-4d6986e0",
+      "title": "Better Android Testing Part 3",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-1d1e91e489b4",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-4-29914da0",
+      "title": "Better Android Testing Part 4",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-part-4-testing-viewmodels-550d929126c8",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-5-6ba22d6e",
+      "title": "Better Android Testing Part 5",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-661a554a8c8b",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-6-e2416b78",
+      "title": "Better Android Testing Part 6",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a11f6832773f",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "better-android-testing-part-7-56199e50",
+      "title": "Better Android Testing Part 7",
+      "url": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "building-an-effective-test-pipeline-in-a-7b321e93",
+      "title": "Building an effective test pipeline in a service oriented architecture",
+      "url": "https://medium.com/airbnb-engineering/building-an-effective-test-pipeline-in-a-service-oriented-world-6968c513c6bd",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "frontend-testing",
+        "microservices"
+      ]
+    },
+    {
+      "id": "tracking-the-money-scaling-financial-rep-ba8000f6",
+      "title": "Tracking the money scaling financial reporting",
+      "url": "https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 10,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

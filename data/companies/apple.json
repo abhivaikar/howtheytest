@@ -1,0 +1,83 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "industry": "other",
+  "resources": [
+    {
+      "id": "apple-overhauling-its-testing-approach-b4da93a3",
+      "title": "Apple overhauling it's testing approach",
+      "url": "https://www.bloomberg.com/news/articles/2019-11-21/apple-ios-14-features-changes-testing-after-ios-13-bugs",
+      "type": "blog or article",
+      "topics": [
+        "ios"
+      ]
+    },
+    {
+      "id": "testing-your-apps-in-xcode-5611b351",
+      "title": "Testing Your Apps in Xcode",
+      "url": "https://developer.apple.com/documentation/xcode/testing-your-apps-in-xcode",
+      "type": "blog or article",
+      "topics": [
+        "ios"
+      ]
+    },
+    {
+      "id": "testing-in-xcode-wwdc-0f501fa6",
+      "title": "Testing in XCode - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2019/413/",
+      "type": "video",
+      "topics": [
+        "ios"
+      ]
+    },
+    {
+      "id": "ui-testing-in-xcode-wwdc-359746a2",
+      "title": "UI testing in XCode - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2015/406/",
+      "type": "video",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "advanced-testing-and-continuous-integrat-d913c24c",
+      "title": "Advanced Testing and Continuous Integration - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2016/409/",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "continuous-integration"
+      ]
+    },
+    {
+      "id": "engineering-for-testability-wwdc-3fff7263",
+      "title": "Engineering for Testability - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2017/414/",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "whats-new-in-testing-wwdc-ed59532c",
+      "title": "What's new in testing - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2018/403/",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "testing-tips-tricks-wwdc-ac3bcd77",
+      "title": "Testing tips & tricks - WWDC",
+      "url": "https://developer.apple.com/videos/play/wwdc2018/417/",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

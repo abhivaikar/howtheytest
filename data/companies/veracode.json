@@ -1,0 +1,33 @@
+{
+  "id": "veracode",
+  "name": "Veracode",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "test-lean-and-ship-healthy-a-handbook-on-358a58ad",
+      "title": "Test Lean and Ship Healthy: A Handbook on Delivering High Quality Software in the DevOps World",
+      "url": "https://srcclr.github.io/test-lean/",
+      "type": "book",
+      "topics": [
+        "devops",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "test-lean-and-ship-healthy-delivering-hi-3e8292b4",
+      "title": "Test Lean and Ship Healthy: Delivering High Quality Software in the DevOps World",
+      "url": "https://www.youtube.com/watch?v=sqtmcYKpy-A",
+      "type": "video",
+      "topics": [
+        "devops",
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

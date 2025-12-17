@@ -1,0 +1,132 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "industry": "media-streaming",
+  "resources": [
+    {
+      "id": "test-flakiness-methods-for-identifying-a-a3ad0928",
+      "title": "Test Flakiness – Methods for identifying and dealing with flaky tests",
+      "url": "https://engineering.atspotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/",
+      "type": "blog or article",
+      "topics": [
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "testing-of-microservices-731b8342",
+      "title": "Testing of Microservices",
+      "url": "https://engineering.atspotify.com/2018/01/11/testing-of-microservices/",
+      "type": "blog or article",
+      "topics": [
+        "microservices"
+      ]
+    },
+    {
+      "id": "generating-test-cases-so-you-dont-have-t-c729f9ce",
+      "title": "Generating test cases so you don’t have to",
+      "url": "https://engineering.atspotify.com/2015/06/25/rapid-check/",
+      "type": "blog or article",
+      "topics": [
+        "api"
+      ]
+    },
+    {
+      "id": "test-strategies-and-spotify-kristian-kar-0aad83be",
+      "title": "Test Strategies and Spotify – Kristian Karl",
+      "url": "https://www.thepercept.com/test-strategies-spotify-kristian-karl/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-to-build-a-qa-strategy-like-spotify-e9c35542",
+      "title": "How to Build a QA Strategy Like Spotify",
+      "url": "https://www.rainforestqa.com/blog/2018-04-20-how-to-build-qa-strategy-like-spotify",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging",
+        "quality-engineering",
+        "rest"
+      ]
+    },
+    {
+      "id": "how-spotify-does-test-automation-62e5fdbd",
+      "title": "How Spotify does test automation",
+      "url": "https://www.slideshare.net/SmartBear_Software/how-spotify-does-test-management-kristian-karl",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "model-based-testing-at-spotify-ed2c4b21",
+      "title": "Model Based Testing at Spotify",
+      "url": "https://www.cs.tut.fi/tapahtumat/testaus12/kalvot/Karl_ta.pdf",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-we-improved-developer-productivity-f-2cf291cb",
+      "title": "How We Improved Developer Productivity for Our DevOps Teams",
+      "url": "https://engineering.atspotify.com/2020/08/27/how-we-improved-developer-productivity-for-our-devops-teams/",
+      "type": "blog or article",
+      "topics": [
+        "devops"
+      ]
+    },
+    {
+      "id": "spotify-model-based-testing-kristian-kar-4411d841",
+      "title": "Spotify Model Based Testing - Kristian Karl",
+      "url": "https://www.youtube.com/watch?v=psOThLDKOFc",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "experiences-of-test-automation-at-spotif-74c26993",
+      "title": "Experiences Of Test Automation At Spotify - Kristian Karl",
+      "url": "https://www.youtube.com/watch?v=Vlw-4q8lnIw",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "scaling-android-application-testing-at-s-d797361f",
+      "title": "Scaling Android Application Testing at Spotify - Sean Kenny",
+      "url": "https://www.youtube.com/watch?v=Br7yPblkQnI",
+      "type": "video",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "how-spotify-does-testing-for-mobile-sean-5033a5d8",
+      "title": "How Spotify Does Testing for Mobile - Sean Kenny",
+      "url": "https://www.youtube.com/watch?v=69Ea4WyFNyQ",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "test-flakiness-methods-for-dealing-with--a1530626",
+      "title": "Test flakiness - Methods for dealing with flaky tests - Jason Palmer",
+      "url": "https://www.youtube.com/watch?v=38pW08_nY_k",
+      "type": "video",
+      "topics": [
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "applying-testing-mindset-to-software-dev-3ebbc821",
+      "title": "Applying Testing Mindset to Software Development - Andrew Dzynia",
+      "url": "https://www.youtube.com/watch?v=RPshbKHe3NE",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 14,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

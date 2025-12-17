@@ -1,0 +1,20 @@
+{
+  "id": "paypal",
+  "name": "PayPal",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "write-once-test-everywhere-simplified-sd-9d95c766",
+      "title": "Write Once, Test Everywhere — Simplified SDK Testing",
+      "url": "https://medium.com/paypal-tech/write-once-test-everywhere-simplified-sdk-testing-6ea11e7d1f27",
+      "type": "blog or article",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "airwallex",
+  "name": "Airwallex",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "from-2-weeks-to-2-hours-cutting-integrat-4ec7ae91",
+      "title": "From 2 weeks to 2 hours — cutting integration test time using Claude Code Subagents",
+      "url": "https://medium.com/airwallex-engineering/how-we-used-claude-code-subagents-to-cut-integration-testing-from-2-weeks-to-2-hours-8a19ed7793f8",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing",
+        "ai",
+        "agentic-testing"
+      ],
+      "addedDate": "2025-12-12"
+    }
+  ]
+}

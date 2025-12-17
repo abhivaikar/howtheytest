@@ -1,0 +1,56 @@
+{
+  "id": "stackoverflow",
+  "name": "Stackoverflow",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "which-tools-and-libraries-are-used-for-t-7c6990ca",
+      "title": "Which tools and libraries are used for testing by StackOverflow developers?",
+      "url": "https://meta.stackexchange.com/questions/263773/which-tools-and-libraries-are-used-for-testing-by-stackoverflow-developers",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-tdd-oriented-is-the-se-team-25c88230",
+      "title": "How TDD-oriented is the SE team?",
+      "url": "https://meta.stackexchange.com/questions/204249/how-tdd-oriented-is-the-se-team",
+      "type": "blog or article",
+      "topics": [
+        "tdd"
+      ]
+    },
+    {
+      "id": "does-stack-overflow-have-automated-tests-c6e6fc10",
+      "title": "Does Stack Overflow have automated tests?",
+      "url": "https://meta.stackexchange.com/questions/33761/does-stack-overflow-have-automated-tests",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "what-tools-and-techniques-are-used-to-te-7e56529a",
+      "title": "What tools and techniques are used to test UI changes?",
+      "url": "https://meta.stackexchange.com/questions/283484/what-tools-and-techniques-are-used-to-test-ui-changes?rq=1",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "adding-static-code-analysis-to-stack-ove-9e4d0812",
+      "title": "Adding Static Code Analysis to Stack Overflow",
+      "url": "https://stackoverflow.blog/2019/10/08/adding-static-code-analysis-to-stack-overflow/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 5,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

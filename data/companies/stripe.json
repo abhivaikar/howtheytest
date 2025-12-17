@@ -1,0 +1,52 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "running-three-hours-of-ruby-tests-in-und-f028c296",
+      "title": "Running three hours of Ruby tests in under three minutes",
+      "url": "https://stripe.com/blog/distributed-ruby-testing",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "game-day-exercises-at-stripe-learning-fr-37fd1e87",
+      "title": "Game Day Exercises at Stripe - Learning from `kill -9`",
+      "url": "https://stripe.com/blog/game-day-exercises-at-stripe",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "fast-and-flexible-observability-with-can-d015e66e",
+      "title": "Fast and flexible observability with canonical log lines",
+      "url": "https://stripe.com/blog/canonical-log-lines",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "learning-to-operate-kubernetes-reliably-b63ea09b",
+      "title": "Learning to operate Kubernetes reliably",
+      "url": "https://stripe.com/blog/operating-kubernetes",
+      "type": "blog or article",
+      "topics": [
+        "kubernetes",
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

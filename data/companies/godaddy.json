@@ -1,0 +1,50 @@
+{
+  "id": "godaddy",
+  "name": "GoDaddy",
+  "industry": "cloud-services",
+  "resources": [
+    {
+      "id": "move-over-selenium-ui-testing-with-cypre-4e4fba5e",
+      "title": "Move over Selenium - UI Testing with Cypress",
+      "url": "https://sg.godaddy.com/engineering/2018/11/06/cypress-vs-selenium/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "selenium"
+      ]
+    },
+    {
+      "id": "mocking-soap-apis-in-functional-tests-us-68acebf4",
+      "title": "Mocking SOAP APIs in functional tests using Nock",
+      "url": "https://sg.godaddy.com/engineering/2018/10/02/mocking-soap-apis-in-functional-tests-using-nock/",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "functional-testing",
+        "mocking"
+      ]
+    },
+    {
+      "id": "react-native-application-ui-testing-usin-2a2d540e",
+      "title": "React Native Application UI testing using WebDriverIO and Appium",
+      "url": "https://sg.godaddy.com/engineering/2018/07/09/react-native-wdio/",
+      "type": "blog or article",
+      "topics": [
+        "appium",
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "selenium"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

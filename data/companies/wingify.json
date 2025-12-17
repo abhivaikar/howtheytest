@@ -1,0 +1,72 @@
+{
+  "id": "wingify",
+  "name": "Wingify",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "performance-testing-a-data-pipeline-at-s-ebd1e10e",
+      "title": "Performance Testing a data pipeline at scale",
+      "url": "https://engineering.wingify.com/posts/performance-testing-a-data-pipeline-at-scale/",
+      "type": "blog or article",
+      "topics": [
+        "ci-cd",
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "automated-heatmap-verification-e2e-using-f91d3c35",
+      "title": "Automated Heatmap Verification E2E using Selenium and Canvas",
+      "url": "https://engineering.wingify.com/posts/automated-heatmap-verification/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "selenium",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "automated-environment-deployments-ec135f9f",
+      "title": "Automated environment deployments",
+      "url": "https://engineering.wingify.com/posts/automated-environment-deployments/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "release-management",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "automating-web-push-notifications-seleni-0eaf3fc1",
+      "title": "Automating Web Push Notifications @Selenium Conference 2016",
+      "url": "https://engineering.wingify.com/posts/automating-web-push-notifications/",
+      "type": "blog or article",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "testing-angularjs-apps-end-to-end-using--fcd406db",
+      "title": "Testing AngularJS Apps End to End Using Protractor",
+      "url": "https://engineering.wingify.com/posts/angularapp-e2e-testing-with-protractor/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "overcoming-the-challenges-of-performance-91989c13",
+      "title": "Overcoming the Challenges of Performance Testing Single-page Apps",
+      "url": "https://engineering.wingify.com/posts/performance-testing/",
+      "type": "blog or article",
+      "topics": [
+        "performance-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 6,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

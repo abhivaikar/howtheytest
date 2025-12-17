@@ -1,0 +1,142 @@
+{
+  "id": "bumble",
+  "name": "Bumble",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "bumble-tech-blog-qa-fbb97626",
+      "title": "Bumble Tech Blog - QA",
+      "url": "https://medium.com/bumble-tech/tagged/qa",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "how-3-process-patterns-will-change-the-w-91a43d5b",
+      "title": "How 3 Process Patterns will change the way you do Test Automation",
+      "url": "https://medium.com/bumble-tech/how-3-process-patterns-will-change-the-way-you-do-test-automation-277acc0d3171",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "checking-your-apps-paid-services-without-8ed7b3ed",
+      "title": "Checking your app’s paid services without losing money",
+      "url": "https://medium.com/bumble-tech/checking-your-apps-paid-services-without-losing-money-ba5558a6260",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "add-superpowers-to-your-appium-android-t-7481aa11",
+      "title": "Add Superpowers to your Appium-Android tests",
+      "url": "https://medium.com/bumble-tech/add-superpowers-to-your-appium-android-tests-f408ac2f1b59",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium"
+      ]
+    },
+    {
+      "id": "a-monolithic-architecture-for-our-client-b2663a73",
+      "title": "A monolithic architecture for our clients’ hundreds of versions: how we write and support tests",
+      "url": "https://medium.com/bumble-tech/a-monolithic-architecture-for-our-clients-hundreds-of-versions-how-we-write-and-support-tests-php-e8fe0b79c0bc",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "white-box-testing-with-appium-espresso-d-7d6486a8",
+      "title": "White-box testing with Appium Espresso Driver",
+      "url": "https://medium.com/bumble-tech/white-box-testing-with-appium-espresso-driver-f51cda81c1bb",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "appium",
+        "continuous-deployment"
+      ]
+    },
+    {
+      "id": "catching-bugs-on-the-client-side-how-we--9b7486db",
+      "title": "Catching bugs on the client-side: how we developed our error tracking system",
+      "url": "https://medium.com/bumble-tech/catching-bugs-on-a-client-48c793720b9b",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "the-joy-of-green-builds-running-tests-sm-3f76ea32",
+      "title": "The Joy Of Green Builds - Running Tests Smartly",
+      "url": "https://confengine.com/conferences/selenium-conf-2020/proposal/13749/the-joy-of-green-builds-running-tests-smartly",
+      "type": "video",
+      "topics": [
+        "frontend-testing",
+        "selenium"
+      ]
+    },
+    {
+      "id": "uncover-secrets-of-your-app-with-espress-b328074b",
+      "title": "Uncover Secrets of Your App with EspressoDriver",
+      "url": "https://www.youtube.com/watch?v=3E-koZaG60w",
+      "type": "video",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "application-backdoor-via-appium-9748da43",
+      "title": "Application Backdoor via Appium",
+      "url": "https://www.youtube.com/watch?v=qHU5Q-BWH4k",
+      "type": "video",
+      "topics": [
+        "appium"
+      ]
+    },
+    {
+      "id": "automate-the-impossible-blending-the-bes-215862ba",
+      "title": "Automate the impossible: blending the best of Android drivers",
+      "url": "https://www.youtube.com/watch?v=dKHudzto4TM&t=17s",
+      "type": "video",
+      "topics": [
+        "android",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "why-do-we-do-test-automation-internal-me-2318fc29",
+      "title": "Why do we do Test Automation Internal Mentorships for our QA Engineers?",
+      "url": "https://youtu.be/fC7lqn-uwwQ?t=3335",
+      "type": "video",
+      "topics": [
+        "quality-engineering",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "ios-parallel-automation-run-faster-than--87223d0d",
+      "title": "iOS Parallel Automation: run faster than fast",
+      "url": "https://www.youtube.com/watch?v=bAH4hky-1Ac",
+      "type": "video",
+      "topics": [
+        "ios",
+        "parallel-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "how-we-saved-time-by-teaching-developers-d164deec",
+      "title": "How we saved time by teaching developers to test their own code",
+      "url": "https://www.youtube.com/watch?v=bFR2iQPW-b0",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 14,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

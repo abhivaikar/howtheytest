@@ -1,0 +1,105 @@
+{
+  "id": "nasa",
+  "name": "NASA",
+  "industry": "government",
+  "resources": [
+    {
+      "id": "intelligent-test-automation-gives-orion--67d9f707",
+      "title": "Intelligent test automation gives orion spacecraft boos",
+      "url": "https://techbeacon.com/app-dev-testing/intelligent-test-automation-gives-orion-spacecraft-boost",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "how-did-nasa-make-reliable-software-if-t-992fa492",
+      "title": "How did NASA make reliable software if they didn't invent unit tests?",
+      "url": "https://news.ycombinator.com/item?id=12121739",
+      "type": "blog or article",
+      "topics": [
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "software-development-test-994989b0",
+      "title": "Software Development & Test",
+      "url": "https://www.nasa.gov/centers/ames/engineering/small-sat/arc-capabilities/software",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "automated-testing-of-nasa-software-95a5ca97",
+      "title": "Automated testing of nasa software",
+      "url": "https://www.slideshare.net/dganesan11/automated-testing-of-nasa-software",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "nasa-releases-updated-open-source-softwa-9258f670",
+      "title": "NASA releases updated open source software bundle including testing tools",
+      "url": "https://www.softwaretestingnews.co.uk/nasa-releases-updated-open-source-software-bundle-including-testing-tools/",
+      "type": "blog or article",
+      "topics": [
+        "release-management"
+      ]
+    },
+    {
+      "id": "jon-mcbride-software-testing-and-researc-7e46f7c0",
+      "title": "Jon McBride Software Testing and Research (JSTAR)",
+      "url": "https://www.nasa.gov/centers/ivv/jstar/JSTAR.html",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "they-write-the-right-stuff-fb5cb706",
+      "title": "They Write the Right Stuff",
+      "url": "https://www.fastcompany.com/28121/they-write-right-stuff",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "agile-development-brings-new-challenges--f5bf3a87",
+      "title": "Agile Development Brings New Challenges for Software Assurance at NASA",
+      "url": "https://sma.nasa.gov/news/articles/newsitem/2014/09/04/agile-development-brings-new-challenges-for-software-assurance-at-nasa",
+      "type": "blog or article",
+      "topics": [
+        "agile-testing"
+      ]
+    },
+    {
+      "id": "how-nasa-does-software-testing-and-qa-0d817e08",
+      "title": "How NASA does software testing and QA",
+      "url": "https://www.functionize.com/blog/how-nasa-does-software-testing-and-qa/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "product-verification-from-their-system-e-481250f2",
+      "title": "Product Verification from their System Engineering Handbook",
+      "url": "https://www.nasa.gov/seh/5-3-product-verification",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "an-interesting-twitter-thread-on-how-nas-591d8895",
+      "title": "An interesting Twitter thread on how NASA tests software",
+      "url": "https://twitter.com/hankgreen/status/1362511440767148037",
+      "type": "blog or article",
+      "topics": [
+        "rest"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 11,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

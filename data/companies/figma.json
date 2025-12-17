@@ -1,0 +1,32 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "figma-quality-week-inside-our-bug-bashin-cb8656b6",
+      "title": "Figma Quality Week: Inside our bug bashing party",
+      "url": "https://www.figma.com/blog/figma-quality-week-inside-our-bug-bashing-party/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "inside-figma-a-case-study-on-strict-null-fc70d1c0",
+      "title": "Inside Figma: a case study on strict null checks",
+      "url": "https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

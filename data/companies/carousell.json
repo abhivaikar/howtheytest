@@ -1,0 +1,72 @@
+{
+  "id": "carousell",
+  "name": "Carousell",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "prabhagharan-dk-building-our-inhouse-vir-589a1559",
+      "title": "Prabhagharan DK : Building our inhouse virtual device lab \"caroufarm\"",
+      "url": "https://medium.com/carousell-insider/building-our-in-house-virtual-device-lab-caroufarm-e72911e4593b",
+      "type": "blog or article",
+      "topics": [
+        "device-lab",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "martin-schneider-automated-end-to-end-te-51f870e6",
+      "title": "Martin Schneider : Automated end-to-end tests and how they fit into our testing culture",
+      "url": "https://medium.com/carousell-insider/automated-end-to-end-tests-and-how-they-fit-into-our-testing-culture-54c3fcc5ff26",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "quality-processes",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "carousell-scales-app-automation-with-bro-b54945b7",
+      "title": "Carousell scales app automation with Browserstack",
+      "url": "https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "hustef-2019-by-syam-sasi-martin-schneide-92c361a8",
+      "title": "HUSTEF 2019 - By Syam Sasi & Martin Schneider - Building a scalable device lab with Ansible at Carousell",
+      "url": "https://www.youtube.com/watch?v=ntRd0tiMZdE",
+      "type": "video",
+      "topics": [
+        "device-lab",
+        "frontend-testing",
+        "infrastructure-as-code"
+      ]
+    },
+    {
+      "id": "carousells-automation-journey-with-brows-846ce933",
+      "title": "Carousell's automation journey with BrowserStack by Prabhgharan DK and Syam Sasi",
+      "url": "https://www.youtube.com/watch?v=hRO5Hg-cRz8",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "end-end-test-code-as-first-class-citizen-a19aec00",
+      "title": "End-end test code as first class citizens by Abhijeet Vaikar",
+      "url": "https://www.youtube.com/watch?v=Iv7b4sJgzik&ab_channel=ConfEngine",
+      "type": "video",
+      "topics": [
+        "continuous-integration"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 6,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

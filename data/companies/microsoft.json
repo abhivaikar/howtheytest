@@ -1,0 +1,84 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft",
+  "industry": "cloud-services",
+  "resources": [
+    {
+      "id": "how-we-test-software-at-microsoft-806dc59f",
+      "title": "How We Test Software at Microsoft",
+      "url": "https://books.google.com.sg/books?id=X5lCAwAAQBAJ",
+      "type": "book",
+      "topics": []
+    },
+    {
+      "id": "munil-shah-evolving-test-practices-at-mi-7a7e6dc5",
+      "title": "Munil Shah: Evolving Test Practices at Microsoft",
+      "url": "https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/evolving-test-practices-microsoft",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing",
+        "devops"
+      ]
+    },
+    {
+      "id": "cse-code-with-engineering-playbook-autom-3f42e411",
+      "title": "CSE Code With Engineering Playbook: Automated testing",
+      "url": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/",
+      "type": "blog or article",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "how-hydra-lab-empowers-microsoft-mobile--3fde5857",
+      "title": "How Hydra Lab Empowers Microsoft Mobile Testing and Test Intelligence",
+      "url": "https://medium.com/microsoft-mobile-engineering/how-hydra-lab-empowers-microsoft-mobile-testing-e4bd831ecf41",
+      "type": "blog or article",
+      "topics": [
+        "mobile-testing"
+      ]
+    },
+    {
+      "id": "shift-left-to-test-fast-and-reliably-b982df17",
+      "title": "Shift Left to Test Fast and Reliably",
+      "url": "https://youtu.be/iJkI8PwlxR4?si=Pj9y71MOCwtUlOTW",
+      "type": "video",
+      "topics": [
+        "shift-left"
+      ]
+    },
+    {
+      "id": "combining-dev-and-test-in-the-org-fff99594",
+      "title": "Combining Dev and Test in the Org",
+      "url": "https://youtu.be/tj5mfW_gtRU?si=_UG5_ND32TkZX5cz",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "playwright-is-a-framework-for-web-testin-8d7a5747",
+      "title": "Playwright is a framework for Web Testing and Automation.",
+      "url": "https://github.com/microsoft/playwright",
+      "type": "blog or article",
+      "topics": [
+        "playwright",
+        "test-automation",
+        "web-testing"
+      ]
+    },
+    {
+      "id": "hydralab-intelligent-cloud-testing-made--435cab26",
+      "title": "HydraLab: Intelligent Cloud Testing Made Easy",
+      "url": "https://github.com/microsoft/HydraLab",
+      "type": "blog or article",
+      "topics": [
+        "cloud-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 8,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

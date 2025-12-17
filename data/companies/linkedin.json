@@ -1,0 +1,138 @@
+{
+  "id": "linkedin",
+  "name": "LinkedIn",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "linkedins-approach-to-automated-accessib-db4d11d2",
+      "title": "LinkedIn’s approach to automated accessibility (A11y) testing",
+      "url": "https://engineering.linkedin.com/blog/2020/automated-accessibility-testing",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "quality-control-linkedins-testing-method-c6e32956",
+      "title": "Quality Control - LinkedIn's Testing Methodology",
+      "url": "https://engineering.linkedin.com/testing/quality-control-linkedins-testing-methodology",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "ios-test-pyramid-60f839ec",
+      "title": "iOS: Test Pyramid",
+      "url": "https://engineering.linkedin.com/blog/2016/11/ios--test-pyramid",
+      "type": "blog or article",
+      "topics": [
+        "ios",
+        "logging"
+      ]
+    },
+    {
+      "id": "writing-maintainable-integration-tests-edcda081",
+      "title": "Writing Maintainable Integration Tests",
+      "url": "https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "testscaling-with-test-engineering-53753384",
+      "title": "\"Testscaling\" with Test Engineering",
+      "url": "https://engineering.linkedin.com/blog/2016/02/-testscaling--with-test-engineering",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "ui-automation-keep-it-functional-and-sta-ec3b14c7",
+      "title": "UI Automation: Keep it Functional – and Stable!",
+      "url": "https://engineering.linkedin.com/blog/2016/01/ui-automation--keep-it-functional--and-stable-",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "test-stability-how-we-make-ui-tests-stab-39fc667c",
+      "title": "Test Stability - How We Make UI Tests Stable",
+      "url": "https://engineering.linkedin.com/blog/2015/12/test-stability---how-we-make-ui-tests-stable",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "getting-code-to-production-with-less-fri-e1acd1ac",
+      "title": "Getting Code to Production With Less Friction and High Quality",
+      "url": "https://engineering.linkedin.com/developer-happiness/getting-code-production-less-friction-and-high-quality",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "eliminating-toil-with-fully-automated-lo-121bae94",
+      "title": "Eliminating toil with fully automated load testing",
+      "url": "https://engineering.linkedin.com/blog/2019/eliminating-toil-with-fully-automated-load-testing",
+      "type": "blog or article",
+      "topics": [
+        "load-testing",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "the-testing-lifecycle-at-linkedin-0238a43c",
+      "title": "The testing lifecycle at LinkedIn",
+      "url": "https://engineering.linkedin.com/41/testing-lifecycle-linkedin",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "testing-frontier-linkedins-web-framework-5978c025",
+      "title": "Testing Frontier, LinkedIn's Web Framework",
+      "url": "https://engineering.linkedin.com/37/testing-frontier-linkedins-web-framework",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "testing-in-production-at-linkedin-szczep-d579677b",
+      "title": "Testing in production at LinkedIn - Szczepan Faber",
+      "url": "https://www.youtube.com/watch?v=lbO6INBICpQ",
+      "type": "video",
+      "topics": [
+        "testing-in-production"
+      ]
+    },
+    {
+      "id": "gtac-2015-mock-the-internet-66286538",
+      "title": "GTAC 2015: Mock the Internet",
+      "url": "https://www.youtube.com/watch?v=6gPNrujpmn0&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=20",
+      "type": "video",
+      "topics": [
+        "mocking"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 13,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

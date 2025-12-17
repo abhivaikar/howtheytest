@@ -1,0 +1,309 @@
+{
+  "id": "facebook",
+  "name": "Facebook",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "open-sourcing-python-test-runner-for-mul-1446e37b",
+      "title": "Open-sourcing Python Test Runner for multiple tests in parallel",
+      "url": "https://engineering.fb.com/open-source/python-test-runner/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "parallel-testing",
+        "pytest"
+      ]
+    },
+    {
+      "id": "predictive-test-selection-a-more-efficie-11854182",
+      "title": "Predictive test selection: A more efficient way to ensure reliability of code changes",
+      "url": "https://engineering.fb.com/developer-tools/predictive-test-selection/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration"
+      ]
+    },
+    {
+      "id": "mobilelab-highly-accurate-testing-to-pre-f5e2070a",
+      "title": "MobileLab: Highly accurate testing to prevent mobile performance regressions",
+      "url": "https://engineering.fb.com/android/mobilelab/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "performance-testing",
+        "regression-testing"
+      ]
+    },
+    {
+      "id": "sapienz-intelligent-automated-software-t-77db0980",
+      "title": "Sapienz: Intelligent automated software testing at scale",
+      "url": "https://engineering.fb.com/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "preventing-performance-regressions-with--c3bb51e9",
+      "title": "Preventing performance regressions with Health Compass and Incident Tracker",
+      "url": "https://engineering.fb.com/developer-tools/incident-tracker/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "incident-management",
+        "performance-testing",
+        "regression-testing"
+      ]
+    },
+    {
+      "id": "finding-and-fixing-software-bugs-automat-40f7d776",
+      "title": "Finding and fixing software bugs automatically with SapFix and Sapienz",
+      "url": "https://engineering.fb.com/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/",
+      "type": "blog or article",
+      "topics": [
+        "api"
+      ]
+    },
+    {
+      "id": "open-sourcing-flipper-a-new-extensible-d-ff881d6c",
+      "title": "Open-sourcing Flipper: a new extensible debugging tool",
+      "url": "https://engineering.fb.com/android/flipper/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "continuous-integration",
+        "debugging"
+      ]
+    },
+    {
+      "id": "browserlab-automated-regression-detectio-b913721e",
+      "title": "BrowserLab: Automated regression detection for the web",
+      "url": "https://engineering.fb.com/web/browserlab-automated-regression-detection-for-the-web/",
+      "type": "blog or article",
+      "topics": [
+        "regression-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "getafix-how-facebook-tools-learn-to-fix--1b7118e7",
+      "title": "Getafix: How Facebook tools learn to fix bugs automatically",
+      "url": "https://engineering.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "stetho-a-new-debugging-platform-for-andr-1e254f26",
+      "title": "Stetho: A new debugging platform for Android",
+      "url": "https://engineering.fb.com/android/stetho-a-new-debugging-platform-for-android/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "debugging"
+      ]
+    },
+    {
+      "id": "open-sourcing-facebook-infer-identify-bu-4eac4980",
+      "title": "Open-sourcing Facebook Infer: Identify bugs before you ship",
+      "url": "https://engineering.fb.com/developer-tools/open-sourcing-facebook-infer-identify-bugs-before-you-ship/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration"
+      ]
+    },
+    {
+      "id": "building-and-testing-at-facebook-6b45b578",
+      "title": "Building and testing at Facebook",
+      "url": "https://engineering.fb.com/uncategorized/building-and-testing-at-facebook/",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "watir-to-webdriver-unit-test-frameworks-01992db3",
+      "title": "Watir to WebDriver: Unit Test Frameworks",
+      "url": "https://engineering.fb.com/developer-tools/watir-to-webdriver-unit-test-frameworks/",
+      "type": "blog or article",
+      "topics": [
+        "selenium",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "rapid-release-at-massive-scale-20d9974f",
+      "title": "Rapid release at massive scale",
+      "url": "https://engineering.fb.com/web/rapid-release-at-massive-scale/",
+      "type": "blog or article",
+      "topics": [
+        "api",
+        "release-management"
+      ]
+    },
+    {
+      "id": "finding-inter-procedural-bugs-at-scale-w-53c8239e",
+      "title": "Finding inter-procedural bugs at scale with Infer static analyzer",
+      "url": "https://engineering.fb.com/android/finding-inter-procedural-bugs-at-scale-with-infer-static-analyzer/",
+      "type": "blog or article",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "zoncolan-how-facebook-uses-static-analys-714a9435",
+      "title": "Zoncolan: How Facebook uses static analysis to detect and prevent security issues",
+      "url": "https://engineering.fb.com/security/zoncolan/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-do-you-test-your-tests-an-approach-o-7a9422f3",
+      "title": "How do you test your tests? An approach on probablistic flakiness score",
+      "url": "https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/",
+      "type": "blog or article",
+      "topics": [
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "faster-more-efficient-systems-for-findin-e2a2e7b9",
+      "title": "Faster, more efficient systems for finding and fixing regressions",
+      "url": "https://engineering.fb.com/2021/02/17/developer-tools/fix-fast/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "regression-testing"
+      ]
+    },
+    {
+      "id": "test-plans-at-facebook-9c996c09",
+      "title": "Test plans at Facebook",
+      "url": "https://frantic.im/test-plan/",
+      "type": "blog or article",
+      "topics": [
+        "test-strategy"
+      ]
+    },
+    {
+      "id": "improving-end-to-end-tests-reliability-a-e085b307",
+      "title": "Improving end-to-end tests' reliability at Facebook",
+      "url": "https://frantic.im/e2e-tests/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "autonomous-testing-of-services-at-scale-a32b717d",
+      "title": "Autonomous testing of services at scale",
+      "url": "https://engineering.fb.com/2021/10/20/developer-tools/autonomous-testing/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "systems-scale-2019-continuous-deployment-ae1b79de",
+      "title": "Systems @Scale 2019 - Continuous Deployment at Facebook Scale",
+      "url": "https://www.youtube.com/watch?v=qN6BiLzZGfs",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "continuous-deployment",
+        "release-management"
+      ]
+    },
+    {
+      "id": "mobile-end-to-end-testing-at-scale-selen-e14bd065",
+      "title": "Mobile End to End Testing at Scale - SeleniumConf 2015",
+      "url": "https://www.youtube.com/watch?v=7tzA2nsg1jQ&feature=emb_title",
+      "type": "video",
+      "topics": [
+        "e2e-testing",
+        "selenium"
+      ]
+    },
+    {
+      "id": "turning-ios-end-to-end-testing-up-to-11--9a34bfe9",
+      "title": "Turning iOS End to End Testing up to 11 - Lawrence Lomax",
+      "url": "https://www.youtube.com/watch?v=lTxW4rbu6Bk",
+      "type": "video",
+      "topics": [
+        "e2e-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "readable-stable-maintainable-e2e-testing-dcd10a41",
+      "title": "Readable. Stable. Maintainable. E2E Testing @ Facebook - Archit Pal Singh Sachdeva",
+      "url": "https://www.youtube.com/watch?v=diYgXpktTqo",
+      "type": "video",
+      "topics": [
+        "e2e-testing"
+      ]
+    },
+    {
+      "id": "automated-fault-finding-and-fixing-at-fa-e690ec42",
+      "title": "Automated Fault-Finding and Fixing at Facebook",
+      "url": "https://www.youtube.com/watch?v=CbQ6bJlOU7A",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    },
+    {
+      "id": "damien-sereni-testing-and-moving-fast-ma-05d25db9",
+      "title": "Damien Sereni, Testing and moving fast making Selenium work for Facebook",
+      "url": "https://www.youtube.com/watch?v=_7KYs0NN82w",
+      "type": "video",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "taqelah-facebook-meetup-raj-kamal-shreya-bc80a849",
+      "title": "Taqelah - Facebook Meetup - Raj Kamal - Shreya Bhat",
+      "url": "https://www.youtube.com/watch?v=ra6wq2wgOE4",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "gtac-2013-simon-stewart-how-facebook-tes-12c9b44d",
+      "title": "GTAC 2013: Simon Stewart - How Facebook Tests Facebook on Android",
+      "url": "https://www.youtube.com/watch?v=HUE_yrd8tl0",
+      "type": "video",
+      "topics": [
+        "android"
+      ]
+    },
+    {
+      "id": "gtac-2014-never-send-a-human-to-do-a-mac-5eb3c58a",
+      "title": "GTAC 2014: Never Send a Human to do a Machine’s Job: How Facebook uses bots to manage tests",
+      "url": "https://www.youtube.com/watch?v=_5Sr4EYH7M8",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "facebook-infer-advanced-static-analysis--b1421983",
+      "title": "Facebook Infer: Advanced Static Analysis at Speed and Scale - Facebook - DevTools@Scale2017",
+      "url": "https://www.youtube.com/watch?v=gZ3dA4QD8jk",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "building-mobile-apps-with-open-source-to-02891104",
+      "title": "Building Mobile Apps with Open Source Tools - Simon Stewart - Mobile @ Scale",
+      "url": "https://www.youtube.com/watch?v=c2Q22KDjXmI",
+      "type": "video",
+      "topics": [
+        "frontend-testing",
+        "mobile-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 32,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

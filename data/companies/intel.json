@@ -1,0 +1,43 @@
+{
+  "id": "intel",
+  "name": "Intel",
+  "industry": "other",
+  "resources": [
+    {
+      "id": "gtac-2016-iatf-an-new-automated-cross-pl-881fee4c",
+      "title": "GTAC 2016: IATF: An new Automated Cross-platform and Multi-device API Test Framework",
+      "url": "https://youtu.be/mHJspt6BgZU?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "api",
+        "api-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "gtac-2016-docker-based-geo-dispersed-tes-41479600",
+      "title": "GTAC 2016: Docker Based Geo Dispersed Test Farm - Test Infrastructure Practice in Intel Android Program",
+      "url": "https://youtu.be/EgmSnHFutEc?list=PLSIUOFhnxEiAeGHYoBZCvEMY5wCOIpyOM",
+      "type": "video",
+      "topics": [
+        "android",
+        "docker"
+      ]
+    },
+    {
+      "id": "gtac-2016-automation-on-wearable-devices-5c1a2546",
+      "title": "GTAC 2016: Automation on Wearable Devices",
+      "url": "https://www.youtube.com/watch?v=1agsqcPXPHo&list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&index=22",
+      "type": "video",
+      "topics": [
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

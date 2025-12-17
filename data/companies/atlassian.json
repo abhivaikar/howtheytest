@@ -1,0 +1,148 @@
+{
+  "id": "atlassian",
+  "name": "Atlassian",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "quality-assistance-how-atlassian-does-qa-ef06adae",
+      "title": "Quality assistance: how Atlassian does QA",
+      "url": "https://www.atlassian.com/inside-atlassian/qa",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "whole-team-quality"
+      ]
+    },
+    {
+      "id": "moving-from-quality-assurance-to-quality-6f5655b9",
+      "title": "Moving from quality assurance to quality assistance",
+      "url": "https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "whole-team-quality"
+      ]
+    },
+    {
+      "id": "developing-quality-assistance-skills-fa2e7e10",
+      "title": "Developing quality assistance skills",
+      "url": "https://www.atlassian.com/inside-atlassian/software-QA-skills",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering",
+        "whole-team-quality"
+      ]
+    },
+    {
+      "id": "quality-health-monitor-gauging-your-team-ea7bd5c2",
+      "title": "Quality Health Monitor: Gauging your team’s quality maturity",
+      "url": "https://www.atlassian.com/inside-atlassian/quality-health-monitor",
+      "type": "blog or article",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "automated-testing-5-lessons-from-atlassi-10b3ce0e",
+      "title": "Automated testing: 5 lessons from Atlassian’s Kubernetes team on testing infrastructure as code",
+      "url": "https://www.atlassian.com/engineering/automated-testing-5-lessons-from-atlassians-kubernetes-team-on-testing-infrastructure-as-code",
+      "type": "blog or article",
+      "topics": [
+        "infrastructure-as-code",
+        "kubernetes",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "meet-the-atlassian-qe-team-a571fef1",
+      "title": "Meet the Atlassian QE team",
+      "url": "https://www.youtube.com/watch?v=3IvRSrvGJ1g",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "the-future-of-qa-at-atlassian-atlassian--db8f3b14",
+      "title": "The Future of QA at Atlassian - Atlassian Summit 2016",
+      "url": "https://www.youtube.com/watch?v=9giJYYag6wQ",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "quality-at-speed-how-jira-does-qa-9e639bd1",
+      "title": "Quality at Speed, How JIRA Does QA",
+      "url": "https://www.youtube.com/watch?v=yRP29wFqu20",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "verifying-microservice-integrations-with-ae6a3742",
+      "title": "Verifying Microservice Integrations with Contract Testing",
+      "url": "https://www.youtube.com/watch?v=-6x6XBDf9sQ",
+      "type": "video",
+      "topics": [
+        "contract-testing",
+        "microservices"
+      ]
+    },
+    {
+      "id": "agile-testing-its-about-time-atlassian-s-2d9447b8",
+      "title": "Agile Testing: It's about time - Atlassian Summit 2011",
+      "url": "https://www.youtube.com/watch?v=dYFzehMukAc",
+      "type": "video",
+      "topics": [
+        "agile-testing"
+      ]
+    },
+    {
+      "id": "finding-bugs-before-writing-code-sigge-b-f377385a",
+      "title": "Finding bugs before writing code - Sigge Birgisson",
+      "url": "https://www.youtube.com/watch?v=Ix61aEREKNU",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "code-reviews-vs-pull-requests-atlassian--1ce8201d",
+      "title": "Code Reviews vs. Pull Requests - Atlassian Summit 2016",
+      "url": "https://www.youtube.com/watch?v=6qKpbWyb6tg",
+      "type": "video",
+      "topics": []
+    },
+    {
+      "id": "mock-servers-fake-all-the-things-peggy-k-c7ee2f59",
+      "title": "Mock Servers - Fake all the things! - Peggy Kuo",
+      "url": "https://www.youtube.com/watch?v=lk4-UYD3KC4",
+      "type": "video",
+      "topics": [
+        "mocking"
+      ]
+    },
+    {
+      "id": "quality-at-speed-71fbb18e",
+      "title": "Quality at Speed",
+      "url": "https://www.youtube.com/watch?v=w5MN1JWRM1I",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "improving-software-quality-with-effectiv-df2a9a29",
+      "title": "Improving Software Quality with Effective Feedback - Atlassian Summit 2012",
+      "url": "https://www.youtube.com/watch?v=3MomT1nNOnQ",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 15,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

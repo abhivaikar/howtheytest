@@ -1,0 +1,120 @@
+{
+  "id": "zalando",
+  "name": "Zalando",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "building-an-end-to-end-load-test-automat-2ff21f24",
+      "title": "Building an End to End load test automation system on top of Kubernetes",
+      "url": "https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "kubernetes",
+        "load-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "selenium-conf-gets-a-dose-of-zalenium-40b4a48e",
+      "title": "Selenium Conf Gets a Dose of Zalenium",
+      "url": "https://engineering.zalando.com/posts/2017/05/selenium-conf-gets-a-dose-of-zalenium.html",
+      "type": "blog or article",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "zalenium-a-disposable-and-flexible-selen-c2b355d7",
+      "title": "Zalenium: A Disposable and Flexible Selenium Grid Infrastructure",
+      "url": "https://engineering.zalando.com/posts/2017/02/zalenium-a-disposable-and-flexible-selenium-grid-infrastructure.html",
+      "type": "blog or article",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "zester-unit-tests-on-steroids-0249c211",
+      "title": "Zester – Unit Tests on Steroids",
+      "url": "https://engineering.zalando.com/posts/2016/04/zester-mutation-testing.html",
+      "type": "blog or article",
+      "topics": [
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "selenium-webdriver-explained-7d254c01",
+      "title": "Selenium WebDriver Explained",
+      "url": "https://engineering.zalando.com/posts/2016/03/selenium-webdriver-explained.html",
+      "type": "blog or article",
+      "topics": [
+        "selenium"
+      ]
+    },
+    {
+      "id": "lean-testing-or-why-unit-tests-are-worse-1f8a7ce5",
+      "title": "Lean Testing, or Why Unit Tests are Worse than You Think",
+      "url": "https://engineering.zalando.com/posts/2018/07/economic-perspective-testing.html",
+      "type": "blog or article",
+      "topics": [
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "do-we-really-need-ui-tests-f7d38d1a",
+      "title": "Do We Really Need UI Tests?",
+      "url": "https://engineering.zalando.com/posts/2017/11/do-we-really-need-ui-testing.html",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "integration-tests-with-testcontainers-1dd733a4",
+      "title": "Integration tests with Testcontainers",
+      "url": "https://engineering.zalando.com/posts/2021/02/integration-tests-with-testcontainers.html",
+      "type": "blog or article",
+      "topics": [
+        "docker",
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "stop-using-constants-feed-randomized-inp-873b77bd",
+      "title": "Stop using constants. Feed randomized input to test cases.",
+      "url": "https://engineering.zalando.com/posts/2021/02/randomized-input-testing-ios.html",
+      "type": "blog or article",
+      "topics": [
+        "ios"
+      ]
+    },
+    {
+      "id": "end-to-end-load-testing-zalandos-product-410bba61",
+      "title": "End-to-end load testing Zalando’s production website",
+      "url": "https://engineering.zalando.com/posts/2019/04/end-to-end-load-testing-zalandos-production-website.html",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "load-testing"
+      ]
+    },
+    {
+      "id": "a-journey-on-end-to-end-testing-a-micros-b984a63d",
+      "title": "A Journey On End To End Testing A Microservices Architecture",
+      "url": "https://engineering.zalando.com/posts/2019/02/end-to-end-microservices.html",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "microservices"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 11,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[build]
+  # No build needed - we're only deploying serverless functions
+  # Create empty publish directory
+  command = "mkdir -p .netlify-build"
+  publish = ".netlify-build"
+
+[functions]
+  directory = "netlify/functions"
+  # Use esbuild to bundle functions with their dependencies
+  node_bundler = "esbuild"

@@ -1,0 +1,132 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "everything-you-need-to-know-about-how-sl-24b8c663",
+      "title": "Everything You Need to Know About How Slack Approaches Accessibility Testing",
+      "url": "https://www.3playmedia.com/2019/08/12/slack-approaches-accessibility-testing/",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing"
+      ]
+    },
+    {
+      "id": "android-ui-automation-part-1-building-tr-5e4f0572",
+      "title": "Android UI Automation: Part 1, Building Trust",
+      "url": "https://slack.engineering/android-ui-automation-part-1-building-trust-de3deb1c5995",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "frontend-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "android-ui-automation-part-2-making-it-e-c44126f0",
+      "title": "Android UI Automation: Part 2, Making It Easy",
+      "url": "https://slack.engineering/android-ui-automation-part-2-making-it-easy-57335c7379cc",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "frontend-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "surfs-up-preparing-for-huge-waves-of-tra-c7ac2e1d",
+      "title": "Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing",
+      "url": "https://slack.engineering/%EF%B8%8F-surfs-up-preparing-for-huge-waves-of-traffic-via-load-testing-62b64da15ffc",
+      "type": "blog or article",
+      "topics": [
+        "load-testing"
+      ]
+    },
+    {
+      "id": "how-about-code-reviews-b81a3edb",
+      "title": "How About Code Reviews?",
+      "url": "https://slack.engineering/how-about-code-reviews-2695fb10d034",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "on-empathy-pull-requests-1cd43133",
+      "title": "On Empathy & Pull Requests",
+      "url": "https://slack.engineering/on-empathy-pull-requests-979e4257d158",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "disasterpiece-theater-slacks-process-for-81bb9cb2",
+      "title": "Disasterpiece Theater: Slack’s process for approachable Chaos Engineering",
+      "url": "https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering-3434422afb54",
+      "type": "blog or article",
+      "topics": [
+        "chaos-engineering"
+      ]
+    },
+    {
+      "id": "scaling-end-to-end-user-interface-tests-80d3dabe",
+      "title": "Scaling End-to-End User Interface Tests",
+      "url": "https://slack.engineering/scaling-end-to-end-user-interface-tests/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "functional-testing"
+      ]
+    },
+    {
+      "id": "handling-flaky-tests-at-scale-auto-detec-68cc8496",
+      "title": "Handling Flaky Tests at Scale: Auto Detection & Suppression",
+      "url": "https://slack.engineering/handling-flaky-tests-at-scale-auto-detection-suppression/",
+      "type": "blog or article",
+      "topics": [
+        "flaky-tests"
+      ]
+    },
+    {
+      "id": "ui-testing-is-so-easy-said-no-developer--65944c2d",
+      "title": "UI testing is so easy - said no developer ever - Valera Zakharov, Kevin Lai",
+      "url": "https://www.youtube.com/watch?v=SkkO6x6LhCQ",
+      "type": "video",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing"
+      ]
+    },
+    {
+      "id": "mobile-performance-testing-at-slack-vale-fef48987",
+      "title": "Mobile performance testing at Slack – Valera Zakharov",
+      "url": "https://www.youtube.com/watch?v=xKMIGN1WHgo",
+      "type": "video",
+      "topics": [
+        "performance-testing"
+      ]
+    },
+    {
+      "id": "better-integration-tests-for-performance-fdfad897",
+      "title": "\"Better Integration Tests for Performance Monitoring\" by Maude Lemaire",
+      "url": "https://www.youtube.com/watch?v=j0PJhD5XNJ8",
+      "type": "video",
+      "topics": [
+        "integration-testing",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "valera-zakharov-testing-17d64a0d",
+      "title": "Valera Zakharov: Testing",
+      "url": "https://www.youtube.com/watch?v=fySCosLQQws",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 13,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

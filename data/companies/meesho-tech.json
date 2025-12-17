@@ -1,0 +1,40 @@
+{
+  "id": "meesho-tech",
+  "name": "Meesho Tech",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "scaling-for-sale-automating-jmeter-distr-3c5875d6",
+      "title": "Scaling For Sale: Automating JMeter Distributed Load Testing",
+      "url": "https://medium.com/meesho-tech/scaling-for-sale-automating-jmeter-distributed-load-testing-c128c000cd01",
+      "type": "blog or article",
+      "topics": [
+        "continuous-deployment",
+        "load-testing"
+      ]
+    },
+    {
+      "id": "how-meeshos-dedicated-ab-infra-enables-u-c2a146d2",
+      "title": "How Meesho's dedicated A/B Infra enables us to experiment and scale new features",
+      "url": "https://medium.com/meesho-tech/meeshos-dedicated-a-b-infra-enables-us-to-experiment-and-scale-new-features-99f2c2a508ad",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "how-we-reduced-our-test-automation-devel-4b093f13",
+      "title": "How we reduced our test automation development time by 20%",
+      "url": "https://www.meesho.io/blog/how-we-reduced-test-automation-by-20",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

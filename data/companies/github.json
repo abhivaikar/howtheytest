@@ -1,0 +1,68 @@
+{
+  "id": "github",
+  "name": "GitHub",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "how-github-uses-automated-testing-to-emp-903ce51d",
+      "title": "How GitHub uses automated testing to empower developers to write less",
+      "url": "https://ben.balter.com/2015/09/10/blog-style-tests/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "mysql-infrastructure-testing-automation--70a7639d",
+      "title": "MySQL infrastructure testing automation at GitHub",
+      "url": "https://github.blog/2017-07-06-mysql-testing-automation-at-github/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "octocatalog-diff-githubs-puppet-developm-c2bf313b",
+      "title": "octocatalog-diff: GitHub’s Puppet development and testing tool",
+      "url": "https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "browser-monitoring-for-githubcom-94d4e3f8",
+      "title": "Browser Monitoring for GitHub.com",
+      "url": "https://github.blog/2015-05-19-browser-monitoring-for-github-com/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "how-we-ship-github-mobile-every-week-99dc59f7",
+      "title": "How we ship GitHub Mobile every week",
+      "url": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "the-elusive-quest-to-measure-developer-p-288a30fa",
+      "title": "The elusive quest to measure developer productivity",
+      "url": "https://www.youtube.com/watch?v=cRJZldsHS3c",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 6,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

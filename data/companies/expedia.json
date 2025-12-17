@@ -1,0 +1,183 @@
+{
+  "id": "expedia",
+  "name": "Expedia",
+  "industry": "travel-hospitality",
+  "resources": [
+    {
+      "id": "how-expediacom-uses-accessibility-automa-99a358e0",
+      "title": "How Expedia.com Uses Accessibility Automation",
+      "url": "https://medium.com/expedia-group-tech/how-expedia-com-uses-accessibility-automation-d3de3e3ff775",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "improving-ios-ui-testing-39b57ad3",
+      "title": "Improving iOS UI Testing",
+      "url": "https://medium.com/expedia-group-tech/improving-ios-ui-testing-ad55470825b4",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "ios"
+      ]
+    },
+    {
+      "id": "unit-testing-apache-spark-applications-u-da455acf",
+      "title": "Unit Testing Apache Spark Applications using Hive Tables",
+      "url": "https://medium.com/expedia-group-tech/unit-testing-apache-spark-applications-using-hive-tables-ec653c6f25be",
+      "type": "blog or article",
+      "topics": [
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "the-cost-of-100-reliability-de2d5417",
+      "title": "The Cost of 100% Reliability",
+      "url": "https://medium.com/expedia-group-tech/the-cost-of-100-reliability-ecb2901f23a4",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "getting-started-with-a-dockerized-seleni-572bc29a",
+      "title": "Getting started with a Dockerized Selenium Grid in your On-Prem Data Centers",
+      "url": "https://medium.com/expedia-group-tech/getting-started-with-a-dockerized-selenium-grid-on-your-on-prem-data-centers-5b472a2d35a",
+      "type": "blog or article",
+      "topics": [
+        "docker",
+        "selenium"
+      ]
+    },
+    {
+      "id": "da-kube-selenium-grid-using-kubernetes-d-43fd3774",
+      "title": "DA Kube — Selenium Grid using Kubernetes, Docker, Helm and Traefik",
+      "url": "https://medium.com/expedia-group-tech/da-kube-selenium-grid-using-kubernetes-docker-helm-and-traefik-856b802d1d08",
+      "type": "blog or article",
+      "topics": [
+        "docker",
+        "kubernetes",
+        "selenium"
+      ]
+    },
+    {
+      "id": "distributed-automation-how-to-run-1000-u-0cf97931",
+      "title": "Distributed Automation: How to run 1000 UI Automation Tests in 5mins",
+      "url": "https://medium.com/expedia-group-tech/distributed-automation-how-to-run-1000-ui-automation-tests-in-5mins-cf9a84ca32d1",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "integration-testing-in-react-b7d7e57a",
+      "title": "Integration Testing in React",
+      "url": "https://medium.com/expedia-group-tech/integration-testing-in-react-21f92a55a894",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "how-to-earn-a-black-belt-in-graphql-test-7c63b36e",
+      "title": "How to Earn a Black Belt in GraphQL Testing",
+      "url": "https://medium.com/expedia-group-tech/how-to-earn-a-black-belt-in-graphql-testing-bd0beb6365a7",
+      "type": "blog or article",
+      "topics": [
+        "graphql"
+      ]
+    },
+    {
+      "id": "how-to-emulate-amazon-simple-queue-servi-3ce91664",
+      "title": "How to: Emulate Amazon Simple Queue Service (SQS) for Testing Purposes",
+      "url": "https://medium.com/expedia-group-tech/how-to-emulate-sqs-amazon-queue-for-testing-purpose-d9db7f4143b1",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "fixing-flaky-time-based-unit-tests-162c6b92",
+      "title": "Fixing Flaky Time Based Unit Tests",
+      "url": "https://medium.com/expedia-group-tech/fixing-flaky-time-based-unit-tests-176accf5096e",
+      "type": "blog or article",
+      "topics": [
+        "flaky-tests",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "conversational-integration-tests-for-you-dfe9b038",
+      "title": "Conversational Integration Tests for your Alexa Skills (Node/JS)",
+      "url": "https://medium.com/expedia-group-tech/conversational-integration-tests-for-your-alexa-skills-node-js-874bf70758e3",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "better-test-code-coverage-through-data-de687a3e",
+      "title": "Better Test Code Coverage Through Data",
+      "url": "https://medium.com/expedia-group-tech/better-test-code-coverage-through-data-c51b16d6385e",
+      "type": "blog or article",
+      "topics": [
+        "code-coverage"
+      ]
+    },
+    {
+      "id": "do-you-want-to-speed-up-your-integration-ab0ca609",
+      "title": "Do you want to speed up your integration tests by 10x?",
+      "url": "https://medium.com/expedia-group-tech/do-you-want-to-speed-up-your-integration-tests-by-10x-eb047c72a252",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing"
+      ]
+    },
+    {
+      "id": "testing-elasticsearch-applications-524b0a2a",
+      "title": "Testing Elasticsearch Applications",
+      "url": "https://medium.com/expedia-group-tech/testing-elasticsearch-applications-bbf7107dba9f",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "mobile-automation-in-continuous-delivery-cf9338e1",
+      "title": "Mobile Automation in Continuous Delivery Pipeline",
+      "url": "https://www.youtube.com/watch?v=NWDByCVThfE",
+      "type": "video",
+      "topics": [
+        "ci-cd",
+        "continuous-deployment",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "distributed-automation-using-selenium-gr-24ec9a89",
+      "title": "Distributed Automation Using Selenium Grid / AWS / Autoscaling",
+      "url": "https://www.youtube.com/watch?v=cbIfU1fvGeo",
+      "type": "video",
+      "topics": [
+        "cloud-testing",
+        "selenium",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "aws-reinvent-2017-use-amazon-ec2-systems-b422dc28",
+      "title": "AWS re:Invent 2017: Use Amazon EC2 Systems Manager to Perform Automated Resilience Testing",
+      "url": "https://www.youtube.com/watch?v=jihhLckop6A",
+      "type": "video",
+      "topics": [
+        "cloud-testing",
+        "test-automation"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 18,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

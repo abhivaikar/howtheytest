@@ -1,0 +1,57 @@
+{
+  "id": "mattermost",
+  "name": "Mattermost",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "improving-performance-and-more-through-l-ba98e4e8",
+      "title": "Improving performance (and more) through load testing",
+      "url": "https://developers.mattermost.com/blog/improving-performance-through-load-testing/",
+      "type": "blog or article",
+      "topics": [
+        "load-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "automated-ui-testing-with-cypress-3159de94",
+      "title": "Automated UI Testing With Cypress",
+      "url": "https://developers.mattermost.com/blog/automated-ui-testing-with-cypress/",
+      "type": "blog or article",
+      "topics": [
+        "cypress",
+        "e2e-testing",
+        "frontend-testing",
+        "functional-testing",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "unit-testing-mmctl-commands-9e304754",
+      "title": "Unit Testing mmctl Commands",
+      "url": "https://developers.mattermost.com/blog/unit-testing-mmctl-commands/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "unit-testing"
+      ]
+    },
+    {
+      "id": "avoiding-flaky-tests-1dd10ab9",
+      "title": "Avoiding Flaky Tests",
+      "url": "https://developers.mattermost.com/blog/avoiding-flaky-tests/",
+      "type": "blog or article",
+      "topics": [
+        "flaky-tests",
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 4,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

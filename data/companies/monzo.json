@@ -1,0 +1,35 @@
+{
+  "id": "monzo",
+  "name": "Monzo",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "automated-testing-accessibility-on-ios-d1ffa65e",
+      "title": "Automated Testing & Accessibility on iOS",
+      "url": "https://monzo.com/blog/2016/04/26/automated-testing",
+      "type": "blog or article",
+      "topics": [
+        "accessibility-testing",
+        "ios",
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "how-we-load-tested-our-bank-before-our-2-e45ddac1",
+      "title": "How we load tested our bank before our £20 million crowdfunding round",
+      "url": "https://monzo.com/blog/2019/01/15/crowdfunding-technology-testing",
+      "type": "blog or article",
+      "topics": [
+        "load-testing",
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

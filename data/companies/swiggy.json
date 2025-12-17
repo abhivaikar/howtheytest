@@ -1,0 +1,36 @@
+{
+  "id": "swiggy",
+  "name": "Swiggy",
+  "industry": "food-delivery",
+  "resources": [
+    {
+      "id": "behindthebug-learning-from-our-mistakes-34f1b7d0",
+      "title": "#BehindTheBug - Learning from our mistakes",
+      "url": "https://bytes.swiggy.com/root-cause-analysis-swiggy-2fac5fe4510b",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "gradle-incremental-test-runner-731a8f0d",
+      "title": "Gradle Incremental Test Runner",
+      "url": "https://bytes.swiggy.com/gradle-incremental-test-runner-125cee1e68a7",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "service-level-testing-for-microservices--7352274a",
+      "title": "Service Level Testing for Microservices in Swiggy",
+      "url": "https://bytes.swiggy.com/service-level-testing-for-microservices-in-swiggy-62b6b3f865f4",
+      "type": "blog or article",
+      "topics": [
+        "microservices"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

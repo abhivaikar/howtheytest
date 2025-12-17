@@ -1,0 +1,138 @@
+{
+  "id": "gojek",
+  "name": "GoJek",
+  "industry": "ride-hailing",
+  "resources": [
+    {
+      "id": "its-time-to-find-and-kill-bugs-069d26de",
+      "title": "It's Time To Find And Kill Bugs",
+      "url": "https://blog.gojek.io/its-time-to-find-and-kill-bugs/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "test-mobile-apps-using-web-traffic-inter-1a9de4e9",
+      "title": "Test Mobile Apps Using Web Traffic Interception and Mocking",
+      "url": "https://blog.gojek.io/test-mobile-apps-using-web-traffic-interception-and-mocking/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "mobile-testing",
+        "mocking"
+      ]
+    },
+    {
+      "id": "why-you-should-automate-tests-early-2c474716",
+      "title": "Why you should automate tests early",
+      "url": "https://blog.gojek.io/why-you-should-automate-tests-early/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "test-automation"
+      ]
+    },
+    {
+      "id": "screenshot-testing-our-design-system-on--6f1c9fdf",
+      "title": "Screenshot Testing our Design System on Android",
+      "url": "https://blog.gojek.io/screenshot-testing-our-design-system-on-android/",
+      "type": "blog or article",
+      "topics": [
+        "android",
+        "logging",
+        "visual-regression"
+      ]
+    },
+    {
+      "id": "advice-from-a-test-journeyman-7930dae2",
+      "title": "Advice from a Test Journeyman",
+      "url": "https://blog.gojek.io/advice-from-a-test-journeyman/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "how-i-gave-my-first-conference-talk-2d992ba0",
+      "title": "How I Gave My First Conference Talk",
+      "url": "https://blog.gojek.io/how-i-gave-my-first-conference-talk/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "7-myths-about-software-testing-0bf079fc",
+      "title": "7 Myths About Software Testing",
+      "url": "https://blog.gojek.io/7-myths-about-software-testing/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "the-untold-story-of-golang-testing-ddac9699",
+      "title": "The Untold Story of Golang Testing",
+      "url": "https://blog.gojek.io/the-untold-story-of-golang-testing",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "the-first-principles-of-testing-244bb9a1",
+      "title": "The first principles of ‘Testing’",
+      "url": "https://blog.gojek.io/the-first-principles-of-testing/",
+      "type": "blog or article",
+      "topics": [
+        "continuous-integration",
+        "logging"
+      ]
+    },
+    {
+      "id": "how-to-run-grouped-testng-tests-using-gr-9e70b8f6",
+      "title": "How to Run Grouped TestNG Tests Using Gradle",
+      "url": "https://blog.gojek.io/how-to-run-grouped-testng-tests-using-gradle/",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "testng"
+      ]
+    },
+    {
+      "id": "golang-integration-testing-made-easy-how-d369684c",
+      "title": "Golang Integration Testing Made Easy - How we at Gojek implement integration testing in our development processes.",
+      "url": "https://blog.gojek.io/golang-integration-testing-made-easy/",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing",
+        "logging"
+      ]
+    },
+    {
+      "id": "everyones-a-tester-while-mob-testing-8c154b53",
+      "title": "Everyone’s A Tester While ‘Mob Testing’",
+      "url": "https://blog.gojek.io/everyones-a-tester-while-mob-testing",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    },
+    {
+      "id": "good-bug-reports-lead-to-great-bug-fixes-1ab6fe11",
+      "title": "Good bug reports lead to great bug fixes",
+      "url": "https://blog.gojek.io/good-bug-reports-lead-to-great-bug-fixes",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 13,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

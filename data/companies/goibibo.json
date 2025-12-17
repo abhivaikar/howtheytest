@@ -1,0 +1,36 @@
+{
+  "id": "goibibo",
+  "name": "Goibibo",
+  "industry": "travel-hospitality",
+  "resources": [
+    {
+      "id": "lets-take-it-live-1887f6e4",
+      "title": "Let’s take it live!",
+      "url": "https://tech.goibibo.com/lets-take-it-live-e1639699e160",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "rendezvous-with-goibibo-80d62788",
+      "title": "RENDEZVOUS WITH Goibibo",
+      "url": "https://tech.goibibo.com/rendezvous-with-goibibo-392cc8f385e9",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "mr-postman-for-integration-testing-a760b29f",
+      "title": "Mr. Postman for Integration Testing",
+      "url": "https://tech.goibibo.com/mr-postman-for-integration-testing-879a4031f916",
+      "type": "blog or article",
+      "topics": [
+        "integration-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

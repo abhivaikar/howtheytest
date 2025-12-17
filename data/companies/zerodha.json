@@ -1,0 +1,22 @@
+{
+  "id": "zerodha",
+  "name": "Zerodha",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "hello-world-5dfbaec8",
+      "title": "Hello, World!",
+      "url": "https://zerodha.tech/blog/hello-world/",
+      "type": "blog or article",
+      "topics": [
+        "logging"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "nubank",
+  "name": "Nubank",
+  "industry": "fintech",
+  "resources": [
+    {
+      "id": "why-we-killed-our-end-to-end-test-suite-644a7cc7",
+      "title": "Why We Killed Our End-to-End Test Suite",
+      "url": "https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing",
+        "frontend-testing"
+      ]
+    },
+    {
+      "id": "a-gentle-and-practical-introduction-to-a-b21cfc50",
+      "title": "A gentle and practical introduction to A/B tests",
+      "url": "https://building.nubank.com.br/introduction-to-a-b-tests/",
+      "type": "blog or article",
+      "topics": [
+        "ab-testing",
+        "frontend-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 2,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

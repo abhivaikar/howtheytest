@@ -1,0 +1,43 @@
+{
+  "id": "tiktok",
+  "name": "TikTok",
+  "industry": "social-media",
+  "resources": [
+    {
+      "id": "make-your-tests-readable-with-jest-bdd-g-cb9ed771",
+      "title": "Make your tests readable with jest-bdd-generator",
+      "url": "https://developers.tiktok.com/blog/jest-bdd-generator",
+      "type": "blog or article",
+      "topics": [
+        "bdd",
+        "jest",
+        "logging"
+      ]
+    },
+    {
+      "id": "protecting-users-around-the-world-qualit-4b7d297c",
+      "title": "Protecting Users Around the World: Quality Assurance Team in Action!",
+      "url": "https://lifeattiktok.com/blog/detail/20240528152419",
+      "type": "blog or article",
+      "topics": [
+        "logging",
+        "quality-engineering"
+      ]
+    },
+    {
+      "id": "career-coffee-with-qa-engineer-at-tiktok-86a1da4c",
+      "title": "Career Coffee with QA Engineer at TikTok",
+      "url": "https://www.youtube.com/live/cWnK2_J1jl4?si=zjodBXHPe0eCqYnX",
+      "type": "video",
+      "topics": [
+        "quality-engineering"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "tarantool",
+  "name": "Tarantool",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "ten-year-experience-in-dbms-testing-6ba10c82",
+      "title": "Ten-year experience in DBMS testing",
+      "url": "https://dev.to/tarantool/ten-year-experience-in-dbms-testing-19ea",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "-54d10369",
+      "title": "Расшифровка доклада: О чём я говорю, когда говорю о тестировании корректности работы компиляторов",
+      "url": "https://habr.com/ru/companies/oleg-bunin/articles/742122/",
+      "type": "blog or article",
+      "topics": []
+    },
+    {
+      "id": "-301d9cb8",
+      "title": "О чём я говорю, когда говорю о тестировании корректности работы компилятора",
+      "url": "https://www.youtube.com/watch?v=qwynLfpf9zk",
+      "type": "video",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 3,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

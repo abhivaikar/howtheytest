@@ -1,0 +1,22 @@
+{
+  "id": "salesforce",
+  "name": "Salesforce",
+  "industry": "cloud-services",
+  "resources": [
+    {
+      "id": "automating-complex-end-to-end-tests-ea2d855b",
+      "title": "Automating Complex End-to-End Tests",
+      "url": "https://engineering.salesforce.com/automating-complex-end-to-end-tests-b0a5fc003592",
+      "type": "blog or article",
+      "topics": [
+        "e2e-testing"
+      ]
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "the-signal-group",
+  "name": "The Signal Group",
+  "industry": "telecommunications",
+  "resources": [
+    {
+      "id": "testing-complex-business-flows-from-cone-f745b8f5",
+      "title": "Testing complex business flows: From cones to pyramids",
+      "url": "https://medium.com/tech-thesignalgroup/testing-complex-business-flows-from-cones-to-pyramids-85935577b5da",
+      "type": "blog or article",
+      "topics": []
+    }
+  ],
+  "meta": {
+    "totalResources": 1,
+    "contributors": [
+      "abhivaikar"
+    ]
+  }
+}
