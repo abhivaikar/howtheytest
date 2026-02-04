@@ -1,0 +1,20 @@
+{
+  "id": "instawork",
+  "name": "Instawork",
+  "industry": "career or jobs",
+  "resources": [
+    {
+      "id": "i-stopped-writing-e2e-tests-manually-i-m-7fde0464",
+      "title": "I stopped writing e2e tests manually. I manage an AI agent instead",
+      "url": "https://engineering.instawork.com/i-stopped-writing-e2e-tests-manually-i-manage-an-ai-agent-instead-e6acb44019e2",
+      "type": "blog or article",
+      "topics": [
+        "ai",
+        "e2e-testing",
+        "test-automation",
+        "agentic-testing"
+      ],
+      "addedDate": "2026-02-04"
+    }
+  ]
+}
