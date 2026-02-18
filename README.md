@@ -775,6 +775,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>IDT</summary>
+
+#### Blogs & Articles
+* [An effective way to increase your test automation](https://testrigor.com/blog/idt-case-study/)
+
+#### Videos
+* [How to achieve 90% automation in under a year](https://youtu.be/jbItbIUtgFQ)
+
+</details>
+
+<details>
   <summary>Intel</summary>
 
 #### Videos
