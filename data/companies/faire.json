@@ -1,0 +1,19 @@
+{
+  "id": "faire",
+  "name": "Faire",
+  "industry": "ecommerce",
+  "resources": [
+    {
+      "id": "scalable-test-coverage-how-faire-selects-037b327a",
+      "title": "Scalable test coverage: How Faire selects which tests (not) to run",
+      "url": "https://craft.faire.com/scalable-test-coverage-how-faire-selects-which-tests-not-to-run-1bc0cf1484d6",
+      "type": "blog or article",
+      "topics": [
+        "test-coverage",
+        "test-selection",
+        "test-automation"
+      ],
+      "addedDate": "2026-02-20"
+    }
+  ]
+}
