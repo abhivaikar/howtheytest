@@ -536,19 +536,11 @@ function ContributeForm() {
                 <Combobox
                   id="industry"
                   label="Industry"
-                  placeholder="Select or enter an industry"
+                  placeholder="Select an industry"
                   options={meta.industries}
                   value={formData.industry}
                   onChange={handleIndustryChange}
-                  allowAddNew={true}
                 />
-                {warnings.industry && (
-                  <div className="mt-2 p-3 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
-                    <p className="text-sm text-yellow-800 dark:text-yellow-200">
-                      <strong>⚠️ New industry:</strong> "{warnings.industry}" is not in our database. Please verify the name is correct and doesn't already exist with different spelling.
-                    </p>
-                  </div>
-                )}
               </>
             )}
             {errors.industry && (

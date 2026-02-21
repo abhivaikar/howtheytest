@@ -34,6 +34,7 @@
         "healthcare",
         "government",
         "telecommunications",
+        "career-or-jobs",
         "other"
       ],
       "description": "Industry category"
