@@ -1302,6 +1302,17 @@ Testing / quality of software goes beyond traditional activities of pre-release 
 </details>
 
 <details>
+  <summary>TestDino</summary>
+
+#### Blogs & Articles
+* [Playwright Skill: Train Your AI Agent to Write Better Tests](https://testdino.com/blog/playwright-skill/)
+* [Deep Dive into Playwright CLI: Token Efficient Browser Automation](https://testdino.com/blog/playwright-cli/)
+* [Complete Playwright Automation Course for Testers](https://testdino.com/blog/playwright-automation-course/)
+* [Why Playwright Tests Fail: See the Research-Backed Breakdown of Root Causes](https://testdino.com/blog/playwright-test-failure/)
+* [Playwright Browser Testing: Comprehensive Guide for Chromium, Firefox, and WebKit](https://testdino.com/blog/playwright-browser-testing/)
+* [Using Playwright MCP to Fix Flaky Tests Automatically](https://testdino.com/blog/playwright-mcp-flaky-tests/)
+
+<details>
   <summary>The Guardian</summary>
 
 #### Blogs & Articles
