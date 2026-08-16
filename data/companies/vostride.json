@@ -1,0 +1,23 @@
+{
+  "id": "vostride",
+  "name": "Vostride",
+  "industry": "developer-tools",
+  "resources": [
+    {
+      "id": "agent-qa-the-self-improving-qa-agent-for-c62a85a6",
+      "title": "Agent QA: The self-improving QA agent for software teams",
+      "url": "https://github.com/vostride/agent-qa",
+      "type": "repo",
+      "topics": [
+        "ai-testing",
+        "e2e-testing",
+        "regression-testing",
+        "test-automation",
+        "mobile-testing",
+        "web-testing",
+        "quality-engineering"
+      ],
+      "addedDate": "2026-08-16"
+    }
+  ]
+}
