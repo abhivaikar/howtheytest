@@ -1,0 +1,20 @@
+{
+  "id": "authier",
+  "name": "Authier",
+  "industry": "productivity-tools",
+  "resources": [
+    {
+      "id": "open-autofill-safety-corpus-v1-7e2b415c",
+      "title": "Open Autofill Safety Corpus v1",
+      "url": "https://www.authier.pm/research/autofill-safety-corpus",
+      "type": "blog or article",
+      "topics": [
+        "frontend-testing",
+        "regression-testing",
+        "security-testing",
+        "test-data-management"
+      ],
+      "addedDate": "2026-09-01"
+    }
+  ]
+}
